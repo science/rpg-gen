@@ -1,6 +1,7 @@
-# Build output (rendered HTML/PDF sheets)
-/build/
-/dist/
+# Build output (rendered artifacts) — anywhere in the tree, since each tool
+# has its own build/ or dist/ under its own folder.
+build/
+dist/
 
 # Python
 .venv/

@@ -1,74 +1,60 @@
 # Cthulhu-Gen
 
-A small **character factory** for *Call of Cthulhu* 7th edition.
+A growing collection of generators and tooling for *Call of Cthulhu* 7th
+edition — a small **monorepo**. Each tool stands on its own in a top-level
+folder; over time they may lean on shared code in [`shared/`](shared/).
 
-The numeric stats page (characteristics, skills, combat values) is produced by
-an external character PDF generator. Cthulhu-Gen renders the **secondary
-sheets** that those generators skimp on — backstory, wealth, inventory,
-weapons, and the traits that accrue over play — in a **1920s Art Deco** style
-designed to *flow across as many pages as the content needs* rather than being
-crammed onto one.
+## Tools
 
-Each character is a single YAML file in [`characters/`](characters/). Drop a
-new file in and you get a new dossier — it is a factory, not a one-off.
+| Tool | What it does | Status |
+|------|--------------|--------|
+| [`character-sheets/`](character-sheets/) | Renders 1920s Art Deco **secondary character sheets** (backstory, wealth, inventory, weapons, play-accrued traits) from a YAML file to HTML/PDF. | ✅ working |
+| [`adventure-scripts/`](adventure-scripts/) | Create and improve **adventure scripts / scenarios** — drafting, structuring, and revising them. | 🚧 planned |
 
-## What it renders
+Shared, reusable code (YAML loading, Jinja helpers, common styling) lives in
+[`shared/`](shared/) once more than one tool needs it — extract on the second
+use, not the first.
 
-A continuous, paginated dossier with:
+## Layout
 
-- **Cover / nameplate** — stage name, billing, and an ID grid (player,
-  occupation, birthplace, residence, standing…).
-- **Backstory** — Personal Description · Ideology & Beliefs · Significant
-  People · Meaningful Locations · Treasured Possessions · Character Traits.
-- **Wealth & Means** — spending level, cash, assets, asset details.
-- **Inventory** — pocket litter + gear.
-- **Weapons** — standard 7e combat table.
-- **Traits that accrue over play** — Injuries & Scars · Phobias & Manias ·
-  Arcane Tomes, Spells & Artifacts · Encounters with Strange Entities.
-- **Player Notes** — ruled space.
-
-Every section that has no data yet is printed as blank, ruled fill-in space, so
-a sheet is useful from session zero and grows with the character.
-
-## Quick start
-
-```bash
-python3 -m venv .venv --system-site-packages
-.venv/bin/pip install -r requirements.txt
-
-# render one character to build/
-.venv/bin/python build.py characters/mercure.yaml
-
-# render everything
-.venv/bin/python build.py --all
-
-# HTML only (no native PDF deps needed)
-.venv/bin/python build.py mercure --html-only
+```
+cthulhu-gen/
+├── character-sheets/     # tool: investigator dossiers → HTML/PDF
+├── adventure-scripts/    # tool: adventure script generation/revision (planned)
+├── shared/               # libraries used by more than one tool
+├── .venv/                # one shared Python virtualenv for the whole repo
+├── LICENSE
+└── README.md             # you are here
 ```
 
-Output lands in `build/<name>.html` and `build/<name>.pdf`.
+Each tool folder is self-contained: its own `README.md`, `requirements.txt`,
+templates, data, and `build/` output. Paths inside a tool resolve relative to
+that tool's own directory, so tools never reach across into each other.
 
-## How it works
+## Conventions
 
-| Layer | Technology | Why |
-|-------|-----------|-----|
-| Data | **YAML** (`characters/*.yaml`) | human-editable, diff-friendly |
-| Templating | **Jinja2** (`templates/`) | data-driven sections, reusable macros |
-| Style | **CSS paged media** (`static/css/deco.css`) | one stylesheet, browser **and** print |
-| Output | **WeasyPrint** | HTML/CSS → multi-page PDF |
+- **One folder per tool**, named for what it produces (`character-sheets`,
+  `adventure-scripts`). No nesting under `tools/` — the repo root *is* the
+  tool index.
+- **One shared virtualenv** at the repo root (`.venv/`). Each tool declares its
+  own dependencies in its `requirements.txt`; install them all into the root
+  venv:
+  ```bash
+  python3 -m venv .venv --system-site-packages
+  for req in */requirements.txt; do .venv/bin/pip install -r "$req"; done
+  ```
+- **`build/` and `dist/` are git-ignored** wherever they appear, so each tool
+  writes generated artifacts under its own folder without polluting the repo.
+- **Shared code is extracted, not anticipated.** A helper graduates into
+  `shared/` when a second tool needs it — see [`shared/README.md`](shared/README.md).
 
-Because the templates are plain HTML/CSS, you can preview a sheet by opening the
-generated `.html` in any browser; WeasyPrint then produces the print-fidelity
-PDF from the exact same markup.
+## Adding a tool
 
-See [`docs/metadata-schema.md`](docs/metadata-schema.md) for the full field
-reference.
-
-## Fonts
-
-The sheets use Limelight, Cinzel, EB Garamond, and Special Elite, loaded from
-Google Fonts at render time. (A future revision may vendor the fonts locally so
-PDFs build fully offline.)
+1. Create a top-level folder named for the output (e.g. `handouts/`).
+2. Give it a `README.md` and a `requirements.txt`.
+3. Resolve paths relative to the tool's own entry-point file (e.g.
+   `ROOT = Path(__file__).resolve().parent`) so it stays self-contained.
+4. Add a row to the **Tools** table above.
 
 ## License
 
