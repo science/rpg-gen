@@ -8,9 +8,11 @@
 {%- macro section(title, kicker='') -%}
 <section class="sheet-section">
   <header class="sec-head">
-    <span class="sec-orn left"></span>
+    <span class="rule"></span>
+    <span class="gem"></span>
     <h2>{{ title }}</h2>
-    <span class="sec-orn right"></span>
+    <span class="gem"></span>
+    <span class="rule"></span>
   </header>
   {% if kicker %}<p class="sec-kicker">{{ kicker }}</p>{% endif %}
   <div class="sec-body">

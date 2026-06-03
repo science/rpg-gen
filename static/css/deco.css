@@ -1,6 +1,7 @@
 /* ============================================================
    Cthulhu-Gen — 1920s Art Deco secondary character sheets
-   Print-first CSS (US Letter). Renders identically in a browser
+   Print-first CSS (US Letter). Greyscale, white paper — built
+   for black-and-white printing. Renders identically in a browser
    (file://) and via WeasyPrint -> PDF.
    ============================================================ */
 
@@ -16,14 +17,13 @@
 @font-face{ font-family:"Special Elite"; font-style:normal; font-weight:400; src:url("static/fonts/SpecialElite-Regular.ttf") format("truetype"); }
 
 :root{
-  --paper:        #f4ebd6;
-  --paper-shade:  #ece0c2;
-  --ink:          #2b2017;
-  --ink-soft:     #5d4c38;
-  --gold:         #9c7d2e;
-  --gold-bright:  #c4a350;
-  --oxblood:      #7a3526;
-  --rule:         #b7a05c;
+  /* Greyscale palette for B&W printing */
+  --paper:    #ffffff;
+  --ink:      #1a1a1a;   /* body text */
+  --ink-soft: #3d3d3d;   /* sub-titles, descriptions */
+  --muted:    #666666;   /* labels, kickers, folio */
+  --hair:     #9a9a9a;   /* fill-in ruled lines (light grey) */
+  --stroke:   #232323;   /* frame, section rules, gems (near-black) */
 
   --font-display: "Limelight", "Cinzel", serif;
   --font-head:    "Cinzel", Georgia, serif;
@@ -34,24 +34,26 @@
 /* ---------- Paged media ---------- */
 @page{
   size: letter;
-  margin: 18mm 16mm 18mm 16mm;
+  margin: 17mm 17mm 17mm 17mm;
 
   @top-center{
     content: string(masthead);
+    vertical-align: bottom;
+    padding-bottom: 2.5mm;
     font-family: var(--font-head);
     font-size: 7.5pt;
     letter-spacing: .30em;
     text-transform: uppercase;
-    color: #a08a44;
-    padding-bottom: 3mm;
+    color: var(--muted);
   }
   @bottom-center{
     content: "❖   " counter(page) "   ❖";
+    vertical-align: top;
+    padding-top: 2.5mm;
     font-family: var(--font-head);
     font-size: 8pt;
     letter-spacing: .18em;
-    color: #a08a44;
-    padding-top: 3mm;
+    color: var(--muted);
   }
 }
 /* keep the cover page's top margin clean */
@@ -69,48 +71,47 @@ html{
 
 body{
   margin: 0;
-  padding: 6mm 5mm;
+  padding: 0;
   background: var(--paper);
-  background-image:
-    radial-gradient(ellipse at 18% 12%, rgba(120,90,40,.05), transparent 55%),
-    radial-gradient(ellipse at 85% 88%, rgba(120,90,40,.06), transparent 55%);
 }
 
 p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
 
 /* ---------- Per-page decorative frame ----------
-   position:fixed repeats on every page in WeasyPrint. */
+   Fixed elements repeat on every page in WeasyPrint. NB: WeasyPrint ignores
+   the `inset` shorthand, so use explicit top/right/bottom/left. Negative
+   offsets push the frame ~7mm out into the page margin, leaving a clean
+   gutter so the corner ornaments never collide with the text. */
 .deco-frame{
   position: fixed;
-  inset: 0;
-  border: 1.4pt solid var(--gold);
+  top: -7mm; right: -7mm; bottom: -7mm; left: -7mm;
+  border: 1.2pt solid var(--stroke);
   pointer-events: none;
 }
 .deco-frame .inner{
   position: absolute;
-  inset: 2.1mm;
-  border: .5pt solid var(--gold-bright);
+  top: 1.8mm; right: 1.8mm; bottom: 1.8mm; left: 1.8mm;
+  border: .5pt solid var(--muted);
 }
 .deco-frame .corner{
   position: absolute;
-  width: 4.2mm; height: 4.2mm;
-  background: var(--gold);
+  width: 3.4mm; height: 3.4mm;
+  background: var(--stroke);
   transform: rotate(45deg);
-  box-shadow: inset 0 0 0 .7mm var(--paper);
 }
-.deco-frame .corner.tl{ top: -2.1mm; left: -2.1mm; }
-.deco-frame .corner.tr{ top: -2.1mm; right: -2.1mm; }
-.deco-frame .corner.bl{ bottom: -2.1mm; left: -2.1mm; }
-.deco-frame .corner.br{ bottom: -2.1mm; right: -2.1mm; }
+.deco-frame .corner.tl{ top: -1.7mm; left: -1.7mm; }
+.deco-frame .corner.tr{ top: -1.7mm; right: -1.7mm; }
+.deco-frame .corner.bl{ bottom: -1.7mm; left: -1.7mm; }
+.deco-frame .corner.br{ bottom: -1.7mm; right: -1.7mm; }
 
 /* ---------- Masthead / cover ---------- */
-.masthead{ text-align: center; margin: 4mm 0 0; break-after: avoid; }
+.masthead{ text-align: center; margin: 3mm 0 0; break-after: avoid; }
 .dossier-kicker{
   font-family: var(--font-head);
   font-size: 9pt; font-weight: 500;
   letter-spacing: .52em; text-transform: uppercase;
-  color: var(--gold);
-  margin-left: .52em; /* compensate trailing letter-spacing */
+  color: var(--muted);
+  margin-left: .52em;
 }
 .masthead-title{
   font-family: var(--font-display);
@@ -124,27 +125,27 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   font-family: var(--font-body);
   font-style: italic;
   font-size: 13pt;
-  color: var(--oxblood);
+  color: var(--ink-soft);
 }
 .masthead-legal{
   font-family: var(--font-head);
   font-size: 8.5pt;
   letter-spacing: .22em; text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--muted);
   margin-top: 2.5mm;
 }
 
-/* ---------- Deco divider bar ---------- */
+/* ---------- Deco divider bar (cover only) ---------- */
 .deco-bar{
   display: flex; align-items: center; justify-content: center;
   gap: 2mm; margin: 5mm 0;
 }
-.deco-bar .l{ width: 26mm; height: 0; border-top: 1pt solid var(--gold); }
+.deco-bar .l{ width: 26mm; height: 0; border-top: 1pt solid var(--stroke); }
 .deco-bar .d{
-  width: 3mm; height: 3mm; background: var(--gold);
+  width: 3mm; height: 3mm; background: var(--stroke);
   transform: rotate(45deg);
 }
-.deco-bar .d.small{ width: 1.8mm; height: 1.8mm; background: var(--gold-bright); }
+.deco-bar .d.small{ width: 1.8mm; height: 1.8mm; }
 
 /* ---------- Identity field grid ---------- */
 .id-grid{
@@ -158,42 +159,43 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
 .field-label{
   font-family: var(--font-head);
   font-size: 8pt; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--gold); white-space: nowrap;
+  color: var(--muted); white-space: nowrap;
 }
 .field-value{
   flex: 1 1 auto;
   font-family: var(--font-type);
   font-size: 10.5pt; color: var(--ink);
-  border-bottom: .5pt solid var(--rule);
+  border-bottom: .5pt solid var(--hair);
   min-height: 5.4mm; padding: 0 1mm 0.6mm;
 }
 
 /* ---------- Section ---------- */
-.sheet-section{ margin: 6mm 0 3mm; }
+.sheet-section{ margin: 5.5mm 0 3mm; }
+
 .sec-head{
-  display: flex; align-items: center; gap: 3.5mm;
+  display: flex; align-items: center;
   margin-bottom: 2.6mm; break-after: avoid;
 }
+.sec-head .rule{
+  flex: 1 1 auto; height: 0;
+  border-top: 1pt solid var(--stroke);
+}
+.sec-head .gem{
+  flex: 0 0 auto;
+  width: 2.6mm; height: 2.6mm;
+  margin: 0 3mm;
+  background: var(--stroke);
+  transform: rotate(45deg);
+}
 .sec-head h2{
+  flex: 0 0 auto;
   font-family: var(--font-head);
   font-weight: 700; font-size: 13pt;
   letter-spacing: .15em; text-transform: uppercase;
-  color: var(--oxblood); margin: 0; white-space: nowrap;
+  color: var(--ink); margin: 0; white-space: nowrap;
 }
-.sec-orn{
-  flex: 1 1 auto; height: 0;
-  border-top: 1pt solid var(--rule);
-  position: relative;
-}
-.sec-orn::after{
-  content: ""; position: absolute; top: -1.6mm;
-  width: 3.2mm; height: 3.2mm; background: var(--gold);
-  transform: rotate(45deg);
-}
-.sec-orn.left::after{ right: 0; }
-.sec-orn.right::after{ left: 0; }
 .sec-kicker{
-  font-style: italic; color: var(--ink-soft);
+  font-style: italic; color: var(--muted);
   font-size: 10pt; margin: -1mm 0 2mm;
 }
 
@@ -211,55 +213,39 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
 .trait-list li{ position: relative; padding-left: 6mm; margin: 0 0 1.6mm; break-inside: avoid; }
 .trait-list li::before{
   content: "◆"; position: absolute; left: 1mm; top: 0;
-  color: var(--gold); font-size: 8pt;
+  color: var(--stroke); font-size: 8pt;
 }
 
 /* ---------- Fillable ruled lines ---------- */
 .ruled{ margin-top: 2.4mm; }
 .ruled .rule-line{
   height: 7.6mm;
-  border-bottom: .5pt solid rgba(93,76,56,.45);
+  border-bottom: .5pt solid var(--hair);
 }
 .ruled.tight .rule-line{ height: 6.2mm; }
 .ruled.notes .rule-line{ height: 8.4mm; }
 
-/* ---------- Tables (weapons, assets, gear) ---------- */
+/* ---------- Tables (weapons, arcane) ---------- */
 table.coc{
   width: 100%; border-collapse: collapse;
   margin-top: 2.4mm; font-size: 10pt;
 }
-table.coc caption{
-  text-align: left; font-style: italic; color: var(--ink-soft);
-  font-size: 9.5pt; margin-bottom: 1.2mm;
-}
 table.coc th{
   font-family: var(--font-head);
   font-size: 7.5pt; letter-spacing: .08em; text-transform: uppercase;
-  color: var(--gold); font-weight: 700;
-  border-bottom: 1pt solid var(--rule);
+  color: var(--muted); font-weight: 700;
+  border-bottom: 1pt solid var(--stroke);
   padding: 1.4mm 2mm; text-align: left;
 }
 table.coc td{
   font-family: var(--font-type);
-  border-bottom: .5pt solid rgba(93,76,56,.4);
+  border-bottom: .5pt solid var(--hair);
   padding: 1.8mm 2mm; vertical-align: top;
 }
 table.coc tr.blank td{ height: 6.4mm; }
 table.coc td.num{ text-align: center; }
 
-/* ---------- Two-up subsection columns ---------- */
-.cols-2{
-  display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 7mm;
-}
-.subhead{
-  font-family: var(--font-head);
-  font-size: 9.5pt; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--ink); font-weight: 600;
-  margin: 1mm 0 1.5mm; padding-bottom: .8mm;
-  border-bottom: .5pt dotted var(--rule);
-}
-
 /* ---------- Utility ---------- */
 .page-break{ break-before: page; }
-.note{ font-style: italic; color: var(--ink-soft); font-size: 9.5pt; }
+.note{ font-style: italic; color: var(--muted); font-size: 9.5pt; }
 .keep{ break-inside: avoid; }

@@ -43,27 +43,22 @@
 {# ============================= BACKSTORY ============================= #}
 {% call m.section('Personal Description') %}
 {{ m.prose(c.backstory.personal_description if c.backstory else '') }}
-{{ m.lines(2) }}
 {% endcall %}
 
 {% call m.section('Ideology & Beliefs') %}
 {{ m.prose(c.backstory.ideology_beliefs if c.backstory else '') }}
-{{ m.lines(2) }}
 {% endcall %}
 
 {% call m.section('Significant People') %}
 {{ m.entries(c.backstory.significant_people if c.backstory else none, 'name', 'desc', 'relation') }}
-{{ m.lines(3) }}
 {% endcall %}
 
 {% call m.section('Meaningful Locations') %}
 {{ m.entries(c.backstory.meaningful_locations if c.backstory else none, 'name', 'desc') }}
-{{ m.lines(3) }}
 {% endcall %}
 
 {% call m.section('Treasured Possessions') %}
 {{ m.entries(c.backstory.treasured_possessions if c.backstory else none, 'name', 'desc') }}
-{{ m.lines(2) }}
 {% endcall %}
 
 {% call m.section('Character Traits') %}
@@ -72,7 +67,6 @@
 {% for t in c.backstory.character_traits %}<li>{{ t }}</li>
 {% endfor %}</ul>
 {% endif %}
-{{ m.lines(2) }}
 {% endcall %}
 
 {# ============================= WEALTH ============================= #}
@@ -83,7 +77,6 @@
   {{ m.field('Assets', c.wealth.assets if c.wealth else '') }}
   {{ m.field('Credit Rating', c.wealth.credit_rating if c.wealth else '') }}
 </div>
-<div class="subhead">Asset Details</div>
 {% if c.wealth and c.wealth.asset_details %}
 <ul class="trait-list">{% for a in c.wealth.asset_details %}<li>{{ a }}</li>
 {% endfor %}</ul>
@@ -93,10 +86,7 @@
 
 {# ============================= INVENTORY ============================= #}
 {% call m.section('Inventory', kicker='Carried on their person, and gear kept close.') %}
-<div class="subhead">Pocket Litter</div>
 {{ m.entries(c.pocket_litter, 'item', 'desc') }}
-{{ m.lines(2) }}
-<div class="subhead">Gear &amp; Equipment</div>
 {% if c.inventory and c.inventory.gear %}
 {{ m.entries(c.inventory.gear, 'item', 'desc') }}
 {% endif %}
