@@ -158,7 +158,7 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   gap: 2mm 8mm;
   margin: 3mm 1mm 2mm;
 }
-.field{ display: flex; align-items: stretch; gap: 2.5mm; }
+.field{ display: flex; align-items: flex-start; gap: 2.5mm; }
 .field.wide{ grid-column: 1 / -1; }
 .field-label{
   font-family: var(--font-head);
@@ -209,7 +209,11 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
 .sec-kicker{
   font-style: italic; color: var(--muted);
   font-size: 10pt; margin: -1mm 0 2mm;
+  break-after: avoid;
 }
+/* Keep a section's heading (+ kicker) glued to its first item, so a header
+   is never stranded alone at the bottom of a page. */
+.sec-body > :first-child{ break-before: avoid; }
 
 /* ---------- Entries (people / places / possessions) ---------- */
 .entry{ margin: 0 0 2.8mm; break-inside: avoid; }
