@@ -1,0 +1,16 @@
+# Build output (rendered HTML/PDF sheets)
+/build/
+/dist/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store

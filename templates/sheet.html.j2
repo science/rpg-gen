@@ -1,0 +1,159 @@
+{% import '_macros.j2' as m -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ c.identity.stage_name or c.identity.legal_name }} — Investigator Dossier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital@0;1&family=Limelight&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+{{ css | safe }}
+</style>
+</head>
+<body>
+
+<div class="deco-frame">
+  <div class="inner"></div>
+  <span class="corner tl"></span><span class="corner tr"></span>
+  <span class="corner bl"></span><span class="corner br"></span>
+</div>
+
+{# ============================= COVER / MASTHEAD ============================= #}
+<header class="masthead">
+  <div class="dossier-kicker">Investigator Dossier</div>
+  <h1 class="masthead-title">{{ c.identity.stage_name or c.identity.legal_name }}</h1>
+  {% if c.identity.billing %}<div class="masthead-sub">{{ c.identity.billing }}</div>{% endif %}
+  <div class="masthead-legal">{{ c.identity.legal_name }}{% if c.identity.known_as %} &middot; &ldquo;{{ c.identity.known_as }}&rdquo;{% endif %}</div>
+</header>
+
+{{ m.deco_bar() }}
+
+<div class="id-grid">
+  {{ m.field('Player', '') }}
+  {{ m.field('Occupation', c.identity.occupation) }}
+  {{ m.field('Birthplace', c.birthplace.location if c.birthplace else '') }}
+  {{ m.field('Age', c.identity.age) }}
+  {{ m.field('Sex', c.identity.sex) }}
+  {{ m.field('Residence', c.identity.residence) }}
+  {{ m.field('Era / Setting', c.meta.setting if c.meta else '') }}
+  {{ m.field('Standing', c.identity.status) }}
+</div>
+
+{# ============================= BACKSTORY ============================= #}
+{% call m.section('Personal Description') %}
+{{ m.prose(c.backstory.personal_description if c.backstory else '') }}
+{{ m.lines(2) }}
+{% endcall %}
+
+{% call m.section('Ideology & Beliefs') %}
+{{ m.prose(c.backstory.ideology_beliefs if c.backstory else '') }}
+{{ m.lines(2) }}
+{% endcall %}
+
+{% call m.section('Significant People') %}
+{{ m.entries(c.backstory.significant_people if c.backstory else none, 'name', 'desc', 'relation') }}
+{{ m.lines(3) }}
+{% endcall %}
+
+{% call m.section('Meaningful Locations') %}
+{{ m.entries(c.backstory.meaningful_locations if c.backstory else none, 'name', 'desc') }}
+{{ m.lines(3) }}
+{% endcall %}
+
+{% call m.section('Treasured Possessions') %}
+{{ m.entries(c.backstory.treasured_possessions if c.backstory else none, 'name', 'desc') }}
+{{ m.lines(2) }}
+{% endcall %}
+
+{% call m.section('Character Traits') %}
+{% if c.backstory and c.backstory.character_traits %}
+<ul class="trait-list">
+{% for t in c.backstory.character_traits %}<li>{{ t }}</li>
+{% endfor %}</ul>
+{% endif %}
+{{ m.lines(2) }}
+{% endcall %}
+
+{# ============================= WEALTH ============================= #}
+{% call m.section('Wealth & Means') %}
+<div class="id-grid">
+  {{ m.field('Spending Level', c.wealth.spending_level if c.wealth else '') }}
+  {{ m.field('Cash', c.wealth.cash if c.wealth else '') }}
+  {{ m.field('Assets', c.wealth.assets if c.wealth else '') }}
+  {{ m.field('Credit Rating', c.wealth.credit_rating if c.wealth else '') }}
+</div>
+<div class="subhead">Asset Details</div>
+{% if c.wealth and c.wealth.asset_details %}
+<ul class="trait-list">{% for a in c.wealth.asset_details %}<li>{{ a }}</li>
+{% endfor %}</ul>
+{% endif %}
+{{ m.lines(3) }}
+{% endcall %}
+
+{# ============================= INVENTORY ============================= #}
+{% call m.section('Inventory', kicker='Carried on their person, and gear kept close.') %}
+<div class="subhead">Pocket Litter</div>
+{{ m.entries(c.pocket_litter, 'item', 'desc') }}
+{{ m.lines(2) }}
+<div class="subhead">Gear &amp; Equipment</div>
+{% if c.inventory and c.inventory.gear %}
+{{ m.entries(c.inventory.gear, 'item', 'desc') }}
+{% endif %}
+{{ m.lines(4) }}
+{% endcall %}
+
+{# ============================= WEAPONS ============================= #}
+{% call m.section('Weapons') %}
+<table class="coc">
+  <thead>
+    <tr><th>Weapon</th><th>Skill %</th><th>Damage</th><th>Range</th><th>Atk</th><th>Ammo</th><th>Malf.</th></tr>
+  </thead>
+  <tbody>
+    {% for w in c.weapons or [] %}
+    <tr><td>{{ w.name }}</td><td class="num">{{ w.skill }}</td><td>{{ w.damage }}</td><td>{{ w.range }}</td><td class="num">{{ w.attacks }}</td><td class="num">{{ w.ammo }}</td><td class="num">{{ w.malfunction }}</td></tr>
+    {% endfor %}
+    {% for _ in range(5) %}
+    <tr class="blank"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endcall %}
+
+{# ===================== TRAITS THAT ACCRUE OVER TIME ===================== #}
+{% call m.section('Injuries & Scars', kicker='Wounds, lasting harm, and the marks they leave.') %}
+{% if c.injuries_scars %}{{ m.entries(c.injuries_scars, 'name', 'desc') }}{% endif %}
+{{ m.lines(5) }}
+{% endcall %}
+
+{% call m.section('Phobias & Manias', kicker='What the mind cannot let go of.') %}
+{% if c.phobias_manias %}{{ m.entries(c.phobias_manias, 'name', 'desc') }}{% endif %}
+{{ m.lines(5) }}
+{% endcall %}
+
+{% call m.section('Arcane Tomes, Spells & Artifacts') %}
+<table class="coc">
+  <thead><tr><th>Name</th><th>Type</th><th>Notes / Effect</th></tr></thead>
+  <tbody>
+    {% for a in c.arcane or [] %}
+    <tr><td>{{ a.name }}</td><td>{{ a.type }}</td><td>{{ a.notes }}</td></tr>
+    {% endfor %}
+    {% for _ in range(6) %}
+    <tr class="blank"><td></td><td></td><td></td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endcall %}
+
+{% call m.section('Encounters with Strange Entities', kicker='What was seen, where, and the toll it took.') %}
+{% if c.encounters %}{{ m.entries(c.encounters, 'name', 'desc') }}{% endif %}
+{{ m.lines(7) }}
+{% endcall %}
+
+{# ============================= PLAYER NOTES ============================= #}
+{% call m.section('Player Notes') %}
+{{ m.lines(16, 'notes') }}
+{% endcall %}
+
+</body>
+</html>

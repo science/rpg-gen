@@ -1,0 +1,168 @@
+--- # Call of Cthulhu 7e — Investigator Backstory Metadata
+# Setting: New England, 1921. Format kept simple/flat for downstream sheet generation.
+
+meta:
+  schema_version: 1
+  ruleset: "Call of Cthulhu 7th Edition"
+  setting: "New England, 1921 (classic era)"
+  role: "Player Character (new player)"
+
+identity:
+  legal_name: "Esther Mae Calloway"
+  known_as: "Essie (to old friends and family)"
+  stage_name: "Mademoiselle Mercure"
+  billing: "\"The Quicksilver Conjuress — Mistress of the Impossible\""
+  sex: "Female"
+  age: 32
+  born: 1889
+  occupation: "Stage Magician (Conjurer / Illusionist)"
+  residence: "Providence, Rhode Island (rented rooms; lives largely out of a steamer trunk)"
+  status: "Regionally successful — a New England headliner, not yet a national name"
+
+birthplace:
+  location: "A tenant farm outside Loogootee, Martin County, Indiana"
+  notes: >
+    Born poor on rented dirt in the southern Indiana hills — close enough to
+    nowhere that the nearest real entertainment was whatever rolled through on
+    the rails. Essie learned her first sleights from a broken-down medicine-show
+    conjurer who wintered in the county, then ran off at sixteen to work the
+    "small time": county fairs, tent shows, dime museums, and the brutal
+    third-rate vaudeville circuits that performers called the "death trail."
+    Years of podunk one-night stands in Indiana, Ohio, and Kentucky taught her
+    to read a hostile crowd, fix a balky prop with a hairpin, and never let them
+    see her sweat. "Making it big" carried her east: she now headlines the
+    middle of the bill at respectable Keith-Albee houses in Boston, Providence,
+    and Hartford. For any conjurer that is a real career; for a woman, against
+    every odd in a trade that belongs to men, it is genuinely remarkable. But
+    the Palace Theatre in New York and the London Coliseum — the rooms that make
+    a Houdini — have so far stayed just out of reach.
+
+career_arc:
+  origin: "Self-taught off a medicine-show magician; apprenticed on the road"
+  circuits_worked: ["County fairs & tent shows", "Dime museums", "Small-time vaudeville (the 'death trail')", "Keith-Albee 'big time' (New England)"]
+  current_standing: "Established New England headliner; respected within the trade"
+  unreached_ambition: "A breakout at the Palace (NYC) or the Coliseum (London) — true national/international fame"
+  current_mood: >
+    Tired. Talented and proven, but disillusioned — twenty years of pretending
+    to do the impossible for people who only want to be fooled. The applause has
+    started to feel like an accusation.
+
+# Items carried on her person. Useful in a pinch, never decisive.
+# (Deliberately NO flash powder — another investigator carries that.)
+pocket_litter:
+  - item: "Lock pick set"
+    desc: "Slim picks and tension wrench rolled in a chamois, tucked in a boot. From her escape-act days; she can open most simple locks given time and quiet."
+  - item: "Palming coins (half-dollars)"
+    desc: "Three worn-smooth half-dollars and one expertly faked two-headed coin. Good for sleights, fidgeting, a coin toss she can rig, or a small bribe."
+  - item: "Marked deck of cards"
+    desc: "A dog-eared Bicycle deck, subtly marked on the backs and short-stripped so she can find any card by feel. Also genuinely fun at a card table."
+  - item: "Silk production scarf"
+    desc: "A length of fine crimson silk that compresses to nothing. Used to vanish/produce objects; doubles as a sling, blindfold, gag, tourniquet, or filter."
+  - item: "Thumb tip"
+    desc: "Flesh-toned metal thumb cap for vanishing small items. A tiny, perfect hiding place — for a folded note, a pinch of powder, a key."
+  - item: "Pocket notebook of routines"
+    desc: "Patter, cues, and stage diagrams written in her own personal shorthand — unreadable to anyone else. Blank pages at the back for notes."
+  - item: "Cigarette case with false bottom"
+    desc: "Battered silver, monogrammed E.M.C. Holds cigarettes above and a hidden shallow compartment below (a key, a card, a folded bill)."
+  - item: "Skeleton key on a ribbon"
+    desc: "Opens the standard warded locks of cheap theaters, dressing rooms, and boarding houses across the circuit. Won't touch a good modern lock."
+  - item: "Tin of stage rouge & a stick of greasepaint"
+    desc: "Her working face in a dented tin. Can also be used to mark a surface, disguise a complexion, or doctor an appearance."
+  - item: "Pawn ticket"
+    desc: "For a good winter coat, hocked in March and not yet redeemed. A small, honest measure of how the money actually goes."
+  - item: "Stack of calling cards"
+    desc: "\"Mademoiselle Mercure — Mysteries Performed\" in silver ink, with a booking agent's address. Handed out freely; opens a surprising number of doors."
+  - item: "Folded handbill of herself"
+    desc: "A lurid one-sheet from a Hartford engagement — her in a spangled costume wreathed in 'spirit' smoke. Kept for ID, vanity, and bitter amusement."
+  - item: "Mercury dime on a bent pin"
+    desc: "A 'lucky' Winged Liberty dime she's carried since the death trail. Not magic — but she'd be uneasy without it, and half-hopes one day it might be."
+
+backstory:
+
+  personal_description: >
+    A trim, watchful woman in her early thirties with quick hands and quicker
+    eyes — the kind that catalogue a room's exits and its marks without seeming
+    to move. Dark hair bobbed short and practical (easier under wigs and turbans),
+    a stage-trained voice that can fill a theater or drop to a confiding murmur,
+    and a smile she can switch on like a footlight. Offstage she favors plain,
+    well-cut traveling clothes going slightly threadbare at the cuffs; onstage
+    she is all spangles, silk, and manufactured mystery. Her fingers are never
+    quite still. People consistently underestimate her — a mistake she has spent
+    twenty years learning to profit from.
+
+  ideology_beliefs: >
+    She knows, better than almost anyone alive, exactly how a miracle is faked —
+    which is precisely why she aches to find one that isn't. Every "genuine"
+    medium she's ever met used a trick she could name; she has exposed a few, out
+    of professional contempt. But the debunking has curdled into hunger: if the
+    fakes are this good, what would the *real* thing even look like? She is a
+    rationalist who desperately wants to be wrong. She resents earning her bread
+    as a liar, and tells herself that if true power exists, she has earned the
+    right to find it. Privately she keeps a short, growing list of things she has
+    seen that she genuinely cannot explain.
+
+  significant_people:
+    - name: "Hieronymus 'Old Hank' Pratt"
+      relation: "Mentor (deceased)"
+      desc: >
+        The washed-up medicine-show conjurer who taught a farm girl her first
+        false shuffle and told her she had 'the hands.' Drank himself into a
+        pauper's grave. She measures every trick against what Hank would have
+        said, and never quite forgave him for dying broke.
+    - name: "Cornelius Vane"
+      relation: "Rival / 'celebrated' spirit medium"
+      desc: >
+        A polished, fashionable Boston medium with wealthy clients. She knows his
+        act is stagecraft because half of it is hers, stolen. He knows she knows.
+        Their mutual loathing is professional, personal, and one séance away from
+        something worse.
+    - name: "Samuel Okafor"
+      relation: "Stagehand & confidant (loyal)"
+      desc: >
+        Her box-builder, prop-man, and the only person who knows how every
+        illusion works. Steady where she is restless. He worries she is chasing
+        something that will get them both killed, and follows her anyway.
+    - name: "Ruth Calloway Henson"
+      relation: "Younger sister (estranged-ish)"
+      desc: >
+        Still on the land back in Indiana, married to a Methodist who thinks the
+        stage is a half-step from the brothel. They exchange dutiful letters at
+        Christmas. Ruth is the life Essie ran from — and the one she's not sure
+        she should have.
+
+  meaningful_locations:
+    - name: "The booking circuit (Boston / Providence / Hartford theaters)"
+      desc: "The well-worn triangle of Keith-Albee houses where she headlines. Greasepaint, gaslight, and the smell of dusty velvet — the closest thing she has to home."
+    - name: "Mrs. Doyle's boarding house, Providence"
+      desc: "Her between-engagements address. A narrow room, a shared bath, a landlady who pretends not to know what 'theatrical' means."
+    - name: "Sortwell & Crane, Booksellers (occult/antiquarian shop)"
+      desc: "A cramped Providence bookshop where she spends more than she should on works of 'genuine' magic, hunting for the trick behind the universe."
+    - name: "The Loogootee farm, Indiana"
+      desc: "The rented dirt she was born on and swore she'd never return to. It anchors everything she is and everything she's running from."
+
+  treasured_possessions:
+    - name: "Old Hank's cards"
+      desc: "The mentor's own deck — soft as cloth, edges rounded by a lifetime of shuffles. She performs with newer cards but keeps these on her always. She does not let people touch them."
+    - name: "The Spirit Cabinet"
+      desc: "Her signature illusion — a curtained cabinet from which 'the dead' speak. Built by Sam. The trick that made her name in New England, and the one she's grown to hate performing."
+    - name: "A water-stained occult volume"
+      desc: "Her prize from a bookseller's dusty back shelf — a genuine antiquarian work on 'sympathetic' magic, bought because she couldn't immediately spot how it was a fraud. She isn't certain it is one. (Keeper hook: stats/sanity/spell content TBD by the Keeper.)"
+    - name: "A child's tin star"
+      desc: "A bent toy star a farm child gave her after her very first paying show. Kept in the cigarette case's false bottom. Proof to herself that the wonder was once real."
+
+  character_traits:
+    - "Quick-fingered and observant — reads marks, tells, and exits by instinct"
+    - "A consummate performer: charming, composed, and an effortless liar under pressure"
+    - "Restless and ambitious, but bone-tired of her own act"
+    - "Skeptic by trade, secret believer by temperament — hungry for a real miracle"
+    - "Fiercely self-reliant; trusts very few, but utterly loyal to those few"
+    - "Carries a working-class chip on her shoulder and a fear of dying broke like her mentor"
+
+# --- Keeper notes (not for the player sheet) ---
+keeper_notes:
+  hooks:
+    - "Cornelius Vane and the occult volume both point toward genuine Mythos exposure — her professional skepticism makes her a perfect skeptic-to-believer arc."
+    - "The Spirit Cabinet and séance work give natural reasons to be hired by, or drawn into, the affairs of the credulous wealthy."
+    - "Lock picks, palming, performance, and observation map cleanly to investigation/infiltration utility without making her a combatant."
+  suggested_skills_flavor: ["Sleight of Hand", "Locksmith", "Charm", "Fast Talk", "Psychology", "Spot Hidden", "Art/Craft (Stage Magic)", "Library Use", "Occult"]
+  note: "Numeric stats/skills intentionally omitted — this file is backstory metadata only."

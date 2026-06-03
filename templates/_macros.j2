@@ -1,0 +1,41 @@
+{# ===== Reusable layout macros for the secondary sheets ===== #}
+
+{%- macro deco_bar() -%}
+<div class="deco-bar"><span class="l"></span><span class="d"></span><span class="d small"></span><span class="d"></span><span class="l"></span></div>
+{%- endmacro -%}
+
+{# Section wrapper. Use:  {% call m.section('TITLE', kicker='...') %} ...body... {% endcall %} #}
+{%- macro section(title, kicker='') -%}
+<section class="sheet-section">
+  <header class="sec-head">
+    <span class="sec-orn left"></span>
+    <h2>{{ title }}</h2>
+    <span class="sec-orn right"></span>
+  </header>
+  {% if kicker %}<p class="sec-kicker">{{ kicker }}</p>{% endif %}
+  <div class="sec-body">
+{{ caller() }}
+  </div>
+</section>
+{%- endmacro -%}
+
+{# A labelled fill-in field. #}
+{%- macro field(label, value='', wide=false) -%}
+<div class="field{% if wide %} wide{% endif %}"><span class="field-label">{{ label }}</span><span class="field-value">{{ value if value is not none else '' }}</span></div>
+{%- endmacro -%}
+
+{# N blank ruled lines for player fill-in / growth over time. #}
+{%- macro lines(n=4, cls='') -%}
+<div class="ruled {{ cls }}">{% for _ in range(n) %}<div class="rule-line"></div>{% endfor %}</div>
+{%- endmacro -%}
+
+{# A single prose paragraph (skipped if empty). #}
+{%- macro prose(text) -%}
+{% if text %}<p>{{ text }}</p>{% endif %}
+{%- endmacro -%}
+
+{# List of {name, desc, [sub]} entries (people, places, possessions...). #}
+{%- macro entries(items, name_key, desc_key, sub_key=none) -%}
+{% for it in items or [] %}<div class="entry"><span class="ent-name">{{ it[name_key] }}</span>{% if sub_key and it[sub_key] %} <span class="ent-rel">— {{ it[sub_key] }}</span>{% endif %}<div class="ent-desc">{{ it[desc_key] }}</div></div>
+{% endfor %}
+{%- endmacro -%}

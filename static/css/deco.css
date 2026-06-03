@@ -1,0 +1,265 @@
+/* ============================================================
+   Cthulhu-Gen — 1920s Art Deco secondary character sheets
+   Print-first CSS (US Letter). Renders identically in a browser
+   (file://) and via WeasyPrint -> PDF.
+   ============================================================ */
+
+/* ---------- Vendored fonts (paths resolve against the project root,
+   which build.py passes to WeasyPrint as base_url). The browser
+   preview additionally loads the same families from Google Fonts. ---------- */
+@font-face{ font-family:"Limelight";     font-style:normal; font-weight:400; src:url("static/fonts/Limelight-Regular.ttf") format("truetype"); }
+@font-face{ font-family:"Cinzel";        font-style:normal; font-weight:400; src:url("static/fonts/Cinzel-Regular.ttf") format("truetype"); }
+@font-face{ font-family:"Cinzel";        font-style:normal; font-weight:600; src:url("static/fonts/Cinzel-SemiBold.ttf") format("truetype"); }
+@font-face{ font-family:"Cinzel";        font-style:normal; font-weight:700; src:url("static/fonts/Cinzel-Bold.ttf") format("truetype"); }
+@font-face{ font-family:"EB Garamond";   font-style:normal; font-weight:400; src:url("static/fonts/EBGaramond-Regular.ttf") format("truetype"); }
+@font-face{ font-family:"EB Garamond";   font-style:italic; font-weight:400; src:url("static/fonts/EBGaramond-Italic.ttf") format("truetype"); }
+@font-face{ font-family:"Special Elite"; font-style:normal; font-weight:400; src:url("static/fonts/SpecialElite-Regular.ttf") format("truetype"); }
+
+:root{
+  --paper:        #f4ebd6;
+  --paper-shade:  #ece0c2;
+  --ink:          #2b2017;
+  --ink-soft:     #5d4c38;
+  --gold:         #9c7d2e;
+  --gold-bright:  #c4a350;
+  --oxblood:      #7a3526;
+  --rule:         #b7a05c;
+
+  --font-display: "Limelight", "Cinzel", serif;
+  --font-head:    "Cinzel", Georgia, serif;
+  --font-body:    "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-type:    "Special Elite", "Courier New", monospace;
+}
+
+/* ---------- Paged media ---------- */
+@page{
+  size: letter;
+  margin: 18mm 16mm 18mm 16mm;
+
+  @top-center{
+    content: string(masthead);
+    font-family: var(--font-head);
+    font-size: 7.5pt;
+    letter-spacing: .30em;
+    text-transform: uppercase;
+    color: #a08a44;
+    padding-bottom: 3mm;
+  }
+  @bottom-center{
+    content: "❖   " counter(page) "   ❖";
+    font-family: var(--font-head);
+    font-size: 8pt;
+    letter-spacing: .18em;
+    color: #a08a44;
+    padding-top: 3mm;
+  }
+}
+/* keep the cover page's top margin clean */
+@page:first{ @top-center{ content: none; } }
+
+/* ---------- Base ---------- */
+*{ box-sizing: border-box; }
+
+html{
+  font-family: var(--font-body);
+  color: var(--ink);
+  font-size: 11.5pt;
+  line-height: 1.5;
+}
+
+body{
+  margin: 0;
+  padding: 6mm 5mm;
+  background: var(--paper);
+  background-image:
+    radial-gradient(ellipse at 18% 12%, rgba(120,90,40,.05), transparent 55%),
+    radial-gradient(ellipse at 85% 88%, rgba(120,90,40,.06), transparent 55%);
+}
+
+p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
+
+/* ---------- Per-page decorative frame ----------
+   position:fixed repeats on every page in WeasyPrint. */
+.deco-frame{
+  position: fixed;
+  inset: 0;
+  border: 1.4pt solid var(--gold);
+  pointer-events: none;
+}
+.deco-frame .inner{
+  position: absolute;
+  inset: 2.1mm;
+  border: .5pt solid var(--gold-bright);
+}
+.deco-frame .corner{
+  position: absolute;
+  width: 4.2mm; height: 4.2mm;
+  background: var(--gold);
+  transform: rotate(45deg);
+  box-shadow: inset 0 0 0 .7mm var(--paper);
+}
+.deco-frame .corner.tl{ top: -2.1mm; left: -2.1mm; }
+.deco-frame .corner.tr{ top: -2.1mm; right: -2.1mm; }
+.deco-frame .corner.bl{ bottom: -2.1mm; left: -2.1mm; }
+.deco-frame .corner.br{ bottom: -2.1mm; right: -2.1mm; }
+
+/* ---------- Masthead / cover ---------- */
+.masthead{ text-align: center; margin: 4mm 0 0; break-after: avoid; }
+.dossier-kicker{
+  font-family: var(--font-head);
+  font-size: 9pt; font-weight: 500;
+  letter-spacing: .52em; text-transform: uppercase;
+  color: var(--gold);
+  margin-left: .52em; /* compensate trailing letter-spacing */
+}
+.masthead-title{
+  font-family: var(--font-display);
+  font-size: 30pt; font-weight: 400;
+  color: var(--ink);
+  margin: 4mm 0 1mm;
+  line-height: 1.04;
+  string-set: masthead content();
+}
+.masthead-sub{
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 13pt;
+  color: var(--oxblood);
+}
+.masthead-legal{
+  font-family: var(--font-head);
+  font-size: 8.5pt;
+  letter-spacing: .22em; text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 2.5mm;
+}
+
+/* ---------- Deco divider bar ---------- */
+.deco-bar{
+  display: flex; align-items: center; justify-content: center;
+  gap: 2mm; margin: 5mm 0;
+}
+.deco-bar .l{ width: 26mm; height: 0; border-top: 1pt solid var(--gold); }
+.deco-bar .d{
+  width: 3mm; height: 3mm; background: var(--gold);
+  transform: rotate(45deg);
+}
+.deco-bar .d.small{ width: 1.8mm; height: 1.8mm; background: var(--gold-bright); }
+
+/* ---------- Identity field grid ---------- */
+.id-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2mm 8mm;
+  margin: 3mm 1mm 2mm;
+}
+.field{ display: flex; align-items: baseline; gap: 2.5mm; }
+.field.wide{ grid-column: 1 / -1; }
+.field-label{
+  font-family: var(--font-head);
+  font-size: 8pt; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--gold); white-space: nowrap;
+}
+.field-value{
+  flex: 1 1 auto;
+  font-family: var(--font-type);
+  font-size: 10.5pt; color: var(--ink);
+  border-bottom: .5pt solid var(--rule);
+  min-height: 5.4mm; padding: 0 1mm 0.6mm;
+}
+
+/* ---------- Section ---------- */
+.sheet-section{ margin: 6mm 0 3mm; }
+.sec-head{
+  display: flex; align-items: center; gap: 3.5mm;
+  margin-bottom: 2.6mm; break-after: avoid;
+}
+.sec-head h2{
+  font-family: var(--font-head);
+  font-weight: 700; font-size: 13pt;
+  letter-spacing: .15em; text-transform: uppercase;
+  color: var(--oxblood); margin: 0; white-space: nowrap;
+}
+.sec-orn{
+  flex: 1 1 auto; height: 0;
+  border-top: 1pt solid var(--rule);
+  position: relative;
+}
+.sec-orn::after{
+  content: ""; position: absolute; top: -1.6mm;
+  width: 3.2mm; height: 3.2mm; background: var(--gold);
+  transform: rotate(45deg);
+}
+.sec-orn.left::after{ right: 0; }
+.sec-orn.right::after{ left: 0; }
+.sec-kicker{
+  font-style: italic; color: var(--ink-soft);
+  font-size: 10pt; margin: -1mm 0 2mm;
+}
+
+/* ---------- Entries (people / places / possessions) ---------- */
+.entry{ margin: 0 0 2.8mm; break-inside: avoid; }
+.ent-name{
+  font-family: var(--font-head);
+  font-weight: 600; font-size: 11pt; color: var(--ink);
+}
+.ent-rel{ font-style: italic; color: var(--ink-soft); font-size: 10pt; }
+.ent-desc{ margin-top: .4mm; }
+
+/* bullet trait list */
+.trait-list{ margin: 0; padding-left: 0; list-style: none; }
+.trait-list li{ position: relative; padding-left: 6mm; margin: 0 0 1.6mm; break-inside: avoid; }
+.trait-list li::before{
+  content: "◆"; position: absolute; left: 1mm; top: 0;
+  color: var(--gold); font-size: 8pt;
+}
+
+/* ---------- Fillable ruled lines ---------- */
+.ruled{ margin-top: 2.4mm; }
+.ruled .rule-line{
+  height: 7.6mm;
+  border-bottom: .5pt solid rgba(93,76,56,.45);
+}
+.ruled.tight .rule-line{ height: 6.2mm; }
+.ruled.notes .rule-line{ height: 8.4mm; }
+
+/* ---------- Tables (weapons, assets, gear) ---------- */
+table.coc{
+  width: 100%; border-collapse: collapse;
+  margin-top: 2.4mm; font-size: 10pt;
+}
+table.coc caption{
+  text-align: left; font-style: italic; color: var(--ink-soft);
+  font-size: 9.5pt; margin-bottom: 1.2mm;
+}
+table.coc th{
+  font-family: var(--font-head);
+  font-size: 7.5pt; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--gold); font-weight: 700;
+  border-bottom: 1pt solid var(--rule);
+  padding: 1.4mm 2mm; text-align: left;
+}
+table.coc td{
+  font-family: var(--font-type);
+  border-bottom: .5pt solid rgba(93,76,56,.4);
+  padding: 1.8mm 2mm; vertical-align: top;
+}
+table.coc tr.blank td{ height: 6.4mm; }
+table.coc td.num{ text-align: center; }
+
+/* ---------- Two-up subsection columns ---------- */
+.cols-2{
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 7mm;
+}
+.subhead{
+  font-family: var(--font-head);
+  font-size: 9.5pt; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink); font-weight: 600;
+  margin: 1mm 0 1.5mm; padding-bottom: .8mm;
+  border-bottom: .5pt dotted var(--rule);
+}
+
+/* ---------- Utility ---------- */
+.page-break{ break-before: page; }
+.note{ font-style: italic; color: var(--ink-soft); font-size: 9.5pt; }
+.keep{ break-inside: avoid; }
