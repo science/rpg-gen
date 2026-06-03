@@ -34,12 +34,15 @@
 /* ---------- Paged media ---------- */
 @page{
   size: letter;
-  margin: 17mm 17mm 17mm 17mm;
+  /* Generous top/bottom margins: the frame sits ~12mm off every edge, with a
+     ~10mm gutter between the frame and the text so the first line clears the
+     top rule and the page number clears the bottom rule. */
+  margin: 22mm 19mm 22mm 19mm;
 
   @top-center{
     content: string(masthead);
     vertical-align: bottom;
-    padding-bottom: 2.5mm;
+    padding-bottom: 3mm;
     font-family: var(--font-head);
     font-size: 7.5pt;
     letter-spacing: .30em;
@@ -49,7 +52,7 @@
   @bottom-center{
     content: "❖   " counter(page) "   ❖";
     vertical-align: top;
-    padding-top: 2.5mm;
+    padding-top: 3mm;
     font-family: var(--font-head);
     font-size: 8pt;
     letter-spacing: .18em;
@@ -84,7 +87,7 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
    gutter so the corner ornaments never collide with the text. */
 .deco-frame{
   position: fixed;
-  top: -7mm; right: -7mm; bottom: -7mm; left: -7mm;
+  top: -10mm; right: -7mm; bottom: -10mm; left: -7mm;
   border: 1.2pt solid var(--stroke);
   pointer-events: none;
 }
@@ -154,7 +157,7 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   gap: 2mm 8mm;
   margin: 3mm 1mm 2mm;
 }
-.field{ display: flex; align-items: baseline; gap: 2.5mm; }
+.field{ display: flex; align-items: stretch; gap: 2.5mm; }
 .field.wide{ grid-column: 1 / -1; }
 .field-label{
   font-family: var(--font-head);
@@ -163,6 +166,9 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
 }
 .field-value{
   flex: 1 1 auto;
+  display: block;  /* block + the row's align-items:stretch gives a single
+                      bottom rule for empty, single-line, and wrapped values
+                      alike (a plain inline span borders each wrapped line). */
   font-family: var(--font-type);
   font-size: 10.5pt; color: var(--ink);
   border-bottom: .5pt solid var(--hair);
