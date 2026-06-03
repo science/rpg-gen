@@ -24,6 +24,7 @@
   --muted:    #666666;   /* labels, kickers, folio */
   --hair:     #9a9a9a;   /* fill-in ruled lines (light grey) */
   --stroke:   #232323;   /* frame, section rules, gems (near-black) */
+  --field-line: 6.5mm;   /* line-height & rule spacing of fill-in fields */
 
   --font-display: "Limelight", "Cinzel", serif;
   --font-head:    "Cinzel", Georgia, serif;
@@ -163,16 +164,21 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   font-family: var(--font-head);
   font-size: 8pt; letter-spacing: .12em; text-transform: uppercase;
   color: var(--muted); white-space: nowrap;
+  line-height: var(--field-line);   /* align label to the first ruled line */
 }
 .field-value{
   flex: 1 1 auto;
-  display: block;  /* block + the row's align-items:stretch gives a single
-                      bottom rule for empty, single-line, and wrapped values
-                      alike (a plain inline span borders each wrapped line). */
   font-family: var(--font-type);
   font-size: 10.5pt; color: var(--ink);
-  border-bottom: .5pt solid var(--hair);
-  min-height: 5.4mm; padding: 0 1mm 0.6mm;
+  line-height: var(--field-line);
+  min-height: var(--field-line);
+  padding: 0 1mm;
+  /* Ruled-paper fill-in: one rule under every line. align-items:stretch
+     makes short/empty fields fill their row, so both cells in a row show
+     the same number of rules. */
+  background-image: repeating-linear-gradient(to bottom,
+      transparent 0, transparent calc(var(--field-line) - .5pt),
+      var(--hair) calc(var(--field-line) - .5pt), var(--hair) var(--field-line));
 }
 
 /* ---------- Section ---------- */
