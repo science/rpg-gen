@@ -156,29 +156,40 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2mm 8mm;
+  align-items: start;   /* don't stretch a short cell to a tall neighbour's height */
   margin: 3mm 1mm 2mm;
 }
-.field{ display: flex; align-items: flex-start; gap: 2.5mm; }
+/* A field is a 2-cell table row: [label] [value]. We deliberately use the CSS
+   *table* model, not flexbox. The fill-in rule is the value cell's border-bottom,
+   and a table-cell border is a single solid stroke drawn exactly once at the cell
+   bottom — for one-line, multi-line, OR empty values alike.
+   Do NOT draw the rule with a repeating-linear-gradient, and do NOT put it on a
+   flex item: WeasyPrint tiles a gradient against the box height (an empty/short
+   flex value renders ~2x too tall, painting a faint *ghost* half-rule below the
+   real one), and it draws a flex item's border under every wrapped line *plus*
+   the box bottom (a ghost under multi-line values). Both ghosts' visibility
+   flips with the render resolution, which is what made the bug seem to come and
+   go. The table-cell border is resolution-stable and never doubles. */
+.field{ display: table; width: 100%; }
 .field.wide{ grid-column: 1 / -1; }
 .field-label{
+  display: table-cell;
+  width: 31mm; vertical-align: top;
+  padding-right: 2.5mm;
   font-family: var(--font-head);
-  font-size: 8pt; letter-spacing: .12em; text-transform: uppercase;
+  font-size: 8pt; letter-spacing: .08em; text-transform: uppercase;
   color: var(--muted); white-space: nowrap;
-  line-height: var(--field-line);   /* align label to the first ruled line */
+  line-height: var(--field-line);   /* align label to the first line of the value */
 }
 .field-value{
-  flex: 1 1 auto;
+  display: table-cell;
+  vertical-align: top;
   font-family: var(--font-type);
   font-size: 10.5pt; color: var(--ink);
   line-height: var(--field-line);
-  min-height: var(--field-line);
+  height: var(--field-line);        /* in the table model this is a *min*: cell grows for more lines */
   padding: 0 1mm;
-  /* Ruled-paper fill-in: one rule under every line. align-items:stretch
-     makes short/empty fields fill their row, so both cells in a row show
-     the same number of rules. */
-  background-image: repeating-linear-gradient(to bottom,
-      transparent 0, transparent calc(var(--field-line) - .5pt),
-      var(--hair) calc(var(--field-line) - .5pt), var(--hair) var(--field-line));
+  border-bottom: .5pt solid var(--hair);
 }
 
 /* ---------- Section ---------- */
