@@ -13,10 +13,10 @@ identity:
   stage_name: "Mademoiselle Mercure"
   billing: "\"The Quicksilver Conjuress — Mistress of the Impossible\""
   sex: "Female"
-  age: 32
+  age: 38
   born: 1889
   occupation: "Stage Magician (Conjurer / Illusionist)"
-  residence: "Providence, Rhode Island (rented rooms; lives largely out of a steamer trunk)"
+  residence: "Boston, Massachusetts (rented rooms; lives largely out of a steamer trunk)"
   status: "Regionally successful — a New England headliner, not yet a national name"
 
 birthplace:
@@ -133,7 +133,7 @@ backstory:
   meaningful_locations:
     - name: "The booking circuit (Boston / Providence / Hartford theaters)"
       desc: "The well-worn triangle of Keith-Albee houses where she headlines. Greasepaint, gaslight, and the smell of dusty velvet — the closest thing she has to home."
-    - name: "Mrs. Doyle's boarding house, Providence"
+    - name: "Mrs. Doyle's boarding house, Boston"
       desc: "Her between-engagements address. A narrow room, a shared bath, a landlady who pretends not to know what 'theatrical' means."
     - name: "Sortwell & Crane, Booksellers (occult/antiquarian shop)"
       desc: "A cramped Providence bookshop where she spends more than she should on works of 'genuine' magic, hunting for the trick behind the universe."
