@@ -192,6 +192,53 @@ p{ margin: 0 0 2.4mm; text-align: justify; hyphens: auto; }
   border-bottom: .5pt solid var(--hair);
 }
 
+/* Identity grid only (page 1, player/character details): rule EVERY line of a
+   value, full width, like ruled writing paper. Two things make this stable in
+   WeasyPrint, which otherwise paints faint "ghost" half-rules:
+
+   1) row-gap: 0. WeasyPrint bleeds a grid cell's background up into the row-gap
+      above it. A *repeating* gradient repeats infinitely in both directions, so
+      it has a rule just above its own origin — which the bleed then exposes as a
+      1px clipped ghost at the top edge of every cell. Removing the row-gap
+      removes the bleed region. (Column spacing is kept via column-gap.)
+
+   2) A NON-repeating gradient, with one rule enumerated per line down to 10
+      lines. Unlike repeating-linear-gradient it is transparent above its first
+      stop and below its last, so even if the background bleeds a few mm into an
+      adjacent margin, there is no rule there to show. Each rule sits in the last
+      .6pt before k x line-height, i.e. just under the k-th line of text; a cell
+      is exactly N x line-height tall, so exactly N rules fall inside it.
+
+   Other id-grids (e.g. Wealth) keep the single border-bottom defined above. */
+.identity-cols{ display: flex; gap: 0 8mm; margin: 3mm 1mm 2mm; }
+.identity-col{ flex: 1 1 0; min-width: 0; }
+.identity-grid .field-value{
+  border-bottom: none;
+  background-image: linear-gradient(to bottom,
+      transparent 0,
+      transparent calc(1 * var(--field-line) - .6pt),  var(--hair) calc(1 * var(--field-line) - .6pt),  var(--hair) calc(1 * var(--field-line)),  transparent calc(1 * var(--field-line)),
+      transparent calc(2 * var(--field-line) - .6pt),  var(--hair) calc(2 * var(--field-line) - .6pt),  var(--hair) calc(2 * var(--field-line)),  transparent calc(2 * var(--field-line)),
+      transparent calc(3 * var(--field-line) - .6pt),  var(--hair) calc(3 * var(--field-line) - .6pt),  var(--hair) calc(3 * var(--field-line)),  transparent calc(3 * var(--field-line)),
+      transparent calc(4 * var(--field-line) - .6pt),  var(--hair) calc(4 * var(--field-line) - .6pt),  var(--hair) calc(4 * var(--field-line)),  transparent calc(4 * var(--field-line)),
+      transparent calc(5 * var(--field-line) - .6pt),  var(--hair) calc(5 * var(--field-line) - .6pt),  var(--hair) calc(5 * var(--field-line)),  transparent calc(5 * var(--field-line)),
+      transparent calc(6 * var(--field-line) - .6pt),  var(--hair) calc(6 * var(--field-line) - .6pt),  var(--hair) calc(6 * var(--field-line)),  transparent calc(6 * var(--field-line)),
+      transparent calc(7 * var(--field-line) - .6pt),  var(--hair) calc(7 * var(--field-line) - .6pt),  var(--hair) calc(7 * var(--field-line)),  transparent calc(7 * var(--field-line)),
+      transparent calc(8 * var(--field-line) - .6pt),  var(--hair) calc(8 * var(--field-line) - .6pt),  var(--hair) calc(8 * var(--field-line)),  transparent calc(8 * var(--field-line)),
+      transparent calc(9 * var(--field-line) - .6pt),  var(--hair) calc(9 * var(--field-line) - .6pt),  var(--hair) calc(9 * var(--field-line)),  transparent calc(9 * var(--field-line)),
+      transparent calc(10 * var(--field-line) - .6pt), var(--hair) calc(10 * var(--field-line) - .6pt), var(--hair) calc(10 * var(--field-line)), transparent calc(10 * var(--field-line)));
+}
+/* A *blank* identity field can't use the gradient: an empty cell at the top of a
+   grid row gets stretched to the row height and the gradient then shows a faint
+   seam / extra hair. Instead draw its single rule with a border on a fixed,
+   one-line inner block — content-sized and top-aligned, so it lands on the first
+   line regardless of how tall the grid stretches the cell. */
+.identity-grid .field-value.blank{ background-image: none; }
+.identity-grid .field-value.blank .fill-rule{
+  display: block;
+  height: var(--field-line);
+  border-bottom: .5pt solid var(--hair);
+}
+
 /* ---------- Section ---------- */
 .sheet-section{ margin: 5.5mm 0 3mm; }
 

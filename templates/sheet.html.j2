@@ -29,15 +29,24 @@
 
 {{ m.deco_bar() }}
 
-<div class="id-grid">
-  {{ m.field('Player', '') }}
-  {{ m.field('Occupation', c.identity.occupation) }}
-  {{ m.field('Birthplace', c.birthplace.location if c.birthplace else '') }}
-  {{ m.field('Age', c.identity.age) }}
-  {{ m.field('Sex', c.identity.sex) }}
-  {{ m.field('Residence', c.identity.residence) }}
-  {{ m.field('Era / Setting', c.meta.setting if c.meta else '') }}
-  {{ m.field('Standing', c.identity.status) }}
+{# Two independent column stacks (NOT a 2-col grid). A grid couples the two
+   cells in each row to a shared height, which stretches the shorter cell and
+   makes the per-line gradient bleed a faint rule at the row boundary. Stacking
+   each column independently keeps every value cell exactly its own content
+   height, so the ruling stays clean. #}
+<div class="identity-cols">
+  <div class="identity-col identity-grid">
+    {{ m.field('Player', '') }}
+    {{ m.field('Birthplace', c.birthplace.location if c.birthplace else '') }}
+    {{ m.field('Sex', c.identity.sex) }}
+    {{ m.field('Era / Setting', c.meta.setting if c.meta else '') }}
+  </div>
+  <div class="identity-col identity-grid">
+    {{ m.field('Occupation', c.identity.occupation) }}
+    {{ m.field('Age', c.identity.age) }}
+    {{ m.field('Residence', c.identity.residence) }}
+    {{ m.field('Standing', c.identity.status) }}
+  </div>
 </div>
 
 {# ============================= BACKSTORY ============================= #}

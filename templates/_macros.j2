@@ -21,9 +21,14 @@
 </section>
 {%- endmacro -%}
 
-{# A labelled fill-in field. #}
+{# A labelled fill-in field. Blank fields carry a `.blank` flag and an inner
+   `.fill-rule` element: in the identity grid that inner block draws the single
+   rule (the per-line gradient is dropped for blanks, which otherwise picks up a
+   faint top-edge seam / cell-stretch ghost). Elsewhere the inner element is inert
+   and the cell's own border-bottom shows. #}
 {%- macro field(label, value='', wide=false) -%}
-<div class="field{% if wide %} wide{% endif %}"><span class="field-label">{{ label }}</span><span class="field-value">{{ value if value is not none else '' }}</span></div>
+{%- set _v = '' if value is none else value | string -%}
+<div class="field{% if wide %} wide{% endif %}"><span class="field-label">{{ label }}</span><span class="field-value{% if _v | trim == '' %} blank{% endif %}">{% if _v | trim == '' %}<span class="fill-rule"></span>{% else %}{{ _v }}{% endif %}</span></div>
 {%- endmacro -%}
 
 {# N blank ruled lines for player fill-in / growth over time. #}
