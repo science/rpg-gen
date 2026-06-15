@@ -1,0 +1,152 @@
+--- # Call of Cthulhu 7e — Investigator Backstory Metadata (TEMPLATE)
+#
+# Copy this file to characters/<name>.yaml and fill it in. The `.yaml.example`
+# extension keeps it out of `build.py --all` (which globs characters/*.yaml),
+# so the template never renders as a real investigator.
+#
+#   cp characters/_template.yaml.example characters/jones.yaml
+#   ../.venv/bin/python build.py jones --html-only
+#
+# The renderer is TOLERANT: every section is optional. Anything missing (or
+# present-but-empty) prints as blank, ruled fill-in space — by design, so a
+# sheet is useful from session zero and grows over play. Delete sections you
+# don't need; unknown keys are simply ignored. See docs/metadata-schema.md for
+# the authoritative field list, and characters/mercure.yaml for a worked example.
+
+meta:
+  schema_version: 1
+  ruleset: "Call of Cthulhu 7th Edition"
+  setting: "New England, 1921 (classic era)"   # shown in the ID grid
+  role: "Player Character"
+
+identity:
+  legal_name: "Full legal name"                 # nameplate sub-line
+  known_as: "“Nickname”"                         # optional; include your own quotes — rendered verbatim
+  stage_name: ""                                 # big masthead title; OMIT to fall back to legal_name (performer-specific)
+  billing: ""                                    # italic sub-title under the masthead; a one-line descriptor/tagline
+  sex: "Female / Male / ..."
+  age: 30
+  born: 1891
+  occupation: "Their trade"
+  residence: "City, State (and the kind of lodging)"
+  status: "Social standing in a few words"       # rendered as 'Standing'
+
+birthplace:
+  location: "Town, State"                         # shown in the ID grid
+  notes: >
+    Reference-only prose (NOT rendered on the sheet). Where they come from and
+    the shape of the family/world that made them. Good place to ground a complex
+    background concretely and historically.
+
+# Reference-only (NOT rendered). The arc of their working life — a quick scaffold
+# that keeps the backstory prose consistent. Rename/repurpose fields freely.
+career_arc:
+  origin: "How they came to their trade"
+  current_standing: "Where they stand in it now"
+  unreached_ambition: "What they're still reaching for"
+  current_mood: >
+    The emotional weather they carry into session one — the engine of their
+    motivation. Make this concrete; it's what the player inhabits.
+
+# Carried on their person. Useful in a pinch, rarely decisive. Aim for ~10-14
+# items that (a) characterise the person and (b) give the Keeper improv hooks.
+# Coordinate across the party so signature gear doesn't overlap.
+pocket_litter:
+  - item: "An item"
+    desc: "What it is, where it came from, and the handful of ways it's useful."
+
+backstory:
+
+  personal_description: >
+    How they read to a stranger across a room — appearance, bearing, the tell
+    that gives away their trade. One rich paragraph.
+
+  ideology_beliefs: >
+    What they believe and want, and the contradiction at the core of them. This
+    is the heart of the sheet — tie their worldview to the seed of their pull
+    toward the Mythos (skeptic-who-wants-to-believe, materialist-who-saw-a-crack,
+    devout-confronting-blasphemy, etc.).
+
+  significant_people:                             # list of {name, relation, desc}
+    - name: "A mentor (often deceased)"
+      relation: "Mentor"
+      desc: >
+        Who shaped them and how. A dead or distant mentor doubles as a motivation
+        engine and a mystery hook.
+    - name: "A rival / antagonist"
+      relation: "Rival"
+      desc: "Someone with reason to oppose them — a standing source of pressure."
+    - name: "A loyal confidant"
+      relation: "Confidant"
+      desc: "The one who knows them and stays anyway."
+    - name: "Family"
+      relation: "Kin"
+      desc: "A tie to where they came from — often strained by the life they chose."
+
+  meaningful_locations:                           # list of {name, desc}
+    - name: "Their workplace / haunt"
+      desc: "The room they're most themselves in."
+    - name: "A social hub"
+      desc: "Where their people gather — a natural scene-setting/contact location."
+    - name: "A place tied to their secret interest"
+      desc: "Where the occult thread quietly lives (e.g., an antiquarian bookshop)."
+    - name: "Home / roots"
+      desc: "The place that anchors everything they are and everything they fled."
+
+  treasured_possessions:                          # list of {name, desc}
+    - name: "A mentor's keepsake"
+      desc: "Carried always; the past made portable."
+    - name: "A tool of the trade"
+      desc: "The object that says what they do."
+    - name: "A family heirloom"
+      desc: "The one thing that travels from the old life into the new."
+    - name: "An arcane volume / artifact"
+      desc: "A Keeper hook — stats / sanity / spell content TBD by the Keeper."
+
+  character_traits:                               # list of strings (bulleted)
+    - "A signature skill or instinct"
+    - "A defining strength"
+    - "A flaw or tension that creates drama"
+    - "The contradiction that makes them human"
+
+# --- Optional sections (added for the secondary sheets) -----------------------
+# All optional; omit any to print blank fill-in space.
+
+wealth:
+  spending_level: "e.g. Average ($10/day) / Poor ($2/day)"
+  cash: "$__ on hand"
+  assets: "$____"
+  credit_rating: "00"
+  asset_details:
+    - "A notable asset"
+
+inventory:
+  gear:                                           # everyday kit beyond pocket litter
+    - item: "An item"
+      desc: "What it is."
+
+weapons:                                          # standard 7e combat row
+  - name: "Weapon"
+    skill: "00"
+    damage: "1D__"
+    range: "__ yds"
+    attacks: "1"
+    ammo: "__"
+    malfunction: "100"
+
+# These accrue over play — usually left blank at session zero.
+injuries_scars:
+  - {name: "", desc: ""}
+phobias_manias:
+  - {name: "", desc: ""}
+arcane:                                            # tomes, spells, artifacts
+  - {name: "", type: "", notes: ""}
+encounters:                                        # strange entities met
+  - {name: "", desc: ""}
+
+# --- Keeper notes (NOT rendered on the player sheet) --------------------------
+keeper_notes:
+  hooks:
+    - "How this backstory feeds the campaign — leverage, mysteries, Mythos on-ramps."
+  suggested_skills_flavor: ["Skill", "Skill", "Skill"]
+  note: "Numeric stats/skills intentionally omitted — this file is backstory metadata only."

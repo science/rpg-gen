@@ -8,13 +8,13 @@ meta:
   role: "Player Character (new player)"
 
 identity:
-  legal_name: "Esther Mae Calloway"
-  known_as: "Essie (to old friends and family)"
-  stage_name: "Mademoiselle Mercure"
-  billing: "\"The Quicksilver Conjuress — Mistress of the Impossible\""
-  sex: "Female"
+  legal_name: "Liang Mei-Yan"
+  known_as: "“Essie” (the mission-school ‘Esther,’ to old friends and family)"
+  stage_name: "Monsieur Mercure"
+  billing: "\"The Quicksilver Conjurer — Master of the Impossible\""
+  sex: "Female (performs and books as a man)"
   age: 38
-  born: 1889
+  born: 1883
   occupation: "Stage Magician (Conjurer / Illusionist)"
   residence: "Boston, Massachusetts (rented rooms; lives largely out of a steamer trunk)"
   status: "Regionally successful — a New England headliner, not yet a national name"
@@ -22,30 +22,42 @@ identity:
 birthplace:
   location: "A tenant farm outside Loogootee, Martin County, Indiana"
   notes: >
-    Born poor on rented dirt in the southern Indiana hills — close enough to
-    nowhere that the nearest real entertainment was whatever rolled through on
-    the rails. Essie learned her first sleights from a broken-down medicine-show
-    conjurer who wintered in the county, then ran off at sixteen to work the
-    "small time": county fairs, tent shows, dime museums, and the brutal
-    third-rate vaudeville circuits that performers called the "death trail."
-    Years of podunk one-night stands in Indiana, Ohio, and Kentucky taught her
-    to read a hostile crowd, fix a balky prop with a hairpin, and never let them
-    see her sweat. "Making it big" carried her east: she now headlines the
-    middle of the bill at respectable Keith-Albee houses in Boston, Providence,
-    and Hartford. For any conjurer that is a real career; for a woman, against
-    every odd in a trade that belongs to men, it is genuinely remarkable. But
-    the Palace Theatre in New York and the London Coliseum — the rooms that make
-    a Houdini — have so far stayed just out of reach.
+    Born poor on rented dirt in the southern Indiana hills — the daughter of
+    Cantonese immigrants who had drifted inland from the railroad camps to farm
+    tobacco and truck crops nobody else wanted. The only Chinese family for
+    fifty miles, close enough to nowhere that the nearest real entertainment was
+    whatever rolled through on the rails. The mission school christened her
+    Esther; her mother only ever called her Mei-Yan. She learned her first
+    sleights from a broken-down medicine-show conjurer who wintered in the
+    county, then ran off at sixteen to work the "small time": county fairs, tent
+    shows, dime museums, and the brutal third-rate vaudeville circuits that
+    performers called the "death trail." It was there she learned the lesson
+    that made her — that a girl doing magic was a novelty: gawked at, pawed at,
+    never believed. The bills wanted ankles, not miracles. So she cut her hair,
+    bound her chest, dropped her voice, and walked back on as a slight,
+    beardless young gentleman of "the mysterious Orient" — and for the first
+    time the crowd watched her hands instead of her figure. Monsieur Mercure
+    headlined where the girl never could. Years of podunk one-night stands in
+    Indiana, Ohio, and Kentucky taught her to read a hostile crowd, fix a balky
+    prop with a hairpin, and never let them see her sweat — or guess. "Making it
+    big" carried her east: Monsieur Mercure now headlines the middle of the bill
+    at respectable Keith-Albee houses in Boston, Providence, and Hartford. For
+    any conjurer that is a real career; for a Chinese farm girl passing as a man,
+    against every odd in a trade that belongs to white men, it is genuinely
+    remarkable. But the Palace Theatre in New York and the London Coliseum — the
+    rooms that make a Houdini — have so far stayed just out of reach.
 
 career_arc:
-  origin: "Self-taught off a medicine-show magician; apprenticed on the road"
+  origin: "Self-taught off a medicine-show magician; apprenticed on the road — and reinvented herself as a man to be allowed onstage at all"
   circuits_worked: ["County fairs & tent shows", "Dime museums", "Small-time vaudeville (the 'death trail')", "Keith-Albee 'big time' (New England)"]
-  current_standing: "Established New England headliner; respected within the trade"
+  current_standing: "Established New England headliner; respected within the trade — as Monsieur Mercure"
   unreached_ambition: "A breakout at the Palace (NYC) or the Coliseum (London) — true national/international fame"
   current_mood: >
     Tired. Talented and proven, but disillusioned — twenty years of pretending
-    to do the impossible for people who only want to be fooled. The applause has
-    started to feel like an accusation.
+    to do the impossible for people who only want to be fooled, and twenty years
+    of being someone else to be allowed to do it at all. The applause has started
+    to feel like an accusation, and she is no longer sure whether it's meant for
+    the magic, or for the man who doesn't exist.
 
 # Items carried on her person. Useful in a pinch, never decisive.
 # (Deliberately NO flash powder — another investigator carries that.)
@@ -63,32 +75,39 @@ pocket_litter:
   - item: "Pocket notebook of routines"
     desc: "Patter, cues, and stage diagrams written in her own personal shorthand — unreadable to anyone else. Blank pages at the back for notes."
   - item: "Cigarette case with false bottom"
-    desc: "Battered silver, monogrammed E.M.C. Holds cigarettes above and a hidden shallow compartment below (a key, a card, a folded bill)."
+    desc: "Battered silver, engraved with a stylized 'M' for Mercure. Holds cigarettes above and a hidden shallow compartment below (a key, a card, a folded bill — and, at the very bottom, a child's tin star)."
+  - item: "Greasepaint, stage rouge & spirit gum"
+    desc: "Her working face in a dented tin — and the kit that builds Monsieur Mercure: greasepaint to harden a soft jaw, spirit gum and a touch of crepe hair, a smudge of shadow to age and square the face. Can also mark a surface, disguise a complexion, or doctor an appearance."
   - item: "Skeleton key on a ribbon"
     desc: "Opens the standard warded locks of cheap theaters, dressing rooms, and boarding houses across the circuit. Won't touch a good modern lock."
-  - item: "Tin of stage rouge & a stick of greasepaint"
-    desc: "Her working face in a dented tin. Can also be used to mark a surface, disguise a complexion, or doctor an appearance."
+  - item: "Spare length of binding cloth"
+    desc: "A rolled strip of soft, strong linen, flat as a handkerchief in a pocket. Half of Monsieur Mercure's silhouette; also a ready bandage, sling, or lashing."
   - item: "Pawn ticket"
     desc: "For a good winter coat, hocked in March and not yet redeemed. A small, honest measure of how the money actually goes."
   - item: "Stack of calling cards"
-    desc: "\"Mademoiselle Mercure — Mysteries Performed\" in silver ink, with a booking agent's address. Handed out freely; opens a surprising number of doors."
-  - item: "Folded handbill of herself"
-    desc: "A lurid one-sheet from a Hartford engagement — her in a spangled costume wreathed in 'spirit' smoke. Kept for ID, vanity, and bitter amusement."
+    desc: "\"Monsieur Mercure — Mysteries Performed\" in silver ink, with a booking agent's address. Handed out freely; opens a surprising number of doors."
+  - item: "Folded handbill of himself"
+    desc: "A lurid one-sheet from a Hartford engagement — Monsieur Mercure in tails and a silk-lined cape, wreathed in 'spirit' smoke, hands fanned with impossible cards. Kept for ID, vanity, and bitter amusement at how completely it works."
   - item: "Mercury dime on a bent pin"
-    desc: "A 'lucky' Winged Liberty dime she's carried since the death trail. Not magic — but she'd be uneasy without it, and half-hopes one day it might be."
+    desc: "A 'lucky' Winged Liberty dime she's carried since the death trail — quicksilver, the metal that slips any grip and takes any shape, like its owner. Not magic, but she'd be uneasy without it, and half-hopes one day it might be."
 
 backstory:
 
   personal_description: >
-    A trim, watchful woman in her early thirties with quick hands and quicker
+    A trim, watchful person in their late thirties with quick hands and quicker
     eyes — the kind that catalogue a room's exits and its marks without seeming
-    to move. Dark hair bobbed short and practical (easier under wigs and turbans),
-    a stage-trained voice that can fill a theater or drop to a confiding murmur,
-    and a smile she can switch on like a footlight. Offstage she favors plain,
-    well-cut traveling clothes going slightly threadbare at the cuffs; onstage
-    she is all spangles, silk, and manufactured mystery. Her fingers are never
-    quite still. People consistently underestimate her — a mistake she has spent
-    twenty years learning to profit from.
+    to move. To the world this is Monsieur Mercure: a slight, beardless young
+    gentleman of some indeterminate foreign extraction, dark hair cut short and
+    slicked, jaw squared with greasepaint, voice pitched low and dry, chest bound
+    flat beneath a well-cut shirt. The disguise is total and twenty years
+    practiced — Mei-Yan's fine features and small frame read, to a public that
+    expects a man, as merely a delicate one. Offstage and in private she sheds
+    the collar, if rarely the wariness; onstage Mercure is all silk,
+    misdirection, and manufactured mystery. The fingers are never quite still.
+    People consistently underestimate the quiet foreign gentleman — a mistake she
+    has spent twenty years learning to profit from. The grandest illusion
+    Monsieur Mercure performs each night is the one the audience is never even
+    aware is being performed at all.
 
   ideology_beliefs: >
     She knows, better than almost anyone alive, exactly how a miracle is faked —
@@ -98,51 +117,73 @@ backstory:
     fakes are this good, what would the *real* thing even look like? She is a
     rationalist who desperately wants to be wrong. She resents earning her bread
     as a liar, and tells herself that if true power exists, she has earned the
-    right to find it. Privately she keeps a short, growing list of things she has
-    seen that she genuinely cannot explain.
+    right to find it. She knows better than anyone that what a crowd sees and
+    what is true are different things — she has built her whole life on that gap,
+    onstage and off — which only sharpens the question: if she can sell a lie
+    this complete, what might the universe be selling her? And lately it is more
+    than a theory. She has begun to catch glimpses of something else — something
+    inexplicable — in the shadows beyond the footlights while she performs.
+    Sometimes her magic seems to conjure something genuinely there: a presence
+    summoned, it feels, for her alone. It stays always just out of sight —
+    intangible, yet unmistakably present, if not quite real, or quite of this
+    world. Privately she keeps a short, growing list of the things she cannot
+    explain, and she is determined to learn what they are — she simply cannot
+    find the path to do it.
 
   significant_people:
     - name: "Hieronymus 'Old Hank' Pratt"
       relation: "Mentor (deceased)"
       desc: >
         The washed-up medicine-show conjurer who taught a farm girl her first
-        false shuffle and told her she had 'the hands.' Drank himself into a
-        pauper's grave. She measures every trick against what Hank would have
-        said, and never quite forgave him for dying broke.
+        false shuffle and told her she had 'the hands.' When the death trail was
+        grinding her down — a girl billed as a curiosity, never a marvel — Hank
+        was the one who told her what to do about it: "If the world wants an
+        incredible male magician, then give them what they want, which is what
+        truly great entertainers always do. Just don't lose yourself and what
+        makes you great in the process." She did the first half. She is no longer
+        certain about the second. He drank himself into a pauper's grave; she
+        measures every trick against what Hank would have said, and never quite
+        forgave him for dying broke.
     - name: "Cornelius Vane"
       relation: "Rival / 'celebrated' spirit medium"
       desc: >
         A polished, fashionable Boston medium with wealthy clients. She knows his
         act is stagecraft because half of it is hers, stolen. He knows she knows.
+        He may also be the one man in Boston who suspects there is a woman under
+        Monsieur Mercure's collar — and a word in the wrong ear would end her.
         Their mutual loathing is professional, personal, and one séance away from
         something worse.
     - name: "Samuel Okafor"
       relation: "Stagehand & confidant (loyal)"
       desc: >
         Her box-builder, prop-man, and the only person who knows how every
-        illusion works. Steady where she is restless. He worries she is chasing
-        something that will get them both killed, and follows her anyway.
-    - name: "Ruth Calloway Henson"
+        illusion works — including the one she performs every waking hour. Steady
+        where she is restless. He worries she is chasing something that will get
+        them both killed, and follows her anyway.
+    - name: "Liang Mei-Zhen ('Ruth')"
       relation: "Younger sister (estranged-ish)"
       desc: >
-        Still on the land back in Indiana, married to a Methodist who thinks the
-        stage is a half-step from the brothel. They exchange dutiful letters at
-        Christmas. Ruth is the life Essie ran from — and the one she's not sure
-        she should have.
+        Still on the Indiana land, baptized Ruth at the same mission and married
+        to a Methodist who thinks the stage is a half-step from the brothel — and
+        who has never been told the half of what her brother-in-law actually is.
+        They exchange dutiful letters at Christmas. Ruth is the life Mei-Yan ran
+        from — and the one she's not sure she should have.
 
   meaningful_locations:
     - name: "The booking circuit (Boston / Providence / Hartford theaters)"
-      desc: "The well-worn triangle of Keith-Albee houses where she headlines. Greasepaint, gaslight, and the smell of dusty velvet — the closest thing she has to home."
+      desc: "The well-worn triangle of Keith-Albee houses where Monsieur Mercure headlines. Greasepaint, gaslight, and the smell of dusty velvet — the closest thing she has to home."
     - name: "Mrs. Doyle's boarding house, Boston"
-      desc: "Her between-engagements address. A narrow room, a shared bath, a landlady who pretends not to know what 'theatrical' means."
+      desc: "Her between-engagements address, taken as Monsieur Mercure — a narrow room, a shared bath she can never quite use in peace, and a landlady who believes him a quiet foreign gentleman of the theater and asks no questions."
     - name: "Sortwell & Crane, Booksellers (occult/antiquarian shop)"
       desc: "A cramped Providence bookshop where she spends more than she should on works of 'genuine' magic, hunting for the trick behind the universe."
     - name: "The Loogootee farm, Indiana"
-      desc: "The rented dirt she was born on and swore she'd never return to. It anchors everything she is and everything she's running from."
+      desc: "The rented dirt she was born on and swore she'd never return to — the tobacco rows, the mission chapel, and the only Chinese graves in the county. It anchors everything she is and everything she's running from."
 
   treasured_possessions:
     - name: "Old Hank's cards"
       desc: "The mentor's own deck — soft as cloth, edges rounded by a lifetime of shuffles. She performs with newer cards but keeps these on her always. She does not let people touch them."
+    - name: "Her mother's jade pendant"
+      desc: "A small, cloudy disc of green jade on a worn cord — the one thing her mother carried from Guangdong. She wears it under her shirt and binding, against the skin, where no audience and no landlady will ever see it. It is the only part of Mei-Yan that goes onstage every night."
     - name: "The Spirit Cabinet"
       desc: "Her signature illusion — a curtained cabinet from which 'the dead' speak. Built by Sam. The trick that made her name in New England, and the one she's grown to hate performing."
     - name: "A water-stained occult volume"
@@ -152,17 +193,19 @@ backstory:
 
   character_traits:
     - "Quick-fingered and observant — reads marks, tells, and exits by instinct"
-    - "A consummate performer: charming, composed, and an effortless liar under pressure"
-    - "Restless and ambitious, but bone-tired of her own act"
+    - "A consummate performer on both sides of the curtain — charming, composed, and an effortless liar under pressure"
+    - "Restless and ambitious, but bone-tired of her own act — both of them"
     - "Skeptic by trade, secret believer by temperament — hungry for a real miracle"
     - "Fiercely self-reliant; trusts very few, but utterly loyal to those few"
     - "Carries a working-class chip on her shoulder and a fear of dying broke like her mentor"
+    - "Lives her most perfect illusion offstage: a Chinese woman the world only ever sees as a slight, elegant, remarkable man"
 
 # --- Keeper notes (not for the player sheet) ---
 keeper_notes:
   hooks:
     - "Cornelius Vane and the occult volume both point toward genuine Mythos exposure — her professional skepticism makes her a perfect skeptic-to-believer arc."
+    - "Vane's suspicion about who Monsieur Mercure really is is a standing blackmail/leverage hook, entirely separate from the Mythos — exposure would cost her the career, not her sanity."
     - "The Spirit Cabinet and séance work give natural reasons to be hired by, or drawn into, the affairs of the credulous wealthy."
-    - "Lock picks, palming, performance, and observation map cleanly to investigation/infiltration utility without making her a combatant."
-  suggested_skills_flavor: ["Sleight of Hand", "Locksmith", "Charm", "Fast Talk", "Psychology", "Spot Hidden", "Art/Craft (Stage Magic)", "Library Use", "Occult"]
+    - "Lock picks, palming, performance, disguise, and observation map cleanly to investigation/infiltration utility without making her a combatant."
+  suggested_skills_flavor: ["Sleight of Hand", "Disguise", "Locksmith", "Charm", "Fast Talk", "Psychology", "Spot Hidden", "Art/Craft (Stage Magic)", "Library Use", "Occult"]
   note: "Numeric stats/skills intentionally omitted — this file is backstory metadata only."

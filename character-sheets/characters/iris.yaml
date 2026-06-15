@@ -1,0 +1,239 @@
+--- # Call of Cthulhu 7e — Investigator Backstory Metadata
+# Setting: New England, 1921. Format kept simple/flat for downstream sheet generation.
+# Player: Sam.  Drafted from Sam's brief — a working-class organizer with an
+# intimidation/driving/mechanical niche, deliberately UNLIKE the party's
+# "thinking" roles. See keeper_notes.table_convention for how race is handled.
+
+meta:
+  schema_version: 1
+  ruleset: "Call of Cthulhu 7th Edition"
+  setting: "New England, 1921 (classic era)"
+  role: "Player Character (Sam)"
+
+identity:
+  legal_name: "Iris Amina Bose"
+  known_as: "“Bose” on the night line; “Sister Bose” to the union men"
+  stage_name: ""                          # not a performer — masthead falls back to legal name
+  billing: "Boston Night-Hack · Cab-Drivers' Union Woman"
+  sex: "Female"
+  age: 30
+  born: 1891
+  occupation: "Taxicab driver (night shift) & cab-drivers' union organizer"
+  residence: "Boston, Massachusetts (a rented back room in the South End)"
+  status: "Working poor — but known, owed, and trusted up and down the night line"
+
+birthplace:
+  location: "New Bedford, Massachusetts"
+  notes: >
+    Born on the wrong side of the New Bedford wharves, into the most ordinary
+    thing that mixed harbor ever made: a family no stranger could place. The
+    whaling fleet had crewed itself from the whole world for a century, and when
+    the oil money dried up it left its sailors behind on the docks — Azoreans
+    and Cape Verdeans, Wampanoag and West Indians, and a scattering of men who'd
+    shipped out of the Indian Ocean ports. Iris's mother, Cora, came of an old
+    free-Black New Bedford family — caulkers, laundresses, and a deacon or two
+    going back before the war. Her father, Hari Bose, was a ship's fireman: a
+    Calcutta-born stoker of Bengali and Malay blood himself, the son of a lascar
+    and a Penang dock woman, who'd fed coal to boilers from Singapore to the
+    Azores before the sea spat him out in New Bedford with a bad lung and a
+    steady woman. So Iris is, by the careful arithmetic the world likes to do,
+    African, Subcontinental, and Southeast Asian — and by the only arithmetic she
+    has ever cared about, a New England girl who grew up on chowder and chapel,
+    union talk and the King James Bible, the same as every other dockside kid she
+    ran with. The heritage is simply hers, the way a harbor is salt: it explains
+    a great deal and centers nothing. New Bedford taught her engines and weather
+    and how a working family gets squeezed; Boston is where she went to do
+    something about it.
+
+career_arc:
+  origin: >
+    Drifted into the garages doing the only steady-paying thing a girl handy with
+    a wrench could get near — washing and cranking cabs — then talked her way
+    behind the wheel. Old Yakov Reuben gave her the route, the trade, and the
+    politics.
+  current_standing: "A fixture of the Boston night line: a reliable hack, a feared steward, and the rank-and-file's unofficial conscience"
+  unreached_ambition: "A real chartered union and a strike that holds — and, quietly, to learn what it is she keeps half-seeing out past the headlamps"
+  current_mood: >
+    Burning, and lately grieving. Yakov is six weeks in the ground and the local
+    is leaderless and frightened, the company pressing its advantage. She is
+    angrier and more alone than she has been in years — and that grief has cracked
+    something open: the old man's strange talk of "the other side," which she
+    spent a decade indulging as the harmless eccentricity of a brilliant man, has
+    stopped sounding like talk. She wants the union won. She also, for the first
+    time, wants to know if Yakov was right.
+
+# Items carried on her person. Useful in a pinch, never decisive.
+# Built to her niche (drive / mechanical / intimidate) and kept clear of the
+# party's performer and gentleman investigators' kit.
+pocket_litter:
+  - item: "Starting crank"
+    desc: "A heavy iron hand-crank for a balky engine, slid under the seat or through a belt loop. Starts the cab; in a tight spot it is also eighteen inches of forged persuasion, and everyone who's seen her hold it understands the second use."
+  - item: "Union book & a fan of red cards"
+    desc: "Her dog-eared local membership book and a sheaf of blank cards. Signing a man up takes thirty seconds at a cab stand; she does it constantly, and the boss's men know it."
+  - item: "Roll of nickels"
+    desc: "Fare-making change in a tight paper roll — and, closed in a fist, a quiet way to make a point land harder than an open hand would. Working-girl brass knuckles."
+  - item: "Hack license & numbered badge"
+    desc: "City of Boston hackney license and the tin medallion that says she is allowed to be behind that wheel at all. Hard-won; she is one of a literal handful of women on the line, and the paper is armor."
+  - item: "Fare ledger / night notebook"
+    desc: "Where she logs fares, plate numbers, and odd addresses — and, in the back, where she drafts leaflets and keeps a private list of the things she's watched the night do that fares and weather don't explain."
+  - item: "A cheap manifesto & an older pamphlet"
+    desc: "A nickel reprint of something seditious for the slow hours — and folded inside it, a brittle, hand-set pamphlet from Yakov's effects, all woodcuts and Hebrew she can't read, that she carries because she can't make herself put it down."
+  - item: "Leather sap"
+    desc: "A flat blackjack in a coat pocket. She would rather win a man with the truth and a hard stare; the sap is for when the company's bruisers decline the truth."
+  - item: "Tools & a tin of patches"
+    desc: "Pliers, a spanner, friction tape, and a tire-repair kit rolled in oilcloth. She can get a dead engine breathing or a flat rolling faster than most garage men, and has talked her way out of trouble by simply being the only one present who can make the machine go."
+  - item: "Dented hip flask"
+    desc: "Rye, in the Year of Our Prohibition One. Half for the cold of a January box-seat, half for hospitality — a pull from the flask has opened more night-watchmen than money ever has."
+  - item: "Pocket street atlas, heavily marked"
+    desc: "Every shortcut, one-way, dead end, blind alley, and after-hours back door in Boston, annotated in her own hand. She can lose a tail or reach a dock gate three ways from memory; the book is for everyone else."
+  - item: "Stub of carpenter's pencil & a card of matches"
+    desc: "For ledgers, leaflets, a license plate scratched on a cuff, or a light. The matches have lit more cigarettes for nervous men she's recruiting than for herself."
+  - item: "Yakov's hamsa charm"
+    desc: "A small, worn brass hand on a bootlace — an open palm with an eye in it, the old man's protection against the evil eye, pressed on her at the hospital. Not magic, she tells herself, the same way her partner-in-the-trade told herself the dime wasn't. She'd be uneasy without it, and half-hopes one night it earns its keep."
+
+backstory:
+
+  personal_description: >
+    A solid, unhurried woman of thirty in a man's overcoat and a chauffeur's
+    flat cap, with grease worked permanently into the creases of strong hands and
+    a stillness that reads, correctly, as someone deciding whether you're worth
+    the trouble. Her features don't sort into any tidy box a 1921 stranger reaches
+    for — she has been taken for Portuguese, for Italian, for "Spanish," for a
+    dozen things she is not, and she lets every wrong guess stand because a person
+    the world can't file is a person the world watches but can't quite pin. She
+    does not raise her voice. She doesn't have to; she has the rare gift of making
+    a room feel that the most dangerous thing in it is the quiet woman by the door,
+    and she has learned exactly what that gift is worth at a picket line and a
+    police barricade alike. Where the rest of her company will smile, charm, and
+    talk fast, Iris simply holds your eye until you decide to be reasonable. Off
+    the line she is warmer than the cap suggests — quick to laugh, quicker to do a
+    kindness she'll deny — but the watchfulness never fully switches off. It was
+    bought too dearly.
+
+  ideology_beliefs: >
+    She is a materialist to the marrow: there are owners and there are workers, the
+    first take from the second, and every ghost story ever told was cooked up to
+    keep the second sort looking at heaven instead of at the ledger. She believes
+    in the union, in the strike, in the plain arithmetic of who does the labor and
+    who keeps the take, and she has organized cold barns full of frightened men on
+    nothing but that arithmetic and her own flat certainty. And yet. You drive a
+    city at three in the morning for ten years and you start to keep a second list —
+    the fare who got in at the cemetery gate and was gone from a locked cab at the
+    next light; the same drowned man's face in the harbor fog three winters running;
+    the streets that don't run, some nights, the way the atlas swears they do.
+    She filed all of it under exhaustion and bad gin, because the alternative
+    insulted everything she believes. Then Yakov — the sharpest, least foolish man
+    she ever knew — spent his last clear hour telling her, plainly and without fear,
+    about the *sitra achra*, "the other side," and asking her to keep his books safe.
+    Now she reads his old volumes the way she once read Marx: late, hungry,
+    pencil in hand, hunting the hard kernel of fact inside the husk of
+    superstition. Because that is the thing she cannot shake — that superstition is
+    how frightened people *mis*-remember something that was really there. Most of it
+    is claptrap. She is a rationalist; she would stake her life on most of it being
+    claptrap. She is no longer willing to stake it on *all*.
+
+  significant_people:
+    - name: "Yakov Reuben"
+      relation: "Mentor (recently deceased)"
+      desc: >
+        The old Odessa anarcho-syndicalist who hired a grease-stained girl, put
+        her behind a wheel, and handed her a politics whole — a hack driver for
+        forty years who had organized three cities and been clubbed out of two of
+        them. He was also, mildly and without apology, a man who carried the folk
+        Kabbalah of his grandfather: who spoke of the *sitra achra*, the other
+        side, and read by candle from books no other cabbie owned. For ten years
+        she loved the politics and humored the rest. He died six weeks ago — heart,
+        the doctor said, though he'd been frightened of something in his last
+        month and wouldn't say what — and left her two things: a leaderless union,
+        and a locked trunk of his books, willed to "the only one of them who'll
+        read them right." She has not yet decided which inheritance frightens her
+        more.
+    - name: "Vincent Coyle, “Mr. Coyle”"
+      relation: "Adversary — the fleet's man"
+      desc: >
+        Floor boss and chief leg-breaker for the Bay State Taxi & Livery combine,
+        the company strangling the independent hacks. Smooth in an office, ugly in
+        an alley, and mob-connected in a way the company pretends not to know. He
+        wants the union dead, he wanted Yakov gone, and he has lately taken an
+        unfriendly interest in why old Reuben's stray woman driver won't scare like
+        the rest. He may simply be a thug. He may be a thug who has been promised
+        things by people who can deliver them. Iris hasn't decided that either.
+    - name: "Della Okonkwo"
+      relation: "Confidante & ally (loyal)"
+      desc: >
+        Runs the all-night coffee-and-beans counter off the cab stand where the
+        night men thaw out between fares — and so runs, in practice, the social
+        center of the whole local. Nothing moves on the night line that Della
+        doesn't hear about by the next pot of coffee. Steady, shrewd, and the one
+        person Iris has shown the back pages of the night notebook to. Della thinks
+        the union work will get her hurt and the books will get her worse, and
+        keeps the counter light on for her anyway.
+    - name: "Cora Bose"
+      relation: "Mother (New Bedford)"
+      desc: >
+        Still in the New Bedford rooms Iris grew up in, devout and proud and
+        baffled — she raised a churchgoing girl and got back a labor agitator who
+        drives strange men around a sinful city all night and reads heretic books
+        on her day off. They write; they love each other; they argue the same
+        three arguments every visit. Cora prays for her constantly, which Iris
+        finds both insufferable and, lately, in the small hours, oddly difficult
+        to wave away.
+
+  meaningful_locations:
+    - name: "The Tremont Street barn (Bay State garage)"
+      desc: "The cold company garage where the night line signs out its cabs — oil, exhaust, and the low war between the drivers and the floor bosses. The front line of the union fight and the place she is most herself, wrench in hand."
+    - name: "Della's all-night counter"
+      desc: "A steamed-up window, a urn of coffee, and a row of stools where frozen hacks trade fares, grievances, and rumor till dawn. Where the local really meets, where a man gets signed up, and where Iris hears everything the city says when it thinks no one's listening."
+    - name: "Abrahams' Secondhand Books, Salem Street"
+      desc: "A cramped North End shop of damp, unsorted stock where she runs down the titles in Yakov's notebooks and spends rent money she doesn't have on volumes she can't quite explain wanting. The shop where her two lives — the manifesto and the grimoire — sit on the same shelf."
+    - name: "The New Bedford wharves"
+      desc: "Her mother's rooms, the chapel, the rotting whaling piers, and the only stretch of earth that knows the whole tangle of where she comes from. The thing she organized her way out of — and the thing she'd lay herself down in front of a strikebreaker to protect."
+
+  treasured_possessions:
+    - name: "Yakov's trunk of books"
+      desc: "A small locked steamer trunk of the old man's library — Yiddish and Russian labor tracts shelved cheek by jowl with older, stranger things in Hebrew, Aramaic, and worse. Willed to her by name. She has read perhaps a tenth of it. (Keeper hook: specific tomes, sanity, and spell content TBD by the Keeper.)"
+    - name: "Her father's box spanner"
+      desc: "A heavy, perfectly balanced engine wrench off Hari Bose's last ship, worn bright by a stoker's hands and then by hers. It started her on engines as a girl. It is the tool she reaches for, and — held the right way — it is not only a tool."
+    - name: "Her mother's chapel Bible"
+      desc: "A King James with the New Bedford congregation's names penned inside the cover going back three generations, pressed on her by Cora the day she left for Boston. She is not sure she believes a word of it. She has stopped being sure she'd want to be caught somewhere truly dark without it."
+    - name: "The night notebook"
+      desc: "Her fare ledger, with the back pages given over to the second list — dates, corners, weather, and the careful, unflinching descriptions of the things that don't add up. Begun as a joke against herself. It is no longer a joke."
+    - name: "A scrap of crew manifest"
+      desc: "A water-stained sliver of a ship's articles with her father's signing mark and the names of men from six ports beside it — the only paper proof of the harbor that made her. She keeps it because everything else about where she comes from is just stories, and this is evidence, and she has learned to trust evidence."
+
+  character_traits:
+    - "Intimidating without raising her voice — wins standoffs by sheer held stillness, the party's only one who leans on fear where the rest reach for charm"
+    - "Genuinely handy: drives anything, fixes anything with an engine, reads a street map like sheet music"
+    - "A sharp, self-taught political mind — sees the power and the money under every situation and names it out loud"
+    - "A materialist with a crack in her: keeps a private list of the inexplicable and has begun, against her own creed, to take it seriously"
+    - "Fierce, unglamorous loyalty to the rank and file; deep, reflexive suspicion of bosses, smooth talkers, and anyone too charming"
+    - "Hard to place and quietly glad of it — lets the world's wrong guesses about her stand, because a person who can't be filed can't be easily cornered"
+    - "Carries fresh grief and an old chip on her shoulder, and runs on both"
+
+# --- Wealth & means (working poor) ---
+wealth:
+  spending_level: "Poor (~$2/day)"
+  cash: "$6 and change, plus the night's fares not yet turned in"
+  assets: "Next to none — tools, books, the clothes on her back"
+  credit_rating: "15"
+  asset_details:
+    - "A full set of mechanic's tools (her own, not the company's)"
+    - "Yakov's trunk of books — worth nothing to a pawnbroker, everything to the wrong buyer"
+    - "Standing credit at Della's counter and a dozen drivers who owe her favors"
+
+# --- Keeper notes (not for the player sheet) ---
+keeper_notes:
+  table_convention: >
+    Per the Keeper's standing rule: racism exists in this 1921 world but stays
+    OFF-STAGE. Iris's mixed heritage is real, specific, and a source of texture
+    and strength — never a thing the table subjects her to in play. Her being
+    "hard to place" is written as an ASSET she wields, not a wound to poke. Keep
+    ethnic challenge real in the world's background and never centered at the table.
+  hooks:
+    - "Yakov's death (frightened in his last month; willed her his occult library) is the master hook — grief, mystery, and a Mythos on-ramp in one. Was it really his heart?"
+    - "The trunk of books is a controlled drip of Mythos exposure tuned to a skeptic-to-believer arc: she WANTS the hard kernel of fact and will rationalize her way deeper in."
+    - "The Bay State combine / Vincent Coyle gives a fully mundane antagonist (labor war, racket, leverage) that can later be revealed as entangled with something worse — or stay human, Keeper's call."
+    - "Her niche is deliberately non-overlapping with the party's performers and gentlemen: Drive Auto, Mechanical Repair, and INTIMIDATE are hers alone. Build scenes that need a wheel, a wrench, or someone willing to be the scary one."
+    - "The night line + Della's counter is a renewable rumor mill and contact web — an easy way to feed the party hooks in Iris's voice."
+  suggested_skills_flavor: ["Drive Auto", "Mechanical Repair", "Intimidate", "Fighting (Brawl)", "Streetwise", "Spot Hidden", "Listen", "Library Use", "Occult", "Persuade (stump-speech organizing only)"]
+  note: "Numeric stats/skills intentionally omitted — this file is backstory metadata only."

@@ -31,7 +31,7 @@ freely; unknown keys are simply ignored by the renderer.
 ```yaml
 identity:
   legal_name: "Esther Mae Calloway"   # nameplate sub-line
-  known_as: "Essie"                    # optional nickname
+  known_as: "“Essie”"                  # optional nickname (include your own quotes; rendered verbatim after the legal name)
   stage_name: "Mademoiselle Mercure"   # big masthead title (falls back to legal_name)
   billing: "The Quicksilver Conjuress" # italic sub-title under the masthead
   sex: "Female"

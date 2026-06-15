@@ -24,7 +24,7 @@
   <div class="dossier-kicker">Investigator Dossier</div>
   <h1 class="masthead-title">{{ c.identity.stage_name or c.identity.legal_name }}</h1>
   {% if c.identity.billing %}<div class="masthead-sub">{{ c.identity.billing }}</div>{% endif %}
-  <div class="masthead-legal">{{ c.identity.legal_name }}{% if c.identity.known_as %} &middot; &ldquo;{{ c.identity.known_as }}&rdquo;{% endif %}</div>
+  <div class="masthead-legal">{{ c.identity.legal_name }}{% if c.identity.known_as %} &middot; {{ c.identity.known_as }}{% endif %}</div>
 </header>
 
 {{ m.deco_bar() }}
