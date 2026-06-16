@@ -1,6 +1,7 @@
 # Adventure Scripts
 
-> Part of the [Cthulhu-Gen](../README.md) monorepo. **Planned — not yet built.**
+> A *Call of Cthulhu* tool in the [rpg-gen](../../README.md) monorepo (see the
+> [Cthulhu game index](../README.md)). **Planned — not yet built.**
 
 A tool for **creating and improving adventure scripts / scenarios** for *Call
 of Cthulhu*: drafting new ones, restructuring existing ones, and revising them
@@ -42,8 +43,8 @@ Current adventures:
 
 It will follow the same monorepo conventions as the other tools:
 
-- its own `requirements.txt`, installed into the repo-root `../.venv`;
+- its own `requirements.txt`, installed into the repo-root `../../.venv`;
 - paths resolved relative to the tool's own entry point;
 - generated output under `build/` (git-ignored);
-- reusable helpers promoted to [`../shared/`](../shared/) only once a second
-  tool needs them.
+- reusable helpers promoted to the cross-game [`../../shared/`](../../shared/)
+  only once a second tool needs them.

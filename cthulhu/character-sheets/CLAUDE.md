@@ -22,12 +22,12 @@ example.
 
 ## Commands
 
-Run from this `character-sheets/` directory; the venv lives at the repo root.
+Run from this `character-sheets/` directory; the venv lives at the repo root (two levels up).
 
 ```bash
-../.venv/bin/python build.py iris --html-only   # fast preview, no native deps
-../.venv/bin/python build.py iris                # html + pdf
-../.venv/bin/python build.py --all               # every characters/*.yaml
+../../.venv/bin/python build.py iris --html-only   # fast preview, no native deps
+../../.venv/bin/python build.py iris                # html + pdf
+../../.venv/bin/python build.py --all               # every characters/*.yaml
 ```
 
 A harmless `RuntimeWarning: Unexpected value in sys.prefix` prints because the

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cthulhu-Gen — render Call of Cthulhu 7e secondary character sheets from YAML.
+"""rpg-gen · Call of Cthulhu — render 7e secondary character sheets from YAML.
 
 The numeric stats page (STR/CON/skills...) is produced by an external PDF
 generator. This tool renders the *secondary* sheets: backstory, inventory,

@@ -1,12 +1,13 @@
 # Character Sheets
 
-> Part of the [Cthulhu-Gen](../README.md) monorepo. Run the commands below from
-> this `character-sheets/` directory; the shared virtualenv lives at the repo root.
+> A *Call of Cthulhu* tool in the [rpg-gen](../../README.md) monorepo (see the
+> [Cthulhu game index](../README.md)). Run the commands below from this
+> `character-sheets/` directory; the shared virtualenv lives at the repo root.
 
 A small **character factory** for *Call of Cthulhu* 7th edition.
 
 The numeric stats page (characteristics, skills, combat values) is produced by
-an external character PDF generator. Cthulhu-Gen renders the **secondary
+an external character PDF generator. This tool renders the **secondary
 sheets** that those generators skimp on — backstory, wealth, inventory,
 weapons, and the traits that accrue over play — in a **1920s Art Deco** style
 designed to *flow across as many pages as the content needs* rather than being
@@ -36,18 +37,18 @@ a sheet is useful from session zero and grows with the character.
 ## Quick start
 
 ```bash
-# one-time: create the shared venv at the repo root (see ../README.md)
-python3 -m venv ../.venv --system-site-packages
-../.venv/bin/pip install -r requirements.txt
+# one-time: create the shared venv at the repo root (see ../../README.md)
+python3 -m venv ../../.venv --system-site-packages
+../../.venv/bin/pip install -r requirements.txt
 
 # render one character to build/
-../.venv/bin/python build.py characters/mercure.yaml
+../../.venv/bin/python build.py characters/mercure.yaml
 
 # render everything
-../.venv/bin/python build.py --all
+../../.venv/bin/python build.py --all
 
 # HTML only (no native PDF deps needed)
-../.venv/bin/python build.py mercure --html-only
+../../.venv/bin/python build.py mercure --html-only
 ```
 
 Output lands in `build/<name>.html` and `build/<name>.pdf`.
