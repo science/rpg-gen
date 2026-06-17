@@ -6,12 +6,12 @@ A deduplicated compendium of the magic, relics, and treasure recovered or known 
 
 ## Major Artifacts (unique / legendary / plot)
 
-These are the named, one-of-a-kind relics that drive the campaign's central questions: awakening the world-tree **Al Faiz**, freeing the Titan **Mesos**, and the legacy of the ancient **Bokkaran** vs. **Ukar** war.
+These are the named, one-of-a-kind relics that drive the campaign's central questions: awakening the world-tree **El Faiz** (formerly Al Faiz), freeing the Titan **Mesos**, and the legacy of the ancient **Bokkaran** vs. **Ukar** war.
 
-### The Ukar Wreath and Bird (Roshanai / Roshani — "The Lightbringer" & Parvaiz — "The Soaring One")
-Two-part Ukar artifact system and the campaign's keystone. **Roshanai** is a wreath of magically-preserved ancient twigs and leaves (hardened Al Faiz sap / brambles of the world-tree) forming a "Divining Circlet" — worn, it resonates with the Al Faiz heart and grants access to the tree's wisdom; it must be recharged at the tree. **Parvaiz** is a crystal/glass bird figurine imbued with raw elemental magic, a beacon and sentinel that guides elemental spirits to Al Faiz. Together they perform the **Hymn of Harmony** ritual to awaken the dormant world-tree from its seasonal slumber, heal the landscape, and restore Sefura(h) Springs. They also form a **portable Ukar portal-network access point**: 10-minute activation designates a single exit, opens a 6'5"-diameter portal for 10 minutes, then locks for 24 hours; activation requires an Ukar spellcaster or a holder of **Afra's Spark**. Casting time can be rushed (2 rounds) at a 1-in-10 risk of destroying the bird; realigning to previously-visited locations risks 1d10 damage to the bird per attempt. Causes magical consequences due to its Ukar nature.
+### The Ukar Wreath and Bird (Roshanai, formerly Roshani — "The Lightbringer" & Parvaiz — "The Soaring One")
+Two-part Ukar artifact system and the campaign's keystone. **Roshanai** is a wreath of magically-preserved ancient twigs and leaves (hardened El Faiz sap / brambles of the world-tree) forming a "Divining Circlet" — worn, it resonates with the El Faiz heart and grants access to the tree's wisdom; it must be recharged at the tree. **Parvaiz** is a crystal/glass bird figurine imbued with raw elemental magic, a beacon and sentinel that guides elemental spirits to El Faiz. Together they perform the **Hymn of Harmony** ritual to awaken the dormant world-tree from its seasonal slumber, heal the landscape, and restore Sefurah (formerly Sefura) Springs. They also form a **portable Ukar tree-portal-network access point**: 10-minute activation designates a single exit, opens a 6'5"-diameter portal for 10 minutes, then locks for 24 hours; activation requires an Ukar spellcaster or a holder of **Afra's Spark** (operating the Ukar tree portal network requires Afra's Spark incorporated into a creature's body — see below). Casting time can be rushed (2 rounds) at a 1-in-10 risk of destroying the bird; realigning to previously-visited locations risks 1d10 damage to the bird per attempt. Causes magical consequences due to its Ukar nature.
 - **Origin:** Ukar.
-- **Holder/location:** Recovered by the party from the Black Water Cult HQ (the wreath found Day 73 in the Elite District compound; the bird found Day 76 in a "three-star box" during a caravan battle). Can be activated at Sefura(h) Springs / in the Al Faiz presence.
+- **Holder/location:** Recovered by the party from the Black Water Cult HQ (the wreath found Day 73 in the Elite District compound; the bird found Day 76 in a "three-star box" during a caravan battle). Can be activated at Sefurah Springs / in the El Faiz presence.
 - **Status:** Held by party — critical for the main world-restoration quest.
 - **sources:** Journal; Strongbox; The Dark Arts: Raid the Cult's Desert Fort.md; Return to Mesos.md
 
@@ -30,18 +30,25 @@ A red stone sphere (the journal's recovered specimen) and, in world-lore form, a
 - **sources:** Journal; Lore — Ajiibwan Wilderlands
 
 ### Afra's Spark
-A ley-infused pebble carrying a subclass "Spark." Long-rest communing infuses a character (no attunement). Lets the bearer activate Ukar artifacts (the Wreath & Bird, Kalinore's music boxes), learn the Ukar language faster, repair portal technology, open Ukar-locked doors and deactivate Ukar runes, and innately cast **Ley Energy Bolt** (1/long rest free; more via 3rd+ slots for Wizards/Sorcerers). A Bokkaran spellcaster who communes takes disadvantage on INT/WIS/CHA saves and checks.
+A ley-infused pebble carrying a subclass "Spark." Long-rest communing **physically incorporates the Spark into the character's body** (no attunement). **It is required to operate the Ukar tree portal network** — the tree-based teleportation network Afra developed (the Ukar equivalent of the Sea of Souls, with portals throughout the world); a portal cannot be operated without Afra's Spark incorporated into a creature's body. The bearer can also activate other Ukar artifacts (the Wreath & Bird, Kalinore's music boxes), learn the Ukar language faster, repair portal technology, open Ukar-locked doors and deactivate Ukar runes, and innately cast **Ley Energy Bolt** (1/long rest free; more via 3rd+ slots for Wizards/Sorcerers). A Bokkaran spellcaster who communes takes disadvantage on INT/WIS/CHA saves and checks.
 - **Origin:** Ukar.
 - **Holder/location:** Carried by at least one party member.
 - **Status:** Held by party.
 - **sources:** Strongbox; Kalinore's Tomb adventure.md
 
-### Al Faiz tree
-The campaign's central magical entity — better understood as a spirit/deity than a tree, spanning the Material and Celestial planes, powered by Sefura Springs and the Storm Orchids, and the source of the ley lines that enable all Wizard/Warlock/Sorcerer magic. Ancient Bokkaran necromancers weaponized it against the Ukar, creating the Great Ajiibwan Desert and the world's lingering "magical consequences." Accessible via the God King's Mirror. Awakened from its slumber by the Hymn of Harmony (the Wreath & Bird).
-- **Origin:** Bokkaran/world-foundational.
-- **Holder/location:** Material & Celestial planes; reached via the God King's Mirror / Sefura Springs.
+### El Faiz tree (formerly Al Faiz)
+**El Faiz** is the **central old life-tree** — the **Ukar source tree** — and the campaign's central magical entity: better understood as a spirit/deity than a tree, spanning the Material and Celestial planes, powered by Sefurah (formerly Sefura) Springs and the Storm Orchids, and the source of the ley lines that enable all Wizard/Warlock/Sorcerer magic. The **Polgar ley-line poison** (the world-wide anti-magic corruption the Polgar left in the ley lines) **nearly killed the tree.** Ancient Bokkaran necromancers weaponized it against the Ukar, creating the Great Ajiibwan Desert and the world's lingering "magical consequences." Accessible via the God King's Mirror. Awakened from its slumber by the Hymn of Harmony (the Wreath & Bird). *(Game-1 reference ending: after Maghiel's death the Black Thorn in her chest was returned to El Faiz and reincorporated, helping restore the tree the Polgar poison had nearly killed.)*
+- **Origin:** Ukar source tree / world-foundational.
+- **Holder/location:** Material & Celestial planes; reached via the God King's Mirror / Sefurah Springs.
 - **Status:** Active / dormant-sealed; restoration is the main quest. Not an item the party can carry. (Note: a 250 gp Bokkaran **El Faiz Sculpture** depicting it is in the strongbox.)
 - **sources:** Lore — Primary Source materials
+
+### Black Thorn(s)
+A **corruption artifact-fragment** — a splinter/thorn that, impaled or splintered into a victim's body, **grants great power but corrupts its host**, driving them toward evil, sinister behavior. **NOT petrification.** A Black Thorn is the source of **Maghiel's villainy**: one is splintered into her chest, hidden under her armor (the party won't discover it for a long time). The thorns are fragments tied to the central old life-tree — *(game-1 reference ending: after Maghiel's death her thorn was returned to **El Faiz** and reincorporated, helping restore the tree that the Polgar ley-line poison had nearly killed.)*
+- **Origin:** Corruption fragment tied to El Faiz / world-foundational.
+- **Holder/location:** One embedded in **Maghiel's** chest (concealed). (See also the diseased Bokkara temple statue noted to "contain a Thorn.")
+- **Status:** Active corruption vector — a major plot artifact, not lootable party gear.
+- **sources:** Lore — Primary Source materials; GM Game Notes
 
 ### Dream Catcher / Dream Trap (Bokkaran Dream Trap)
 An ancient Bokkaran device, originally a youth inoculation tool against nightmares, repurposed as the **Titans' imprisonment engine** holding Mesos. Fires **Dream Spikes** (magical darts/quills — ~944 remaining) at intelligent creatures (Int 4+); victims are psychically entombed in nightmares of their worst experience (adults almost always die). Children of B'rath are deliberately struck as a coming-of-age ordeal. Now unpowered externally (its control room was disabled by past generations), running on a finite spike supply; Mesos drains them one child at a time toward freedom. Dispellable only by a true Bokkaran Wizard with an 8th-level slot (others DC 18 Arcana), or disabled with an artifact provided by the Bokkaran.
@@ -71,8 +78,8 @@ An Ukar wondrous item: interlocking rotating discs mapping the planes/multiverse
 - **Status:** Held by party.
 - **sources:** Strongbox
 
-### Rings of Sefura (3 rings)
-Three rare Ukar rings with associated mantras; together they let the wearers plus one companion pass into the Celestial plane and the **Sefura Springs garden**. Exact ritual/mantra mechanics not fully recorded.
+### Rings of Sefurah (formerly Rings of Sefura) (3 rings)
+Three rare Ukar rings with associated mantras; together they let the wearers plus one companion pass into the Celestial plane and the **Sefurah Springs garden**. Exact ritual/mantra mechanics not fully recorded.
 - **Origin:** Ukar.
 - **Holder/location:** —
 - **Status:** Held by party.
@@ -86,9 +93,9 @@ A menacing ironwood scythe crusted with salt crystals, pale wave-etched blade (1
 - **sources:** Strongbox
 
 ### Storm Orchids
-Magical plant-creatures, the offspring/attendants of Al Faiz, that feed Sefura Springs by drawing magic and water from the soil and returning it as precipitation. A single **Storm Orchid** was carried and planted in the Saragubi Desert to complete a Clan Gideon / Barthazai commission.
+Magical plant-creatures, the offspring/attendants of El Faiz, that feed Sefurah Springs by drawing magic and water from the soil and returning it as precipitation. A single **Storm Orchid** was carried and planted in the Saragubi Desert to complete a Clan Gideon / Barthazai commission.
 - **Origin:** Bokkaran/world-foundational.
-- **Holder/location:** Sefura Springs (the species); one specimen planted by the party.
+- **Holder/location:** Sefurah Springs (the species); one specimen planted by the party.
 - **Status:** Active; commission specimen planted.
 - **sources:** Lore — Primary Source materials; Finding/Escaping the Crypt of the Saragubi Desert.md
 
@@ -125,7 +132,7 @@ Items recovered and held by the party (or known/available) that have defined mec
 | Bokkaran Spell Thrower Ring | Stores a spell via a 100+ gp diamond; any caster can cast it after attuning; d20 power-swing table on each cast (center prong missing, ~100 gp to replace) | Recovered near Kantaron Summit engine | Bokkaran | Strongbox |
 | Tome of Infinite Mysteries | Prepare/learn one extra spell of any class (if you can cast Bokkaran spells at that level) | — | Bokkaran | Strongbox |
 | Bokkaran Cloak of the Bat | Advantage on Stealth in dim/dark; fly 40' in darkness; transform into a bat 1/dawn | Thieri | Bokkaran | Strongbox |
-| Bokkaran and Doornian Torque Necklace | Becomes an animate poison snake (1d6 piercing + 3d6 poison); 1/dawn; Clerics/Paladins only | Jett (from Forsaken Pyramid) | Bokkaran/Doornian | Strongbox |
+| Bokkaran and Dornian (formerly Doornian) Torque Necklace | Becomes an animate poison snake (1d6 piercing + 3d6 poison); 1/dawn; Clerics/Paladins only | Jett (from Forsaken Pyramid) | Bokkaran/Dornian | Strongbox |
 | Bokkaran Jade Necklace (cursed) | Advantage on Persuasion but 2d4 psychic per lie; Remove Curse only | Kai (cursed) | Bokkaran | Strongbox |
 | Bokkaran Breastplate of the Damned (cursed) | +1 AC, reactive Hellish Rebuke; can push to +3 AC but rolls a d8 curse (Aura of Decay, Flesh Rot, etc.) | Pagigostra | Bokkaran | Strongbox |
 | Bokkaran lute | Cast Dominate Monster 1/long rest, no slot | Silverin | Bokkaran | Strongbox |
@@ -238,7 +245,7 @@ The party's **Bokkaran Lathe** plus recovered infusion blueprints (the "Bokkaran
 - **White Metal Longswords (converted, x2):** white-metal blades forged into usable swords by a Bridged City armorer; shipped to Tel A'bib (Day 114, Year 641).
 - **Black Water Cult disguise gear:** 8 zebra/serpent medallions, plus a costume cache (1 high-cleric outfit, 6 zebra robes, 1 leader outfit, 1 warrior outfit) and **Obsidian Serpent Rings** — all used for infiltration.
 - **Camels (x2):** desert mounts with harnesses/packs; 1 gp/week upkeep when not stabled.
-- **Magical Sailboat / Magdaliel's Boat:** an m'Thorsz-provided enchanted vessel for Sea-of-Souls travel (Magdaliel's/Maghiel's ship can be captured at Charnel Keep).
+- **Magical Sailboat / Maghiel's Boat (formerly "Magdaliel's Boat"):** an m'Thorsz-provided enchanted vessel for Sea-of-Souls travel (Maghiel's ship can be captured at Charnel Keep).
 - **Mytholabe (Ninla):** an Afra's-Temple companion that carries paper artifacts internally (bag-of-holding-like) and flies 25'.
 - **Fire Beetle Oil:** lantern fuel harvested at B'rath, the village's trade staple (powers the Fanoos al-Kashf and Fire Beetle Lantern).
 
@@ -247,7 +254,7 @@ The party's **Bokkaran Lathe** plus recovered infusion blueprints (the "Bokkaran
 ## Quick Reference
 
 **Held by the (prior) party — key pieces:**
-The Ukar Wreath & Bird (Roshanai & Parvaiz) · The Bokkaran Lathe · Bokkaran Language Engine · Afra's Spark · The Atlas of Endless Horizons · Rings of Sefura · Blackwater's Dirge · Kalinore's & Ilymna's Music Boxes · Ukar Hammer of White Death (Jiyloo) · Ukar & Bokkaran white-metal weapons and armor · Wand of Identification (Inventia) · Bokkaran Traveler's Torch · Spider Bracelets · Ukar White Metal Flask · Mesos' Remains (finger & desiccated mass) · 11,404 gp plus gems and valuables.
+The Ukar Wreath & Bird (Roshanai & Parvaiz) · The Bokkaran Lathe · Bokkaran Language Engine · Afra's Spark · The Atlas of Endless Horizons · Rings of Sefurah · Blackwater's Dirge · Kalinore's & Ilymna's Music Boxes · Ukar Hammer of White Death (Jiyloo) · Ukar & Bokkaran white-metal weapons and armor · Wand of Identification (Inventia) · Bokkaran Traveler's Torch · Spider Bracelets · Ukar White Metal Flask · Mesos' Remains (finger & desiccated mass) · 11,404 gp plus gems and valuables.
 
 **Known but not recovered / out of party hands:**
-Khezurai Ring (held by **Arry**; Mesos wants it back) · the Dream Catcher / Dream Trap (in place at B'rath, only partly disabled) · Al Faiz tree and the Storm Orchids (world fixtures, not portable) · market stock at Hothme (Giant's bane hemp, Bloodstone candlestick, Manacles of Freedom, Ring of the Athlete, Udlar's Articles) and the Saragubi Crypt's still-available offerings · the full Bokkaran infusion catalog (craftable, not yet all made).
+Khezurai Ring (held by **Arry**; Mesos wants it back) · the Dream Catcher / Dream Trap (in place at B'rath, only partly disabled) · El Faiz tree and the Storm Orchids (world fixtures, not portable) · market stock at Hothme (Giant's bane hemp, Bloodstone candlestick, Manacles of Freedom, Ring of the Athlete, Udlar's Articles) and the Saragubi Crypt's still-available offerings · the full Bokkaran infusion catalog (craftable, not yet all made).

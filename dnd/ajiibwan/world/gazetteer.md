@@ -15,7 +15,13 @@ files; "Journal" is the prior party's session log; "PDF-only" means the folder e
 commercial module / Roll20 setup but no homebrew writeup yet. Where a place is catalogued only by
 its folder name with no other info, it is marked **catalogued; details in commercial module / Roll20.**
 
-Spellings are preserved verbatim from source (Farrav'n, B'rath, Sefurah, Favarr'n/Favvar'n, Kantaron/Kantaroz, etc.).
+Spellings follow the GM's canonical rulings (`assets/_raw/.extract/canon.md`): **Favarr'n** (gnoll
+oasis; formerly Farrav'n/Favvar'n), **Hothme** (not Hoth'ne), **Ukar** (not Ukkar), **Sefurah** (not
+Sefura), **El Faiz** (not Al Faiz), **Kantaron** = the summit while **Kantaroz** = the ancient Bokkaran
+tower at that summit (both valid). Older forms are kept as parenthetical aliases on first mention.
+
+Many sites carry **two names**: a local **Dornian** name and an official **Vanic** name (e.g. the
+**Eye of Kings** [Vanic] = **Cave of Ancestors** [Dornian] are the same complex).
 
 ---
 
@@ -55,6 +61,9 @@ A royal tomb / cave complex outside Tel A'bib, reached through a narrow-walled v
 men traditionally enter the caves and run out quickly to prove their valor. Filled with undead and
 traps; currently held by the Cult of Anauld (a sect of the Church of Dorne). Contains skeleton
 guardians, an invisible-water chamber (psychically damaging), and a stone centipede.
+**Naming:** "Eye of Kings" is the **Vanic** official name; **Cave of Ancestors** is the local
+**Dornian** name for the SAME complex (see "Caves of Ancestors / Tomb of Ancestors" below, which is
+this site under its Dornian name).
 - play_history: Essen's brother Tane and two friends vanished attempting the rite; party entered (Day 6, the Anauld's Eve incident), cleared skeleton guardians, rescued the children alive, and recovered a metal bracelet with a spider design. Cleared of immediate threats but still hazardous.
 - status: dangerous (supernatural hazards remain)
 - sources: Lore - Ajiibwan Wilderlands; Journal
@@ -68,8 +77,8 @@ opens by itself; apparently construct/magical in nature. Purpose unclear. (Disti
 - sources: Journal
 
 ### Kantaron — Tinkerer's Workshop `(#1, L3–6, hex 1810)` Second Encounter
-A high mountain summit (Kantaron / Kantaroz Summit) in the eastern region near Tel A'bib, crowned by
-an ancient ~120-ft Bokkaran tower in excellent condition. Beneath the tower lies the artificer
+The high mountain **summit (Kantaron)** in the eastern region near Tel A'bib, crowned by **Kantaroz** —
+an ancient ~120-ft Bokkaran tower built at the summit millennia ago, in excellent condition. Beneath the tower lies the artificer
 Duroigh's (Durel's) magical **Tinkerer's Workshop** — engine room, living quarters, workshop with a
 mind-enslaving lab and demon-assembly area, and ventilation/access systems, all powered by Bokkaran
 technology. The tower has four gated/locked levels (engine room, living quarters, workshop, parapet).
@@ -90,8 +99,7 @@ is guarded by two mated wyverns, and contains a "flesh blob" (a former level-10 
 
 ### Great Oasis
 A major oasis south/southeast of Tel A'bib in the central desert, with multiple encampments and
-temporary settlements; the Air Spire and its Talisman stand at its shore. Lillith Nomads and Tugari
-frequent the area; boar herds roam it.
+temporary settlements; the Air Spire and its Talisman stand at its shore. ; boar herds roam it.
 - play_history: Travel landmark and staging point. Party encountered a boar herd (Day 10) and planned to plant storm-orchid seeds here (Day 24, per the Lillith Nomads deal).
 - status: active
 - sources: Lore - Ajiibwan Wilderlands; Journal
@@ -112,10 +120,12 @@ the Glade of Tanil. Associated with Bokkaran magical curses and protective totem
 - status: active (hazardous terrain)
 - sources: Lore - Ajiibwan Wilderlands; Journal
 
-### Caves of Ancestors / Tomb of Ancestors
+### Cave of Ancestors / Tomb of Ancestors (= Eye of Kings)
 An ancient cave/tomb system outside Tel A'bib with undead inhabitants and magical wards. Closely
-associated in the journal with the Eye of Kings rescue (children playing near it). May be the same
-complex as, or adjacent to, the Eye of Kings.
+associated in the journal with the Eye of Kings rescue (children playing near it). **Canon:** this is
+the **same complex** as the Eye of Kings — **Cave of Ancestors** is the local **Dornian** name,
+**Eye of Kings** the official **Vanic** name (`#9, L1, hex 1312`). The two entries are kept because
+the journal uses both names; treat them as one site.
 - play_history: Children were playing in/near the tomb (Day 3); cleared of the child threat during the Day 6 rescue.
 - status: cleared of immediate threat; hazardous
 - sources: Lore - Ajiibwan Wilderlands; Journal
@@ -135,7 +145,7 @@ the major oases and caravan routes, the cut-off river cities of the south, and t
 and ruins in between. Many here are catalogued by folder only (PDF-only / module).
 
 ### Blistering Dunes
-A dangerous central-desert region; its central passage connects trade routes via Favvar'n and the
+A dangerous central-desert region; its central passage connects trade routes via Favarr'n and the
 Oasis of Sia. Several caravans have gone missing on this route.
 - play_history: Caravan-disappearance investigation mission originated from here.
 - status: active / dangerous
@@ -151,16 +161,16 @@ excavations. (Note: folder index #16; the lore also references an "ONA 15" comme
 - status: cleared of Black Water Cult; partially looted; artifacts remain
 - sources: Lore - Ajiibwan Wilderlands; Journal
 
-### Oasis of Farrav'n `(#15, hex 0915)`
-A sited oasis location. (Spelling preserved: Farrav'n in the folder/sited list.) Likely the same
-place rendered "Favarr'n"/"Favvar'n" in lore and the journal — see those entries below; treated here
-as the canonical sited oasis at hex 0915.
+### Oasis of Favarr'n `(#15, hex 0915)`
+A sited oasis location (canonical spelling **Favarr'n**; formerly rendered Farrav'n / Favvar'n in the
+folder, lore, and journal — all the same place). The canonical sited oasis at hex 0915; see the lore/
+journal detail entry below.
 - play_history: — (no homebrew writeup; PDF-only)
 - status: PDF-only — not yet written up; catalogued; details in commercial module / Roll20.
 - sources: PDF-only
 
-### Favvar'n / Favarr'n
-Lore- and journal-named variant(s) likely referring to the Oasis of Farrav'n. In lore: a point on the
+### Favarr'n (gnoll oasis; formerly Favvar'n / Farrav'n)
+Lore- and journal-named entries for the **Oasis of Favarr'n** (#15). In lore: a point on the
 Blistering Dunes central passage, on the caravan route from the west through Sia. In the journal: a
 large city with a significant gnoll population, off the main Saragubi trade routes and dangerous to
 the PC Kai (a gnoll warned him never to come there).
@@ -188,7 +198,9 @@ A desert village in the southern region near the Sea of Souls, also called the "
 Slugs / Fire Beetles." Its inhabitants are children and families who harvest fire-beetle oil in nearby
 caves as a coming-of-age ritual; all B'rathians speak Ukar fluently (taught by the titan Mesos). The
 village welcomes the party and refills fire-beetle-oil lanterns for a fee. Connected to Mesos'
-underground prison. (See **The Sea of Souls & Subterranean** for the B'rath Caves / Mesos complex.)
+underground prison. **Mesos** — the imprisoned Titan King — is the *near*, relatively easy-to-find
+titan here near Tel A'bib / B'rath, **distinct from Afra**, the slumbering titan in her own Ukar
+complex far to the **west of Hothme** (see The Granite Empire). (See **The Sea of Souls & Subterranean** for the B'rath Caves / Mesos complex.)
 - play_history: A titan's-finger artifact responded to B'rath's proximity; party traveled here, met the children, descended into the caves, and witnessed coming-of-age ordeals.
 - status: established ally; cultural hub; entry point to the titan caves
 - sources: The Titan's Finger and the Fire Beetles Adventure.md; Return to Mesos.md; Freeing Mesos.md; Lore - Ajiibwan Wilderlands
@@ -265,9 +277,10 @@ serving mainly as a navigation point; the actual dungeon (the Hidden Crypt) lies
 - sources: Saragubi adventure documents — Navigating the Saragubi Desert.md; Finding the Crypt of the Saragubi Desert.md; Escaping the Crypt of the Saragubi Desert.md; Kalinore's Tomb adventure.md; Kalinore's Chaos in the Saragubi Desert.md; Basq - Kalinore's Aftermath.md; Lore - Ajiibwan Wilderlands; Lore - Primary Source materials; Journal
 
 ### Nurian Necropolis
-An ancient necropolis south of Afra's Tomb in the Granite Empire region, with an observatory, temples,
-and an underground crypt system defended by Bokkaran wards and undead. (Sits on the Saragubi / Al Faiz
-approach; placed here for proximity.)
+An ancient necropolis in the Granite Empire region, with an observatory, temples, and an underground
+crypt system defended by Bokkaran wards and undead. (Sits on the Saragubi / El Faiz approach; placed
+here for proximity. Note: Afra's complex / the Slumbering Titan lies **west of Hothme**, not here —
+see that entry under The Granite Empire.)
 - play_history: Explored Days 84–85; party fought undead and rescued **Asher Deadleaf**.
 - status: partially explored; ancient
 - sources: Journal
@@ -283,13 +296,14 @@ showing Bokkaran writing and maps. (Folder references "ONA 16.")
 
 ## The Granite Empire
 
+The capital and major cities of the Granite Empire are likely out of scope for this world document and future adventures.
+
 A powerful, isolationist empire west of the Ajiibwan Desert across the Red Plains. It bars
 Tolorian/Vanic travelers from its borders (swift justice for attempts) but trades through desert
-peoples, and holds an ancient pact with the Tugari. Ruled from Hothme by the dwarf monarch m'Thorsz;
-contains the world tree Al Faiz and the slumbering titan complex.
+peoples, and holds an ancient pact with the Tugari. Hothme is a border city rules by the dwarf monarch m'Thorsz; Hothme is a client city to the Granite Empire, and survives by balancing powers between merchants and the two Empires, where no one benefits by overthrowing him: this unstable situation makes him both paranoid and hungry for information and additional sources of control or power. Deeper within the Granite Empire is the hidden world tree **El Faiz** (formerly "Al Faiz"); **west of Hothme** lies **Afra's complex** — the ruined Ukar city/ruin cluster around the slumbering titan Afra and the entry to the Ukar tree-portal network.
 
 ### Hothme `(hex 0117)` — Granite Empire capital
-The Granite Empire's capital and major dwarven city-state, the "Gateway Desert City" on the Red Plains
+The Granite Empire's trading "desert port" and powerful city-state, the "Gateway Desert City" on the Red Plains
 border, roughly halfway between the Vanic and Granite Empires; the prior party's primary home base in
 the later campaign. Ruled by the **m'Thorsz** (the dwarf monarch / Dhallak Carn). A major trade hub
 with Sea of Souls port access, multiple guilds, scholarly institutions, thieves' networks, and host
@@ -313,26 +327,33 @@ morenassa incense and exotic goods.
 - status: active
 - sources: Lore - Ajiibwan Wilderlands
 
-### Al Faiz & Sefurah Springs
+### El Faiz & Sefurah Springs
 The Granite Empire's deep, hidden sacred oasis, marked by a peculiar rock formation resembling a giant
 weeping willow. Now dormant and barren, it once flourished with lush foliage and an ethereal river. At
-its center stands the **Al Faiz** tree (the "world tree" / "Wind's Sorrow") — a gargantuan weeping
-willow with white bark and quicksilver leaves that heal wounds, soothe fevers, and cure toxins; bonded
-to the Titans, it changes leaf color with Titan emotion and can be reawakened by the Hymn of Harmony
-(the Roshani/Roshanai wreath + Parvaiz bird ritual). **Sefurah Springs / Sefura Springs** are the
-magical springs that feed the tree, powered by Storm Orchids that drive enhancements and precipitation.
-- **God King's Mirror** — the entrance to the material path to the Al Faiz tree (its material-plane manifestation).
-- **Battle to Enter Sefurah / Twin Altars / Scarred Jungle / Final Conflict** — the staged sublocations of the Al Faiz & Sefurah Springs adventure folder (sited; details in the homebrew/module docs).
+its center stands the **El Faiz** tree (formerly "Al Faiz"; the "world tree" / "Wind's Sorrow") — a
+gargantuan weeping willow with white bark and quicksilver leaves that heal wounds, soothe fevers, and
+cure toxins; bonded to the Titans, it changes leaf color with Titan emotion and can be reawakened by
+the Hymn of Harmony (the Roshanai [formerly Roshani] wreath + Parvaiz bird ritual). **Sefurah Springs**
+(formerly Sefura Springs) are the magical springs that feed the tree, powered by Storm Orchids that
+drive enhancements and precipitation.
+- **God King's Mirror** — the entrance to the material path to the El Faiz tree (its material-plane manifestation).
+- **Battle to Enter Sefurah / Twin Altars / Scarred Jungle / Final Conflict** — the staged sublocations of the El Faiz & Sefurah Springs adventure folder (sited; details in the homebrew/module docs).
 - play_history: Mesos described the tree's history, location, and awakening ritual (Day 81); the prior party pursued the world-tree restoration quest into the Granite Empire (Days 80+), including the Sefurah Springs approach.
 - status: lost/dormant location; strategic to world-tree restoration; sited adventure arc
 - sources: Lore - Primary Source materials; Return to Mesos.md; Journal
 
-### Slumbering Titan
-A sited Granite Empire location (folder: "Slumbering Titan"), tied to the Titans/Al Faiz mythos and the
-titan Mesos. No standalone homebrew writeup catalogued here beyond the folder.
+### Afra's Complex — the Slumbering Titan `(west of Hothme)`
+A ruined **Ukar** complex on the Granite Empire side of the desert, **west of Hothme** (folder:
+"Slumbering Titan"). Home of the dormant titan **Afra**, "the Slumbering Titan." **Very hard to find;
+a late-game site.** Afra and **Mesos are distinct titans** — Afra is this hard-to-find *western* one
+(west of Hothme), while Mesos is the imprisoned Titan King near **Tel A'bib / B'rath** (see B'rath and
+the Sea of Souls section). Approached correctly, Afra divulges deep lore and opens the **Ukar "tree
+portal network"** — the Ukar equivalent of the Sea of Souls: a tree-based teleportation network she
+herself developed, with portals throughout the world. Operating a portal requires **Afra's Spark**
+physically incorporated into a creature's body.
 - play_history: —
-- status: catalogued; details in commercial module / Roll20.
-- sources: PDF-only (Granite Empire / Slumbering Titan folder)
+- status: catalogued; dormant titan / late-game; details in commercial module / Roll20.
+- sources: PDF-only (Granite Empire / Slumbering Titan folder); Lore - Ajiibwan Wilderlands
 
 ### The Tugari in Need
 A sited Granite Empire adventure folder concerning aid to the Tugari (consistent with the Basq /
@@ -377,14 +398,6 @@ scorpion swarms. Cult documents reveal an excavation toward the Sea of Souls.
 - status: active cult stronghold; under party assault; potential party asset
 - sources: The Dark Arts: Raid the Cult's Desert Fort.md; The Dark Arts: Caravan Rescue.md; Journal
 
-### Covent of the Weeping Moon — Chandler's Folly (Weeping Moon) `(L4, hex 2312)`
-A sited adventure, the "Covent of the Weeping Moon." Lore associates the **Weeping Moon** name with
-**Chandler's Folly** (see the separate sited Chandler's Folly entry under Other Sited Ruins). Placed
-near the Holy Cities region by hex proximity.
-- play_history: — (no homebrew writeup; PDF-only)
-- status: PDF-only — not yet written up; catalogued; details in commercial module / Roll20.
-- sources: PDF-only; Lore - Ajiibwan Wilderlands
-
 ---
 
 ## The Sea of Souls & Subterranean
@@ -405,7 +418,7 @@ sailboat (from m'Thorsz) and a dock at Tel A'bib; Thieri/Thieri developed a 72-h
 - **Tel A'bib Dock** — the party's Sea of Souls access point at Tel A'bib (boat + dock); contact Jiyloo; nearby caverns explored.
 - **Sem La Vah** — Holy Cities underground docks (see Holy Cities region).
 - **Mesos' Dock** — a hidden Bokkaran dock-and-warehouse complex (coordinates from Bokkaran), infested with undead ghouls and spirits; an inner warehouse with a Guardian's Fire (3d8 lightning) protecting a stone box, an Alchemist's Lab, an Echoing Murals hall (learn Guardian's Fire mechanics, Arcana DC16), Bokkaran runes (DC14), a Scribe's Overlook (Scroll of Amplify Gravity), and a Dormitory (Ebony Nightshade Pendant, Starlight Sand Timer). Party cleared it and recovered the Dream Catcher artifact.
-- **Mesos' prison cavern** — an underground cavern-prison holding the titan Mesos, reached via the Sea of Souls; Mesos taught the party Ukar ideology and lore of Al Faiz and the Roshani wreath / Parvaiz bird (Day 81).
+- **Mesos' prison cavern** — an underground cavern-prison holding the titan Mesos, reached via the Sea of Souls; Mesos taught the party Ukar ideology and lore of El Faiz and the Roshanai wreath / Parvaiz bird (Day 81).
 - play_history: Primary late-campaign travel method (Days 44–46, 81–82, 91+). Used to reach the Saragubi crypt, Hothme, the Holy Cities, B'rath, and Mesos' Dock; encountered glowing fish, fog banks, monsters, and ancient structures; the sea dried up due to Nalfeshnee damage at Kantaron, triggering a pursuit/restoration arc, and was restored by a Bokkaran magical engine.
 - status: active travel/exploration hub; partially mapped
 - sources: Mesos' Dock.md; Sea of Souls Finding a Trade Route adventure.md; Caverns near the Tel A'bib Dock: Sea of Souls Adventure.md; Lore - Ajiibwan Wilderlands; Journal; and other Sea of Souls documents
@@ -474,11 +487,24 @@ the Shunned campaign sequence, with the **Village of Lapo** nearby. The sited ad
 - status: PDF-only — not yet written up; catalogued; details in commercial module / Roll20.
 - sources: PDF-only; Lore - Ajiibwan Wilderlands
 
+### Covent of the Weeping Moon `(L4, hex 2312)`
+A marshy, haunted area on the **east side of the mountains** that bracket the Ajiibwan Desert —
+**northeast of Durgan's Rest** and **due north of the Bridged City**, sitting closer to Durgan's Rest.
+Sited adventure: the "Covent of the Weeping Moon." **Canon:** this is its own distinct site; the
+earlier lore conflation "Weeping Moon = Chandler's Folly (one place)" is **incorrect**. The Covent and
+the Radiant Necropolis are **separate, adjacent** sites — **northeast of the Covent** lies the
+**Radiant Necropolis**, an ancient Titan tomb (at Chandler's Folly, hex 2510 — next entry).
+- play_history: — (no homebrew writeup; PDF-only)
+- status: PDF-only — not yet written up; catalogued; details in commercial module / Roll20.
+- sources: PDF-only; Lore - Ajiibwan Wilderlands
+
 ### Chandler's Folly — Radiant Necropolis `(L4–6, hex 2510)`
 A town reachable by boat up a river (and overland to Lapo), connected to ruins and to **Sideraeon** (a
 Bokkaran magical power source). The prior party used it for rest and recovery and as a staging point.
-The sited adventure is the **Radiant Necropolis**. (Lore links the **Weeping Moon** name to Chandler's
-Folly — see also the Covent of the Weeping Moon under the Holy Cities region.)
+The sited adventure is the **Radiant Necropolis** — an **ancient Titan tomb**, lying **northeast of
+the Covent of the Weeping Moon** (hex 2312; see previous entry). **Canon:** the Radiant Necropolis and
+the Covent are **distinct, neighboring** sites — disregard the old lore that merged "Weeping Moon" into
+Chandler's Folly as a single place.
 - play_history: Referenced as a travel destination and staging point (Day 15); the party discussed routes and used it for expeditions and rest.
 - status: active town; party-friendly (Radiant Necropolis adventure not yet written up)
 - sources: Journal; PDF-only (Radiant Necropolis module); Lore - Ajiibwan Wilderlands
@@ -486,8 +512,8 @@ Folly — see also the Covent of the Weeping Moon under the Holy Cities region.)
 ### Granite Empire (polity)
 The powerful empire west of the Ajiibwan Desert (see its region section above for sited locations). It
 bars Tolorian/Vanic entry (swift justice for attempts), trades through desert peoples, and holds an
-ancient pact with the Tugari Homeland. Ruled from Hothme; contains Al Faiz.
-- play_history: The prior party explored Granite Empire regions extensively in the later campaign (Days 80+), especially Saragubi and toward Al Faiz.
+ancient pact with the Tugari Homeland. Ruled from Hothme; contains El Faiz and (west of Hothme) Afra's complex.
+- play_history: The prior party explored Granite Empire regions extensively in the later campaign (Days 80+), especially Saragubi and toward El Faiz.
 - status: active; isolationist / can be hostile to Vanic travelers
 - sources: Lore - Ajiibwan Wilderlands; Journal
 
@@ -515,12 +541,12 @@ between the Bokkaran and other powers. Entrance points to the Sea of Souls are f
 | Kantaron — Tinkerer's Workshop | 1 | L3–6 | 1810 | Tel A'bib & Near Desert | yes |
 | Air Spire | 2 | — | — | Tel A'bib & Near Desert (Great Oasis) | yes (lore) |
 | Holy Cities / Bluffside | 6 | — | 0822 | The Holy Cities (Bluffside) | yes |
-| Eye of Kings | 9 | L1 | 1312 | Tel A'bib & Near Desert | yes (lore + journal) |
+| Eye of Kings (= Cave of Ancestors) | 9 | L1 | 1312 | Tel A'bib & Near Desert | yes (lore + journal) |
 | Consumed (Glenowen) | 10 | L2–4 | 1309 | Deep Desert & Oases (Shunned) | PDF-only |
 | Bridged City — Scholarly Schism | 11 | L2–4 | — (Shunned #2) | Other Sited Ruins | yes (journal) |
 | Treasure of Magister Yama (Shunned City) | 12 | L3–5 | 2609 | Other Sited Ruins (Shunned #3) | PDF-only |
 | B'rath | 13 | — | 1412 | Deep Desert (village); Subterranean (caves) | yes |
-| Oasis of Farrav'n | 15 | — | 0915 | Deep Desert & Oases | PDF-only |
+| Oasis of Favarr'n (formerly Farrav'n) | 15 | — | 0915 | Deep Desert & Oases | PDF-only |
 | Oasis of Sia | 16 | L2–4 | 1213 | Deep Desert & Oases | yes (journal) |
 | City of Kalas | 17 | — | 1919 | Deep Desert & Oases | PDF-only |
 | Saragubi Desert & Pyramid of the Lost King | 19 | L1–5 | 0515 | The Saragubi Desert | yes |
@@ -532,8 +558,8 @@ between the Bokkaran and other powers. Entrance points to the Sea of Souls are f
 | Beneath the Festered Sun (Owot-Ti) | 26 | L3 | 1119 | Deep Desert & Oases | PDF-only |
 | Durgan's Rest — Mishap of Ill Portent | 27 | L1–3 | 2012 | Other Sited Ruins (Shunned #1) | PDF-only (journal has town) |
 | Crystal Towers | 29 | — | 1414 | Sea of Souls & Subterranean | PDF-only |
-| Covent of the Weeping Moon | — | L4 | 2312 | The Holy Cities (Bluffside) | PDF-only |
-| Chandler's Folly — Radiant Necropolis | — | L4–6 | 2510 | Other Sited Ruins | PDF-only (journal has town) |
+| Covent of the Weeping Moon | — | L4 | 2312 | Other Sited Ruins (NE of Durgan's Rest) | PDF-only |
+| Chandler's Folly — Radiant Necropolis (ancient Titan tomb; NE of the Covent) | — | L4–6 | 2510 | Other Sited Ruins | PDF-only (journal has town) |
 | Dimark | — | L3–4 | 1210 | Tel A'bib & Near Desert | yes (journal) |
 | Hothme | (x) | — | 0117 | The Granite Empire | yes |
 
@@ -542,8 +568,8 @@ between the Bokkaran and other powers. Entrance points to the Sea of Souls are f
 |---|---|---|
 | Tel A'bib (home base) | Tel A'bib & the Near Desert | yes |
 | Granite Empire (polity) | The Granite Empire | yes (lore) |
-| Al Faiz & Sefurah Springs | The Granite Empire | yes (lore/journal) |
-| Slumbering Titan | The Granite Empire | PDF-only |
+| El Faiz & Sefurah Springs | The Granite Empire | yes (lore/journal) |
+| Afra's Complex — the Slumbering Titan (Ukar ruin, west of Hothme; Ukar tree-portal network) | The Granite Empire | PDF-only |
 | The Tugari in Need | The Granite Empire | PDF-only |
 | Sea of Souls | Sea of Souls & Subterranean | yes |
 | Black Water Cult sites (Desert Fort, Compound) | Holy Cities / Saragubi | yes |

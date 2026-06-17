@@ -69,7 +69,7 @@ entities:
     aliases: ["Granite power", "m'Thorsz's realm"]
     region: null
     status: "active; isolationist"
-    summary: "Powerful dwarf-ruled empire west across the Red Plains; bars Vanic travelers, seated at Hothme, contains Al Faiz."
+    summary: "Powerful dwarf-ruled empire west across the Red Plains; bars Vanic travelers, seated at Hothme, contains El Faiz."
     sources: [gazetteer.md, factions.md]
     related: [loc:hothme, npc:mthorsz, loc:al-faiz-springs, people:tugari]
 
@@ -181,7 +181,7 @@ entities:
     adventure_index: 1
     level: "L3-6"
     sources: [gazetteer.md, adventures.md]
-    related: [npc:duroigh, creature:nalfeshnee, adventure:tinkerers-workshop, adventure:crisis-kantaron, adventure:pursuing-nalfeshnee]
+    related: [npc:durel-duroigh, creature:nalfeshnee, adventure:tinkerers-workshop, adventure:crisis-kantaron, adventure:pursuing-nalfeshnee]
 
   - id: loc:air-spire
     name: "Air Spire"
@@ -294,21 +294,21 @@ entities:
     related: [loc:oasis-of-sia]
 
   - id: loc:oasis-of-farravn
-    name: "Oasis of Farrav'n"
+    name: "Oasis of Favarr'n"
     type: location
-    aliases: ["Favarr'n", "Favvar'n"]
+    aliases: ["Farrav'n", "Favvar'n"]
     region: "The Deep Desert & Oases"
     status: "PDF-only — not yet written up"
-    summary: "Sited oasis; likely the same place rendered Favarr'n/Favvar'n in lore and journal."
+    summary: "Sited gnoll oasis (Favarr'n; formerly rendered Farrav'n/Favvar'n in lore and journal)."
     hex: "0915"
     adventure_index: 15
     sources: [gazetteer.md]
     related: [loc:favvarn]
 
   - id: loc:favvarn
-    name: "Favvar'n / Favarr'n"
+    name: "Favarr'n"
     type: location
-    aliases: ["Favarr'n"]
+    aliases: ["Favvar'n", "Farrav'n"]
     region: "The Deep Desert & Oases"
     status: "active; hostile to party (per journal)"
     summary: "Large city with a significant gnoll population, off the main Saragubi routes; a gnoll warned the PC Kai never to go there."
@@ -650,12 +650,12 @@ entities:
     related: [region:red-plains, creature:centaur-bandits, people:ardoni]
 
   - id: loc:al-faiz-springs
-    name: "Al Faiz & Sefurah Springs"
+    name: "El Faiz & Sefurah Springs"
     type: location
-    aliases: ["Sefura Springs", "Wind's Sorrow"]
+    aliases: ["Al Faiz", "Sefura Springs", "Wind's Sorrow"]
     region: "The Granite Empire"
     status: "lost/dormant; strategic to world-tree restoration"
-    summary: "Hidden sacred oasis with the world-tree Al Faiz at its center, fed by Storm-Orchid-powered springs; awakened by the Hymn of Harmony."
+    summary: "Hidden sacred oasis with the world-tree El Faiz at its center, fed by Storm-Orchid-powered springs; awakened by the Hymn of Harmony."
     sources: [gazetteer.md, adventures.md]
     related: [artifact:al-faiz-tree, artifact:storm-orchids, artifact:ukar-wreath-bird, npc:mesos, adventure:search-al-faiz, adventure:battle-sefura, adventure:final-al-faiz]
 
@@ -927,7 +927,7 @@ entities:
     aliases: ["Lilith Nomads", "Lilth gypsy clans"]
     region: "The Deep Desert & Oases"
     status: "active; party-allied"
-    summary: "Deep-desert nomad alliance keeping Bokkaran environmental magic; cultivate storm orchids to re-green the desert."
+    summary: "Deep-desert nomad gypsies, shunned in civilized areas, keeping Bokkaran environmental magic; want others to plant Storm Orchids to re-green the desert and potentially restore the Bokkaran to power. No storm orchids planted yet."
     sources: [factions.md, lore-and-mysteries.md]
     related: [npc:bely-arys, artifact:storm-orchids, people:tugari, loc:lillith-nomads-camp, mystery:desert-healing]
 
@@ -987,7 +987,7 @@ entities:
     aliases: ["Ukkar", "Ancient Ukar Federation", "Ukar Federation"]
     region: "The Saragubi Desert"
     status: "historical / partially active"
-    summary: "Ancient federation 'an ideology not a race' with three thrones; bonded with Al Faiz; advanced elemental and portal magic."
+    summary: "Ancient federation 'an ideology not a race' with three thrones; bonded with El Faiz; advanced elemental and portal magic."
     sources: [factions.md, lore-and-mysteries.md]
     related: [npc:mesos, people:titankin, people:tugari, people:bokkaran, artifact:ukar-wreath-bird, mystery:ukar-portal-network]
 
@@ -1010,8 +1010,8 @@ entities:
     type: faction
     aliases: ["Order of Black Water", "Black Water Clan", "BW Cult", "Blackwater Cult"]
     region: null
-    status: "active and dangerous; partially defeated"
-    summary: "Secretive criminal/mystical order worshipping Elsrok under the 'Great Design'; primary antagonist faction, led covertly by Maghiel."
+    status: "active and dangerous"
+    summary: "Secretive 'medieval Scientologist' order whose god and leader is Elsrok (a woman); voracious recruiters and hoarders of capital, feckless yet very dangerous when provoked; primary antagonist faction following the 'Great Design'."
     sources: [factions.md, lore-and-mysteries.md]
     related: [npc:maghiel, deity:elsrok, npc:sayed-azhar, npc:soraya-fawaz, npc:murtaza-ghanem, npc:mouse, loc:bw-desert-fort, mystery:bw-leadership]
 
@@ -1195,7 +1195,7 @@ entities:
     aliases: ["Kaikuva"]
     region: null
     status: active
-    summary: "Leonin Barbarian (wild magic) seeking to restore her Pride; carried the Ukkar White Death Hammer; converted to Tanil."
+    summary: "Leonin Barbarian (wild magic) seeking to restore her Pride; carried the Ukar White Death Hammer; converted to Tanil."
     sources: [cast.md]
     related: [item:ukar-hammer-white-death, creature:gnoll-druids, faction:tanil-followers]
 
@@ -1225,7 +1225,7 @@ entities:
     aliases: ["Jiyloo Ubbett"]
     region: "Tel A'bib & the Near Desert"
     status: "active core companion"
-    summary: "Human Desert Barbarian, former apprentice to Feltan, follower of Doorne; now carries the Ukkar White Death Hammer."
+    summary: "Human Desert Barbarian, former apprentice to Feltan, follower of Dorne; now carries the Ukar White Death Hammer. A single recurring companion (the Saragubi horseman and B'rath merchant/guide mentions are all her) who joins many adventures."
     sources: [cast.md]
     related: [npc:feltan, deity:doorne, item:ukar-hammer-white-death]
 
@@ -1391,7 +1391,17 @@ entities:
     status: "alive, established patron"
     summary: "Wealthy elf merchant of Tel A'bib, expert in ancient artifacts and Desert Script; key information broker and patron."
     sources: [cast.md]
-    related: [loc:tel-abib, faction:athyes, npc:elruen, faction:taliphan-militia]
+    related: [loc:tel-abib, faction:athyes, npc:elruen, faction:taliphan-militia, npc:abet]
+
+  - id: npc:abet
+    name: "Abet"
+    type: npc
+    aliases: ["Abet Phera"]
+    region: "Tel A'bib & the Near Desert"
+    status: "alive, established ally"
+    summary: "Captain of Elmingwed's private militia, key to Elmingwed's mercantile/trading power (not an Imperial Guard captain)."
+    sources: [cast.md]
+    related: [npc:elmingwed, faction:taliphan-militia, loc:tel-abib]
 
   - id: npc:tsendur
     name: "Tsendur"
@@ -1399,7 +1409,7 @@ entities:
     aliases: []
     region: "Other Sited Ruins"
     status: "alive, established ally"
-    summary: "Orc (or half-orc) scholar-magician of Ancient Bokkaran at Durgan's Rest; teaches Bokkaran; attacked by Maghiel."
+    summary: "Tame full orc (scary-looking but a scholar and magician) of Ancient Bokkaran at Durgan's Rest; teaches Bokkaran; attacked by Maghiel."
     sources: [cast.md]
     related: [loc:durgans-rest, npc:kada, npc:kayta, pc:dain-ironheart, npc:maghiel]
 
@@ -1428,10 +1438,10 @@ entities:
     type: npc
     aliases: ["Meso", "Mesos Ukar", "the Titan King"]
     region: null
-    status: "partially freed; communicative ally"
-    summary: "Gargantuan celestial Titan and Ukar knowledge-keeper, imprisoned by a Dream Catcher beneath B'rath; source of deep lore."
+    status: "imprisoned; communicative"
+    summary: "The imprisoned Titan King, distinct from Afra; held by a Dream Catcher in the B'rath caves near Tel A'bib, relatively easy to find. A confused, partly-unreliable narrator after 2000 years disembodied; re-corporating him would partly restore his memory. Ukar knowledge-keeper and source of deep lore."
     sources: [cast.md, bestiary.md, lore-and-mysteries.md]
-    related: [people:titankin, people:ukar, loc:brath-caves, artifact:dream-catcher, artifact:khezurai-ring, mystery:slumbering-titan]
+    related: [people:titankin, people:ukar, npc:afra-ukar, loc:brath-caves, artifact:dream-catcher, artifact:khezurai-ring, mystery:slumbering-titan]
 
   - id: npc:barthazai-gideon
     name: "Barthazai Gideon"
@@ -1604,14 +1614,14 @@ entities:
     related: [subloc:crypt-saragubi, deity:imroth]
 
   - id: npc:afra-ukar
-    name: "Afra Ukar"
+    name: "Afra"
     type: npc
-    aliases: ["Afra"]
+    aliases: ["Afra Ukar", "the Slumbering Titan"]
     region: "The Granite Empire"
-    status: "legendary/historical"
-    summary: "Historical Titan and architect of the Ukar portal network, tied to Afra's Spark; awakened at the Slumbering Titan ruin."
+    status: "dormant; late-game encounter"
+    summary: "The Slumbering Titan, distinct from Mesos; sleeps in a ruined Ukar complex WEST of Hothme (Granite Empire side), very hard to find. Architect of the Ukar 'tree portal network'; approached correctly she opens it. Operating a portal requires Afra's Spark incorporated into a creature's body."
     sources: [cast.md, lore-and-mysteries.md, adventures.md]
-    related: [deity:afra, artifact:afras-spark, loc:slumbering-titan, mystery:ukar-portal-network]
+    related: [deity:afra, npc:mesos, artifact:afras-spark, loc:slumbering-titan, mystery:ukar-portal-network]
 
   - id: npc:althorn-belveris
     name: "Althorn Belveris"
@@ -1619,7 +1629,7 @@ entities:
     aliases: []
     region: "The Sea of Souls & Subterranean"
     status: "lore reference"
-    summary: "Scholar from Bokkaral who compiled research notes on Bokkaran artifacts (Storm Orchids, Dream Catchers, Al Faiz)."
+    summary: "Scholar from Bokkaral who compiled research notes on Bokkaran artifacts (Storm Orchids, Dream Catchers, El Faiz)."
     sources: [cast.md]
     related: [loc:bokkaral]
 
@@ -1975,7 +1985,7 @@ entities:
     aliases: []
     region: "Tel A'bib & the Near Desert"
     status: active
-    summary: "Metal-works merchant of the Tel A'bib market; follower of Doorne; employed Jiyloo; offers a reward for lost-caravan info."
+    summary: "Metal-works merchant of the Tel A'bib market; follower of Dorne; employed Jiyloo; offers a reward for lost-caravan info."
     sources: [cast.md, lore-and-mysteries.md]
     related: [loc:tel-abib, pc:jiyloo, deity:doorne, thread:missing-caravans]
 
@@ -2088,22 +2098,22 @@ entities:
   - id: npc:maghiel
     name: "Maghiel"
     type: npc
-    aliases: ["Magdaliel", "Maghiel Erdot", "MG", "Bringer of Life"]
+    aliases: ["Bringer of Life"]
     region: null
-    status: "active, extremely dangerous; disputed identity"
-    summary: "Drow Wizard arch-antagonist hunting Bokkaran artifacts to open a magical box; covertly leads the Black Water Cult."
+    status: "nascent villain, Black Thorn-cursed"
+    summary: "Female Drow battle-mage wizard, just beginning her villain path; a Black Thorn splintered into her chest (hidden under her armor) empowers and corrupts her after black-magic research; will covertly come to lead the Black Water Cult. No surname yet."
     sources: [cast.md, lore-and-mysteries.md, factions.md]
     related: [faction:black-water-cult, creature:kalinore, npc:cardinal-sponfz, mystery:maghiel-goals, thread:the-thorn]
 
-  - id: npc:duroigh
-    name: "Duroigh"
+  - id: npc:durel-duroigh
+    name: "Durel / Duroigh"
     type: npc
-    aliases: ["Count Duroigh", "Durel"]
+    aliases: ["Durel", "Duroigh", "Count Duroigh"]
     region: "Tel A'bib & the Near Desert"
-    status: "active (possibly enslaved to the demon); later reanimated and defeated"
-    summary: "Magical tinkerer at Kantaron Summit, manipulated by the Nalfeshnee into assembling a vessel for its summoning."
+    status: "active (artificer phase); reanimated by Maghiel into the undead Duroigh"
+    summary: "Kantaron artificer; reanimated by Maghiel into the undead Duroigh. As Durel he is the living Kantaron Summit tinkerer manipulated by the Nalfeshnee into assembling a summoning vessel; after death Maghiel raised him as the undead Duroigh."
     sources: [cast.md, bestiary.md]
-    related: [loc:kantaron, creature:nalfeshnee, mystery:nalfeshnee]
+    related: [loc:kantaron, creature:nalfeshnee, mystery:nalfeshnee, npc:maghiel]
 
   - id: npc:gala-dak
     name: "Gala dak"
@@ -2240,12 +2250,12 @@ entities:
     related: [faction:cult-of-anauld, loc:eye-of-kings, deity:doorne]
 
   - id: deity:doorne
-    name: "Doorne / Dorne"
+    name: "Dorne"
     type: deity
-    aliases: ["Dorne", "Church of Dorne", "Dornian religion"]
+    aliases: ["Doorne", "Dornian", "Church of Dorne", "Dornian religion"]
     region: null
     status: "active cultural-religious tradition"
-    summary: "Martial/strength-focused desert deity with altars and temples (e.g. at Oasis of Sia); removing temple artifacts is taboo."
+    summary: "Dorne/Dornian, the local desert religion: a martial/strength-focused tradition with altars and temples (e.g. at Oasis of Sia); removing temple artifacts is taboo. The Vanic impose Athyes officially, but many locals only pay it lip service and still follow Dorne."
     sources: [lore-and-mysteries.md]
     related: [pc:jiyloo, npc:feltan, loc:oasis-of-sia, faction:cult-of-anauld]
 
@@ -2255,7 +2265,7 @@ entities:
     aliases: []
     region: null
     status: "Ukar power"
-    summary: "Entity (possibly Ukar pantheon) tied to Afra's Spark, which activates Ukar portals and Bokkaran music boxes; held Ukar gifts at Afra's Tomb."
+    summary: "Titan/Ukar power aspect of Afra the Slumbering Titan; tied to Afra's Spark, which activates the Ukar tree portal network and Bokkaran music boxes; held Ukar gifts at Afra's complex west of Hothme."
     sources: [lore-and-mysteries.md]
     related: [artifact:afras-spark, npc:afra-ukar, mystery:ukar-portal-network, thread:afras-spark]
 
@@ -2265,7 +2275,7 @@ entities:
     aliases: []
     region: null
     status: "active dark power"
-    summary: "The dark power served by the Black Water Cult, whose members follow the 'Great Design'; also a named cult superior/patron."
+    summary: "A woman who is both the god and the living leader of the Black Water Cult, whose members follow the 'Great Design'."
     sources: [lore-and-mysteries.md, cast.md]
     related: [faction:black-water-cult, npc:abarul]
 
@@ -2274,10 +2284,10 @@ entities:
     type: deity
     aliases: []
     region: "The Granite Empire"
-    status: "active (Twin Altars boon-giver)"
-    summary: "Goddess encountered at the Bokkaran Air Altar near Sefurah Springs; grants individual blessings; linked to the diseased Bokkara statue."
+    status: "active (central pantheon god; Twin Altars boon-giver)"
+    summary: "Central deity of the Bokkaran pantheon (its 'Zeus'); trans, began male and transformed to female after events left open in the lore. Distinct from the Bokkaran people. Encountered at the Bokkaran Air Altar near Sefurah Springs; grants individual blessings; linked to the diseased Bokkara statue."
     sources: [adventures.md, bestiary.md]
-    related: [loc:al-faiz-springs, adventure:twin-altars, creature:bokkara-statue, mystery:bokkara-disease]
+    related: [people:bokkaran, loc:al-faiz-springs, adventure:twin-altars, creature:bokkara-statue, mystery:bokkara-disease]
 
   # =====================================================================
   # MAJOR ARTIFACTS
@@ -2289,7 +2299,7 @@ entities:
     aliases: ["Roshani", "Roshanai", "The Lightbringer", "Parvaiz", "The Soaring One"]
     region: null
     status: "held by party"
-    summary: "Two-part Ukar keystone: a wreath and crystal bird that perform the Hymn of Harmony to awaken Al Faiz and form a portable portal."
+    summary: "Two-part Ukar keystone: a wreath and crystal bird that perform the Hymn of Harmony to awaken El Faiz and form a portable portal."
     sources: [artifacts.md, lore-and-mysteries.md]
     related: [artifact:al-faiz-tree, artifact:afras-spark, loc:al-faiz-springs, mystery:ukar-portal-network, people:ukar]
 
@@ -2319,17 +2329,17 @@ entities:
     aliases: []
     region: null
     status: "held by party"
-    summary: "Ley-infused pebble whose 'Spark' lets a bearer activate Ukar artifacts and Bokkaran music boxes and cast Ley Energy Bolt."
+    summary: "Ley-infused pebble whose 'Spark', physically incorporated into a creature's body, lets the bearer operate Ukar tree-portals and activate Ukar artifacts and Bokkaran music boxes, and cast Ley Energy Bolt."
     sources: [artifacts.md, lore-and-mysteries.md]
     related: [deity:afra, artifact:ukar-wreath-bird, artifact:music-boxes, thread:afras-spark]
 
   - id: artifact:al-faiz-tree
-    name: "Al Faiz tree"
+    name: "El Faiz tree"
     type: artifact
-    aliases: ["El Faiz", "Wind's Sorrow", "Source Tree", "Godhead"]
+    aliases: ["Al Faiz", "Wind's Sorrow", "Source Tree", "Godhead"]
     region: "The Granite Empire"
     status: "active / dormant-sealed; not portable"
-    summary: "The world-tree spirit spanning Material and Celestial planes, source of the ley lines; weaponized by Bokkaran necromancers."
+    summary: "The central old life-tree / Ukar source tree, a world-tree spirit spanning Material and Celestial planes and source of the ley lines; weaponized by Bokkaran necromancers and nearly killed by the Polgar ley-line poison."
     sources: [artifacts.md, lore-and-mysteries.md]
     related: [loc:al-faiz-springs, artifact:storm-orchids, artifact:ukar-wreath-bird, mystery:desert-healing]
 
@@ -2379,7 +2389,7 @@ entities:
     aliases: []
     region: null
     status: "held by party"
-    summary: "Three Ukar rings with mantras that let wearers pass into the Celestial plane and the Sefura Springs garden."
+    summary: "Three Ukar rings with mantras that let wearers pass into the Celestial plane and the Sefurah Springs garden."
     sources: [artifacts.md]
     related: [people:ukar, loc:al-faiz-springs]
 
@@ -2398,8 +2408,8 @@ entities:
     type: artifact
     aliases: ["Alorix"]
     region: null
-    status: "active; one specimen planted"
-    summary: "Magical plant-creatures, offspring of Al Faiz, that feed Sefura Springs; central to the desert-restoration effort."
+    status: "active; none planted yet"
+    summary: "Magical plant-creatures, offspring of El Faiz, that feed Sefurah Springs; central to the desert-restoration effort. No storm orchids have been planted yet."
     sources: [artifacts.md, lore-and-mysteries.md]
     related: [artifact:al-faiz-tree, faction:lillith-nomads, mystery:desert-healing]
 
@@ -2516,18 +2526,18 @@ entities:
     type: creature
     aliases: ["Lados", "the Abyssal Demon"]
     region: "Tel A'bib & the Near Desert"
-    status: "dead (defeated in the Sea of Souls crypt)"
-    summary: "Balor-class Abyssal demon Duroigh was manipulated into summoning; menaced the region before being put down."
+    status: "being summoned at Kantaron (ritual in progress)"
+    summary: "A Balor (proper name 'Nalfeshnee') being summoned at Kantaron through Durel's manipulated work; an in-progress ritual the party must stop, or else fight it."
     sources: [bestiary.md, cast.md]
-    related: [npc:duroigh, loc:kantaron, mystery:nalfeshnee, creature:vrocks]
+    related: [npc:durel-duroigh, loc:kantaron, mystery:nalfeshnee, creature:vrocks]
 
   - id: creature:kalinore
     name: "Kalinore"
     type: creature
     aliases: ["the Bokkaran Lich", "wizard-king"]
     region: "The Saragubi Desert"
-    status: "escaped / at-large (lich; treat as live threat)"
-    summary: "Ancient Bokkaran lich-wizard bound to a phylactery; built a tomb for his love Ilymna; escaped near death, re-engaged at Charnel Keep."
+    status: alive
+    summary: "Ancient Bokkaran wizard-king lich, alive and a recurring threat; bound to a phylactery; built a tomb for his love Ilymna."
     sources: [bestiary.md, cast.md, lore-and-mysteries.md]
     related: [npc:ilymna, subloc:kalinores-domain, subloc:charnel-keep, npc:maghiel, thread:kalinore-ilymna]
 
@@ -2729,7 +2739,7 @@ entities:
     status: dead
     summary: "Vulture-like demon fiends fought alongside the Nalfeshnee and reanimated Duroigh in the Sea of Souls crypt."
     sources: [bestiary.md]
-    related: [creature:nalfeshnee, npc:duroigh]
+    related: [creature:nalfeshnee, npc:durel-duroigh]
 
   - id: creature:purple-worm
     name: "Purple Worm"
@@ -2769,7 +2779,7 @@ entities:
     status: "active/threat (still wandering)"
     summary: "White-metal Bokkaran automatons built by Duroigh, roaming Tel A'bib's countryside harvesting and hunting artifact-bearers."
     sources: [bestiary.md]
-    related: [npc:duroigh, loc:kantaron, thread:missing-raffin, mystery:nalfeshnee]
+    related: [npc:durel-duroigh, loc:kantaron, thread:missing-raffin, mystery:nalfeshnee]
 
   - id: creature:anubi
     name: "Anubi Dog Statues"
@@ -2813,7 +2823,7 @@ entities:
     status: unresolved
     summary: "Was the Balor truly stopped and who pulled the strings; Duroigh's constructs and breached containments may still be loose."
     sources: [lore-and-mysteries.md]
-    related: [creature:nalfeshnee, npc:duroigh, creature:durels-constructs, creature:oteraghs]
+    related: [creature:nalfeshnee, npc:durel-duroigh, creature:durels-constructs, creature:oteraghs]
 
   - id: mystery:ukar-portal-network
     name: "The Ukar portal network"
@@ -2831,7 +2841,7 @@ entities:
     aliases: []
     region: null
     status: unresolved
-    summary: "Can the ley-line-poisoned land be restored, and who opposes it; hinges on storm orchids, ley-line lenses, and reawakening Al Faiz."
+    summary: "Can the ley-line-poisoned land be restored, and who opposes it; hinges on storm orchids, ley-line lenses, and reawakening El Faiz."
     sources: [lore-and-mysteries.md]
     related: [artifact:storm-orchids, artifact:al-faiz-tree, faction:lillith-nomads, loc:nurian-necropolis]
 
@@ -2841,7 +2851,7 @@ entities:
     aliases: []
     region: null
     status: unresolved
-    summary: "Who Maghiel really is and what the magical box contains; possibly 'Malnea in disguise'; infected by The Thorn, removed Day 109."
+    summary: "What drives Maghiel and what the magical box contains; she is freshly Black Thorn-cursed (thorn hidden in her chest, unknown to the party) and only beginning her villain path."
     sources: [lore-and-mysteries.md]
     related: [npc:maghiel, thread:the-thorn, mystery:bokkara-disease]
 
@@ -2890,12 +2900,12 @@ entities:
     related: [people:tugari, region:granite-empire, subloc:tugari-lands]
 
   - id: thread:al-faiz-awakening
-    name: "Al Faiz awakening incomplete"
+    name: "El Faiz awakening incomplete"
     type: thread
     aliases: []
     region: null
     status: pending
-    summary: "The party holds the Roshani wreath and Parvaiz bird for the Hymn of Harmony at Sefurah Springs, but the ritual is unperformed."
+    summary: "The party holds the Roshanai wreath and Parvaiz bird for the Hymn of Harmony at Sefurah Springs, but the ritual is unperformed."
     sources: [lore-and-mysteries.md]
     related: [artifact:ukar-wreath-bird, loc:al-faiz-springs, artifact:al-faiz-tree, mystery:desert-healing]
 
@@ -2980,14 +2990,14 @@ entities:
     related: [npc:eamon-al-sabir, npc:youssef-al-salim, npc:fatima-zaman, region:holy-cities]
 
   - id: thread:the-thorn
-    name: "The Thorn"
+    name: "Black Thorn"
     type: thread
-    aliases: ["Black Thorn"]
+    aliases: ["The Thorn"]
     region: null
-    status: "removed from Maghiel (Day 109); link unresolved"
-    summary: "A parasitic corruption infecting Maghiel, removed in a final confrontation; possibly linked to the Bokkara statue disease."
+    status: "splintered into Maghiel (hidden); link unresolved"
+    summary: "A Black Thorn is a corruption vector (NOT petrification): impaled/splintered into a victim it grants great power but drives them to evil. One is splintered into Maghiel's chest, hidden under her armor (the party won't know for a long time) — the source of her villainy. Returning a thorn to the central life-tree El Faiz can reincorporate and help restore it."
     sources: [lore-and-mysteries.md, adventures.md]
-    related: [npc:maghiel, mystery:maghiel-goals, mystery:bokkara-disease]
+    related: [npc:maghiel, mystery:maghiel-goals, mystery:bokkara-disease, artifact:al-faiz-tree]
 
   # =====================================================================
   # ADVENTURES (written homebrew)
@@ -3049,7 +3059,7 @@ entities:
     aliases: []
     region: "The Granite Empire"
     status: "prior campaign: defeated Ylgavroth, got Blackwater's Dirge"
-    summary: "The party recovers Blackwater's Dirge from a swamp and defeats the water demon Ylgavroth to win passage to Al Faiz."
+    summary: "The party recovers Blackwater's Dirge from a swamp and defeats the water demon Ylgavroth to win passage to El Faiz."
     sources: [adventures.md]
     related: [loc:al-faiz-springs, creature:water-demon-ylgavroth, artifact:blackwaters-dirge, creature:swamp-elemental]
 
@@ -3059,7 +3069,7 @@ entities:
     aliases: []
     region: "The Granite Empire"
     status: "prior campaign: met Bokkara, gained blessings"
-    summary: "The party earns the favor of the goddess Bokkara and the Ukar at twin Air and Earth altars unlocking Al Faiz's inner gardens."
+    summary: "The party earns the favor of the goddess Bokkara and the Ukar at twin Air and Earth altars unlocking El Faiz's inner gardens."
     sources: [adventures.md]
     related: [loc:al-faiz-springs, deity:bokkara, people:ukar, creature:stone-golems]
 
@@ -3156,7 +3166,7 @@ entities:
     summary: "Count Duroigh's workshop beneath a Bokkaran tower, where a Nalfeshnee manipulates him into building a summoning vessel."
     level: "L3-6"
     sources: [adventures.md]
-    related: [loc:kantaron, npc:duroigh, creature:nalfeshnee]
+    related: [loc:kantaron, npc:durel-duroigh, creature:nalfeshnee]
 
   - id: adventure:crisis-kantaron
     name: "Crisis at Kantaron Summit"
@@ -3166,7 +3176,7 @@ entities:
     status: "not yet run by new party"
     summary: "Duroigh's constructs overrun the Tel A'bib area; the party traces the plague to Duroigh and the growing demon threat."
     sources: [adventures.md]
-    related: [loc:kantaron, npc:duroigh, creature:durels-constructs, creature:nalfeshnee]
+    related: [loc:kantaron, npc:durel-duroigh, creature:durels-constructs, creature:nalfeshnee]
 
   - id: adventure:pursuing-nalfeshnee
     name: "Pursuing Nalfeshnee at the Kantaron Summit"
@@ -3326,7 +3336,7 @@ entities:
     status: "not yet run by new party"
     summary: "The party reaches the shifting Crystal Towers to stop Maghiel activating a Bokkaran 'Slarecian Engine' before the city sinks."
     sources: [adventures.md]
-    related: [loc:crystal-towers, npc:maghiel, creature:mind-demons, npc:duroigh]
+    related: [loc:crystal-towers, npc:maghiel, creature:mind-demons, npc:durel-duroigh]
 
   - id: adventure:bridged-city-schism
     name: "Bridged City — Scholarly Schism"

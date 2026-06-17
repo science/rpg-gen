@@ -6,12 +6,12 @@ Creatures, monsters, constructs, and undead encountered (or still lurking) acros
 
 ## Named & Boss Creatures
 
-### Nalfeshnee (the Abyssal Demon) — STILL-LIVE / DEFEATED LATE
-- **What it is:** A powerful Abyssal demon. Described both as a Large fiend (Nalfeshnee) and as a Balor-class boss (bite 5d10+5 piercing; claws 3d6+5 slashing; Horrifying Presence DC 15 WIS save or frightened 1 min; spawns additional demons; causes environmental destruction and magical disturbances).
+### The Kantaron Demon — a Balor named "Nalfeshnee" — POTENTIAL (new timeline) / defeated (prior run)
+- **What it is:** The Kantaron demon is a **Balor** (creature type) whose **proper name is "Nalfeshnee."** Use Balor as the stat block (bite 5d10+5 piercing; claws 3d6+5 slashing; Horrifying Presence DC 15 WIS save or frightened 1 min; spawns additional demons; causes environmental destruction and magical disturbances). It is being **summoned** at Kantaron — an in-progress ritual the party must stop, or else fight Nalfeshnee.
 - **Where encountered:** Summoning begun by the entranced artificer Durel/Duroigh at Tinkerer's Workshop, Kantaroz/Kantaron Summit; grew in power across the workshops; final confrontation in the Sea of Souls crypt facility.
 - **Threat / notable abilities:** Frightening aura, demon-spawning, escalating power the longer the summoning ran. Fought alongside two Vrocks and a reanimated Duroigh in the Sea of Souls crypt.
-- **play_history:** Party first prevented its initial entry by defeating Durel and seizing the Tinkerer's Workshop (Kantaroz Summit). It nonetheless escaped/manifested at Kantaron and was pursued. On Day 37 the party found an undead mage performing a ritual on the Nalfeshnee; Days 38–39 they engaged it with two Vrocks and reanimated Duroigh and defeated both the Nalfeshnee and Duroigh.
-- **status:** Dead (defeated in the Sea of Souls crypt). NOTE: this is the escaped Abyssal demon that menaced the region for a long arc before being put down.
+- **play_history:** Party first prevented its initial entry by defeating Durel and seizing the Tinkerer's Workshop (Kantaroz Summit). It nonetheless escaped/manifested at Kantaron and was pursued. On Day 37 the party found an undead mage performing a ritual on the Balor (Nalfeshnee); Days 38–39 they engaged it with two Vrocks and reanimated Duroigh and defeated both the Balor (Nalfeshnee) and Duroigh.
+- **status (new timeline):** **Not yet summoned — a live possibility at Kantaron.** In the reset, the summoning is something the party can interrupt at the Tinkerer's Workshop *or* end up fighting. (Prior run, for reference: it manifested, menaced the region for a long arc, and was finally defeated in the Sea of Souls crypt.)
 - `sources:` Lore - Ajiibwan Wilderlands; GM Game Notes; Tinkerer's Workshop: Kantaroz Summit.md; Crisis at Kantaron Summit.md; Pursuing Nalfeshnee at the Kantaron Summit.md
 
 ### Kalinore (the Bokkaran Lich) — STILL-LIVE THREAT (escaped, later re-engaged)
@@ -19,12 +19,12 @@ Creatures, monsters, constructs, and undead encountered (or still lurking) acros
 - **Where encountered:** Kalinore's Caverns / Kalinore's Domain (tomb-workshop) and later Charnel Keep, Saragubi Desert.
 - **Threat / notable abilities:** Petrification, paralysis, fireballs, self-healing via phylactery, undead summoning — a recurring campaign antagonist.
 - **play_history:** Day 57, battled the party in the tomb/workshop — petrified Thieri, paralyzed Silverin, fireballed the group, healed via phylactery. Party destroyed the coffin but **Kalinore escaped via a portal/magical bonfire** when near death. Set up for a final battle in Charnel Keep.
-- **status:** Escaped / at-large (powerful undead antagonist; phylactery mechanics in play). Treat as a live threat unless the final Charnel Keep battle is confirmed resolved.
+- **status:** **Alive / at-large** (canon: a wizard-king lich and recurring threat, phylactery-bearing — cannot be permanently killed while the phylactery survives). Escaped via portal at low HP; treat as a live threat unless the final Charnel Keep battle is confirmed resolved.
 - `sources:` GM Game Notes; Kalinore's Tomb adventure.md; Kalinore's Chaos in the Saragubi Desert.md
 
-### Mesos, Titan King (Meso) — ALLY
-- **What it is:** Gargantuan celestial/giant titan, neutral good / lawful neutral, ~60 ft tall. Two stat renderings exist: the Dimark encounter (400 HP, CR 14, Word of Pain / Reality-Altering Words / Stunning Word) and the B'rath rendering (AC 21, 546 HP, CR 21, Gargantuan Greatsword, Titanic Roar, Quake; Legendary Resistance 3/day; Regeneration 30 HP/turn). Speaks Common/Giant/Primordial; 120 ft telepathy; amphibious.
-- **Where encountered:** Saragubi Desert / Dimark, and the underground mud pool beneath B'rath.
+### Mesos, the imprisoned Titan King (Meso) — ALLY
+- **What it is:** A **Titan** (the imprisoned Titan King), ally faction — Gargantuan celestial/giant, neutral good / lawful neutral, ~60 ft tall. Imprisoned **near Tel A'bib (B'rath)**, relatively easy to find. NOTE: **Afra is a separate, distinct titan** ("the Slumbering Titan," found WEST of Hothme) — do not conflate the two. Mesos is a **confused, partly-unreliable narrator** (2000 years disembodied → cognitive decline; re-corporating him improves but does not fully restore his memory). Two stat renderings exist: the Dimark encounter (400 HP, CR 14, Word of Pain / Reality-Altering Words / Stunning Word) and the B'rath rendering (AC 21, 546 HP, CR 21, Gargantuan Greatsword, Titanic Roar, Quake; Legendary Resistance 3/day; Regeneration 30 HP/turn). Speaks Common/Giant/Primordial; 120 ft telepathy; amphibious.
+- **Where encountered:** Near Tel A'bib (B'rath) — the underground mud pool beneath B'rath; also the Saragubi Desert / Dimark.
 - **Threat / notable abilities:** Titanic combat power, but non-hostile to the party. Tied to the Ukar Federation; associated relic "Meso's Bane"; gives lore and an alliance after being freed.
 - **play_history:** Encountered in Dimark (ancient titan interaction) and again in the B'rath mud pool, where the party witnessed his titanic resurrection after freeing him and received lore + alliance.
 - **status:** Alive; ally faction. Partially imprisoned but functional; plans his freedom.
@@ -109,7 +109,7 @@ Creatures, monsters, constructs, and undead encountered (or still lurking) acros
 | Oteraghs | Saragubi | Tentacled aberrations. Days 40–41 two fought amid a Black Water battle; A''ki harvested a tentacle (+2 piercing whip damage). Dead. | GM Game Notes |
 | Yog-Sothoth / Yog Sothoth | Charnel Keep area / desert | Cosmic eldritch horror. Bite + mold poison; tentacle attacks. Day 41 two fought and defeated (A''ki and Jiyloo took severe damage). | GM Game Notes; Kalinore's Chaos in the Saragubi Desert.md |
 | Mind Demons | Crystal Towers / desert | Psychic entities. Day 30 two fought; Silverin used Faerie Fire for advantage. Dead. | GM Game Notes |
-| Vrocks | Kantaron / crypt | Vulture-like demon fiends. Days 38–39 two fought alongside the Nalfeshnee and reanimated Duroigh. Dead. | GM Game Notes |
+| Vrocks | Kantaron / crypt | Vulture-like demon fiends. Days 38–39 two fought alongside the Balor (Nalfeshnee) and reanimated Duroigh. Dead. | GM Game Notes |
 | Kallikantzaros | Charnel Keep | Humanoid demon; two spear attacks (1d6+2 each). | Kalinore's Chaos in the Saragubi Desert.md |
 | Giant (oversized humanoid) | Forest of Memories | Very large humanoid (possibly 50+ ft). Day 26 attacked with a dire wolf; defeated. Dead. | GM Game Notes |
 | Stone Giant Guardian | Ukar temple waterfall | 20+ ft animated stone construct. Day 21 killed. Dead. | GM Game Notes |
@@ -118,7 +118,7 @@ Creatures, monsters, constructs, and undead encountered (or still lurking) acros
 | Anubi Dog Statues/Monsters ("Anubi") | Forsaken Pyramid (north entrance) | Dog-like stone/magical guardians. Day 12 two fought. Dead. | GM Game Notes |
 | Unicorn Construct / Horned Creature | Forest of Memories (Tanil's Glade) | Unknown horned magical creature. Day 26 fought. Dead. | GM Game Notes |
 | Dryads | Tanil's Glade | Non-hostile fey forest spirits, guardians of the Glade. Days 26–27 offered Tanil warlock pacts. Active/non-hostile. | GM Game Notes |
-| Demon (Kantaroz Summit) | Kantaroz Summit / Tinkerer's Workshop | The summoning Durel was channeling (the Nalfeshnee arc); entry prevented by defeating Durel and seizing the workshop. Destroyed (entry blocked). | Lore - Ajiibwan Wilderlands |
+| Kantaron Demon (Balor "Nalfeshnee") | Kantaroz Summit / Tinkerer's Workshop | The Balor named "Nalfeshnee" Durel was summoning; entry prevented by defeating Durel and seizing the workshop. See the full Named & Boss entry. | Lore - Ajiibwan Wilderlands |
 | Flesh blob | Air Spire tower living quarters | A transformed creature — a former level-10 wizard — hiding in a bedroom corner. Active. | Lore - Ajiibwan Wilderlands |
 | Giant tortoise | Great Oasis | Local rumor of a dangerous creature near the oasis — actually the Air Spire Talisman, misidentified. Not a true creature. | Lore - Ajiibwan Wilderlands |
 
@@ -185,8 +185,8 @@ Creatures, monsters, constructs, and undead encountered (or still lurking) acros
 ---
 
 ### Still-live threats to flag for play
-- **Nalfeshnee** — the escaped Abyssal demon arc; ultimately put down in the Sea of Souls crypt, but it menaced the region for a long stretch after escaping Durel's summoning.
-- **Kalinore (Bokkaran lich)** — escaped via portal at low HP after Day 57; a phylactery-bearing lich set up for a final Charnel Keep confrontation. Treat as at-large unless that battle is confirmed won.
+- **The Kantaron demon — a Balor named "Nalfeshnee"** — being summoned at Kantaron; an in-progress ritual to stop, or else fight the Balor. (In game-1 history it escaped Durel's summoning and was ultimately put down in the Sea of Souls crypt.)
+- **Kalinore (Bokkaran lich)** — **alive / at-large**: a wizard-king lich and recurring threat with a phylactery (cannot be permanently killed while the phylactery survives). Escaped via portal at low HP after Day 57; set up for a final Charnel Keep confrontation.
 - **Wyverns** — mated pair still active at the Air Spire (and seen at the Great Oasis tower); never recorded as killed.
 - **Giant Sand Worms** — ongoing Saragubi Desert predators, not a one-off kill.
 - **Charnel Keep / Saragubi undead** (general), the **Flesh blob** at the Air Spire, **Centaur bandits** of the Red Plains, and **Durel's wandering Magical Constructs** around Tel A'bib all remain active in the world.

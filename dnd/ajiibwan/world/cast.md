@@ -13,7 +13,7 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **A''ki** (of the Whisper Warrior Clan) — Aarakocra (Hawk Owl) Monk, later Monk/Warlock; she/her. A sunspirit, day-born monk on her clan's *flyabout* coming-of-age journey, mastering monk skills toward ascension to the undying Whisper Warriors. Acrobatic mastery; can teach acrobatics. Core party member: rescue missions, sphinx excavations, demon battles, major cult operations. Converted to Tanil worship (Day 26). Trains monk apprentices Waru and Masym. Status: active.
 `sources:` Journal; Basq - Kalinore's Aftermath.md
 
-**Kai** (Kaikuva) — Leonin Barbarian (wild magic); she/her. A "big angry lion woman" of few words, seeking to restore her Pride (homelands) conquered by gnoll druids and a powerful witch. Wild magic backfires when she is angered (psychic AoE). Carries a white-metal (Ukarran) longsword and, by Day 21, the Ukkar White Death Hammer. Joined Day 13; central to sphinx ops, demon battles, slave rescue, cult operations. Converted to Tanil worship (Day 26). Status: active.
+**Kai** (Kaikuva) — Leonin Barbarian (wild magic); she/her. A "big angry lion woman" of few words, seeking to restore her Pride (homelands) conquered by gnoll druids and a powerful witch. Wild magic backfires when she is angered (psychic AoE). Carries a white-metal (Ukarran) longsword and, by Day 21, the Ukar (formerly "Ukkar") White Death Hammer. Joined Day 13; central to sphinx ops, demon battles, slave rescue, cult operations. Converted to Tanil worship (Day 26). Status: active.
 `sources:` Journal
 
 **Silverin** — Half-Elf Druid (Circle of the Moon), later multiclass Warlock (by Day 91); they/them. Raven-haired, coppered skin, androgynous; territorial and arrogant. Wild-shapes into tigers, rats, and other animals; fluent in Bokkaran. Core member from early campaign; key in sphinx ops, demon battles, cult assaults; develops ties with dryads and Tanil (converted Day 26). Status: active.
@@ -22,8 +22,7 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **Thieri** — Human Rogue (Inquisitive), later multiclass Artificer (by Day 91); he/him; lv6+. Middle-aged, balding under a dramatic hat, foppish, fond of drink, fine red cloak. Skilled blade; gained Bokkaran fluency after touching a red sphere in a temple (Day 13); develops alchemy/infusions. Core member; runs interrogations; made tailor connections in Tel A'bib. Family friend / close relation of foreign prince Malik Qumar. Status: active.
 `sources:` Journal; The Dark Arts of Diplomacy: The Holy Cities.md
 
-**Jiyloo** — Human Barbarian (Desert Barbarian); desert-born. Former metal-working apprentice to merchant Feltan; follower of Doorne (Dornian practices); frenzies in combat; owns a camel; carries a great axe. 39+ games with the party; equal loot share from Day 24; rescued enslaved people (Day 25); briefly returned to Tel A'bib by Day 83. Status: active core companion.
-*Note:* The world-lore cluster also records a level-1 "Jiyloo Ubbett," barbarian assistant to Feltan — almost certainly this same character before joining the party. A separate Saragubi capture describes a "Jiyloo, horseman" aiding against a sandworm en route to Gnoll village Gila (traveling with monk apprentices Waru and Masym, trained by A''ki); and a B'rath capture describes "Jiyloo, female Tel A'bib merchant/guide." These later captures conflict on gender/role and may be different people sharing the name, or loose retellings of the companion — kept separate below where roles diverge.
+**Jiyloo** (Jiyloo Ubbett) — Human Barbarian (Desert Barbarian); desert-born. Former metal-working apprentice (level-1 assistant) to the Tel A'bib metal-works merchant Feltan; follower of Dorne (Dornian practices); frenzies in combat; owns a camel; carries a great axe. ONE recurring companion across many adventures — sometimes traveling with the party, sometimes arriving from outside to help. 39+ games with the party; equal loot share from Day 24; rescued enslaved people (Day 25); briefly returned to Tel A'bib by Day 83. The Saragubi capture of a "Jiyloo, horseman" who drew off a giant sandworm on horseback en route to the Gnoll village of Gila (traveling with monk apprentices Waru and Masym, trained by A''ki), and the B'rath capture of a "Jiyloo, Tel A'bib merchant/guide," are all the same companion. Status: active core companion.
 `sources:` Journal; Lore - Ajiibwan Wilderlands; Basq - Kalinore's Aftermath.md; Return to Mesos.md
 
 **Mica** — Earth Genasi Ranger; she/her. Quartz skin glows in morning light; stoic; eager for desert secrets; casts Pass Without a Trace. Joined Day 11; Tomb of Ancestors, sphinx/cult assault, shrine investigations. Status: active.
@@ -42,7 +41,7 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **Quin** (Harlequin) — Wood Elf Ranger; he/him; lv2. Suggests travel routes; initially suspicious, then welcomed. Joined Day 10; boar battle and journey to Durgan's Rest; clashed with Grey Dust over tactics. Status: active, then vanished from later records.
 `sources:` Journal
 
-**Maeve** — Half-Orc Bard. Storyteller/chronicler who flatters adventurers and records their deeds; capable healer (Aid); wields Dissonant Whispers and Vicious Mockery. Joined Day 40; Black Water Cult fortress assault (Day 40-42), Sea of Souls monster fights (Day 43), Al Faiz expedition. Status: active.
+**Maeve** — Half-Orc Bard. Storyteller/chronicler who flatters adventurers and records their deeds; capable healer (Aid); wields Dissonant Whispers and Vicious Mockery. Joined Day 40; Black Water Cult fortress assault (Day 40-42), Sea of Souls monster fights (Day 43), El Faiz (formerly Al Faiz) expedition. Status: active.
 `sources:` Journal
 
 **Sylsira** — Halfling Rogue; she/her. Very acrobatic; lockpicker and ruin investigator; seeking artifacts of her own; meticulous documenter. Joined by Day 27; Saragubi ops, Black Water fortress (Day 40-42), Sea of Souls crypt, Bokkaran digs. Friend of the antiquities buff Duli. Status: active.
@@ -76,11 +75,11 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 
 ## Allies & Recurring NPCs
 
-**Elmingwed** (The Merchant Lord) — Elf merchant of Tel A'bib (northern section; mansion with a library tower). Wealthy patron, member of the Athyes religion, expert in ancient artifacts and Desert Script (Bokkaran); knows scholars at Bridge City and the orc at Durgan's Rest. Identified artifacts for the party and supplied soldiers/equipment for the Black Water Cult assault at Oasis of Sia in exchange for 40% of treasure and first dibs. Key information broker. Employs the soldier Abet Phera; allied with Elruen (elf magician) in Bridge(d) City. Status: alive, established patron.
+**Elmingwed** (The Merchant Lord) — Elf merchant of Tel A'bib (northern section; mansion with a library tower). Wealthy patron, member of the Athyes religion, expert in ancient artifacts and Desert Script (Bokkaran); knows scholars at Bridge City and the orc at Durgan's Rest. Identified artifacts for the party and supplied soldiers/equipment for the Black Water Cult assault at Oasis of Sia in exchange for 40% of treasure and first dibs. Key information broker. His private militia (key to his trading power) is captained by Abet (Abet Phera); allied with Elruen (elf magician) in Bridge(d) City. Status: alive, established patron.
 *Note:* Race recorded as "elf" in journal/lore but "race unknown" in one Mesos' Dock capture.
 `sources:` Lore - Ajiibwan Wilderlands; Journal; Mesos' Dock.md
 
-**Tsendur** — Orc (one capture says half-orc) scholar/magician of Ancient Bokkaran; lives in an impressive homestead at Durgan's Rest (Ordurt), a mountain town. Speaks Bokkaran; assistants Kada and Kayta (dwarves); corresponds with party members learning the language and with Bridge City scholars. Encountered Days 10-11 (eager to teach Bokkaran); attacked by Maghiel and dark elves (Day 14); identifies artifacts for white metal. Friend of Dain Ironheart. Status: alive, established ally and information source.
+**Tsendur** — A tame **full orc** (looks scary, but is a gentle scholar and magician) of Ancient Bokkaran; lives in an impressive homestead at Durgan's Rest (Ordurt), a mountain town. Speaks Bokkaran; assistants Kada and Kayta (dwarves); corresponds with party members learning the language and with Bridge City scholars. Encountered Days 10-11 (eager to teach Bokkaran); attacked by Maghiel and dark elves (Day 14); identifies artifacts for white metal. Friend of Dain Ironheart. Status: alive, established ally and information source.
 `sources:` Journal; Mesos' Dock.md
 
 **Essen** — Human Rogue (aspiring Scout); Tel A'bib. Assistant to the traveling-gear merchant Al-Esellin. Brave fighter; frequent party guide. His younger brother Tane was kidnapped (went missing in the Eye of Kings caves during the Anauld's Eve incident) and later took part in a Tomb of Ancestors rescue. Permanent companion with equal loot claim; left in charge of Jiyloo's affairs during absences. Status: alive, trusted.
@@ -89,7 +88,7 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **Vol** — Innkeeper of the New Moon tavern in Tel A'bib — the party's favorite inn; holds the party's strongbox. Status: alive, service provider.
 `sources:` Lore - Ajiibwan Wilderlands; Journal
 
-**Meso / Mesos** (Mesos Ukar; the Titan King) — Gargantuan celestial titan, neutral good, ~60 ft, NG (400 HP, AC 18). Speaks Common/Imperial, Giant, Primordial, Ukar; telepathy 120 ft; known for "Meso's Bane." Imprisoned for eons by a Bokkaran Dream Catcher in an underground mud-pool prison at B'rath; body dismembered and scattered; teaches B'rath children the Ukar language. Seeks the Khezurai ring and bodily reconstruction to escape and reach the Sefurah Gardens / Al-Faiz tree. The party recovered the titan's finger and parts, disabled the Dream Catcher, and partly freed/reconstructed him; he turns toward alliance and shares lore of the Khezurai rings, Al-Faiz, Sefurah Springs, and Bokkaran war history. Status: partially freed, semi-conscious, communicative.
+**Meso / Mesos** (Mesos Ukar; the Titan King) — Gargantuan celestial titan, neutral good, ~60 ft, NG (400 HP, AC 18). Speaks Common/Imperial, Giant, Primordial, Ukar; telepathy 120 ft; known for "Meso's Bane." Imprisoned for eons by a Bokkaran Dream Catcher in an underground mud-pool prison at B'rath; body dismembered and scattered; teaches B'rath children the Ukar language. Seeks the Khezurai ring and bodily reconstruction to escape and reach the Sefurah Gardens / El Faiz (formerly Al-Faiz) tree. The party recovered the titan's finger and parts, disabled the Dream Catcher, and partly freed/reconstructed him; he turns toward alliance and shares lore of the Khezurai rings, El Faiz, Sefurah Springs, and Bokkaran war history. Status: partially freed, semi-conscious, communicative.
 *Note:* The world-lore cluster places him in the Saragubi Desert (linked to Dimark / Ukar Federation); the B'rath cluster places his prison at B'rath. Spelled "Meso" and "Mesos."
 `sources:` Lore - Ajiibwan Wilderlands; Freeing Mesos.md; Return to Mesos.md; The Titan's Finger and the Fire Beetles Adventure.md
 
@@ -146,8 +145,8 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 
 ## Villains & Antagonists
 
-**Maghiel** (variants: Magdaliel; "Maghiel Erdot"; "Bringer of Life"; "MG"; "MG") — Drow (Dark Elf) Wizard, the campaign's recurring arch-antagonist. Hollow, disfigured appearance; plated chest armor; highly skilled combatant. Hunts Bokkaran artifacts (especially depleted "wands") to open a magical box holding an object of great power. Trains Black Water Cultists in ritual magic; works to raise undead; manipulates/coordinates with the lich Kalinore at Charnel Keep; operates a ship on the Sea of Souls; sends taunting, library-seal-watermarked letters. Directs Cult excavation under the desert fort to reach the Sea of Souls and runs the well-poisoning campaigns. Intercepted the party's correspondence with Tsendur and attacked his home with fire-beings and dark-elf warriors (Day 14); reappeared as an apparition in the Bridge City College tower (Day 15, disintegrated when struck by a twilight scimitar); attacked at Hothme's Sacred Pool (fireballs, civilian deaths) while negotiating with Adric Cascabel; confronted on her Sea of Souls boat; linked to the Nalfeshnee summoning. Corresponds with Cardinal Sponfz. Status: active, extremely dangerous.
-*Note:* Captured under several spellings/aliases across clusters (Maghiel, Magdaliel, "MG"). The Holy Cities "Maghiel" who corresponds with Cardinal Sponfz to open the magical box is the same figure; treated as one antagonist throughout.
+**Maghiel** — Female Drow (Dark Elf) battle-mage **wizard**; no surname yet (TBD). The campaign's eventual arch-antagonist. Hollow, disfigured appearance; plated chest armor; highly skilled combatant. Her villainy is caused by a **Black Thorn** splintered into her chest — a corruption vector that grants great power while driving her to sinister behavior. The thorn is hidden under her chest armor; **the party will not know about it for a long time**. In the current (game-2) timeline she is **just beginning her villain path**, roughly in parallel with the party, having been recently infected while conducting black-magic research — not yet the established threat of the prior campaign. (earlier mis-captures: "Magdaliel", "Maghiel Erdot", "Bringer of Life", "MG")
+*Game-1 reference arc (prior campaign, not inherited history):* Hunted Bokkaran artifacts (especially depleted "wands") to open a magical box holding an object of great power. Trained Black Water Cultists in ritual magic; worked to raise undead; manipulated/coordinated with the lich Kalinore at Charnel Keep; operated a ship on the Sea of Souls; sent taunting, library-seal-watermarked letters. Directed Cult excavation under the desert fort to reach the Sea of Souls and ran the well-poisoning campaigns. Intercepted the party's correspondence with Tsendur and attacked his home with fire-beings and dark-elf warriors (Day 14); reappeared as an apparition in the Bridge City College tower (Day 15, disintegrated when struck by a twilight scimitar); attacked at Hothme's Sacred Pool (fireballs, civilian deaths) while negotiating with Adric Cascabel; confronted on her Sea of Souls boat; linked to the Nalfeshnee summoning; reanimated the dead artificer Durel into "Duroigh" (see below). Corresponded with Cardinal Sponfz. *(In the game-1 ending, after her death her thorn was returned to the central old life-tree **El Faiz** and reincorporated, helping restore the tree the Polgar ley-line poison had nearly killed.)* Status: active, extremely dangerous.
 `sources:` Lore - Ajiibwan Wilderlands; Lore - Primary Source materials; Journal; Kalinore's Tomb adventure.md; Basq - Kalinore's Aftermath.md; Kalinore's Chaos in the Saragubi Desert.md; Crisis at Kantaron Summit.md; Pursuing Nalfeshnee at the Kantaron Summit.md; The Dark Arts: Raid the Cult's Desert Fort.md; Freeing Mesos.md; Return to Mesos.md
 
 **Kalinore** — Bokkaran wizard-king of ages past, now a lich. Built a palace-tomb complex for himself and his love Ilymna in the Saragubi Desert; bound to a phylactery coffin. Dangerous spellcaster (Paralyzing Touch, Ray of Frost, Magic Missile, Thunderwave, Fireball, Disrupt Life); resurrects undead minions; inflicts despair. Sealed in his tomb, fought by the party, escapes via magical bonfire near death; more fully released during the Charnel Keep arc, where he generates magical storms and spawns undead while allied with / manipulated by Maghiel. Status: undead (lich); active threat.
@@ -156,8 +155,8 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **Nalfeshnee** (initially the construct identity "Lados") — Balor demon, major antagonist of the Kantaron arc. Originally meant to be summoned/controlled by Duroigh through unwitting manipulation. Bite 5d10+5, claws 3d6+5, horrifying presence (DC15 WIS or frightened); spawns lesser demons; causes fires and magical disturbances. Grows in power as Duroigh works; escapes/fought at Kantaron Summit; final confrontation in the Sea of Souls crypt within an ancient Bokkaran facility, where the party must beat it and restore magical containment. Status: active major threat.
 `sources:` Tinkerer's Workshop: Kantaroz Summit.md; Crisis at Kantaron Summit.md; Pursuing Nalfeshnee at the Kantaron Summit.md
 
-**Duroigh** (Count Duroigh) — Magical tinkerer/wizard, Kantaron Summit (Tinkerer's Workshop beneath an ancient Bokkaran tower). Controls animated constructs powered by crystal "brains" that imprison enslaved creature-souls; can control but not create/repair them. Unknowingly manipulated by Nalfeshnee into assembling a vessel for the demon's summoning. Holds Bokkaran spell scrolls (Mending, Encode Thoughts, Alarm, Catapult, Find Familiar, Blur). Status: active, possibly enslaved to the demon.
-*Note:* Two captures — "Duroigh" (journal, inferred from Elmingwed Day 5 as the creator/commander of the crystal constructs that target Bokkaran artifacts; not yet confronted there) and "Count Duroigh"/"Duroigh" (Saragubi, confronted in the Tinkerer's Workshop). Same person; the journal frames him as an unconfronted threat behind the constructs, the Kantaron docs as the confronted antagonist.
+**Durel / Duroigh** (Count Duroigh) — ONE individual, two phases. **Durel** was the Kantaron **artificer**; after he died, **Maghiel reanimated him** and he returned as the undead **"Duroigh"** (Durel → death → undead Duroigh). As Duroigh he is a magical tinkerer/wizard at Kantaron Summit (Tinkerer's Workshop beneath an ancient Bokkaran tower). Controls animated constructs powered by crystal "brains" that imprison enslaved creature-souls; can control but not create/repair them. Unknowingly manipulated by Nalfeshnee into assembling a vessel for the demon's summoning. Holds Bokkaran spell scrolls (Mending, Encode Thoughts, Alarm, Catapult, Find Familiar, Blur). Status: active, possibly enslaved to the demon.
+*Note:* Earlier captures recorded "Duroigh" (journal, inferred from Elmingwed Day 5 as the creator/commander of the crystal constructs that target Bokkaran artifacts; not yet confronted there) and "Count Duroigh"/"Duroigh" (Saragubi, confronted in the Tinkerer's Workshop) — the same undead figure from differing angles.
 `sources:` Journal; Tinkerer's Workshop: Kantaroz Summit.md; Crisis at Kantaron Summit.md
 
 **Donol** (the Bokkaran Undead King) — Ancient Bokkaran warrior-king (mummy/lich) entombed in the Crypt of the Saragubi Desert; tomb of white metal inlaid with gold, door carvings of his conquests, guarded by four skeletal knights. Awakens when his sarcophagus is disturbed; defeating him collapses the tomb. Status: destroyed by the party.
@@ -277,10 +276,9 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 
 **Renzo** — Imperial detachment commander of Tel A'bib; aloof, mildly corrupt opportunist focused on preserving his authority and avoiding conflict. Status: active.
 
-**Abet** (Captain of the Guard) — Captain of the Guard in Tel A'bib's Imperial detachment (over Gyles, under Renzo). Status: active.
-*Possible duplicate / conflict:* The B'rath cluster lists **Abet Phera**, "a soldier working for Elmingwed" in Tel A'bib. May be the same individual (a guardsman named Abet) seen from a different angle, or two distinct people — the role (Imperial guard captain vs. private soldier for Elmingwed) differs. Kept as separate facts.
+**Abet** (Abet Phera) — Captain of **Elmingwed's private militia** in Tel A'bib — the armed force key to Elmingwed's mercantile/trading power. NOT an Imperial Guard captain. Commands Elmingwed's soldiers (including Gyles). Status: active.
 
-**Gyles** — Guard in the Tel A'bib Imperial detachment (under Abet). Status: active.
+**Gyles** — Soldier in Elmingwed's private militia (under Abet). Status: active.
 
 **Ennett Wete** — Female senior priest of the Athyes religion at the Tel A'bib Temple; discussed Bokkaran lore with the party. Knows Elmingwed. Status: active.
 
@@ -288,7 +286,7 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 
 **Al-Esellin** — Merchant of tents and traveling gear, Tel A'bib market; camel "Rog"; employs the rogue Essen. Status: active.
 
-**Feltan** — Metal-works merchant, Tel A'bib market (lanterns, harness loops, hooks, simple weapons, special orders); camel "Toyil"; employed Jiyloo (Ubbett) as assistant; follower of Doorne. Status: active.
+**Feltan** — Metal-works merchant, Tel A'bib market (lanterns, harness loops, hooks, simple weapons, special orders); camel "Toyil"; employed Jiyloo (Ubbett) as assistant; follower of Dorne (formerly "Doorne"). Status: active.
 
 ### Durgan's Rest & Bridge(d) City
 
@@ -320,12 +318,9 @@ The standing roster of the previous campaign — the adventurers (and permanent 
 **Waru** & **Masym** — First-level monk apprentices traveling with Jiyloo in the Saragubi caravan; both trained by A''ki. Status: —.
 `sources:` Basq - Kalinore's Aftermath.md
 
-**Jiyloo (horseman, Saragubi)** — A horseman traveling with a caravan bound for the Gnoll village of Gila; drew off a giant sandworm on horseback to aid the party; traveled with monk apprentices Waru and Masym. (See note under the player-character **Jiyloo** — possibly the same companion, possibly a name collision; gender/role differs across captures.) Status: active ally.
-`sources:` Basq - Kalinore's Aftermath.md
-
 ### Lore / scholar references (limited play presence)
 
-**Althorn Belveris** — Scholar/researcher from Bokkaral; compiled research notes on Bokkaran artifacts (Storm Orchids, Dream Catchers, Mud Imprisonment, the Al Faiz tree). Status: —.
+**Althorn Belveris** — Scholar/researcher from Bokkaral; compiled research notes on Bokkaran artifacts (Storm Orchids, Dream Catchers, Mud Imprisonment, the El Faiz (formerly Al Faiz) tree). Status: —.
 `sources:` Lore - Primary Source materials
 
 **Galim** — Venerable Bokkaran engineer cited in the Engineering Manual for Bokkaran Magical Engines at the Charnel Keep Temple; expert in power-plant repair and magical-engine construction. Status: —.
@@ -350,8 +345,6 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Wealda | Clothing & desert gear | Tel A'bib market | — |
 | Helmund | Leather-works merchant | Tel A'bib market | — |
 | Laca | Money changer / shipping | Tel A'bib market | Travel agent & logistics |
-| Jiyloo Ubbett | Lv1 barbarian; Feltan's assistant | Tel A'bib | Follower of Doorne; = player-character Jiyloo before joining |
-| Abet Phera | Soldier for Elmingwed | Tel A'bib | Possible duplicate of guard Abet (see conflict note) |
 
 *Camels named in sources (not people): Rog (Al-Esellin's), Toyil (Feltan's).*
 
@@ -363,8 +356,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 |---|---|---|---|
 | A''ki | PC / Aarakocra Monk | Tel A'bib / Deserts | Active |
 | Abarul | Villain (Cult apprentice) | Holy Cities | Active |
-| Abet | NPC (Guard captain) | Tel A'bib | Active |
-| Abet Phera | NPC (Soldier) | Tel A'bib | Active (poss. = Abet) |
+| Abet (Abet Phera) | NPC (Captain, Elmingwed's militia) | Tel A'bib | Active |
 | Adric Cascabel | Factional (merchant patriarch) | Hothme | Active |
 | Afra Ukar | Lore (Titan) | Sefurah Springs | Legendary |
 | Aila Yaşar | NPC (Bard) | Holy Cities (Birjari) | Ally |
@@ -392,7 +384,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Dr. Murtaza Ghanem | Villain (Cult poisoner) | Holy Cities | Active |
 | Drupah | PC (Ukar seeker) | Deserts / B'rath | Active |
 | Duli | Factional (antiquities buff) | Hothme | Active |
-| Duroigh (Count) | Villain (tinkerer) | Kantaron Summit | Active (enslaved?) |
+| Durel / Duroigh (Count) | Villain (artificer, reanimated) | Kantaron Summit | Active (enslaved?) |
 | Elmingwed | Ally (merchant lord) | Tel A'bib | Active |
 | Elruen | NPC (Elf magician) | Bridge(d) City | Contact |
 | Elseron the Unseen | NPC (Spell dealer) | Holy Cities | Black market |
@@ -408,7 +400,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Gifrendi | Factional (consort) | Hothme | Active |
 | Gnoll Druids | Villain (group) | Gnoll homeland | Avoided |
 | Graeae | PC / Half-Elf Rogue | Tel A'bib / various | Active |
-| Gyles | NPC (Guard) | Tel A'bib | Active |
+| Gyles | NPC (Militia soldier) | Tel A'bib | Active |
 | Gylan | Minor (merchant) | Tel A'bib market | Active |
 | Harrith Djohar | Villain (Cult collaborator) | Holy Cities (Zakutar) | Exposed |
 | Helmund | Minor (merchant) | Tel A'bib market | Active |
@@ -420,9 +412,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Iskandar Khiray | NPC (Spymaster) | Holy Cities | Complex |
 | Jael Hacinth | NPC (Cult ex-lover) | Holy Cities (Zakutar) | Potential ally |
 | Jamas | Minor (merchant) | Tel A'bib market | Active |
-| Jiyloo | PC / Human Barbarian | Tel A'bib / Deserts | Active |
-| Jiyloo Ubbett | Minor (Feltan's assistant) | Tel A'bib | Active (= Jiyloo) |
-| Jiyloo (horseman) | NPC (ally) | Saragubi (Gila) | Active (name collision?) |
+| Jiyloo (Jiyloo Ubbett) | PC / Human Barbarian | Tel A'bib / Deserts | Active |
 | Kada | NPC (Tsendur's assistant) | Durgan's Rest | Active |
 | Kai (Kaikuva) | PC / Leonin Barbarian | Deserts / Holy Cities | Active |
 | Kalinore | Villain (lich-king) | Saragubi / Charnel Keep | Undead, active |
@@ -432,7 +422,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Laca | Minor (money changer) | Tel A'bib market | Active |
 | m'Thorsz / Dhallak Carn | Factional (ruler) | Hothme | Active |
 | Maeve | PC / Half-Orc Bard | Tel A'bib / various | Active |
-| Maghiel (Magdaliel/"MG") | Villain (Drow wizard) | Roaming | Active, dangerous |
+| Maghiel | Villain (female Drow battle-mage) | Roaming | Active, dangerous |
 | Magister Yama | Lore (temple figure) | Shunned City | — |
 | Malik Qumar | NPC (Foreign prince) | Holy Cities | Ally/contact |
 | Master-at-Arms Rishka | NPC (Trainer) | Holy Cities (Zakutar) | — |
@@ -475,7 +465,7 @@ Tel A'bib market vendors and other briefly-named figures with little or no play 
 | Tenetu | Ally (Tugari leader) | Saragubi | Active |
 | Thieri | PC / Human Rogue | Tel A'bib / various | Active |
 | Tormundgrin | NPC (Desert trader) | Holy Cities (Clan Gideon) | — |
-| Tsendur | Ally (Bokkaran scholar) | Durgan's Rest | Active |
+| Tsendur | Ally (full-orc Bokkaran scholar) | Durgan's Rest | Active |
 | Varick Fellcaster | NPC (Philanthropist) | Holy Cities (Ell Bastis) | — |
 | Verea Shaam | NPC (Actress/poet) | Holy Cities (Ell Bastis) | Potential ally |
 | Vesagol | Ally? (imprisoned demon) | Charnel Keep | Imprisoned |

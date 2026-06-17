@@ -5,10 +5,14 @@ A reference for the new campaign, synthesized from prior-play extraction notes
 preserved as recorded in the source material.
 
 > **A note on framing.** The deep history is reconstructed from in-world testimony
-> (chiefly the Titan **Mesos**) and from ruins, and the sources disagree on details
-> — e.g. whether the ancient enemy of the Bokkaran were the **Ukar Federation**, the
-> **Titans/Titankin**, or a unified culture that included both. Conflicts are noted
-> rather than smoothed over.
+> (chiefly the Titan **Mesos**) and from ruins. Mesos is a **confused, partly-unreliable
+> narrator**: 2000 years imprisoned and disembodied have left him with cognitive decline,
+> so some of what he relates is true and some is hopeful or garbled (re-corporating him
+> would restore some, but not all, of his memory). The canonical reading of the deep
+> history: the **Ukar** were both a **race of Titans** and the name of a **federation of
+> allied species** who shared a cultural expanse with the Titans — not a vague "ideology"
+> and not an either/or with the Titans. Their war with the Bokkaran created the desert and
+> cursed arcane magic.
 
 ---
 
@@ -29,17 +33,22 @@ civilization is now largely extinct/collapsed — but surviving **Bokkaran under
 cities** still exist deep beneath the Granite Empire, inhabited and active, with
 libraries, ritual chambers, and warlock-patron NPCs.
 
-### The Ukar (and the Titans)
-The **Ukar** are described as "an ideology, not a race" — a civilization open to all
-walks of life, organized around **three thrones (titan, giant, humanoid)**. They
-bonded with the **Al Faiz** world tree, created white-metal items and guardian
-creatures, and built a portal network. Their knowledge-keeper is the Titan **Mesos**.
+### The Ukar (Titans and federation)
+The **Ukar** are **both a race of Titans and a federation of allied species** who
+shared one cultural expanse. The culture's **origins are Titan**, and individual titans
+hold immense power, but the federation was open to all walks of life — symbolized by the
+**three stone thrones** found in city-state ruins: one for a 60-foot **titan**, one for a
+standard **giant**, and one for a **small/medium creature**, meaning all three share
+power. The Ukar bonded with the **El Faiz (formerly Al Faiz)** world tree, created
+white-metal items and guardian creatures, and built a tree-based portal network (see
+*Afra* below). Their knowledge-keeper is the Titan **Mesos**.
 
-A second, mythic account (from Mesos) tells it as a **Bokkaran–Titan** war: Titans
-and Bokkaran were once unified, magic in harmony between them. The Bokkaran grew
-greedy and sought sole control of magic; the Titans resisted; war followed. The
-Bokkaran defeated the Titans, **dismembered them, and scattered their body parts
-across the world**, imprisoning them with **Dream Catchers**.
+Mesos relates the war as a **Bokkaran–Titan/Ukar** conflict: Titans and Bokkaran were
+once unified, magic in harmony between them. The Bokkaran grew greedy and sought sole
+control of magic; the Titans resisted; war followed. The Bokkaran defeated the Titans,
+**dismembered them, and scattered their body parts across the world**, imprisoning them
+with **Dream Catchers**. *(Mesos's account is partly unreliable — see the framing note —
+but the broad shape of a Bokkaran–Ukar war is canonical.)*
 
 ### The Bokkaran Schism — Elgar & Polgar
 The Bokkaran were not monolithic. Initially a united, magic-focused society, they split
@@ -49,32 +58,38 @@ increase their power (*Lore - Ajiibwan Wilderlands*, "Bokkaran" section). The Po
 corruption of sacred sites drew in the **Ukar**, whose enforcement of natural boundaries
 forced the Elgar into an unhappy alliance with the Polgar to defend Bokkaran ways. The
 Elgar came to regret it: the Polgar exploited magical chaos too far, producing the
-apocalyptic desert and the curse of magical consequences. The **Nurian Necropolis**
-preserves physical evidence of this split — a "stone garden" magical graveyard built to
-amplify and collect magic along the **ley lines** that once converged there.
+apocalyptic desert and the curse of magical consequences.
+
+**The Polgar dark secret.** It was the **Polgar** who developed the magic that created
+the **Ajiibwan Desert** — once fertile plains — and who left the **world-wide anti-magic
+poison** that corrupts the ley lines and prevents safe deep magic everywhere. The
+**Nurian Necropolis** is, in its end-state, a **Polgar site** (a "stone garden" magical
+graveyard built to amplify and collect magic along the **ley lines** that once converged
+there), but careful investigation of its earlier strata documents **how the Polgar seized
+power within the Bokkaran empire and drove their people deeper into the war.**
 
 ### The Great War / Great Cataclysm
 The cataclysmic conflict (the **Great War**, **Ancient Bokkaran-Ukar War**, also
 called the **Dissension of Titans**) involved Giants, clerical orders, and many other
-forces. Losing, the **Bokkaran Necromancers weaponized the Al Faiz tree** against the
-Ukar to deny them victory. This act:
+forces. Losing, the **Bokkaran Necromancers (Polgar) weaponized the El Faiz tree** against
+the Ukar to deny them victory. This act:
 
 - created the **Great Ajiibwan Desert**, and
 - established the permanent **magical consequences** system that poisons all arcane
   spellcasting in the affected region.
 
-A rejected ancient plan would have destroyed Al Faiz by **stealing its slow-moving
+A rejected ancient plan would have destroyed El Faiz by **stealing its slow-moving
 mind**; the plan was lost in the cataclysm. The Bokkaran were ultimately said to have
 "met their end at the hands of Giants."
 
 ### The Ley-Line Poisoning
-The weaponization didn't just ruin the Ukar — it **poisoned the land for the Bokkaran
-too**. The ley-line network that channels magical energy through the land was
-corrupted: ley lines no longer converge cleanly at the Necropolis as they once did,
-petrification and dead magic linger, and the desert remains arid wasteland. Crucially,
-**both surviving civilizations now want the poison removed and the land restored** —
-this shared goal is the root of the campaign's "healing the desert" arc (storm
-orchids, Al Faiz, ley-line lenses).
+The **Polgar** anti-magic poison didn't just ruin the Ukar — it **poisoned the land for
+the Bokkaran too**, and it is **world-wide**, not merely local. The ley-line network that
+channels magical energy through the land was corrupted: ley lines no longer converge
+cleanly at the Necropolis as they once did, dead magic lingers, and the desert remains
+arid wasteland. Crucially, **both surviving civilizations now want the poison removed and
+the land restored** — this shared goal is the root of the campaign's "healing the desert"
+arc (storm orchids, El Faiz, ley-line lenses).
 
 ### The Tugari–Empire Truce ("Night of the Compass Stars")
 A millennial truce binds the **Tugari** tribes and the **Granite Empire**, sworn by the
@@ -99,7 +114,7 @@ who seek them out.
   **Tanil's Sanctuary**) offer conversion, blessings, and access to healing/raise-dead.
   Can serve as a **warlock patron**, granting the Bokkaran language and magic, and is
   the source of the "Tanil's Cloak" infusion. Conversion carries restrictions (e.g.
-  converts cannot wield the **Ukkar White Death Hammer**). The arch-fey **Pollana** is
+  converts cannot wield the **Ukar (formerly Ukkar) White Death Hammer**). The arch-fey **Pollana** is
   a follower with a statue in Tanil's Sanctuary.
 
 - **Imroth** — *Bokkaran God of Performances*; deity of music, art, and expression.
@@ -113,23 +128,41 @@ who seek them out.
   **Cult of Anauld** is a sect of the Church of Dorne that controlled the Eye of Kings,
   used undead, and kidnapped children (party cleared it).
 
-- **Doorne / Dorne** — a martial or strength-focused deity (followed by the barbarian
-  Jiyloo Ubbett). The broader **Dornian religion / Church of Dorne** is a desert
-  cultural-religious tradition of altars, temples, and sacred artifacts (e.g. at the
-  Oasis of Sia); removing temple artifacts is taboo.
+- **Dorne (formerly Doorne)** — a martial or strength-focused deity (followed by the
+  companion Jiyloo Ubbett). **Dorne / Dornian** is the **local desert religion**: a
+  cultural-religious tradition of altars, temples, and sacred artifacts (e.g. at the Oasis
+  of Sia); removing temple artifacts is taboo. Contrast **Athyes**, the **Vanic
+  official/imposed religion** — many desert locals are forced to practice Athyes but only
+  pay it lip service while still following Dorne. Many places accordingly carry both a
+  local **Dornian** name and a **Vanic** official name (e.g. **Eye of Kings** [Vanic] =
+  **Cave of Ancestors** [Dornian]).
 
-- **Afra** — an entity (possibly of the Ukar pantheon) associated with **Afra's Spark**,
-  an enchantment that lets a user activate Ukar portal artifacts and Bokkaran music
-  boxes. Afra's Tomb held Ukar gifts (seeds, tools, wands, the librarian-robot Ninla)
-  and a magical Spinosaurus. *See Open Mysteries — Afra's Spark.*
+- **Afra** — **"the Slumbering Titan,"** a distinct Ukar titan (**not** the same being as
+  Mesos). She sleeps in a **ruined Ukar complex WEST of Hothme**, in the Granite Empire's
+  half of the desert — **very hard to find, a late-game encounter.** Approached correctly
+  she drops a great deal of lore and **opens the Ukar "tree portal network"**: a tree-based
+  teleportation network (the Ukar equivalent of the Sea of Souls) that **she herself
+  developed**, with portals throughout the world. Operating a portal requires **Afra's
+  Spark** physically incorporated into a creature's body — the same enchantment that
+  activates Ukar portal artifacts and Bokkaran music boxes. Afra's Tomb held Ukar gifts
+  (seeds, tools, wands, the librarian-robot Ninla) and a magical Spinosaurus. *See Open
+  Mysteries — The Ukar portal network / Afra's Spark.*
 
 - **Elsrok** — the dark power served by the **Black Water Cult**, whose members follow
   the "**Great Design**." (Not a benevolent deity; included as the cult's object of
   worship.)
 
-- **Mesos** — the imprisoned Titan and Ukar knowledge-keeper; not a deity but a
-  living power and the world's primary source of deep lore. *See Prior Timeline and
-  Open Mysteries.*
+- **Mesos** — the imprisoned **Titan King** and Ukar knowledge-keeper, held **near Tel
+  A'bib (B'rath)**; not a deity but a living power and the world's primary source of deep
+  lore. **Distinct from Afra** (above): Mesos is the imprisoned king, relatively easy to
+  find; Afra is the slumbering titan far to the west. As a source he is **confused and
+  partly unreliable** (see framing note). *See Prior Timeline and Open Mysteries.*
+
+- **Bokkara** — the **central deity** of the Bokkaran pantheon (its "Zeus"). **Trans**:
+  Bokkara began **male** and **transformed to female** after events left open in the lore.
+  **Bokkaran** = the race/people descended from Bokkara. The pantheon has many other gods
+  (Tanil, Imroth, and others above). *A "Bokkara statue" and a disease tied to it surface
+  in Open Mysteries.*
 
 ---
 
@@ -187,10 +220,11 @@ is known, and where a new party can grab hold.
 ### Black Water Cult leadership & survival
 - **Mystery:** Who really leads the cult, and how much of its network survives?
 - **Known:** A water-worshipping cult (40+ years in Saragubi, an estimated 500–1000+
-  members) serving **Elsrok** under the "**Great Design**." Operations included slave
-  trading, organ harvesting, and well-poisoning. Leadership has been named
-  inconsistently — **Chazim** in the early campaign; coordination later traced to
-  **Maghiel ("MG")**. Field cells were disrupted (Oasis of Sia assault, well-poisoning
+  members) serving **Elsrok** — canonically a **woman** who is both the cult's **god and
+  its leader** — under the "**Great Design**." Operations included slave trading, organ
+  harvesting, and well-poisoning. Leadership has been named inconsistently —
+  **Chazim** in the early campaign; coordination later traced to **Maghiel**. Field cells
+  were disrupted (Oasis of Sia assault, well-poisoning
   foiled at Ell Bastis/Birjanl, Gala dak's slave network broken), but allies and higher
   cells remain. A "**Mouse**" official infiltrated the Hothme government.
 - **Hooks:** A surviving leadership cell; the cult mole inside Hothme; the **Cult
@@ -199,88 +233,116 @@ is known, and where a new party can grab hold.
 
 ### The escaped/summoned demon (Nalfeshnee)
 - **Mystery:** Was the Balor-class demon truly stopped, and who pulls the strings?
-- **Known:** **Duroigh** (of Bridge City), believing he was recovering Bokkaran secrets,
-  was manipulated into assembling a summoning apparatus for **Nalfeshnee**; success
-  would have destroyed him and threatened Tel A'bib and Hothme. Separately, demons
+- **Known:** **Duroigh** (formerly the Kantaron artificer **Durel**, reanimated by
+  **Maghiel** after his death), believing he was recovering Bokkaran secrets, was
+  manipulated into assembling a summoning apparatus for **Nalfeshnee** — a **Balor**
+  (creature type) bearing that proper name — at **Kantaron** (the summit; the ancient
+  Bokkaran tower there is **Kantaroz**). The ritual is in progress: a new party must stop
+  it or else fight Nalfeshnee. Success would have destroyed Duroigh and threatened Tel
+  A'bib and Hothme. Separately, demons
   (**Oteraghs**) were released from containment during the Djeteke fortress raid. A
   water-demon tormenting Elden was slain with the **Blackwater Dirge**.
 - **Hooks:** Who manipulated Duroigh, and to what end; demonic forces still loose after
   containment breaches; the **constructs** Duroigh commanded that still hunt
   artifact-bearers.
 
-### The Ukar portal network
+### The Ukar tree portal network
 - **Mystery:** How far does the network reach, and who else can use it?
-- **Known:** A portable portal system keyed to two artifacts — the **Roshani / Roshanai
-  wreath** and the **Parvaiz bird** (a crystal bird) — enabling fast travel between
-  fixed nodes (the Hothme node is aligned). Access requires an **Ukar spellcaster** or a
-  user infused with **Afra's Spark**. The same two artifacts are also components of the
-  Al Faiz awakening ritual.
-- **Hooks:** Mapping/unlocking more portal nodes; finding more Afra-attuned users; the
-  network's overlap with the Sea of Souls and underground sites.
+- **Known (canon):** A **tree-based teleportation network developed by the titan Afra**
+  — the Ukar equivalent of the Sea of Souls — with **portals throughout the world**.
+  Operating a portal **requires Afra's Spark physically incorporated into a creature's
+  body** (the same enchantment that activates Ukar portal artifacts and Bokkaran music
+  boxes); an **Ukar spellcaster** can also key it. It is keyed in practice to two
+  artifacts — the **Roshanai (formerly Roshani) wreath** and the **Parvaiz bird** (a
+  crystal bird) — enabling fast travel between fixed nodes (the Hothme node is aligned).
+  The same two artifacts are also components of the **El Faiz** awakening ritual. The
+  fullest unlock of the network comes from **finding and correctly approaching Afra
+  herself** (late-game, west of Hothme).
+- **Hooks:** Mapping/unlocking more portal nodes; finding more Afra-attuned (Spark-bearing)
+  users; reaching Afra's western complex; the network's overlap with the Sea of Souls and
+  underground sites.
 
 ### The desert-healing question
 - **Mystery:** Can the poisoned land actually be restored — and who opposes it?
-- **Known:** The land is sick from the war's ley-line poisoning. Restoration hinges on
-  **storm orchids (Alorix)**, ecological magic, ley-line manipulation (lenses at the
-  **Nurian Necropolis** observatory), and ultimately reawakening **Al Faiz**. The
-  **Lilth/Lillith (Lilth gypsy) clans** lead the effort, swapping Bokkaran knowledge and
-  plant samples for orchid-planting at the Great Oasis, Oasis of Sia, Tel A'bib, and
-  possibly Chandler's Folly. **Anti-restoration factions** oppose the change, and
-  **prejudice against the gypsies** blocks their eastward travel.
-- **Hooks:** Completing the orchid-planting pact; identifying and confronting the
-  anti-fertility faction; locating the **Al-Faiz "Godhead" / Source Tree** in the
-  Granite Empire as the final ecological step.
+- **Known:** The land is sick from the **Polgar** world-wide ley-line poisoning (it was
+  the Polgar who turned the once-fertile plains into the Ajiibwan Desert). Restoration
+  hinges on **storm orchids (Alorix)**, ecological magic, ley-line manipulation (lenses at
+  the **Nurian Necropolis** observatory), and ultimately reawakening **El Faiz**. The
+  **Lillith (formerly Lilth) nomads** — gypsies, shunned in civilized areas — lead the
+  effort: they want others to plant **storm orchids** to restore the desert and
+  potentially restore the **Bokkaran** to power (if any survive), swapping Bokkaran
+  knowledge and plant samples for orchid-planting at the Great Oasis, Oasis of Sia, Tel
+  A'bib, and possibly Chandler's Folly. **No storm orchids have been planted yet.**
+  **Anti-restoration factions** oppose the change, and **prejudice against the Lillith**
+  blocks their eastward travel.
+- **Hooks:** Completing the orchid-planting pact (none planted yet); identifying and
+  confronting the anti-fertility faction; locating the **El Faiz "Godhead" / Source Tree**
+  in the Granite Empire as the final ecological step.
 
 ### Maghiel's goals
-- **Mystery:** Who/what is Maghiel really, and what does the box contain?
-- **Known:** A **Drow Elf Wizard** collecting artifacts across the region to open a
-  **magical box** holding an object of great power (she sought the **Clasp of Vergen**
-  and a special source to unlock the box). She was negotiating with Church leadership
-  (**Cardinal Sponfz**), directing Black Water Cult operations, allied with Kalinore at
-  Charnel Keep, and obtained a **Sea of Souls permit** by robbing a Bokkaran grave. She
-  may be more than she appears — possibly **Malnea in disguise**. She was infected by a
-  parasitic corruption, **The Thorn**, removed during a final confrontation (Day 109);
-  whether the box quest concluded is unclear.
-- **Hooks:** The unaccounted-for box and its contents; her true identity; **The Thorn**
-  and its possible link to the **Bokkara statue disease**.
+- **Mystery:** Where does Maghiel's villain path lead, and what does the box contain?
+- **Known (canon):** Maghiel is a female **Drow battle-mage Wizard**. The source of her
+  villainy is a **Black Thorn** — a **corruption vector**, *not* petrification — splintered
+  into her chest (hidden under her armor; the party won't know for a long time). A Black
+  Thorn grants great power but drives its bearer toward sinister, evil behavior. In the
+  current (rewound) timeline she is **just beginning her villain path**, roughly in
+  parallel with the party, recently infected while conducting black-magic research. She
+  collects artifacts across the region to open a **magical box** holding an object of great
+  power (she sought the **Clasp of Vergen** and a special source to unlock it), negotiates
+  with Church leadership (**Cardinal Sponfz**), directs Black Water Cult operations, allies
+  with **Kalinore** at Charnel Keep, and obtained a **Sea of Souls permit** by robbing a
+  Bokkaran grave. *(Game-1 reference ending: after Maghiel's death her thorn was returned to
+  the central old life-tree **El Faiz** and reincorporated, helping restore the tree, which
+  the Polgar ley-line poison had nearly killed.)*
+- **Hooks:** The unaccounted-for box and its contents; how far the Black Thorn corrupts her
+  before anyone discovers it; whether her thorn can be removed and returned to El Faiz.
 
-### The Slumbering Titan (Mesos)
-- **Mystery:** Can the imprisoned Titan be fully freed, and what follows if he is?
-- **Known:** **Mesos**, the Ukar knowledge-keeper, was imprisoned in a **Dream Catcher**
-  in the **B'rath** caverns — a Bokkaran device that fires **Dream Spikes** entombing
-  victims in their worst memories. **B'rath children** are deliberately struck by spikes
-  as a coming-of-age ordeal, slowly draining the spike supply toward Mesos' eventual
-  freedom; he teaches them **Ukar** in return. His detached hand migrates through earth
-  via his **Khezurai ring**, now held by a figure named **Arry**. The party recovered
-  the Dream Catcher and disabled the control room.
+### The imprisoned Titan King (Mesos)
+- **Mystery:** Can the imprisoned Titan King be fully freed, and what follows if he is?
+- **Known:** **Mesos**, the imprisoned **Titan King** and Ukar knowledge-keeper, is held
+  **near Tel A'bib** in a **Dream Catcher** in the **B'rath** caverns — a Bokkaran device
+  that fires **Dream Spikes** entombing victims in their worst memories. He is relatively
+  **easy to find** (distinct from **Afra, the Slumbering Titan**, who sleeps far west of
+  Hothme — see *The Ukar tree portal network*). **B'rath children** are deliberately struck
+  by spikes as a coming-of-age ordeal, slowly draining the spike supply toward Mesos'
+  eventual freedom; he teaches them **Ukar** in return. His detached hand migrates through
+  earth via his **Khezurai ring**, now held by a figure named **Arry**. Re-corporating him
+  would restore some — but not all — of his decayed memory. The party recovered the Dream
+  Catcher and disabled the control room.
 - **Hooks:** Recovering Mesos' ring from **Arry**; other scattered Titan rings (many in
   cult/merchant hands); the other **dismembered Titans** still imprisoned across the
-  world; what a freed Titan wants.
+  world; what a freed Titan King wants.
 
-### Bokkara (the statue) and Bokkaral
-- **Mystery:** What is the **Bokkara statue disease**, and is it tied to The Thorn?
-- **Known:** A "Bokkara statue disease" is referenced in connection with **The Thorn**
-  parasite removed from Maghiel; the link is explicitly unresolved in the source.
-- **Hooks:** Tracing the statue and its disease; whether curing it relates to lifting
-  The Thorn or the wider magical poisoning.
+### The Bokkara statue disease
+- **Mystery:** What is the **Bokkara statue disease**?
+- **Known (canon):** **Bokkara** is the central deity of the Bokkaran pantheon (its "Zeus"),
+  **trans** — began male and transformed to female after events left open in lore — and the
+  **Bokkaran** people descend from her. A "Bokkara statue disease" is referenced separately;
+  note it is **not** the source of Maghiel's villainy (that is the **Black Thorn** in her
+  chest — see *Maghiel's goals*), so the two should not be conflated.
+- **Hooks:** Tracing the statue and its disease; whether curing it relates to the wider
+  Polgar magical poisoning.
 
 ### Other live threads
-- **Al Faiz awakening incomplete:** The party holds both the **Roshani wreath** and
-  **Parvaiz bird** for the **Hymn of Harmony** ritual at **Sefurah Springs**, but it has
-  not been performed; world restoration is pending. Storm orchids may be the final step.
+- **El Faiz (formerly Al Faiz) awakening incomplete:** The party holds both the **Roshanai
+  (formerly Roshani) wreath** and **Parvaiz bird** for the **Hymn of Harmony** ritual at
+  **Sefurah (formerly Sefura) Springs**, but it has not been performed; world restoration is
+  pending. Storm orchids may be the final step.
 - **Missing boy Raffin:** Taken by **constructs** from Wadi; last seen near a mountain
   tower; fate unknown.
 - **Missing caravans:** Caravans vanish on the western route through the **Blistering
-  Dunes** (via **Favvar'n** and the **Oasis of Sia**); merchant **Feltan**'s reward
+  Dunes** (via **Favarr'n** (formerly Favvar'n/Farrav'n), the gnoll oasis, and the **Oasis
+  of Sia**); merchant **Feltan**'s reward
   still stands (20gp info / 40gp cargo); never fully recovered.
 - **Sea of Souls, true nature:** An underground waterway of **unseen water** that drops
   the unprotected instantly asleep (requires a Bokkaran charm or other immunity). It
   seems partly sentient/spiritual; its link to the cult's belief system is unexplained.
 - **Sideraeon:** A referenced Bokkaran magical power source (books from Djeteke/Lapo);
   never investigated.
-- **Afra's Spark:** An enchantment of unknown origin the party already carries,
-  enabling Ukar portals and Bokkaran music boxes; why they have it is unexplained — it
-  may point to undisclosed party origins.
+- **Afra's Spark:** The enchantment — derived from the titan **Afra** — that must be
+  **physically incorporated into a creature's body** to operate the **Ukar tree portal
+  network** and Bokkaran music boxes. If a party already carries it, why is unexplained and
+  may point to undisclosed party origins. *(See The Ukar tree portal network.)*
 - **Kalinore & Ilymna:** A legendary Bokkaran romance — the wizard **Kalinore** built a
   palace for the warrior-general **Ilymna**; love turned the palace into a tomb and
   Kalinore into a lich. His release triggered the magical storms and the **Rift Bridge**
@@ -321,7 +383,7 @@ backstory the new party inherits, not a script.
 - **Day 14** — **Maghiel** attacks **Tsendur's** homestead at Durgan's Rest (fire
   beings, dark-elf warriors), tries to steal a Bokkaran clasp, and escapes.
 - **Days 20–21** — **Ukar Tribute Temple** beneath Chandler's Folly (the **Thari**
-  stone giants); cavern battle yields the **Ukkar White Death Hammer**.
+  stone giants); cavern battle yields the **Ukar (formerly Ukkar) White Death Hammer**.
 - **Days 23–25** — Floating magical lights; the party **frees 11 enslaved people** from
   a caravan bound for the Granite Empire (4 Dornian women, 4 children, 2 B'rathian
   women, the elf **Serinde**), exposing **Gala dak** and the Tel A'bib governor's
@@ -337,7 +399,7 @@ backstory the new party inherits, not a script.
 - **Days 40–42** — **Djeteke fortress** infiltration: demons (**Oteraghs**) released;
   cultists and demons fought together; suspicion that **Maghiel** may be **Malnea**.
 - **Day 43** — Arrival in the **Granite Empire**; **purple wyrm** battle at the
-  **Hoth'ne/Hothme** dock; alliance with **Clan Gideon** begins.
+  **Hothme (formerly Hoth'ne)** dock; alliance with **Clan Gideon** begins.
 - **Day 46** — A''ki communes with **Imroth** in an underground temple; gains
   **Secondhand Sight** and an instrument.
 - **Day 48** — Bulette-mounted knights and mounted Black Water cultists (inconclusive).
@@ -358,8 +420,8 @@ backstory the new party inherits, not a script.
 ### Chapter 4 — The deep desert, ley lines & the Titan (Days 77–109)
 - **Day 77** — **Engineer's Workshop** finds; giant desert scorpion (poison sac).
 - **Days 80–81** — Ukar **wreath and bird** aligned to the Hothme **portal**; the
-  **Mesos** encounter reveals the Titan war, **Al Faiz**, the **Hymn of Harmony**, and
-  the desert-restoration objective.
+  **Mesos** encounter reveals the Titan war, **El Faiz**, the **Hymn of Harmony**, and
+  the desert-restoration objective. *(Mesos's testimony is partly unreliable — see framing.)*
 - **Days 83–85** — Ukar **elemental rune** earned; **Ukar chain weapon** won in a
   battlefield vision; **Nurian Necropolis** explored — the Bokkaran **schism** and
   converging **ley lines** revealed; **Bokkaran observatory lenses / lens holder** sought
@@ -376,10 +438,13 @@ backstory the new party inherits, not a script.
   imprisoned **Mesos**; Mesos provides Ukar armor to the party.
 - **Day 101** — **Blackwater Dirge** recovered from a swamp elemental; the water demon
   tormenting **Elden** is slain.
-- **Day 109** — Final confrontation: **The Thorn** parasite removed from **Maghiel**
-  (its link to the Bokkara statue disease left unresolved).
+- **Day 109** — Final confrontation: after Maghiel's death, the **Black Thorn** (the
+  corruption vector lodged in her chest, source of her villainy) was returned to the central
+  old life-tree **El Faiz** and reincorporated, helping restore the tree the Polgar ley-line
+  poison had nearly killed.
 
-> **Where the new party comes in:** The desert is still poisoned, the **Al Faiz**
-> awakening is unperformed, **Mesos** is not fully free, **Maghiel**'s box and true
-> identity are open, the Black Water Cult's leadership and Hothme mole survive, and
-> **Raffin** and the lost caravans are still missing.
+> **Where the new party comes in:** The desert is still poisoned (Polgar work), the **El
+> Faiz** awakening is unperformed, **Mesos** is not fully free (and **Afra** still sleeps,
+> undiscovered, west of Hothme), **Maghiel** is just beginning her Black-Thorn-driven
+> villain path with her box quest open, the Black Water Cult's leadership (**Elsrok**) and
+> Hothme mole survive, and **Raffin** and the lost caravans are still missing.
