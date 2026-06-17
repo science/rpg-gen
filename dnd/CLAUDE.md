@@ -83,12 +83,35 @@ background: `[[loc:hothme]]`, `[[npc:maghiel]]`, `[[faction:black-water-cult]]`,
 `[[item:clasp-of-vergen]]`. A slug resolves to an `id:` record in
 `world/entities.yaml` (and its full entry in the matching `world/*.md` compendium file).
 
+## Campaign design principles (Ajiibwan game 2)
+
+These shape the adventure manager — honor them when designing:
+
+1. **Reset sandbox.** Game 2 rewinds the world to the **game-1 starting state**. The prior
+   campaign (the `world/` compendium's `play_history`/`status`) is **reference only** —
+   hooks, precedent, reusable scenarios — not inherited history. The new world starts
+   pre-trigger (cult at full strength, demon unsummoned, Afra/Mesos dormant, sites unlooted,
+   prior PCs absent). Seed `campaign/state.yaml` from the *start* state, not the compendium's
+   end state.
+2. **"RPG ouija board" — an indifferent living world.** The world goes where the party
+   steers, but it **doesn't care about the party** and advances on its own whether or not
+   they engage. Model factions/sites with their **own agendas and a world clock that ticks
+   between sessions** regardless of party action — not a party-centric rail.
+3. **In-world time runs faster than real time.** (Game 1 ran ≈1:1, ~2 weeks/session.) The
+   campaign clock carries a configurable **dilation factor**; autonomous faction progression
+   and the leveling cadence should read from it. Decouple "real sessions" from "in-world
+   time elapsed."
+
 ## Adventure manager: campaign state
 
-`ajiibwan/campaign/` is the live state of the *current* (new-players) run:
+`ajiibwan/campaign/` is the live state of the *current* (new-players) run, seeded at the
+game-1 start state (see principle 1):
 
-- `state.yaml` — party roster, current location, in-world date, party level, milestones.
-- `threads.yaml` — open plot threads with status (`open` / `simmering` / `resolved`).
+- `state.yaml` — party roster, current location, **in-world date + clock dilation factor**,
+  party level, milestones.
+- `threads.yaml` — plot threads with status (`dormant` / `active` / `advancing` / `resolved`)
+  **and an autonomous-progression note** (what the faction/thread does on its own each world
+  tick if the party ignores it — principle 2).
 - `sessions/NN.md` — one recap per session (what the players actually did).
 - `entities/{npcs,locations,factions,monsters}/*.yaml` — structured records, consistent
   with the `cthulhu/character-sheets` YAML style; prose lives in markdown.

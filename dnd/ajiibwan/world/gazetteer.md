@@ -59,7 +59,7 @@ guardians, an invisible-water chamber (psychically damaging), and a stone centip
 - status: dangerous (supernatural hazards remain)
 - sources: Lore - Ajiibwan Wilderlands; Journal
 
-### Ancient Tower (120 ft)
+### Kantaron — Tinkerer's Workshop `(#1, L3–6, hex 1810)` First Encounter
 A 120-ft ancient tower in exceptional condition in the mountains northeast of Tel A'bib, near the
 wadi. Library on the second floor, bedroom on the third, basement with water features; a door that
 opens by itself; apparently construct/magical in nature. Purpose unclear. (Distinct from the Air Spire tower.)
@@ -67,9 +67,9 @@ opens by itself; apparently construct/magical in nature. Purpose unclear. (Disti
 - status: explored; purpose unclear
 - sources: Journal
 
-### Kantaron — Tinkerer's Workshop `(#1, L3–6, hex 1810)`
+### Kantaron — Tinkerer's Workshop `(#1, L3–6, hex 1810)` Second Encounter
 A high mountain summit (Kantaron / Kantaroz Summit) in the eastern region near Tel A'bib, crowned by
-an ancient ~100-ft Bokkaran tower in excellent condition. Beneath the tower lies the artificer
+an ancient ~120-ft Bokkaran tower in excellent condition. Beneath the tower lies the artificer
 Duroigh's (Durel's) magical **Tinkerer's Workshop** — engine room, living quarters, workshop with a
 mind-enslaving lab and demon-assembly area, and ventilation/access systems, all powered by Bokkaran
 technology. The tower has four gated/locked levels (engine room, living quarters, workshop, parapet).

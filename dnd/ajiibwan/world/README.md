@@ -5,6 +5,22 @@ synthesized from the 51 converted homebrew Google Docs (see [`../assets/`](../as
 and the play history. Built to answer "what/who/where is this, and what happened with it"
 fast, so new adventures can reuse five years of established world.
 
+> ## ⏮ This is a RESET playthrough — read play-history as *reference*
+> The new campaign rewinds the sandbox to the **exact state the first party started in**.
+> Everything the prior party did is **reference only** — plot hooks, precedent, and
+> reusable scenarios — **not** inherited history. The new world starts **pre-trigger**:
+> the Black Water Cult is at full strength, the Kantaron demon was never summoned,
+> Afra/Mesos are dormant, Maghiel's plot hasn't begun, sites are unlooted, and the prior
+> PCs don't exist in this timeline.
+>
+> So the `play_history` and `status` fields below describe **the prior playthrough**, not
+> the new game's current state. Treat them as "here's how it went / what's possible," and
+> reset the live state when seeding `../campaign/state.yaml`.
+>
+> **Design north star — "RPG ouija board":** the world goes where the party steers, but it
+> *doesn't care* about the party and advances on its own. Design for an autonomous living
+> world, not a party-centric rail. In-world time runs **faster than real time** this run.
+
 ## Files
 
 | File | What's in it |

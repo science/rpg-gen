@@ -141,7 +141,12 @@ religion" — want me to standardize on that?)
 
 ---
 
-## D. Continuity & status (resolved vs. still live)
+## D. Continuity & status (PRIOR playthrough — now reference only)
+
+> **Reframed by the reset (see §E1):** the new game starts at the game-1 *starting* state,
+> so these are no longer "current state" questions — the demon was never summoned, the cult
+> is at full strength, etc. They still matter as **reference** (what these threads can
+> become if the new party walks into them), so the answers are worth recording as precedent.
 
 ### ⭐ D1. The escaped Abyssal demon — dead or at large?
 It "escaped" at Kantaron, then is encountered again in a pentacle in the Sea-of-Souls lava
@@ -181,30 +186,40 @@ named "Chazim"/operatives)? Is **Elsrok** / "the Great Design" the cult's deity/
 These aren't doc conflicts — they're choices that shape how the tooling should treat the
 material for the *new* group.
 
-### ⭐ E1. Is the prior campaign canonical history for the new party?
-Did all of the above "happen" in the world the new players enter (so NPCs remember it,
-sites are looted, threads are mid-flight)? Or is this a soft reset where you'll reuse
-locations/lore but not the prior party's specific outcomes?
+### ✅ E1. Is the prior campaign canonical history? — ANSWERED: full reset.
+**Resolved:** the new game **rewinds the sandbox to the exact game-1 starting state.** The
+prior playthrough is **reference only** (hooks, precedent, reusable experiences) — not
+inherited history. The new world starts pre-trigger; the prior PCs are absent from this
+timeline; Steve has no stake in the new party retracing the old path. *(See the framing
+note in [`../world/README.md`](../world/README.md) and the
+[reset/living-world memory](../../../).)*
+
+Design north star captured: **"RPG ouija board"** — the world goes where the party steers,
+but doesn't care about them and advances on its own. **In-world time runs faster than real
+time** this run (game 1 ran ≈1:1 at ~2 weeks/session). These shape the Phase-3 campaign
+clock + autonomous-world model.
+
+### ⭐ E2. Which areas/threads should the new party *start* near? (still open — creative)
+New PCs begin ~L2–3 in Tel A'bib, at the game-1 start state. Of the low-level sites and
+seeds available from the start (Eye of Kings, Oasis of Sia, Durgan's Rest, the missing
+caravans / slave-trade rumor, Tinkerer's-Workshop constructs wandering near Tel A'bib),
+which do you want the manager to surface as opening options? (Or: "let the ouija board
+decide — just have several seeded and ready.")
 
 > **Answer:**
 
-### ⭐ E2. Which areas/threads do you want to *start* the new party near?
-The new PCs begin ~L2–3 in Tel A'bib. Of the open threads (cult cells, escaped demon, Ukar
-portals, desert-healing, slave trade) and the unwritten low-level sites (Eye of Kings,
-Oasis of Sia, Durgan's Rest), which do you want surfaced first? (Drives the first
-scenarios the manager helps you build.)
+### E3. Starting NPCs & footing — same as game 1's opening?
+Under the reset, the new party starts with whatever was available at the game-1 *opening*
+(e.g. Elmingwed, the Tel A'bib market NPCs, Jiyloo as a hireable assistant) and **no**
+compound/boat/Clan-Gideon ties yet (those were earned in play). Confirm that's right, or
+adjust the starting footing.
 
 > **Answer:**
 
-### E3. Inherited NPCs/base — available to the new party?
-Are the prior party's allies (Elmingwed, Jiyloo, Clan Gideon) and the Tel A'bib compound
-available to new PCs, or do new players earn their own connections?
-
-> **Answer:**
-
-### E4. Prior PCs — cameo, retired, or absent?
-~20 prior PCs are catalogued. Should any appear as NPCs/patrons/legends in the new game, or
-stay out of frame?
+### E4. Prior PCs — usable as reference personas?
+~20 prior PCs are catalogued. They're absent from the new timeline, but may be useful as
+**reference archetypes** (party-niche ideas) or as *alternate* NPCs the new party could
+meet doing similar things. Want any repurposed, or kept purely as reference?
 
 > **Answer:**
 
