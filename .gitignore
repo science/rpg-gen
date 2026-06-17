@@ -3,6 +3,10 @@
 build/
 dist/
 
+# Raw Google Drive exports staged for conversion (the converted markdown under
+# a campaign's assets/ IS committed; the raw gdoc/PDF dump is not).
+dnd/*/assets/_raw/
+
 # Python
 .venv/
 __pycache__/

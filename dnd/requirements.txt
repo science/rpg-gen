@@ -1,0 +1,18 @@
+# D&D 5e tooling — install into the repo-root shared venv:
+#   (from repo root)  .venv/bin/pip install -r dnd/requirements.txt
+#
+# Note: rclone is NOT a Python dependency — it runs on the host OS and exports
+# Google Docs to markdown / copies PDFs into ajiibwan/assets/_raw/. See CLAUDE.md.
+
+# convert.py — PDF -> markdown extraction (text PDFs; OCR is a separate follow-up)
+pymupdf4llm>=0.0.17
+
+# convert.py / index.py — YAML frontmatter + entity files
+PyYAML>=6.0
+
+# render.py — scenario packets: YAML -> Jinja2 -> HTML -> PDF
+Jinja2>=3.1
+WeasyPrint>=60
+
+# art.py — Replicate HTTP API client
+requests>=2.31

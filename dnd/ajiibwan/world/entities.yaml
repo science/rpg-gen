@@ -1,0 +1,3372 @@
+# entities.yaml — machine-readable entity index for the "Deserts of Ajiibwan" D&D 5e campaign.
+#
+# GENERATED from the synthesized compendium markdown in world/*.md
+#   (gazetteer.md, cast.md, factions.md, artifacts.md, bestiary.md,
+#    lore-and-mysteries.md, adventures.md).
+#
+# This is an INDEX only. It is intentionally terse: one-line summaries plus
+# cross-links by id. The compendium markdown holds the full prose detail —
+# consult the `sources` and the matching world/*.md section for everything else.
+#
+# id type-prefixes used:
+#   region:    a named region / polity / large hub area
+#   loc:       a sited settlement, ruin, dungeon, or major site
+#   subloc:    a notable sublocation within a location (district, chamber, sub-site)
+#   npc:       a non-player character (ally, neutral, functionary)
+#   pc:        a prior-campaign player character (or permanent companion)
+#   faction:   an organized power, cult, guild, merchant house, or local body
+#   people:    a culture / people / ancient civilization
+#   artifact:  a major / named / plot-relevant artifact or item
+#   item:      a notable named non-plot magic item
+#   creature:  a named or notable boss/regional creature
+#   deity:     a god, fey power, or divine/spirit being
+#   mystery:   an open mystery / unresolved central question
+#   thread:    a smaller dangling live thread
+#   adventure: a written (homebrew) adventure
+#
+# Slugs are lowercase ASCII with apostrophes stripped (B'rath -> brath,
+# Farrav'n -> farravn). `name` preserves the exact display spelling.
+
+entities:
+
+  # =====================================================================
+  # REGIONS & POLITIES
+  # =====================================================================
+
+  - id: region:tel-abib-near-desert
+    name: "Tel A'bib & the Near Desert"
+    type: region
+    aliases: ["The Near Desert"]
+    region: null
+    status: active
+    summary: "Home region on the edge of the Great Desert; the Vanic Imperium's last outpost and the party's first base."
+    sources: [gazetteer.md]
+    related: [loc:tel-abib, region:vanic-imperium, region:ajiibwan-desert]
+
+  - id: region:deep-desert-oases
+    name: "The Deep Desert & Oases"
+    type: region
+    aliases: ["The Blistering Dunes region"]
+    region: null
+    status: active
+    summary: "Broad central desert between Tel A'bib and the southern/western cities; oases, caravan routes, ruins."
+    sources: [gazetteer.md]
+    related: [loc:blistering-dunes, loc:oasis-of-sia, region:ajiibwan-desert]
+
+  - id: region:saragubi-desert
+    name: "The Saragubi Desert"
+    type: region
+    aliases: ["Sarklan Desert"]
+    region: null
+    status: "active, dangerous"
+    summary: "Vast southern desert of the Tugari and gnolls, riddled with Bokkaran ruins and a focus of Black Water Cult operations."
+    sources: [gazetteer.md, factions.md]
+    related: [loc:saragubi-pyramid, people:tugari, faction:black-water-cult, loc:hothme]
+
+  - id: region:granite-empire
+    name: "The Granite Empire"
+    type: region
+    aliases: ["Granite power", "m'Thorsz's realm"]
+    region: null
+    status: "active; isolationist"
+    summary: "Powerful dwarf-ruled empire west across the Red Plains; bars Vanic travelers, seated at Hothme, contains Al Faiz."
+    sources: [gazetteer.md, factions.md]
+    related: [loc:hothme, npc:mthorsz, loc:al-faiz-springs, people:tugari]
+
+  - id: region:holy-cities
+    name: "The Holy Cities (Bluffside)"
+    type: region
+    aliases: ["Bluffside", "Sem La Vah", "Ell Bastis"]
+    region: null
+    status: "active; politically volatile"
+    summary: "Great inland Vanic city complex of five-plus districts; diplomatic mission site and Black Water Cult infiltration plot."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, region:vanic-imperium, faction:black-water-cult]
+
+  - id: region:sea-of-souls-subterranean
+    name: "The Sea of Souls & Subterranean"
+    type: region
+    aliases: ["Subterranean"]
+    region: null
+    status: "active travel/exploration hub"
+    summary: "The magical underground sea of invisible water and the subterranean sites reached through it."
+    sources: [gazetteer.md]
+    related: [loc:sea-of-souls, loc:bokkaral, loc:brath-caves]
+
+  - id: region:vanic-imperium
+    name: "Vanic Imperium"
+    type: faction
+    aliases: ["Vanic Empire", "the Empire", "Vanic power"]
+    region: null
+    status: "active, bureaucratic; threatened by infiltration"
+    summary: "Dominant settled imperial power east of the desert; origin culture of all PCs; ruled via Senate and imperial family."
+    sources: [gazetteer.md, factions.md]
+    related: [people:tolorians, loc:tel-abib, region:holy-cities, faction:black-water-cult, npc:hadrian-andruli]
+
+  - id: region:ajiibwan-desert
+    name: "Ajiibwan Desert (the Great Desert)"
+    type: region
+    aliases: ["The Great Desert", "Ajiibwan"]
+    region: null
+    status: active
+    summary: "The vast desert that is the campaign's primary stage; ancient site of the Bokkaran-Ukar war; entrances to the Sea of Souls throughout."
+    sources: [gazetteer.md]
+    related: [loc:sea-of-souls, people:bokkaran, people:ukar]
+
+  - id: region:red-plains
+    name: "Red Plains"
+    type: region
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Desert plains west of Hothme into the Granite Empire; the major morenassa-incense and exotic-goods trade route."
+    sources: [gazetteer.md]
+    related: [loc:hothme, subloc:forge-of-rhakk, creature:centaur-bandits]
+
+  # =====================================================================
+  # LOCATIONS — Tel A'bib & Near Desert
+  # =====================================================================
+
+  - id: loc:tel-abib
+    name: "Tel A'bib"
+    type: location
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "active — party stronghold"
+    summary: "Walled trading town, last outpost of civilization; party home base; Governor later found complicit in the slave trade."
+    sources: [gazetteer.md]
+    related: [npc:vol, npc:feltan, npc:al-esellin, npc:elmingwed, npc:kilmah-fari, faction:athyes, loc:sea-of-souls]
+
+  - id: loc:inferna-wadi
+    name: "Inferna Wadi"
+    type: location
+    aliases: ["The Wadi", "clay valley"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active (crime scene, monitored)"
+    summary: "Dry riverbed east of Tel A'bib; clay-pit site of the boy Raffin's kidnapping. (Also a Holy Cities district name.)"
+    sources: [gazetteer.md]
+    related: [loc:tel-abib, thread:missing-raffin, loc:ancient-tower]
+
+  - id: loc:eye-of-kings
+    name: "Eye of Kings — Royal Tomb"
+    type: location
+    aliases: ["Royal Tomb"]
+    region: "Tel A'bib & the Near Desert"
+    status: "dangerous (supernatural hazards remain)"
+    summary: "Royal tomb/cave complex; site of the Anauld's Eve valor rite; held by the Cult of Anauld; undead and traps."
+    hex: "1312"
+    adventure_index: 9
+    level: "L1"
+    sources: [gazetteer.md]
+    related: [deity:anauld, faction:cult-of-anauld, npc:essen, loc:caves-of-ancestors]
+
+  - id: loc:ancient-tower
+    name: "Ancient Tower (120 ft)"
+    type: location
+    aliases: ["120-ft tower at Wadi"]
+    region: "Tel A'bib & the Near Desert"
+    status: "explored; purpose unclear"
+    summary: "120-ft pristine construct/magical tower NE of Tel A'bib; hostile animated-chest construct; appears uninhabited."
+    sources: [gazetteer.md]
+    related: [loc:inferna-wadi, thread:missing-raffin]
+
+  - id: loc:kantaron
+    name: "Kantaron — Tinkerer's Workshop"
+    type: location
+    aliases: ["Kantaroz Summit", "Kantaron Summit"]
+    region: "Tel A'bib & the Near Desert"
+    status: "under party control; dangerous, magical"
+    summary: "High summit with a Bokkaran tower over Duroigh's Tinkerer's Workshop; site of the Nalfeshnee summoning arc."
+    hex: "1810"
+    adventure_index: 1
+    level: "L3-6"
+    sources: [gazetteer.md, adventures.md]
+    related: [npc:duroigh, creature:nalfeshnee, adventure:tinkerers-workshop, adventure:crisis-kantaron, adventure:pursuing-nalfeshnee]
+
+  - id: loc:air-spire
+    name: "Air Spire"
+    type: location
+    aliases: ["The Talisman"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active / dangerous"
+    summary: "Ancient tower at the Great Oasis paired with The Talisman, a hovering teleport sphere; guarded by mated wyverns and a flesh blob."
+    adventure_index: 2
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:great-oasis, creature:wyverns, creature:flesh-blob, adventure:air-spire]
+
+  - id: loc:great-oasis
+    name: "Great Oasis"
+    type: location
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Major oasis SE of Tel A'bib; multiple encampments; the Air Spire stands at its shore; Lillith Nomads and Tugari frequent it."
+    sources: [gazetteer.md]
+    related: [loc:air-spire, faction:lillith-nomads, artifact:storm-orchids]
+
+  - id: loc:dimark
+    name: "Dimark"
+    type: location
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "active; party-friendly"
+    summary: "Village NW of Tel A'bib in the Black Smoke area; villagers use a Bokkaran spell engine; gateway to the Glade of Tanil."
+    hex: "1210"
+    level: "L3-4"
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:glade-of-tanil, deity:tanil, pc:serinde, loc:black-smoke, adventure:dimark-glade]
+
+  - id: subloc:glade-of-tanil
+    name: "Glade of Tanil"
+    type: sublocation
+    aliases: ["Tanil's Glade", "Forest of Memories"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active; party-friendly"
+    summary: "Sacred grove near Dimark with a Tanil temple, dryads, and a giant guardian; the path conjures visions of past trauma."
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:dimark, deity:tanil, faction:tanil-followers, creature:dryads]
+
+  - id: loc:black-smoke
+    name: "Black Smoke and Tar"
+    type: location
+    aliases: ["Black Smoke area"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active (hazardous terrain)"
+    summary: "Hazardous desert area NW of Tel A'bib with noxious smoke and tar; contains Dimark and the Glade of Tanil."
+    sources: [gazetteer.md]
+    related: [loc:dimark, subloc:glade-of-tanil]
+
+  - id: loc:caves-of-ancestors
+    name: "Caves of Ancestors / Tomb of Ancestors"
+    type: location
+    aliases: ["Tomb of Ancestors"]
+    region: "Tel A'bib & the Near Desert"
+    status: "cleared of immediate threat; hazardous"
+    summary: "Ancient cave/tomb with undead and wards outside Tel A'bib; may adjoin the Eye of Kings."
+    sources: [gazetteer.md]
+    related: [loc:eye-of-kings]
+
+  - id: loc:nemain-ikhams-cave
+    name: "Nemain-ikham's Cave"
+    type: location
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "catalogued; details in module/Roll20"
+    summary: "A named cave in the Ajiibwan Desert; no further detail recorded."
+    sources: [gazetteer.md]
+    related: []
+
+  # =====================================================================
+  # LOCATIONS — Deep Desert & Oases
+  # =====================================================================
+
+  - id: loc:blistering-dunes
+    name: "Blistering Dunes"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "active / dangerous"
+    summary: "Dangerous central-desert region; its passage connects trade routes via Favvar'n and the Oasis of Sia; caravans vanish here."
+    sources: [gazetteer.md]
+    related: [loc:oasis-of-sia, loc:favvarn, thread:missing-caravans]
+
+  - id: loc:oasis-of-sia
+    name: "Oasis of Sia"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "cleared of Black Water Cult; partially looted"
+    summary: "Ancient oasis with ruined temples (a looted Temple of Dorne) and a Sphinx; used by the Black Water Cult for excavations."
+    hex: "1213"
+    adventure_index: 16
+    level: "L2-4"
+    sources: [gazetteer.md]
+    related: [subloc:sphinx-sia, faction:black-water-cult, deity:doorne, item:wand-of-identification, npc:elmingwed]
+
+  - id: subloc:sphinx-sia
+    name: "The Sphinx (Oasis of Sia)"
+    type: sublocation
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "partially explored; treasure remains"
+    summary: "Ancient sphinx with subterranean levels, living statues, prayer halls, and a massive treasure chamber behind a secret door."
+    sources: [gazetteer.md]
+    related: [loc:oasis-of-sia]
+
+  - id: loc:oasis-of-farravn
+    name: "Oasis of Farrav'n"
+    type: location
+    aliases: ["Favarr'n", "Favvar'n"]
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "Sited oasis; likely the same place rendered Favarr'n/Favvar'n in lore and journal."
+    hex: "0915"
+    adventure_index: 15
+    sources: [gazetteer.md]
+    related: [loc:favvarn]
+
+  - id: loc:favvarn
+    name: "Favvar'n / Favarr'n"
+    type: location
+    aliases: ["Favarr'n"]
+    region: "The Deep Desert & Oases"
+    status: "active; hostile to party (per journal)"
+    summary: "Large city with a significant gnoll population, off the main Saragubi routes; a gnoll warned the PC Kai never to go there."
+    sources: [gazetteer.md]
+    related: [loc:oasis-of-farravn, pc:kai, creature:gnoll-druids]
+
+  - id: loc:city-of-kalas
+    name: "City of Kalas"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "A major city in the southern Ajiibwan Desert."
+    hex: "1919"
+    adventure_index: 17
+    sources: [gazetteer.md]
+    related: [pc:rienas]
+
+  - id: loc:djeteke
+    name: "Djeteke — Jarab"
+    type: location
+    aliases: ["Jarab"]
+    region: "The Deep Desert & Oases"
+    status: "active; Black Water Cult presence; partially explored"
+    summary: "Ancient Bokkaran fortress/dig in the Jarab desert; occupied by the Black Water Cult; golden Bokkaran doors and ritual sites."
+    hex: "1317"
+    adventure_index: 25
+    sources: [gazetteer.md, adventures.md]
+    related: [faction:black-water-cult, creature:oteraghs, adventure:djeteke-excavation]
+
+  - id: loc:brath
+    name: "B'rath"
+    type: location
+    aliases: ["Village of Fire Slugs", "Village of Fire Beetles"]
+    region: "The Deep Desert & Oases"
+    status: "established ally; cultural hub"
+    summary: "Desert village of children/families who harvest fire-beetle oil; all speak Ukar (taught by Mesos); entry point to the titan caves."
+    hex: "1412"
+    adventure_index: 13
+    sources: [gazetteer.md]
+    related: [loc:brath-caves, npc:mesos, people:brathian, creature:fire-beetles, adventure:titans-finger]
+
+  - id: loc:consumed-glenowen
+    name: "Consumed — Glenowen"
+    type: location
+    aliases: ["Glenowen"]
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "Shunned-world tie-in area associated with the lore location Glenowen."
+    hex: "1309"
+    adventure_index: 10
+    level: "L2-4"
+    sources: [gazetteer.md]
+    related: []
+
+  - id: loc:owot-ti
+    name: "Beneath the Festered Sun — Owot-Ti"
+    type: location
+    aliases: ["Owot-Ti"]
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "Desert location with a 'festered sun' theme; lore name Owot-Ti."
+    hex: "1119"
+    adventure_index: 26
+    level: "L3"
+    sources: [gazetteer.md]
+    related: []
+
+  - id: loc:port-of-dakhalla
+    name: "Port of Dakhalla"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up (isolated)"
+    summary: "River port city in the southern desert, cut off from the Empire by the Dangerous Road and a river blockade."
+    hex: "2115"
+    adventure_index: 23
+    sources: [gazetteer.md]
+    related: [subloc:dangerous-road, loc:dolan]
+
+  - id: subloc:dangerous-road
+    name: "Dangerous Road"
+    type: sublocation
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: impassable
+    summary: "The bandit- and beast-ridden road between Dakhalla and the Bridged City; even river travel is blocked."
+    sources: [gazetteer.md]
+    related: [loc:port-of-dakhalla, loc:bridged-city]
+
+  - id: loc:city-of-eskadia
+    name: "City of Eskadia"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "Major port city in southern/coastal Ajiibwan; a trade and commerce center."
+    hex: "2318"
+    adventure_index: 22
+    sources: [gazetteer.md]
+    related: []
+
+  - id: loc:ukrudan
+    name: "Desert of Lost Relics — Ukrudan"
+    type: location
+    aliases: ["Ukrudan", "Desert of Lost Relics"]
+    region: "The Deep Desert & Oases"
+    status: "PDF-only — not yet written up"
+    summary: "Modified dungeon location (Shunned tie-in); lore name Ukrudan."
+    hex: "1621"
+    adventure_index: 24
+    level: "L4-6"
+    sources: [gazetteer.md]
+    related: []
+
+  - id: loc:shelzar
+    name: "Shelzar"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: active
+    summary: "Gateway city to the Ajiibwan Desert from the south, connected to an ancient ruin."
+    sources: [gazetteer.md]
+    related: []
+
+  - id: loc:dolan
+    name: "Dolan"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "catalogued"
+    summary: "A southern settlement near Dakhalla."
+    sources: [gazetteer.md]
+    related: [loc:port-of-dakhalla]
+
+  - id: loc:village-of-lapo
+    name: "Village of Lapo"
+    type: location
+    aliases: ["Lapo"]
+    region: "The Deep Desert & Oases"
+    status: "catalogued"
+    summary: "A small village near the Shunned City; reachable overland from Chandler's Folly."
+    sources: [gazetteer.md]
+    related: [loc:shunned-city, loc:chandlers-folly]
+
+  - id: loc:lillith-nomads-camp
+    name: "Lillith Nomads Camp"
+    type: location
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: allied
+    summary: "Tents of ~40 storm-orchid-cultivating nomads in the deep-desert 'clouds' region; led by Bely Arys; allied with the party."
+    sources: [gazetteer.md]
+    related: [faction:lillith-nomads, npc:bely-arys, artifact:storm-orchids, people:tugari]
+
+  - id: loc:forsaken-pyramid
+    name: "Forsaken Pyramid of Mennuj"
+    type: location
+    aliases: ["Pyramid of Mennuj"]
+    region: "The Saragubi Desert"
+    status: "PDF-only — not yet written up (lore notes it explored)"
+    summary: "Ancient forsaken pyramid; necromantic site where charcoal rubbings of Bokkaran writing and maps were recovered."
+    hex: "1112"
+    adventure_index: 21
+    level: "L3-5"
+    sources: [gazetteer.md]
+    related: [creature:anubi, creature:steam-elemental]
+
+  # =====================================================================
+  # LOCATIONS — Saragubi Desert
+  # =====================================================================
+
+  - id: loc:saragubi-pyramid
+    name: "Saragubi Desert & Pyramid of the Lost King"
+    type: location
+    aliases: ["Pyramid of the Lost King"]
+    region: "The Saragubi Desert"
+    status: "active, dangerous; partially explored; Rift Bridge destroyed"
+    summary: "Great Bokkaran landmark over the Saragubi; obvious entrances looted, the true dungeon (Hidden Crypt) lies nearby."
+    hex: "0515"
+    adventure_index: 19
+    level: "L1-5"
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:crypt-saragubi, subloc:kalinores-domain, subloc:charnel-keep, subloc:saragubi-rift, loc:basq, adventure:finding-crypt, adventure:navigating-saragubi]
+
+  - id: subloc:the-disk
+    name: "The Disk"
+    type: sublocation
+    aliases: []
+    region: "The Saragubi Desert"
+    status: active
+    summary: "Large Bokkaran portal/transport artifact ringed by ancient bones; magical output fluctuates with the wind."
+    sources: [gazetteer.md]
+    related: [loc:saragubi-pyramid, people:bokkaran]
+
+  - id: subloc:whistling-towers
+    name: "Whistling Towers"
+    type: sublocation
+    aliases: []
+    region: "The Saragubi Desert"
+    status: active
+    summary: "Field of ~40-ft stone towers that whistle in the wind; a magical engine that recovers spell slots and can grant True Seeing."
+    sources: [gazetteer.md]
+    related: [loc:saragubi-pyramid, people:bokkaran]
+
+  - id: subloc:crypt-saragubi
+    name: "Crypt of the Saragubi Desert"
+    type: sublocation
+    aliases: ["Hidden Crypt", "Bokkaran Wizard King's Crypt"]
+    region: "The Saragubi Desert"
+    status: "explored; collapsed after Donol's death"
+    summary: "Vast underground tomb near the Pyramid; Tomb of the undead king Donol; altars of Tanil, Lore, and the Warrior."
+    sources: [gazetteer.md, adventures.md]
+    related: [creature:donol, npc:indith, deity:imroth, npc:pollana, adventure:finding-crypt, adventure:escaping-crypt]
+
+  - id: subloc:kalinores-domain
+    name: "Kalinore's Domain"
+    type: sublocation
+    aliases: ["Kalinore's Tomb", "Kalinore's Temple", "Kalinore's Caverns"]
+    region: "The Saragubi Desert"
+    status: "explored; Kalinore escaped"
+    summary: "Sealed palace-temple in a SE canyon, opened by paired music boxes; Ilymna's Palace and Kalinore's Temple within."
+    sources: [gazetteer.md, adventures.md]
+    related: [creature:kalinore, npc:ilymna, artifact:music-boxes, creature:stone-golems, adventure:kalinores-tomb]
+
+  - id: subloc:charnel-keep
+    name: "Charnel Keep"
+    type: sublocation
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "occupied by Kalinore & Maghiel; largely cleared"
+    summary: "Massive Bokkaran castle-tomb with a Bokkaran power plant; Maghiel's base, generating magical storms and undead."
+    sources: [gazetteer.md, adventures.md]
+    related: [npc:maghiel, creature:kalinore, npc:vesagol, npc:galim, artifact:atlas-endless-horizons, adventure:kalinores-chaos]
+
+  - id: subloc:gnoll-village-gila
+    name: "Gnoll Village of Gila"
+    type: sublocation
+    aliases: ["Gila"]
+    region: "The Saragubi Desert"
+    status: "non-hostile ally"
+    summary: "Non-hostile gnoll settlement; gave the party a damaged trading boat in exchange for killing Black Water Cult knights."
+    sources: [gazetteer.md]
+    related: [faction:rrave-tribe, faction:black-water-cult]
+
+  - id: subloc:bw-cult-compound
+    name: "Black Water Cult Compound"
+    type: sublocation
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "active cult stronghold"
+    summary: "Fortified canyon compound with ritual training (Maghiel teaches undead control); a supply waypoint for cultists and Tugari."
+    sources: [gazetteer.md]
+    related: [faction:black-water-cult, npc:maghiel, creature:black-water-knight]
+
+  - id: subloc:saragubi-rift
+    name: "Saragubi Rift / Rift Bridge"
+    type: sublocation
+    aliases: ["Rift Bridge", "Great Rift Bridge"]
+    region: "The Saragubi Desert"
+    status: "destroyed (being repaired)"
+    summary: "Great chasm separating Saragubi from main Ajiibwan; its ancient bridge was destroyed during Kalinore's escape."
+    sources: [gazetteer.md]
+    related: [loc:basq, creature:kalinore, people:tugari]
+
+  - id: loc:basq
+    name: "Basq"
+    type: location
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "damaged; needs aid"
+    summary: "Vanic Imperium outpost town near the Rift Bridge, damaged by magical attacks after Kalinore's release; neglected by the Governor."
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:saragubi-rift, npc:mthorsz, adventure:basq-aftermath]
+
+  - id: subloc:tugari-lands
+    name: "Tugari Lands"
+    type: sublocation
+    aliases: ["Tugari Homeland"]
+    region: "The Saragubi Desert"
+    status: "active / potentially hostile"
+    summary: "Tugari tribal territory; leader Tenetu; outriders lead giant worms from caravans; holds an ancient pact with the Granite Empire."
+    sources: [gazetteer.md]
+    related: [people:tugari, npc:tenetu, npc:weshkhasi, npc:onsun, thread:tugari-truce]
+
+  - id: loc:nurian-necropolis
+    name: "Nurian Necropolis"
+    type: location
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "partially explored; ancient"
+    summary: "Ancient necropolis with an observatory and ley-line stone garden, preserving evidence of the Bokkaran schism; undead-guarded."
+    sources: [gazetteer.md, lore-and-mysteries.md, adventures.md]
+    related: [thread:bokkaran-schism, npc:maghiel, adventure:tugari-in-need]
+
+  # =====================================================================
+  # LOCATIONS — Granite Empire
+  # =====================================================================
+
+  - id: loc:hothme
+    name: "Hothme"
+    type: location
+    aliases: ["Gateway Desert City", "Hoth'ne"]
+    region: "The Granite Empire"
+    status: "active major city; home base"
+    summary: "Granite Empire capital and dwarven city-state on the Red Plains border; the party's later home base; ruled by the m'Thorsz."
+    hex: "0117"
+    sources: [gazetteer.md, adventures.md]
+    related: [npc:mthorsz, faction:clan-gideon, subloc:valeskas-needle, faction:scholars-guild, loc:sea-of-souls, adventure:exploring-hothme]
+
+  - id: subloc:valeskas-needle
+    name: "Valeska's Needle"
+    type: sublocation
+    aliases: ["Veleska's Needle"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Bokkaran-style tower housing the Casting Guild and the scholar Burga; where Kalinore's music box was kept."
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:hothme, npc:burga, faction:casting-guild, artifact:music-boxes]
+
+  - id: subloc:grand-forum
+    name: "Grand Forum"
+    type: sublocation
+    aliases: ["Sacred Pool"]
+    region: "The Granite Empire"
+    status: "active (damaged in Maghiel's attack)"
+    summary: "Hothme's civic plaza with the Sacred Pool and Casting Guild portal; site of Maghiel's fireball attack with civilian casualties."
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:hothme, npc:maghiel, npc:adric-cascabel]
+
+  - id: subloc:forge-of-rhakk
+    name: "Forge of Rhakk"
+    type: sublocation
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Area near Hothme troubled by bandits and centaur raiders; part of the Empire's costly trade-route maintenance."
+    sources: [gazetteer.md]
+    related: [region:red-plains, creature:centaur-bandits, people:ardoni]
+
+  - id: loc:al-faiz-springs
+    name: "Al Faiz & Sefurah Springs"
+    type: location
+    aliases: ["Sefura Springs", "Wind's Sorrow"]
+    region: "The Granite Empire"
+    status: "lost/dormant; strategic to world-tree restoration"
+    summary: "Hidden sacred oasis with the world-tree Al Faiz at its center, fed by Storm-Orchid-powered springs; awakened by the Hymn of Harmony."
+    sources: [gazetteer.md, adventures.md]
+    related: [artifact:al-faiz-tree, artifact:storm-orchids, artifact:ukar-wreath-bird, npc:mesos, adventure:search-al-faiz, adventure:battle-sefura, adventure:final-al-faiz]
+
+  - id: loc:slumbering-titan
+    name: "Slumbering Titan"
+    type: location
+    aliases: ["Ukar Ruins"]
+    region: "The Granite Empire"
+    status: "catalogued; sited adventure"
+    summary: "Sealed Ukar ruin ~80 miles west of Hothme; titanic architecture, a slumbering Spinosaurus, and the awakening of Afra."
+    sources: [gazetteer.md, adventures.md]
+    related: [deity:afra, npc:ninla, artifact:afras-spark, adventure:slumbering-titan]
+
+  # =====================================================================
+  # LOCATIONS — Holy Cities
+  # =====================================================================
+
+  - id: loc:holy-cities
+    name: "Holy Cities (Bluffside)"
+    type: location
+    aliases: ["Bluffside", "Ell Bastis"]
+    region: "The Holy Cities (Bluffside)"
+    status: "active; politically volatile; partially under cult influence"
+    summary: "Ancient five-plus-district city reached via the Sem La Vah Sea of Souls docks; water supply controlled by a leader styled 'Thorsz'."
+    hex: "0822"
+    adventure_index: 6
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:sheloah, subloc:nabi-nageab, subloc:zakutar, subloc:ell-bastis, subloc:inferna-wadi-district, faction:black-water-cult, adventure:dark-arts-holy-cities]
+
+  - id: subloc:sem-la-vah
+    name: "Sem La Vah"
+    type: sublocation
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Secret underground Sea of Souls docks and restricted trading community beneath the Holy Cities; contact Tal El-Mazari."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, loc:sea-of-souls, npc:tal-el-mazari]
+
+  - id: subloc:sheloah
+    name: "Sheloah"
+    type: sublocation
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Dwarven mining district with crystalline ore, Clan Gideon's house, the party's hotel Khrumai's Rest, and the BW Cult HQ beneath."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, faction:clan-gideon, npc:roshona-gideon, faction:black-water-cult, npc:katan-talos]
+
+  - id: subloc:nabi-nageab
+    name: "Nabi Nageab"
+    type: sublocation
+    aliases: ["Nabi Nagiab"]
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Old-town/market & temple district; holds Ashburne Academy, the Black Lion Tavern, and the High Sun Temple."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, npc:amid-pharoun, npc:nassa-yahya]
+
+  - id: subloc:zakutar
+    name: "Zakutar"
+    type: sublocation
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Military district; dark-stone fortress and barracks under General Koshara, Captain Allisan, and Master-at-Arms Rishka."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, npc:general-koshara, npc:hadrian-andruli, npc:harrith-djohar]
+
+  - id: subloc:ell-bastis
+    name: "Ell Bastis"
+    type: sublocation
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Wealthy elite/new-city district of mansions and high society; the Black Water Cult runs a clandestine compound here."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, npc:fatima-zaman, npc:iskandar-khiray, faction:black-water-cult]
+
+  - id: subloc:inferna-wadi-district
+    name: "Inferna Wadi (district)"
+    type: sublocation
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Antiquities and desert-lore scholarly district; Nassa Yahya's & Dr. Isilla Rissan's galleries (an Ukar portal); cult orphanage cover."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, npc:isilla-rissan, npc:nassa-yahya, npc:soraya-fawaz, npc:elseron]
+
+  - id: subloc:birjari
+    name: "Birjari / Birjanl"
+    type: sublocation
+    aliases: ["Birjanl"]
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Administrative/merchant residential district; home of the bard Aila Yaşar and merchant Youssef al-Salim."
+    sources: [gazetteer.md]
+    related: [loc:holy-cities, npc:aila-yasar, npc:youssef-al-salim, npc:sefu-abari]
+
+  - id: loc:bw-desert-fort
+    name: "Black Water Cult Desert Fort"
+    type: location
+    aliases: ["Desert Fort"]
+    region: "The Holy Cities (Bluffside)"
+    status: "active cult stronghold; under party assault; potential asset"
+    summary: "Fortified mesa base inland from the Holy Cities, excavating toward the Sea of Souls; guarded by Salajah Al-Sahara."
+    sources: [gazetteer.md, adventures.md]
+    related: [faction:black-water-cult, creature:salajah, npc:rochig, npc:nailah-kopak, adventure:dark-arts-raid-fort]
+
+  - id: loc:covent-weeping-moon
+    name: "Covent of the Weeping Moon"
+    type: location
+    aliases: ["Weeping Moon"]
+    region: "The Holy Cities (Bluffside)"
+    status: "PDF-only — not yet written up"
+    summary: "Sited adventure; lore links the Weeping Moon name to Chandler's Folly."
+    hex: "2312"
+    level: "L4"
+    sources: [gazetteer.md]
+    related: [loc:chandlers-folly]
+
+  # =====================================================================
+  # LOCATIONS — Sea of Souls & Subterranean
+  # =====================================================================
+
+  - id: loc:sea-of-souls
+    name: "Sea of Souls"
+    type: location
+    aliases: ["Unseen water"]
+    region: "The Sea of Souls & Subterranean"
+    status: "active travel/exploration hub; partially mapped"
+    summary: "Vast magical underground sea of invisible water; only ancient-timber boats cross it; touching it is psychically damaging."
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:mesos-dock, loc:brath-caves, loc:bokkaral, item:spider-bracelets, thread:sea-of-souls-nature, adventure:trade-route-sos]
+
+  - id: subloc:mesos-dock
+    name: "Mesos' Dock"
+    type: sublocation
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "cleared by party"
+    summary: "Hidden Bokkaran dock-warehouse infested with undead; an inner Guardian's-Fire vault held the Dream Catcher artifact."
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:sea-of-souls, creature:bokkaran-guardian, artifact:dream-catcher, creature:sos-undead, adventure:mesos-dock]
+
+  - id: loc:brath-caves
+    name: "B'rath Caves & Mesos' Prison Complex"
+    type: location
+    aliases: ["Mesos' prison cavern"]
+    region: "The Sea of Souls & Subterranean"
+    status: "ongoing exploration; partially charted"
+    summary: "Cavern system beneath B'rath doubling as Mesos' prison; Bokkaran artificer's workshop, the Dream Trap, and the titan's mud pool."
+    sources: [gazetteer.md, adventures.md]
+    related: [loc:brath, npc:mesos, artifact:dream-catcher, artifact:bokkaran-lathe, creature:iron-golem, creature:fiend-spider, adventure:return-to-mesos, adventure:freeing-mesos]
+
+  - id: loc:bokkaral
+    name: "City of Bokkaral"
+    type: location
+    aliases: ["Bokkaral"]
+    region: "The Sea of Souls & Subterranean"
+    status: "partially explored"
+    summary: "Ancient city of the Bokkaran people reached via the Sea of Souls; home to Althorn Belveris's research notes."
+    sources: [gazetteer.md, adventures.md]
+    related: [people:bokkaran, npc:althorn-belveris, adventure:finding-bokkaral]
+
+  - id: loc:crystal-towers
+    name: "Crystal Towers"
+    type: location
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "PDF-only — homebrew notes only"
+    summary: "Crystalline ephemeral tower-city; Maghiel sought to activate a Bokkaran 'Slarecian Engine' here to summon an archdemon."
+    hex: "1414"
+    adventure_index: 29
+    sources: [gazetteer.md, adventures.md]
+    related: [npc:maghiel, creature:mind-demons, adventure:crystal-towers]
+
+  # =====================================================================
+  # LOCATIONS — Other Sited Ruins
+  # =====================================================================
+
+  - id: loc:bridged-city
+    name: "Bridged City — Scholarly Schism"
+    type: location
+    aliases: ["College of Magic and Engineering", "Bridge City", "University of Antiquities and Engineering"]
+    region: "Other Sited Ruins"
+    status: "active scholarly center; somewhat hostile to outsiders; isolated"
+    summary: "Major city against a mountain, home to a university of Desert-Script/Bokkaran scholars; Maghiel attacked its Reliquaries Tower."
+    adventure_index: 11
+    level: "L2-4"
+    sources: [gazetteer.md, adventures.md]
+    related: [subloc:haunting-range, npc:savila, npc:elruen, npc:yormon, npc:maghiel, adventure:bridged-city-schism]
+
+  - id: subloc:haunting-range
+    name: "Haunting Range"
+    type: sublocation
+    aliases: []
+    region: "Other Sited Ruins"
+    status: active
+    summary: "Mountain range barrier W/SW of Tel A'bib that complicates access to the Bridged City."
+    sources: [gazetteer.md]
+    related: [loc:bridged-city]
+
+  - id: loc:durgans-rest
+    name: "Durgan's Rest — Mishap of Ill Portent"
+    type: location
+    aliases: ["Ordurt"]
+    region: "Other Sited Ruins"
+    status: "active; some hostility from dark-elf threats"
+    summary: "Mountain town NE of the Great Oasis; Tsendur's homestead and a community of scholars; attacked by Maghiel's forces."
+    hex: "2012"
+    adventure_index: 27
+    level: "L1-3"
+    sources: [gazetteer.md]
+    related: [npc:tsendur, npc:kada, npc:kayta, pc:dain-ironheart, npc:maghiel]
+
+  - id: loc:shunned-city
+    name: "Shunned City — Treasure of Magister Yama"
+    type: location
+    aliases: ["Madriel Temple"]
+    region: "Other Sited Ruins"
+    status: "PDF-only — not yet written up"
+    summary: "Shunned-sequence city holding the Madriel Temple and Magister Yama; Village of Lapo nearby."
+    hex: "2609"
+    adventure_index: 12
+    level: "L3-5"
+    sources: [gazetteer.md]
+    related: [npc:magister-yama, loc:village-of-lapo]
+
+  - id: loc:chandlers-folly
+    name: "Chandler's Folly — Radiant Necropolis"
+    type: location
+    aliases: ["Weeping Moon"]
+    region: "Other Sited Ruins"
+    status: "active town; party-friendly"
+    summary: "River town connected to ruins and to Sideraeon (a Bokkaran power source); the sited adventure is the Radiant Necropolis."
+    hex: "2510"
+    level: "L4-6"
+    sources: [gazetteer.md, adventures.md]
+    related: [thread:sideraeon, loc:village-of-lapo, adventure:radiant-necropolis]
+
+  # =====================================================================
+  # PEOPLES & CULTURES
+  # =====================================================================
+
+  - id: people:tolorians
+    name: "Tolorian peoples"
+    type: people
+    aliases: ["Tolorians", "Vanicul speakers", "Vanic citizens"]
+    region: null
+    status: active
+    summary: "Peoples of the Vanic Imperium, named after the early ruler Tolor; the PC origin culture, sharing the Vanicul tongue."
+    sources: [factions.md]
+    related: [region:vanic-imperium]
+
+  - id: people:tugari
+    name: "Tugari"
+    type: people
+    aliases: ["Tugari Warriors", "Tugari People"]
+    region: "The Saragubi Desert"
+    status: "active, respected"
+    summary: "Nomadic warrior culture of the Saragubi, Ukar descendants with an ancient pact with the Granite Empire; female leadership."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [npc:tenetu, npc:weshkhasi, npc:onsun, people:ukar, faction:lillith-nomads, thread:tugari-truce]
+
+  - id: faction:lillith-nomads
+    name: "Lillith Nomads"
+    type: faction
+    aliases: ["Lilith Nomads", "Lilth gypsy clans"]
+    region: "The Deep Desert & Oases"
+    status: "active; party-allied"
+    summary: "Deep-desert nomad alliance keeping Bokkaran environmental magic; cultivate storm orchids to re-green the desert."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [npc:bely-arys, artifact:storm-orchids, people:tugari, loc:lillith-nomads-camp, mystery:desert-healing]
+
+  - id: people:ardoni
+    name: "Ardoni nomads"
+    type: people
+    aliases: ["Ardoni"]
+    region: "The Granite Empire"
+    status: "active / unresolved"
+    summary: "Nomadic people of the Hothme region and Forge of Rhakk, with a Great Council seat; suspected of raiding merchants."
+    sources: [factions.md]
+    related: [loc:hothme, subloc:forge-of-rhakk]
+
+  - id: people:brathian
+    name: "B'rathian People"
+    type: people
+    aliases: ["B'rathians"]
+    region: "The Deep Desert & Oases"
+    status: "friendly community"
+    summary: "Village community of B'rath, mostly children/families; all speak Ukar (taught by Mesos); coming-of-age via the Dream Trap."
+    sources: [factions.md]
+    related: [loc:brath, npc:mesos, people:ukar]
+
+  - id: faction:rrave-tribe
+    name: "Rrave Tribe (Gnolls)"
+    type: faction
+    aliases: ["Rrave Tribe"]
+    region: "The Saragubi Desert"
+    status: "neutral/friendly"
+    summary: "Easy-going gnoll tribe running a Saragubi oasis (earned by killing the giant sandworm that guarded it); traded with the party."
+    sources: [factions.md]
+    related: [subloc:gnoll-village-gila, region:saragubi-desert]
+
+  - id: people:titankin
+    name: "Titankin (Titans)"
+    type: people
+    aliases: ["Titans", "Titan civilization", "Titanic races"]
+    region: null
+    status: "emerging ally; legendary history"
+    summary: "Ancient beings born with unique elemental traits, infusing essence into Khezurai rings; dismembered/imprisoned by the Bokkaran."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [npc:mesos, artifact:khezurai-ring, artifact:al-faiz-tree, people:ukar, mystery:slumbering-titan]
+
+  - id: people:bokkaran
+    name: "Bokkaran civilization"
+    type: people
+    aliases: ["Bokkarans", "Ancient Bokkarans"]
+    region: null
+    status: "historical / extinct (artifacts active)"
+    summary: "Ancient magical civilization whose ruins, engines, language, and pantheon underpin the world; split into Elgar and Polgar."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [people:ukar, people:titankin, deity:tanil, deity:imroth, thread:bokkaran-schism, artifact:al-faiz-tree]
+
+  - id: people:ukar
+    name: "Ukar"
+    type: people
+    aliases: ["Ukkar", "Ancient Ukar Federation", "Ukar Federation"]
+    region: "The Saragubi Desert"
+    status: "historical / partially active"
+    summary: "Ancient federation 'an ideology not a race' with three thrones; bonded with Al Faiz; advanced elemental and portal magic."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [npc:mesos, people:titankin, people:tugari, people:bokkaran, artifact:ukar-wreath-bird, mystery:ukar-portal-network]
+
+  # =====================================================================
+  # FACTIONS — Powers, Cults, Guilds, Houses, Bodies
+  # =====================================================================
+
+  - id: faction:granite-empire
+    name: "Granite Empire"
+    type: faction
+    aliases: ["Granite power"]
+    region: "The Granite Empire"
+    status: "active; patron faction"
+    summary: "Dwarf-ruled empire seated at Hothme under m'Thorsz; party patron providing resources, the magical sailboat, and intelligence."
+    sources: [factions.md]
+    related: [loc:hothme, npc:mthorsz, faction:clan-gideon, region:granite-empire]
+
+  - id: faction:black-water-cult
+    name: "Black Water Cult"
+    type: faction
+    aliases: ["Order of Black Water", "Black Water Clan", "BW Cult", "Blackwater Cult"]
+    region: null
+    status: "active and dangerous; partially defeated"
+    summary: "Secretive criminal/mystical order worshipping Elsrok under the 'Great Design'; primary antagonist faction, led covertly by Maghiel."
+    sources: [factions.md, lore-and-mysteries.md]
+    related: [npc:maghiel, deity:elsrok, npc:sayed-azhar, npc:soraya-fawaz, npc:murtaza-ghanem, npc:mouse, loc:bw-desert-fort, mystery:bw-leadership]
+
+  - id: faction:clan-gideon
+    name: "Clan Gideon (Blue Diamond)"
+    type: faction
+    aliases: ["Gideon", "House Gideon", "Gideon Clan"]
+    region: "The Granite Empire"
+    status: "active, influential"
+    summary: "Powerful dwarven merchant house at Hothme (and Sheloah); early patron, supplied Saragubi maps, residence, and party member Rienas."
+    sources: [factions.md]
+    related: [npc:barthazai-gideon, npc:roshona-gideon, npc:barazen, npc:tormundgrin, npc:ritabu-loklir, pc:rienas, faction:granite-empire]
+
+  - id: faction:cascabel
+    name: "Cascabel (Golden Camel)"
+    type: faction
+    aliases: ["Golden Camel Trading House"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Richest Hothme merchant house for two centuries; runs Red Plains caravans trading morenassa incense; rival of Vedek."
+    sources: [factions.md]
+    related: [npc:adric-cascabel, faction:vedek, loc:hothme]
+
+  - id: faction:vedek
+    name: "Vedek (Red Horse)"
+    type: faction
+    aliases: ["Red Horse"]
+    region: "The Granite Empire"
+    status: "active / threatened"
+    summary: "Rising Hothme merchant house in diatryma and horse markets; challenged Cascabel but lost a caravan to centaur bandits."
+    sources: [factions.md]
+    related: [faction:cascabel, creature:centaur-bandits, loc:hothme]
+
+  - id: faction:zingolfin
+    name: "Zingolfin (Golden Moth)"
+    type: faction
+    aliases: ["Golden Moth"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Hothme merchant house with extensive cloth and silk interests, especially with Kel and Ryuvatar."
+    sources: [factions.md]
+    related: [loc:hothme]
+
+  - id: faction:scholars-guild
+    name: "Scholar's Guild"
+    type: faction
+    aliases: ["Scholars Guild"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Hothme research org run by a secret committee voting via mage hand; contains the Casting and Mechanicians' Guilds."
+    sources: [factions.md]
+    related: [faction:casting-guild, faction:mechanicians-guild, loc:hothme, subloc:valeskas-needle]
+
+  - id: faction:casting-guild
+    name: "Casting Guild"
+    type: faction
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Magic-casting guild at Valeska's Needle; maintains the Grand Forum portal; led by the elf wizard Dolasea."
+    sources: [factions.md]
+    related: [faction:scholars-guild, npc:dolasea, npc:burga, npc:irissee, subloc:valeskas-needle]
+
+  - id: faction:mechanicians-guild
+    name: "Mechanicians' Guild"
+    type: faction
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Member guild of the Scholar's Guild focused on mechanical crafts, located in Sylia Hall."
+    sources: [factions.md]
+    related: [faction:scholars-guild, loc:hothme]
+
+  - id: faction:qual-shtar
+    name: "Qual Sh'tar"
+    type: faction
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Secretive Hothme thieves' guild dealing in narcotics, loan-sharking, and protection rackets; meets at the Crimson Shield Tavern."
+    sources: [factions.md]
+    related: [npc:yshasvak, npc:tajakof, loc:hothme]
+
+  - id: faction:hothme-councils
+    name: "Hothme Great Council / Common Council"
+    type: faction
+    aliases: ["Hothme City Council"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Hothme's governing bodies; the Great Council seats the Ardoni, the Common Council seats the major merchant houses."
+    sources: [factions.md]
+    related: [loc:hothme, npc:mthorsz, npc:gazrak, npc:bluzco, people:ardoni]
+
+  - id: faction:desert-scouts
+    name: "Desert Scouts (Holy Cities militia)"
+    type: faction
+    aliases: ["Scout Militia", "Holy Cities Scout Forces"]
+    region: "The Holy Cities (Bluffside)"
+    status: "military ally"
+    summary: "Holy Cities scout forces skilled in desert warfare; recruitable allies who fought alongside the party; led by Na'ilah Kopak."
+    sources: [factions.md]
+    related: [npc:nailah-kopak, loc:bw-desert-fort]
+
+  - id: faction:taliphan-militia
+    name: "Taliphan Militia"
+    type: faction
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Local militia defending Tel A'bib and surrounds; served with Elmingwed during the Black Water Cult assault at Oasis of Sia."
+    sources: [factions.md]
+    related: [loc:tel-abib, npc:elmingwed]
+
+  - id: faction:the-church
+    name: "The Church"
+    type: faction
+    aliases: ["Holy Church"]
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Hierarchical religious org (Cardinals, Deacons) of the Holy Cities and Hothme; hosted Maghiel; possibly cult-infiltrated."
+    sources: [factions.md]
+    related: [npc:cardinal-sponfz, npc:milgrew, npc:polrf, npc:maghiel]
+
+  - id: faction:tanil-followers
+    name: "Tanil Followers"
+    type: faction
+    aliases: ["Followers of Tanil", "Tanil Cult", "Tanil Warlocks"]
+    region: null
+    status: "active; aligned with party"
+    summary: "Nature-protecting followers of the fey goddess Tanil; several party members converted, gaining warlock pact abilities."
+    sources: [factions.md]
+    related: [deity:tanil, npc:pollana, subloc:glade-of-tanil, item:ukar-hammer-white-death]
+
+  - id: faction:athyes
+    name: "Athyes religion"
+    type: faction
+    aliases: ["Athyes faith", "Athyism"]
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Faith practiced in Tel A'bib with a temple overseen by senior priests; Elmingwed is a member."
+    sources: [factions.md]
+    related: [loc:tel-abib, npc:ennett-wete, npc:sybel-ceray, npc:elmingwed]
+
+  - id: faction:cult-of-anauld
+    name: "Cult of Anauld"
+    type: faction
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "cleared by party"
+    summary: "Sect of the Church of Dorne that controlled the Eye of Kings, used undead, and kidnapped children."
+    sources: [gazetteer.md, lore-and-mysteries.md]
+    related: [deity:anauld, deity:doorne, loc:eye-of-kings]
+
+  - id: faction:slave-trade
+    name: "Tel A'bib Slave Trade (Gala dak's network)"
+    type: faction
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "broken; remnants at-large"
+    summary: "Secret slave-and-contraband ring run by Gala dak with the Governor's complicity; broken by the party, allies survive."
+    sources: [gazetteer.md, lore-and-mysteries.md]
+    related: [npc:gala-dak, npc:kilmah-fari, thread:slave-remnants, faction:black-water-cult]
+
+  # =====================================================================
+  # PLAYER CHARACTERS (prior campaign)
+  # =====================================================================
+
+  - id: pc:aaki
+    name: "A''ki"
+    type: pc
+    aliases: ["A'ki"]
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Aarakocra Monk (later Monk/Warlock) of the Whisper Warrior Clan; on a coming-of-age flyabout; converted to Tanil."
+    sources: [cast.md]
+    related: [faction:tanil-followers, npc:waru, npc:masym]
+
+  - id: pc:kai
+    name: "Kai (Kaikuva)"
+    type: pc
+    aliases: ["Kaikuva"]
+    region: null
+    status: active
+    summary: "Leonin Barbarian (wild magic) seeking to restore her Pride; carried the Ukkar White Death Hammer; converted to Tanil."
+    sources: [cast.md]
+    related: [item:ukar-hammer-white-death, creature:gnoll-druids, faction:tanil-followers]
+
+  - id: pc:silverin
+    name: "Silverin"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Half-Elf Druid (Circle of the Moon), later Warlock; fluent in Bokkaran; converted to Tanil; ties with dryads."
+    sources: [cast.md]
+    related: [faction:tanil-followers, people:bokkaran]
+
+  - id: pc:thieri
+    name: "Thieri"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Human Rogue (Inquisitive), later Artificer; gained Bokkaran fluency from a red sphere; family friend of prince Malik Qumar."
+    sources: [cast.md]
+    related: [npc:malik-qumar, artifact:language-engine, item:twilight-scimitar]
+
+  - id: pc:jiyloo
+    name: "Jiyloo"
+    type: pc
+    aliases: ["Jiyloo Ubbett"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active core companion"
+    summary: "Human Desert Barbarian, former apprentice to Feltan, follower of Doorne; now carries the Ukkar White Death Hammer."
+    sources: [cast.md]
+    related: [npc:feltan, deity:doorne, item:ukar-hammer-white-death]
+
+  - id: pc:mica
+    name: "Mica"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Earth Genasi Ranger with quartz skin; stoic; casts Pass Without a Trace; joined Day 11."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:millis
+    name: "Millis"
+    type: pc
+    aliases: []
+    region: null
+    status: "active but less present later"
+    summary: "Human Paladin (Oath of Redemption), follower of Ilmater; the party's moral voice; officiates weddings."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:mort
+    name: "Mort"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Tortle Druid (Circle of Spores); practical and gentle; uses Shillelagh with spore effects; joined Day 9."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:yasch
+    name: "Yasch"
+    type: pc
+    aliases: []
+    region: null
+    status: "active (reduced later)"
+    summary: "Kobold Ranger seeking fresh organs for a client; makes pickled eggs; friends with Gus over 'shinies'."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:quin
+    name: "Quin (Harlequin)"
+    type: pc
+    aliases: ["Harlequin"]
+    region: null
+    status: "vanished from later records"
+    summary: "Wood Elf Ranger who suggests travel routes; joined Day 10; clashed with Grey Dust over tactics."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:maeve
+    name: "Maeve"
+    type: pc
+    aliases: []
+    region: null
+    status: "active (killed once by King Donol's blast, raised)"
+    summary: "Half-Orc Bard storyteller/chronicler and healer; joined Day 40; Dissonant Whispers and Vicious Mockery."
+    sources: [cast.md, bestiary.md]
+    related: [creature:donol]
+
+  - id: pc:sylsira
+    name: "Sylsira"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Halfling Rogue, acrobatic lockpicker and ruin investigator seeking artifacts; meticulous documenter; friend of Duli."
+    sources: [cast.md]
+    related: [npc:duli]
+
+  - id: pc:alel
+    name: "Alel"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Human Cleric, a former Imperial high inquisitor seeking redemption and a source of magic to right a past wrong."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:arry
+    name: "Arry (The Arrow)"
+    type: pc
+    aliases: ["The Arrow"]
+    region: null
+    status: active
+    summary: "Human Archer (~18) searching for missing parents; skilled with the bow; now holds Mesos' Khezurai ring."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [artifact:khezurai-ring, npc:mesos, mystery:slumbering-titan]
+
+  - id: pc:graeae
+    name: "Graeae"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Half-Elf Rogue, 102-year-old retired bounty hunter; money-oriented and secretive; rapier, bow, card magic."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:rhys
+    name: "Rhys"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Dwarf Fighter seeking riches to restore his home to glory; joined Day 23."
+    sources: [cast.md]
+    related: []
+
+  - id: pc:dain-ironheart
+    name: "Dain Ironheart"
+    type: pc
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "active but split off"
+    summary: "Dwarf companion who departed toward B'rath on business with his friend Tsendur; absent from B'rath/Mesos ops."
+    sources: [cast.md]
+    related: [npc:tsendur, loc:brath]
+
+  - id: pc:rienas
+    name: "Rienas"
+    type: pc
+    aliases: []
+    region: "The Granite Empire"
+    status: "active party associate"
+    summary: "Half-caste adventurer recruited by Clan Gideon during the Hothme residence period after delivering a package from Kalas."
+    sources: [cast.md]
+    related: [faction:clan-gideon, loc:hothme, loc:city-of-kalas]
+
+  - id: pc:drupah
+    name: "Drupah"
+    type: pc
+    aliases: []
+    region: null
+    status: active
+    summary: "Party member seeking Ukar knowledge (referenced as a companion; no standalone block in the corpus)."
+    sources: [cast.md]
+    related: [people:ukar, npc:mesos]
+
+  - id: pc:serinde
+    name: "Serinde"
+    type: pc
+    aliases: ["Sirende"]
+    region: "Tel A'bib & the Near Desert"
+    status: "alive, indebted ally"
+    summary: "Elf of Dimark rescued from a slave caravan (Day 25); revealed her village's Bokkaran spell-engine location."
+    sources: [cast.md]
+    related: [loc:dimark, faction:slave-trade]
+
+  # =====================================================================
+  # NPCs — Allies & Recurring
+  # =====================================================================
+
+  - id: npc:elmingwed
+    name: "Elmingwed"
+    type: npc
+    aliases: ["The Merchant Lord"]
+    region: "Tel A'bib & the Near Desert"
+    status: "alive, established patron"
+    summary: "Wealthy elf merchant of Tel A'bib, expert in ancient artifacts and Desert Script; key information broker and patron."
+    sources: [cast.md]
+    related: [loc:tel-abib, faction:athyes, npc:elruen, faction:taliphan-militia]
+
+  - id: npc:tsendur
+    name: "Tsendur"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: "alive, established ally"
+    summary: "Orc (or half-orc) scholar-magician of Ancient Bokkaran at Durgan's Rest; teaches Bokkaran; attacked by Maghiel."
+    sources: [cast.md]
+    related: [loc:durgans-rest, npc:kada, npc:kayta, pc:dain-ironheart, npc:maghiel]
+
+  - id: npc:essen
+    name: "Essen"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "alive, trusted"
+    summary: "Human Rogue of Tel A'bib, assistant to merchant Al-Esellin; frequent party guide; his brother Tane was kidnapped."
+    sources: [cast.md]
+    related: [npc:al-esellin, loc:eye-of-kings]
+
+  - id: npc:vol
+    name: "Vol"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: alive
+    summary: "Innkeeper of the New Moon tavern in Tel A'bib; holds the party's strongbox."
+    sources: [cast.md]
+    related: [loc:tel-abib]
+
+  - id: npc:mesos
+    name: "Mesos"
+    type: npc
+    aliases: ["Meso", "Mesos Ukar", "the Titan King"]
+    region: null
+    status: "partially freed; communicative ally"
+    summary: "Gargantuan celestial Titan and Ukar knowledge-keeper, imprisoned by a Dream Catcher beneath B'rath; source of deep lore."
+    sources: [cast.md, bestiary.md, lore-and-mysteries.md]
+    related: [people:titankin, people:ukar, loc:brath-caves, artifact:dream-catcher, artifact:khezurai-ring, mystery:slumbering-titan]
+
+  - id: npc:barthazai-gideon
+    name: "Barthazai Gideon"
+    type: npc
+    aliases: ["Barthazai"]
+    region: "The Granite Empire"
+    status: "active, key political ally"
+    summary: "Dwarf leader of Clan Gideon at Hothme; supplied Saragubi maps, the iron faerie key, and crypt intel; husband Gifrendi."
+    sources: [cast.md]
+    related: [faction:clan-gideon, npc:gifrendi, subloc:crypt-saragubi, item:iron-faerie-carving]
+
+  - id: npc:burga
+    name: "Burga"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: "active, scholar quest-giver"
+    summary: "Elf wizard-scholar at Valeska's Needle; holds Kalinore's music box but can't activate it; commissioned the tomb investigation."
+    sources: [cast.md]
+    related: [subloc:valeskas-needle, faction:casting-guild, artifact:music-boxes, subloc:kalinores-domain]
+
+  - id: npc:irissee
+    name: "Irissee"
+    type: npc
+    aliases: ["Irrissee"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Half-elf court wizard of Hothme and Bokkaran scholar; advisor on strategy and law; fighting warlock at Valeska's Needle."
+    sources: [cast.md]
+    related: [loc:hothme, faction:casting-guild]
+
+  - id: npc:tal-el-mazari
+    name: "Tal El-Mazari"
+    type: npc
+    aliases: ["Tal"]
+    region: "The Holy Cities (Bluffside)"
+    status: "trusted informant, cooperative"
+    summary: "Spy/diplomat of the Holy Cities and the m'Thorsz's contact; greets the party at Sem La Vah with letters of introduction."
+    sources: [cast.md]
+    related: [subloc:sem-la-vah, npc:mthorsz]
+
+  - id: npc:nailah-kopak
+    name: "Na'ilah Kopak"
+    type: npc
+    aliases: ["Na'ilah"]
+    region: "The Holy Cities (Bluffside)"
+    status: ally
+    summary: "Female desert scout commander of the Holy Cities militia; central to the cult-fort raid; rival of Gala dak."
+    sources: [cast.md]
+    related: [faction:desert-scouts, loc:bw-desert-fort, npc:gala-dak]
+
+  - id: npc:isilla-rissan
+    name: "Dr. Isilla Rissan"
+    type: npc
+    aliases: ["Isilla"]
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally"
+    summary: "Human doctor and archaeologist of Inferna Wadi; expert on Ukar/Bokkaran; her gallery holds an Ukar portal to infiltrate the cult HQ."
+    sources: [cast.md]
+    related: [subloc:inferna-wadi-district, people:ukar]
+
+  - id: npc:hadrian-andruli
+    name: "Mirza Hadrian Andruli"
+    type: npc
+    aliases: ["Hadrian", "Count Hadrian", "Lord Hadrian"]
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally"
+    summary: "Human military noble of Zakutar, distant cousin of the Vanic Emperor; seeks to prove the Cult threatens the Empire."
+    sources: [cast.md, factions.md]
+    related: [subloc:zakutar, region:vanic-imperium]
+
+  - id: npc:tenetu
+    name: "Tenetu"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "active tribal leader"
+    summary: "Tugari female warrior-leader who rides a white horse; tested the party in ritual combat and assigned them Onsun as a minder."
+    sources: [cast.md]
+    related: [people:tugari, npc:weshkhasi, npc:onsun, subloc:tugari-lands]
+
+  - id: npc:weshkhasi
+    name: "Weshkhasi"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: active
+    summary: "Tugari female scout captain under Tenetu; skilled in desert navigation and creature avoidance."
+    sources: [cast.md]
+    related: [npc:tenetu, people:tugari]
+
+  - id: npc:onsun
+    name: "Onsun"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "active party associate"
+    summary: "Tugari female fighter and orphan, assigned as the party's minder; travels with them to Charnel Keep."
+    sources: [cast.md]
+    related: [npc:tenetu, people:tugari, subloc:charnel-keep, item:ukar-chainblade]
+
+  - id: npc:roshona-gideon
+    name: "Roshona Gideon"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: ally
+    summary: "Dwarf leader of Clan Gideon in the Holy Cities (Sheloah); briefs the party on factions and trade."
+    sources: [cast.md]
+    related: [faction:clan-gideon, subloc:sheloah, npc:barazen, npc:tormundgrin]
+
+  - id: npc:vesagol
+    name: "Vesagol"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "imprisoned (potentially liberated)"
+    summary: "Demon (fiend-cleric) imprisoned in a red pentacle in Charnel Keep; knows how to defeat the Spectral Knights."
+    sources: [cast.md, bestiary.md]
+    related: [subloc:charnel-keep]
+
+  - id: npc:ilymna
+    name: "Ilymna"
+    type: npc
+    aliases: ["Ilimyna"]
+    region: "The Saragubi Desert"
+    status: "deceased (ghost), bound to the palace"
+    summary: "Bokkaran warrior-general and Kalinore's true love; her ghost holds the second enchanted music box in her sealed palace."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [creature:kalinore, subloc:kalinores-domain, artifact:music-boxes, thread:kalinore-ilymna]
+
+  - id: npc:baz
+    name: "Baz"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: ally
+    summary: "Cleric who helps the party treat the poisoned-well sick and becomes an intelligence contact."
+    sources: [cast.md]
+    related: [loc:holy-cities, thread:holy-cities-politics]
+
+  - id: npc:rochig
+    name: "Rochig"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "prisoner who aids rescuers"
+    summary: "Dwarf imprisoned at the cult desert fort to tend its explosives; if rescued, helps blow the fort walls."
+    sources: [cast.md]
+    related: [loc:bw-desert-fort]
+
+  - id: npc:pollana
+    name: "Pollana"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "arch-fey (statue)"
+    summary: "Major Bokkaran arch-fey in Tanil's service; her statue in Tanil's Sanctuary unlocks Donol's tomb for Tanil worshippers."
+    sources: [cast.md]
+    related: [deity:tanil, subloc:crypt-saragubi, creature:donol]
+
+  - id: npc:indith
+    name: "Indith"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "haunting spirit, bound to location"
+    summary: "Ancient Bokkaran performer haunting the Crypt's Performance Area; demands a performance before allowing passage."
+    sources: [cast.md]
+    related: [subloc:crypt-saragubi, deity:imroth]
+
+  - id: npc:afra-ukar
+    name: "Afra Ukar"
+    type: npc
+    aliases: ["Afra"]
+    region: "The Granite Empire"
+    status: "legendary/historical"
+    summary: "Historical Titan and architect of the Ukar portal network, tied to Afra's Spark; awakened at the Slumbering Titan ruin."
+    sources: [cast.md, lore-and-mysteries.md, adventures.md]
+    related: [deity:afra, artifact:afras-spark, loc:slumbering-titan, mystery:ukar-portal-network]
+
+  - id: npc:althorn-belveris
+    name: "Althorn Belveris"
+    type: npc
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "lore reference"
+    summary: "Scholar from Bokkaral who compiled research notes on Bokkaran artifacts (Storm Orchids, Dream Catchers, Al Faiz)."
+    sources: [cast.md]
+    related: [loc:bokkaral]
+
+  - id: npc:galim
+    name: "Galim"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "lore reference"
+    summary: "Venerable Bokkaran engineer cited in the Engineering Manual at Charnel Keep; expert in power-plant repair."
+    sources: [cast.md]
+    related: [subloc:charnel-keep]
+
+  - id: npc:magister-yama
+    name: "Magister Yama"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: "lore reference"
+    summary: "Figure associated with the Madriel Temple in the Shunned City."
+    sources: [cast.md]
+    related: [loc:shunned-city]
+
+  - id: npc:ninla
+    name: "Ninla (Mytholabe)"
+    type: npc
+    aliases: ["Mytholabe"]
+    region: "The Granite Empire"
+    status: "active companion"
+    summary: "Librarian-robot/Mytholabe from Afra's Temple; carries paper artifacts internally and flies; joined the party."
+    sources: [gazetteer.md, artifacts.md, adventures.md]
+    related: [deity:afra, loc:slumbering-titan]
+
+  # NPCs — Factional & Regional (Hothme)
+
+  - id: npc:mthorsz
+    name: "m'Thorsz / Dhallak Carn"
+    type: npc
+    aliases: ["Dhallak Carn", "the m'Thorsz"]
+    region: "The Granite Empire"
+    status: "active, powerful patron/antagonist"
+    summary: "Dwarf ruler of Hothme (m'Thorsz is the title, Dhallak Carn the name); vain patron who commissions and polices the party."
+    sources: [cast.md, factions.md]
+    related: [loc:hothme, faction:granite-empire, npc:ilcond, faction:clan-gideon]
+
+  - id: npc:ilcond
+    name: "Ilcond"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: "active functionary"
+    summary: "Dwarf royal secretary to the m'Thorsz; conducts the party's interrogation and negotiates loot shares."
+    sources: [cast.md]
+    related: [npc:mthorsz, loc:hothme]
+
+  - id: npc:adric-cascabel
+    name: "Adric Cascabel"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Ruthless patriarch of the Cascabel 'Golden Camel' trading house; seen negotiating with Maghiel at the Sacred Pool."
+    sources: [cast.md]
+    related: [faction:cascabel, npc:maghiel, subloc:grand-forum]
+
+  - id: npc:gazrak
+    name: "Gazrak"
+    type: npc
+    aliases: ["Chancellor Gazrak"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Dwarf chancellor of Hothme allied with Dhallak Carn; manages taxes on the City Council."
+    sources: [cast.md]
+    related: [npc:mthorsz, faction:hothme-councils]
+
+  - id: npc:bluzco
+    name: "Bluzco"
+    type: npc
+    aliases: ["City metrarch"]
+    region: "The Granite Empire"
+    status: active
+    summary: "Powerful human desert merchant; Hothme's city metrarch managing trade on the City Council."
+    sources: [cast.md]
+    related: [faction:hothme-councils]
+
+  - id: npc:gifrendi
+    name: "Gifrendi"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Husband of Barthazai Gideon of the Gideon merchant house."
+    sources: [cast.md]
+    related: [npc:barthazai-gideon, faction:clan-gideon]
+
+  - id: npc:duli
+    name: "Duli"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "History and Bokkaran-antiquities buff; great friend of the PC Sylsira."
+    sources: [cast.md]
+    related: [pc:sylsira]
+
+  - id: npc:ritabu-loklir
+    name: "Ritabu Loklir"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: "active functionary"
+    summary: "Dwarf household manager hired by Clan Gideon to run the party's Hothme residence."
+    sources: [cast.md]
+    related: [faction:clan-gideon, loc:hothme]
+
+  - id: npc:gamul
+    name: "Gamul"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "active, possibly duplicitous"
+    summary: "Dwarf minder sent with the party to oversee a Saragubi supply caravan; secretly trades weapons with the Tugari."
+    sources: [cast.md]
+    related: [npc:mthorsz, people:tugari]
+
+  - id: npc:dolasea
+    name: "Dolasea"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Arrogant elf wizard, leader of the Casting Guild at Valeska's Needle; present at the Sacred Pool during Maghiel's attack."
+    sources: [cast.md]
+    related: [faction:casting-guild, npc:burga, subloc:grand-forum]
+
+  - id: npc:yshasvak
+    name: "Y'shasvak"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Co-leader of the Qual Sh'tar thieves' guild in Hothme."
+    sources: [cast.md]
+    related: [faction:qual-shtar, npc:tajakof]
+
+  - id: npc:tajakof
+    name: "Tajakof"
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: active
+    summary: "Co-leader of the Qual Sh'tar thieves' guild alongside Y'shasvak."
+    sources: [cast.md]
+    related: [faction:qual-shtar, npc:yshasvak]
+
+  # NPCs — Holy Cities notables
+
+  - id: npc:fatima-zaman
+    name: "Begum Fatima Zaman"
+    type: npc
+    aliases: ["Fatima", "Lady Fatima Zaman"]
+    region: "The Holy Cities (Bluffside)"
+    status: "possible covert ally"
+    summary: "Human royalty governing Ell Bastis; pious patron of arts and temples; publicly neutral but a possible anti-Cult ally."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [subloc:ell-bastis, thread:holy-cities-politics]
+
+  - id: npc:youssef-al-salim
+    name: "Youssef al-Salim"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "merchant ally"
+    summary: "Human merchant prince of Birjari with vast trade networks; can mobilize troops against the Cult."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [subloc:birjari, thread:holy-cities-politics]
+
+  - id: npc:amid-pharoun
+    name: "Amid Pharoun"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "merchant ally"
+    summary: "Human merchant of Nabi Nageab controlling eastern trade; knows the Cult's desert-base location and sabotage plans."
+    sources: [cast.md]
+    related: [subloc:nabi-nageab, faction:black-water-cult]
+
+  - id: npc:malik-qumar
+    name: "Malik Qumar"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "ally/contact"
+    summary: "Human prince of a neighboring kingdom on a diplomatic visit; close to Thieri; provides Cult roadblock intel."
+    sources: [cast.md]
+    related: [pc:thieri]
+
+  - id: npc:eamon-al-sabir
+    name: "Brother Eamon al-Sabir"
+    type: npc
+    aliases: ["Eamon"]
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally"
+    summary: "Human historian/priest of Inferna Wadi; reformist seeking to purify the Holy Cities; provides evidence of Cult manipulation."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [thread:holy-cities-politics, faction:black-water-cult]
+
+  - id: npc:iskandar-khiray
+    name: "Iskandar Khiray"
+    type: npc
+    aliases: ["Count Iskandar"]
+    region: "The Holy Cities (Bluffside)"
+    status: "complex loyalties"
+    summary: "Human foreign noble/spymaster of Khiraz with a vast informant network; suspected of intelligence-gathering for his kingdom."
+    sources: [cast.md]
+    related: [subloc:ell-bastis]
+
+  - id: npc:sefu-abari
+    name: "Sefu Abari"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "political ally"
+    summary: "Human diplomat of Birjari in long Vanic service; anxious to find allies against the Cult; offers Senate support."
+    sources: [cast.md]
+    related: [subloc:birjari]
+
+  - id: npc:katan-talos
+    name: "Katan Talos"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "political ally / intel provider"
+    summary: "Dwarf politician of Sheloah championing responsible mining; knows the Cult HQ location and Nassa Yahya's art-trafficking."
+    sources: [cast.md]
+    related: [subloc:sheloah, npc:nassa-yahya, faction:black-water-cult]
+
+  - id: npc:yelena-krinesti
+    name: "Yelena Krinesti"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally"
+    summary: "Female desert trader/scout, a peerless navigator who loathes city politics; met at the poisoned well and the Ball."
+    sources: [cast.md]
+    related: [loc:holy-cities]
+
+  - id: npc:nassa-yahya
+    name: "Nassa Yahya"
+    type: npc
+    aliases: ["Nassa Vahya"]
+    region: "The Holy Cities (Bluffside)"
+    status: "Cult-involvement suspect, under investigation"
+    summary: "Half-elf art dealer of Inferna Wadi who sells plundered art to finance the Black Water Cult; obtained a rare Ukar artifact."
+    sources: [cast.md, artifacts.md]
+    related: [subloc:inferna-wadi-district, faction:black-water-cult]
+
+  - id: npc:verea-shaam
+    name: "Verea Shaam"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally"
+    summary: "Human actress/poet of Ell Bastis who secretly influences policy; knows hidden natural entrances into the Cult HQ."
+    sources: [cast.md]
+    related: [subloc:ell-bastis, faction:black-water-cult]
+
+  - id: npc:aila-yasar
+    name: "Aila Yaşar"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "cultural ally"
+    summary: "Female bard of Birjari, famed for Ukar/Bokkaran folklore; fiercely independent (befriended via Silverin)."
+    sources: [cast.md]
+    related: [subloc:birjari, pc:silverin]
+
+  - id: npc:jael-hacinth
+    name: "Jael Hacinth"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "potential ally if found"
+    summary: "Ex-lover of the Black Water Cult leader, living quietly in Zakutar; holds intimate knowledge of the leader's fire incident."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [faction:black-water-cult, mystery:bw-leadership]
+
+  - id: npc:barazen
+    name: "Barazen"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Dwarf loremaster of Clan Gideon in the Holy Cities; shares history and lore."
+    sources: [cast.md]
+    related: [faction:clan-gideon, subloc:sheloah]
+
+  - id: npc:tormundgrin
+    name: "Tormundgrin"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Battle-scarred dwarf deep-desert trader of Clan Gideon; offers a merchant's perspective on desert routes."
+    sources: [cast.md]
+    related: [faction:clan-gideon, subloc:sheloah]
+
+  - id: npc:general-koshara
+    name: "General Koshara"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Stern female general overseeing the Zakutar military district."
+    sources: [cast.md, factions.md]
+    related: [subloc:zakutar, region:vanic-imperium]
+
+  - id: npc:elseron
+    name: "Elseron the Unseen"
+    type: npc
+    aliases: ["Elseron"]
+    region: "The Holy Cities (Bluffside)"
+    status: "black-market dealer"
+    summary: "Seedy shopkeeper of Inferna Wadi who sells magical trinkets and trades illegally in powerful spells."
+    sources: [cast.md]
+    related: [subloc:inferna-wadi-district]
+
+  # NPCs — Tel A'bib
+
+  - id: npc:kilmah-fari
+    name: "Kilmah Fari"
+    type: npc
+    aliases: ["Imperial Governor"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active (complicit)"
+    summary: "Imperial Governor of Tel A'bib; keeps the area safe for merchants; Gala dak holds leverage over him."
+    sources: [cast.md]
+    related: [loc:tel-abib, npc:gala-dak, faction:slave-trade]
+
+  - id: npc:al-esellin
+    name: "Al-Esellin"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Merchant of tents and traveling gear in the Tel A'bib market; employs the rogue Essen; camel 'Rog'."
+    sources: [cast.md]
+    related: [loc:tel-abib, npc:essen]
+
+  - id: npc:feltan
+    name: "Feltan"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Metal-works merchant of the Tel A'bib market; follower of Doorne; employed Jiyloo; offers a reward for lost-caravan info."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [loc:tel-abib, pc:jiyloo, deity:doorne, thread:missing-caravans]
+
+  - id: npc:ennett-wete
+    name: "Ennett Wete"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Female senior priest of the Athyes religion at the Tel A'bib Temple; discussed Bokkaran lore with the party."
+    sources: [cast.md]
+    related: [faction:athyes, loc:tel-abib]
+
+  - id: npc:sybel-ceray
+    name: "Sybel Ceray"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "Female priest of the Athyes religion at the Tel A'bib Temple."
+    sources: [cast.md]
+    related: [faction:athyes, loc:tel-abib]
+
+  # NPCs — Durgan's Rest & Bridged City
+
+  - id: npc:elruen
+    name: "Elruen"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: contact
+    summary: "Elf magician of the Bridged City; merchant associate allied with Elmingwed."
+    sources: [cast.md]
+    related: [loc:bridged-city, npc:elmingwed]
+
+  - id: npc:savila
+    name: "Savila"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: null
+    summary: "Head of the Bridged City College of Magic and Engineering."
+    sources: [cast.md]
+    related: [loc:bridged-city]
+
+  - id: npc:yormon
+    name: "Yormon Therdasiroth"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: null
+    summary: "Lizard-person (likely draconic humanoid) of the Bridged City; a contact/ally."
+    sources: [cast.md]
+    related: [loc:bridged-city]
+
+  - id: npc:kada
+    name: "Kada"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: active
+    summary: "Dwarf assistant to the scholar Tsendur at Durgan's Rest."
+    sources: [cast.md]
+    related: [npc:tsendur, loc:durgans-rest]
+
+  - id: npc:kayta
+    name: "Kayta"
+    type: npc
+    aliases: []
+    region: "Other Sited Ruins"
+    status: active
+    summary: "Dwarf assistant to the scholar Tsendur at Durgan's Rest."
+    sources: [cast.md]
+    related: [npc:tsendur, loc:durgans-rest]
+
+  - id: npc:bely-arys
+    name: "Bely Arys"
+    type: npc
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "active; party-allied"
+    summary: "Leader of the Lillith Nomads; directs the storm-orchid cultivation effort (with head gardener Andrel)."
+    sources: [gazetteer.md, factions.md]
+    related: [faction:lillith-nomads, artifact:storm-orchids]
+
+  - id: npc:waru
+    name: "Waru"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: active
+    summary: "First-level monk apprentice traveling with Jiyloo in the Saragubi caravan; trained by A''ki."
+    sources: [cast.md]
+    related: [pc:aaki, pc:jiyloo, npc:masym]
+
+  - id: npc:masym
+    name: "Masym"
+    type: npc
+    aliases: []
+    region: "The Saragubi Desert"
+    status: active
+    summary: "First-level monk apprentice traveling with Jiyloo in the Saragubi caravan; trained by A''ki."
+    sources: [cast.md]
+    related: [pc:aaki, pc:jiyloo, npc:waru]
+
+  # =====================================================================
+  # NPCs — Villains & Antagonists
+  # =====================================================================
+
+  - id: npc:maghiel
+    name: "Maghiel"
+    type: npc
+    aliases: ["Magdaliel", "Maghiel Erdot", "MG", "Bringer of Life"]
+    region: null
+    status: "active, extremely dangerous; disputed identity"
+    summary: "Drow Wizard arch-antagonist hunting Bokkaran artifacts to open a magical box; covertly leads the Black Water Cult."
+    sources: [cast.md, lore-and-mysteries.md, factions.md]
+    related: [faction:black-water-cult, creature:kalinore, npc:cardinal-sponfz, mystery:maghiel-goals, thread:the-thorn]
+
+  - id: npc:duroigh
+    name: "Duroigh"
+    type: npc
+    aliases: ["Count Duroigh", "Durel"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active (possibly enslaved to the demon); later reanimated and defeated"
+    summary: "Magical tinkerer at Kantaron Summit, manipulated by the Nalfeshnee into assembling a vessel for its summoning."
+    sources: [cast.md, bestiary.md]
+    related: [loc:kantaron, creature:nalfeshnee, mystery:nalfeshnee]
+
+  - id: npc:gala-dak
+    name: "Gala dak"
+    type: npc
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: at-large
+    summary: "Merchant captain of Tel A'bib who built a secret slave-and-contraband network; his compound was captured but allies remain."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [faction:slave-trade, npc:kilmah-fari, npc:nailah-kopak, thread:slave-remnants]
+
+  - id: npc:cardinal-sponfz
+    name: "Cardinal Sponfz"
+    type: npc
+    aliases: ["His Eminence"]
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Cardinal of the Church in the Holy Cities who corresponds with Maghiel; sent deacons to prepare the Church Campus for her."
+    sources: [cast.md]
+    related: [faction:the-church, npc:maghiel, npc:milgrew, npc:polrf]
+
+  - id: npc:milgrew
+    name: "Milgrew"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Deacon of the Church tasked by Sponfz to ready the Campus for Maghiel."
+    sources: [cast.md]
+    related: [faction:the-church, npc:cardinal-sponfz]
+
+  - id: npc:polrf
+    name: "Polrf"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Deacon of the Church tasked alongside Milgrew to ready the Campus for Maghiel."
+    sources: [cast.md]
+    related: [faction:the-church, npc:cardinal-sponfz]
+
+  - id: npc:soraya-fawaz
+    name: "Soraya Fawaz"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "active agent"
+    summary: "Female Cult agent posing as a charity/orphanage worker in Inferna Wadi; a recruitment base, exposed by Silverin."
+    sources: [cast.md]
+    related: [faction:black-water-cult, subloc:inferna-wadi-district]
+
+  - id: npc:sayed-azhar
+    name: "Sayed Azhar"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "high-ranking operative"
+    summary: "Smooth-talking Cult political operative who holds many politicians and merchants in his debt."
+    sources: [cast.md]
+    related: [faction:black-water-cult]
+
+  - id: npc:murtaza-ghanem
+    name: "Dr. Murtaza Ghanem"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "active saboteur"
+    summary: "Cult poisoner/herbalist believed responsible for the poisoned well; attends events under a false identity."
+    sources: [cast.md]
+    related: [faction:black-water-cult]
+
+  - id: npc:harrith-djohar
+    name: "Harrith Djohar"
+    type: npc
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "collaborator/exposed enemy"
+    summary: "Human statesman of Zakutar, publicly loyal to the Empire but secretly allied to the Cult."
+    sources: [cast.md]
+    related: [faction:black-water-cult, subloc:zakutar]
+
+  - id: npc:abarul
+    name: "Abarul"
+    type: npc
+    aliases: ["the Apprentice"]
+    region: "The Holy Cities (Bluffside)"
+    status: active
+    summary: "Black Water Cult apprentice, author of letters detailing kidnapping and water-poisoning schemes; patron Elsrok."
+    sources: [cast.md]
+    related: [faction:black-water-cult, deity:elsrok]
+
+  - id: npc:mouse
+    name: '"Mouse"'
+    type: npc
+    aliases: []
+    region: "The Granite Empire"
+    status: at-large
+    summary: "Unnamed Hothme government official who is secretly a Cult mole; steals documents and weighs sabotaging Hothme's trade."
+    sources: [cast.md, lore-and-mysteries.md]
+    related: [faction:black-water-cult, loc:hothme, mystery:bw-leadership]
+
+  # =====================================================================
+  # DEITIES & POWERS
+  # =====================================================================
+
+  - id: deity:tanil
+    name: "Tanil"
+    type: deity
+    aliases: ["Bokkaran Fey of the Wild"]
+    region: null
+    status: "active (partially active pantheon)"
+    summary: "Archfey goddess of wild magic; tenets protect nature and vulnerable travelers; serves as a warlock patron, represented by dryads."
+    sources: [lore-and-mysteries.md, factions.md]
+    related: [faction:tanil-followers, npc:pollana, subloc:glade-of-tanil, people:bokkaran]
+
+  - id: deity:imroth
+    name: "Imroth"
+    type: deity
+    aliases: ["Bokkaran God of Performances"]
+    region: null
+    status: "active spirit/deity"
+    summary: "Bokkaran god of music and art; maintains altars (the Altar of Lore); grants Second Sight, instruments, and performance challenges."
+    sources: [lore-and-mysteries.md, cast.md]
+    related: [people:bokkaran, subloc:crypt-saragubi, npc:indith]
+
+  - id: deity:anauld
+    name: "Anauld"
+    type: deity
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "local tradition"
+    summary: "Namesake of Anauld's Eve, the Tel A'bib valor rite at the Eye of Kings; the Cult of Anauld is a sect of the Church of Dorne."
+    sources: [lore-and-mysteries.md]
+    related: [faction:cult-of-anauld, loc:eye-of-kings, deity:doorne]
+
+  - id: deity:doorne
+    name: "Doorne / Dorne"
+    type: deity
+    aliases: ["Dorne", "Church of Dorne", "Dornian religion"]
+    region: null
+    status: "active cultural-religious tradition"
+    summary: "Martial/strength-focused desert deity with altars and temples (e.g. at Oasis of Sia); removing temple artifacts is taboo."
+    sources: [lore-and-mysteries.md]
+    related: [pc:jiyloo, npc:feltan, loc:oasis-of-sia, faction:cult-of-anauld]
+
+  - id: deity:afra
+    name: "Afra"
+    type: deity
+    aliases: []
+    region: null
+    status: "Ukar power"
+    summary: "Entity (possibly Ukar pantheon) tied to Afra's Spark, which activates Ukar portals and Bokkaran music boxes; held Ukar gifts at Afra's Tomb."
+    sources: [lore-and-mysteries.md]
+    related: [artifact:afras-spark, npc:afra-ukar, mystery:ukar-portal-network, thread:afras-spark]
+
+  - id: deity:elsrok
+    name: "Elsrok"
+    type: deity
+    aliases: []
+    region: null
+    status: "active dark power"
+    summary: "The dark power served by the Black Water Cult, whose members follow the 'Great Design'; also a named cult superior/patron."
+    sources: [lore-and-mysteries.md, cast.md]
+    related: [faction:black-water-cult, npc:abarul]
+
+  - id: deity:bokkara
+    name: "Bokkara"
+    type: deity
+    aliases: []
+    region: "The Granite Empire"
+    status: "active (Twin Altars boon-giver)"
+    summary: "Goddess encountered at the Bokkaran Air Altar near Sefurah Springs; grants individual blessings; linked to the diseased Bokkara statue."
+    sources: [adventures.md, bestiary.md]
+    related: [loc:al-faiz-springs, adventure:twin-altars, creature:bokkara-statue, mystery:bokkara-disease]
+
+  # =====================================================================
+  # MAJOR ARTIFACTS
+  # =====================================================================
+
+  - id: artifact:ukar-wreath-bird
+    name: "The Ukar Wreath and Bird (Roshanai & Parvaiz)"
+    type: artifact
+    aliases: ["Roshani", "Roshanai", "The Lightbringer", "Parvaiz", "The Soaring One"]
+    region: null
+    status: "held by party"
+    summary: "Two-part Ukar keystone: a wreath and crystal bird that perform the Hymn of Harmony to awaken Al Faiz and form a portable portal."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [artifact:al-faiz-tree, artifact:afras-spark, loc:al-faiz-springs, mystery:ukar-portal-network, people:ukar]
+
+  - id: artifact:bokkaran-lathe
+    name: "The Bokkaran Lathe"
+    type: artifact
+    aliases: []
+    region: null
+    status: "held by party"
+    summary: "Ancient Bokkaran artificer engine for shaping/enchanting metals; the heart of the party's infusion economy; breaks into 10 pieces."
+    sources: [artifacts.md]
+    related: [loc:brath-caves, pc:thieri, people:bokkaran]
+
+  - id: artifact:language-engine
+    name: "Bokkaran Language Engine"
+    type: artifact
+    aliases: ["Lectio scientia Dei", "Red Stone Sphere"]
+    region: null
+    status: "held by party"
+    summary: "Magical engine granting the ability to read, speak, and cast Bokkaran; psychically damaging to touch unprotected."
+    sources: [artifacts.md]
+    related: [pc:thieri, people:bokkaran, loc:kantaron]
+
+  - id: artifact:afras-spark
+    name: "Afra's Spark"
+    type: artifact
+    aliases: []
+    region: null
+    status: "held by party"
+    summary: "Ley-infused pebble whose 'Spark' lets a bearer activate Ukar artifacts and Bokkaran music boxes and cast Ley Energy Bolt."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [deity:afra, artifact:ukar-wreath-bird, artifact:music-boxes, thread:afras-spark]
+
+  - id: artifact:al-faiz-tree
+    name: "Al Faiz tree"
+    type: artifact
+    aliases: ["El Faiz", "Wind's Sorrow", "Source Tree", "Godhead"]
+    region: "The Granite Empire"
+    status: "active / dormant-sealed; not portable"
+    summary: "The world-tree spirit spanning Material and Celestial planes, source of the ley lines; weaponized by Bokkaran necromancers."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [loc:al-faiz-springs, artifact:storm-orchids, artifact:ukar-wreath-bird, mystery:desert-healing]
+
+  - id: artifact:dream-catcher
+    name: "Dream Catcher / Dream Trap"
+    type: artifact
+    aliases: ["Bokkaran Dream Trap"]
+    region: "The Sea of Souls & Subterranean"
+    status: "in place at B'rath; partially disabled by party"
+    summary: "Bokkaran imprisonment engine holding Mesos; fires Dream Spikes that entomb victims in nightmares; ~944 spikes remain."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [npc:mesos, loc:brath-caves, mystery:slumbering-titan, people:brathian]
+
+  - id: artifact:khezurai-ring
+    name: "Khezurai Ring (Mesos' Ring)"
+    type: artifact
+    aliases: []
+    region: null
+    status: "held by Arry; not recovered by party"
+    summary: "Titan ring holding Mesos' earth/seismic essence; when returned, lets his detached hand migrate through rock; Mesos seeks it."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [npc:mesos, pc:arry, people:titankin, mystery:slumbering-titan]
+
+  - id: artifact:music-boxes
+    name: "Kalinore's & Ilymna's Music Boxes"
+    type: artifact
+    aliases: ["Ghostly Music Box"]
+    region: "The Saragubi Desert"
+    status: "held by party"
+    summary: "Paired enchanted music boxes that play only for an Afra's-Spark bearer; synchronized, they unseal Kalinore's Domain."
+    sources: [artifacts.md]
+    related: [subloc:kalinores-domain, npc:burga, npc:ilymna, creature:kalinore, artifact:afras-spark]
+
+  - id: artifact:atlas-endless-horizons
+    name: "The Atlas of Endless Horizons"
+    type: artifact
+    aliases: []
+    region: null
+    status: "held by party"
+    summary: "Ukar wondrous item of rotating discs mapping the planes; reveals hidden Ukar portals and enables direct portal-to-portal travel."
+    sources: [artifacts.md]
+    related: [people:ukar, subloc:charnel-keep, mystery:ukar-portal-network]
+
+  - id: artifact:rings-of-sefura
+    name: "Rings of Sefura"
+    type: artifact
+    aliases: []
+    region: null
+    status: "held by party"
+    summary: "Three Ukar rings with mantras that let wearers pass into the Celestial plane and the Sefura Springs garden."
+    sources: [artifacts.md]
+    related: [people:ukar, loc:al-faiz-springs]
+
+  - id: artifact:blackwaters-dirge
+    name: "Blackwater's Dirge"
+    type: artifact
+    aliases: ["Blackwater Dirge"]
+    region: null
+    status: "held by party"
+    summary: "Legendary ironwood scythe crusted with salt; bristling with anti-Black-Water-Cult / anti-unseen-water powers."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [loc:sea-of-souls, faction:black-water-cult, creature:swamp-elemental]
+
+  - id: artifact:storm-orchids
+    name: "Storm Orchids"
+    type: artifact
+    aliases: ["Alorix"]
+    region: null
+    status: "active; one specimen planted"
+    summary: "Magical plant-creatures, offspring of Al Faiz, that feed Sefura Springs; central to the desert-restoration effort."
+    sources: [artifacts.md, lore-and-mysteries.md]
+    related: [artifact:al-faiz-tree, faction:lillith-nomads, mystery:desert-healing]
+
+  - id: artifact:mesos-remains
+    name: "Mesos' Remains (Severed Finger & Desiccated Remains)"
+    type: artifact
+    aliases: ["Titan's Finger", "Giant King Mesos finger"]
+    region: null
+    status: "held by party"
+    summary: "Body parts of the imprisoned Titan Mesos that magically seek to reunite; tied to the free-Mesos plot."
+    sources: [artifacts.md]
+    related: [npc:mesos, loc:brath-caves, mystery:slumbering-titan]
+
+  # =====================================================================
+  # NOTABLE NAMED MAGIC ITEMS
+  # =====================================================================
+
+  - id: item:ukar-hammer-white-death
+    name: "Ukar Hammer of White Death"
+    type: item
+    aliases: ["Ukkar White Death Hammer", "Hammer of the Cold"]
+    region: null
+    status: "held by party (Jiyloo)"
+    summary: "Ukar hammer: +1 / +1d6 cold, cold resistance + fire vulnerability; 3d8 psychic to any Bokkaran-speaker who touches it."
+    sources: [artifacts.md]
+    related: [pc:jiyloo, pc:kai, people:ukar, faction:tanil-followers]
+
+  - id: item:twilight-scimitar
+    name: "Twilight Scimitar"
+    type: item
+    aliases: []
+    region: null
+    status: "held by party (Thieri)"
+    summary: "Bokkaran scimitar: glows green, +2d4 force; useless to evil wielders; effective against spirits/phantoms (disintegrated Maghiel's apparition)."
+    sources: [artifacts.md]
+    related: [pc:thieri, people:bokkaran, npc:maghiel]
+
+  - id: item:wand-of-identification
+    name: "Inventia: The Wand of Identification"
+    type: item
+    aliases: ["Wand of Identification"]
+    region: null
+    status: "held by party"
+    summary: "Bokkaran wand with 18 charges of Identify (recharge 180 days); a campaign-long key tool recovered at Oasis of Sia."
+    sources: [artifacts.md]
+    related: [loc:oasis-of-sia, people:bokkaran]
+
+  - id: item:spider-bracelets
+    name: "Spider Bracelets"
+    type: item
+    aliases: ["Bracelet with Spider Design"]
+    region: null
+    status: "held by party (critical gear)"
+    summary: "Bracelets protecting against psychic damage and the Sea of Souls' invisible water; essential to cross unseen water unharmed."
+    sources: [artifacts.md]
+    related: [loc:sea-of-souls, people:bokkaran]
+
+  - id: item:ukar-water-flask
+    name: "Ukar White Metal Flask"
+    type: item
+    aliases: ["Water Flask"]
+    region: null
+    status: "held by party (essential survival)"
+    summary: "Ukar white-metal flask that produces ~4 gallons of fresh water a day on command; essential desert survival gear."
+    sources: [artifacts.md]
+    related: [people:ukar]
+
+  - id: item:travelers-torch
+    name: "Bokkaran Traveler's Torch"
+    type: item
+    aliases: ["Enchanted Traveler's Torch"]
+    region: null
+    status: "held by party"
+    summary: "Bokkaran torch with Light, Hot/Cool, and Rest (unfolds a weatherproof magic tent) functions; no magical consequences."
+    sources: [artifacts.md]
+    related: [people:bokkaran]
+
+  - id: item:fanoos-al-kashf
+    name: "Fanoos al-Kashf"
+    type: item
+    aliases: ["Fanoosh al Kashfee"]
+    region: null
+    status: "held by party (Thieri)"
+    summary: "Ukar white-metal lantern that reveals invisible creatures/objects in its light; burns fire-beetle oil."
+    sources: [artifacts.md]
+    related: [pc:thieri, people:ukar, loc:brath]
+
+  - id: item:ukar-chainblade
+    name: "Ukar Chainblade"
+    type: item
+    aliases: ["Ukar Chain weapon"]
+    region: null
+    status: "held by party (Onsun)"
+    summary: "Ukar chain weapon: 1d8 bludgeoning + 1d6 fire; a Fire Rune restrains and burns; won in a battlefield vision."
+    sources: [artifacts.md]
+    related: [npc:onsun, people:ukar]
+
+  - id: item:iron-faerie-carving
+    name: "Iron Faerie Carving"
+    type: item
+    aliases: []
+    region: null
+    status: "held by party"
+    summary: "Mechanical key (from Barthazai) to the Hidden Crypt near the Pyramid of the Lost King."
+    sources: [artifacts.md]
+    related: [npc:barthazai-gideon, subloc:crypt-saragubi]
+
+  # =====================================================================
+  # CREATURES — Named / Boss / Notable Regional
+  # =====================================================================
+
+  - id: creature:nalfeshnee
+    name: "Nalfeshnee"
+    type: creature
+    aliases: ["Lados", "the Abyssal Demon"]
+    region: "Tel A'bib & the Near Desert"
+    status: "dead (defeated in the Sea of Souls crypt)"
+    summary: "Balor-class Abyssal demon Duroigh was manipulated into summoning; menaced the region before being put down."
+    sources: [bestiary.md, cast.md]
+    related: [npc:duroigh, loc:kantaron, mystery:nalfeshnee, creature:vrocks]
+
+  - id: creature:kalinore
+    name: "Kalinore"
+    type: creature
+    aliases: ["the Bokkaran Lich", "wizard-king"]
+    region: "The Saragubi Desert"
+    status: "escaped / at-large (lich; treat as live threat)"
+    summary: "Ancient Bokkaran lich-wizard bound to a phylactery; built a tomb for his love Ilymna; escaped near death, re-engaged at Charnel Keep."
+    sources: [bestiary.md, cast.md, lore-and-mysteries.md]
+    related: [npc:ilymna, subloc:kalinores-domain, subloc:charnel-keep, npc:maghiel, thread:kalinore-ilymna]
+
+  - id: creature:salajah
+    name: "Salajah Al-Sahara"
+    type: creature
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "dead (defeated by party)"
+    summary: "Gargantuan scorpion monstrosity guarding the Black Water Cult's Desert Fort; heals off magic damage near water."
+    sources: [bestiary.md]
+    related: [loc:bw-desert-fort, faction:black-water-cult]
+
+  - id: creature:bokkaran-guardian
+    name: "Bokkaran Guardian (Mesos' Dock)"
+    type: creature
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "dead (defeated by party)"
+    summary: "Celestial undead guardian protecting the Dream Catcher artifact at Mesos' Dock, shielded by Guardian's Fire."
+    sources: [bestiary.md]
+    related: [subloc:mesos-dock, artifact:dream-catcher]
+
+  - id: creature:iron-golem
+    name: "Iron Golem (Bokkaran Construct)"
+    type: creature
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "encountered; may be defeated or placated"
+    summary: "Large Bokkaran construct guarding the B'rath artificer's workshop; can be pacified with the artificer's insignia."
+    sources: [bestiary.md]
+    related: [loc:brath-caves, artifact:bokkaran-lathe]
+
+  - id: creature:donol
+    name: "King Donol"
+    type: creature
+    aliases: ["the Bokkaran Undead King", "Giant King"]
+    region: "The Saragubi Desert"
+    status: "dead (destroyed by party)"
+    summary: "Ancient Bokkaran warrior-king mummy/lich in the Crypt of the Saragubi Desert; his defeat collapses the tomb; killed Maeve."
+    sources: [bestiary.md, cast.md]
+    related: [subloc:crypt-saragubi, pc:maeve, npc:pollana]
+
+  - id: creature:sos-undead
+    name: "Mesos' Dock Undead (Shadow Reaver, Umbral Assassin, Void Wraith, Corporeal Horror)"
+    type: creature
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "presumed guardians (no recorded resolution)"
+    summary: "A nest of high-CR undead (Shadow Reaver, Umbral Assassin, Void Wraith, Corporeal Horror) guarding Mesos' Dock."
+    sources: [bestiary.md]
+    related: [subloc:mesos-dock]
+
+  - id: creature:stone-golems
+    name: "Stone Golems (Kalinore's Domain)"
+    type: creature
+    aliases: ["Ukar Gladiator Stone Golem"]
+    region: "The Saragubi Desert"
+    status: "defeated (if fought)"
+    summary: "Massive wall-carved stone golems guarding Kalinore's Domain, friendly until a Bokkaran inquiry is failed; awaken reinforcements."
+    sources: [bestiary.md]
+    related: [subloc:kalinores-domain]
+
+  - id: creature:wyverns
+    name: "Wyverns (mated pair)"
+    type: creature
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "active/dangerous (never killed)"
+    summary: "Two mature mated wyverns nesting at the Air Spire tower top (also seen at the Great Oasis tower)."
+    sources: [bestiary.md]
+    related: [loc:air-spire, loc:great-oasis]
+
+  - id: creature:giant-sand-worm
+    name: "Giant Sand Worm"
+    type: creature
+    aliases: ["sandworms"]
+    region: "The Saragubi Desert"
+    status: "active predator"
+    summary: "Massive predatory worm drawn to corpses; Tugari outriders lead them away from caravans."
+    sources: [bestiary.md]
+    related: [region:saragubi-desert, people:tugari]
+
+  - id: creature:bulette
+    name: "Bulette (Landshark)"
+    type: creature
+    aliases: ["Landshark"]
+    region: "The Saragubi Desert"
+    status: "active (ridden as cult mounts)"
+    summary: "Gargantuan burrowing monstrosity ridden as mounts by Black Water Knights; undead bulettes also exist."
+    sources: [bestiary.md]
+    related: [creature:black-water-knight, faction:black-water-cult]
+
+  - id: creature:fire-beetles
+    name: "Fire beetles & fire slugs"
+    type: creature
+    aliases: ["fire slugs"]
+    region: "The Deep Desert & Oases"
+    status: active
+    summary: "Creatures native to the B'rath village area; their oil is the village's trade staple and lantern fuel."
+    sources: [bestiary.md]
+    related: [loc:brath, people:brathian]
+
+  - id: creature:fiend-spider
+    name: "Fiend Spider"
+    type: creature
+    aliases: ["Crag Spider", "Undead spider"]
+    region: "The Sea of Souls & Subterranean"
+    status: defeated
+    summary: "Huge fire/poison-immune spider monstrosity in the B'rath caves (with Crag Spider waves); a high-priority target."
+    sources: [bestiary.md]
+    related: [loc:brath-caves]
+
+  - id: creature:flesh-blob
+    name: "Flesh blob"
+    type: creature
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: active
+    summary: "A transformed creature — a former level-10 wizard — hiding in the Air Spire tower's living quarters."
+    sources: [bestiary.md]
+    related: [loc:air-spire]
+
+  - id: creature:centaur-bandits
+    name: "Centaur bandits"
+    type: creature
+    aliases: []
+    region: "The Granite Empire"
+    status: "active/threat"
+    summary: "Raiders of the Forge of Rhakk and Red Plains who attack Vedek merchant caravans."
+    sources: [bestiary.md]
+    related: [subloc:forge-of-rhakk, faction:vedek, region:red-plains]
+
+  - id: creature:black-water-knight
+    name: "Black Water Knight"
+    type: creature
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "repeatedly fought and defeated"
+    summary: "Heavy paladin-style cavalry of the Black Water Cult, riding Bulettes; lance, greatsword, burning crossbow bolts, healing."
+    sources: [bestiary.md]
+    related: [faction:black-water-cult, creature:bulette]
+
+  - id: creature:oteraghs
+    name: "Oteraghs"
+    type: creature
+    aliases: []
+    region: "The Saragubi Desert"
+    status: dead
+    summary: "Tentacled aberrations released from containment during the Djeteke raid; fought amid a Black Water battle."
+    sources: [bestiary.md, lore-and-mysteries.md]
+    related: [loc:djeteke, faction:black-water-cult]
+
+  - id: creature:swamp-elemental
+    name: "Swamp Elemental"
+    type: creature
+    aliases: []
+    region: "The Granite Empire"
+    status: dead
+    summary: "Elemental of swamp/water/plant matter; the Blackwater Dirge weapon was recovered from its corpse."
+    sources: [bestiary.md]
+    related: [artifact:blackwaters-dirge, adventure:search-al-faiz]
+
+  - id: creature:steam-elemental
+    name: "Steam Elemental"
+    type: creature
+    aliases: []
+    region: "The Saragubi Desert"
+    status: dead
+    summary: "Elemental of steam and heat fought in the Forsaken Pyramid; knocked Mica and Jiyloo unconscious."
+    sources: [bestiary.md]
+    related: [loc:forsaken-pyramid]
+
+  - id: creature:water-demon-ylgavroth
+    name: "Water Demon (Ylgavroth)"
+    type: creature
+    aliases: ["Ylgavroth", "Elden Curse", "Waterfall Demon"]
+    region: "The Granite Empire"
+    status: dead
+    summary: "Aquatic water-elemental demon enslaving the Elden villagers; slain with the Blackwater Dirge."
+    sources: [bestiary.md, adventures.md]
+    related: [artifact:blackwaters-dirge, adventure:search-al-faiz]
+
+  - id: creature:mind-demons
+    name: "Mind Demons"
+    type: creature
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "dead (and a Crystal Towers hazard)"
+    summary: "Psychic entities born of the party's own thoughts at the Crystal Towers; two also fought in the desert."
+    sources: [bestiary.md, adventures.md]
+    related: [loc:crystal-towers]
+
+  - id: creature:vrocks
+    name: "Vrocks"
+    type: creature
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: dead
+    summary: "Vulture-like demon fiends fought alongside the Nalfeshnee and reanimated Duroigh in the Sea of Souls crypt."
+    sources: [bestiary.md]
+    related: [creature:nalfeshnee, npc:duroigh]
+
+  - id: creature:purple-worm
+    name: "Purple Worm"
+    type: creature
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: dead
+    summary: "Giant worm in the Black Water Cult HQ temple that swallowed Thieri repeatedly before being defeated."
+    sources: [bestiary.md]
+    related: [loc:holy-cities, faction:black-water-cult, pc:thieri]
+
+  - id: creature:dryads
+    name: "Dryads"
+    type: creature
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "active/non-hostile"
+    summary: "Non-hostile fey forest spirits of Tanil's Glade who offered the party Tanil warlock pacts."
+    sources: [bestiary.md]
+    related: [subloc:glade-of-tanil, deity:tanil, faction:tanil-followers]
+
+  - id: creature:gnoll-druids
+    name: "Gnoll Druids"
+    type: creature
+    aliases: []
+    region: null
+    status: "historical enemies, avoided"
+    summary: "Druids of gnoll origin who enslaved Kai's Pride and burned their herds; the existential threat behind Kai's backstory."
+    sources: [cast.md]
+    related: [pc:kai, loc:favvarn]
+
+  - id: creature:durels-constructs
+    name: "Durel's Magical Constructs"
+    type: creature
+    aliases: ["Crystal Constructs", "White-metal constructs"]
+    region: "Tel A'bib & the Near Desert"
+    status: "active/threat (still wandering)"
+    summary: "White-metal Bokkaran automatons built by Duroigh, roaming Tel A'bib's countryside harvesting and hunting artifact-bearers."
+    sources: [bestiary.md]
+    related: [npc:duroigh, loc:kantaron, thread:missing-raffin, mystery:nalfeshnee]
+
+  - id: creature:anubi
+    name: "Anubi Dog Statues"
+    type: creature
+    aliases: ["Anubi"]
+    region: "The Saragubi Desert"
+    status: dead
+    summary: "Dog-like stone/magical guardians fought at the Forsaken Pyramid's north entrance."
+    sources: [bestiary.md]
+    related: [loc:forsaken-pyramid]
+
+  - id: creature:bokkara-statue
+    name: "Bokkara Statue (Diseased)"
+    type: creature
+    aliases: []
+    region: null
+    status: "active/diseased; status unclear"
+    summary: "Ancient Bokkaran statue magically corrupted/diseased, containing 'Thorn'; a possible source of the Bokkara statue disease."
+    sources: [bestiary.md]
+    related: [deity:bokkara, mystery:bokkara-disease, thread:the-thorn, npc:maghiel]
+
+  # =====================================================================
+  # OPEN MYSTERIES
+  # =====================================================================
+
+  - id: mystery:bw-leadership
+    name: "Black Water Cult leadership & survival"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "Who really leads the cult and how much survives; leadership named inconsistently (Chazim early, Maghiel later); a Hothme mole remains."
+    sources: [lore-and-mysteries.md]
+    related: [faction:black-water-cult, npc:maghiel, npc:mouse, npc:jael-hacinth]
+
+  - id: mystery:nalfeshnee
+    name: "The escaped/summoned demon (Nalfeshnee)"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "Was the Balor truly stopped and who pulled the strings; Duroigh's constructs and breached containments may still be loose."
+    sources: [lore-and-mysteries.md]
+    related: [creature:nalfeshnee, npc:duroigh, creature:durels-constructs, creature:oteraghs]
+
+  - id: mystery:ukar-portal-network
+    name: "The Ukar portal network"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "How far the portal network reaches and who else can use it; keyed to the Wreath, Bird, and Afra's Spark."
+    sources: [lore-and-mysteries.md]
+    related: [artifact:ukar-wreath-bird, artifact:afras-spark, artifact:atlas-endless-horizons, people:ukar]
+
+  - id: mystery:desert-healing
+    name: "The desert-healing question"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "Can the ley-line-poisoned land be restored, and who opposes it; hinges on storm orchids, ley-line lenses, and reawakening Al Faiz."
+    sources: [lore-and-mysteries.md]
+    related: [artifact:storm-orchids, artifact:al-faiz-tree, faction:lillith-nomads, loc:nurian-necropolis]
+
+  - id: mystery:maghiel-goals
+    name: "Maghiel's goals"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "Who Maghiel really is and what the magical box contains; possibly 'Malnea in disguise'; infected by The Thorn, removed Day 109."
+    sources: [lore-and-mysteries.md]
+    related: [npc:maghiel, thread:the-thorn, mystery:bokkara-disease]
+
+  - id: mystery:slumbering-titan
+    name: "The Slumbering Titan (Mesos)"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "Can the imprisoned Titan be fully freed and what follows; his ring is held by Arry; other dismembered Titans remain imprisoned."
+    sources: [lore-and-mysteries.md]
+    related: [npc:mesos, artifact:khezurai-ring, pc:arry, artifact:dream-catcher, people:titankin]
+
+  - id: mystery:bokkara-disease
+    name: "Bokkara (the statue) and Bokkaral"
+    type: mystery
+    aliases: []
+    region: null
+    status: unresolved
+    summary: "What the Bokkara statue disease is, and whether it ties to The Thorn parasite removed from Maghiel."
+    sources: [lore-and-mysteries.md]
+    related: [creature:bokkara-statue, thread:the-thorn, npc:maghiel, loc:bokkaral]
+
+  # =====================================================================
+  # LIVE THREADS (smaller dangling hooks)
+  # =====================================================================
+
+  - id: thread:bokkaran-schism
+    name: "The Bokkaran Schism (Elgar & Polgar)"
+    type: thread
+    aliases: []
+    region: null
+    status: "lore / partially uncovered"
+    summary: "The Bokkaran split into light Elgar wizards and dark Polgar necromancers; evidence preserved at the Nurian Necropolis ley lines."
+    sources: [lore-and-mysteries.md]
+    related: [people:bokkaran, loc:nurian-necropolis]
+
+  - id: thread:tugari-truce
+    name: "The Tugari-Empire Truce (Night of the Compass Stars)"
+    type: thread
+    aliases: []
+    region: null
+    status: "active ancient pact"
+    summary: "Millennial truce binding the Tugari and the Granite Empire, sworn under the 'Night of the Compass Stars'; still constrains both."
+    sources: [lore-and-mysteries.md]
+    related: [people:tugari, region:granite-empire, subloc:tugari-lands]
+
+  - id: thread:al-faiz-awakening
+    name: "Al Faiz awakening incomplete"
+    type: thread
+    aliases: []
+    region: null
+    status: pending
+    summary: "The party holds the Roshani wreath and Parvaiz bird for the Hymn of Harmony at Sefurah Springs, but the ritual is unperformed."
+    sources: [lore-and-mysteries.md]
+    related: [artifact:ukar-wreath-bird, loc:al-faiz-springs, artifact:al-faiz-tree, mystery:desert-healing]
+
+  - id: thread:missing-raffin
+    name: "Missing boy Raffin"
+    type: thread
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: unresolved
+    summary: "Boy taken by constructs from the Wadi, last seen near a mountain tower; fate unknown."
+    sources: [lore-and-mysteries.md]
+    related: [loc:inferna-wadi, loc:ancient-tower, creature:durels-constructs]
+
+  - id: thread:missing-caravans
+    name: "Missing caravans"
+    type: thread
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "never fully recovered"
+    summary: "Caravans vanish on the western route through the Blistering Dunes (via Favvar'n and Oasis of Sia); Feltan's reward still stands."
+    sources: [lore-and-mysteries.md]
+    related: [loc:blistering-dunes, loc:favvarn, npc:feltan]
+
+  - id: thread:sea-of-souls-nature
+    name: "Sea of Souls, true nature"
+    type: thread
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: unresolved
+    summary: "The unseen-water sea drops the unprotected asleep and seems partly sentient; its link to the cult's belief system is unexplained."
+    sources: [lore-and-mysteries.md]
+    related: [loc:sea-of-souls, faction:black-water-cult]
+
+  - id: thread:sideraeon
+    name: "Sideraeon"
+    type: thread
+    aliases: []
+    region: "Other Sited Ruins"
+    status: "never investigated"
+    summary: "A referenced Bokkaran magical power source (books from Djeteke/Lapo); never investigated."
+    sources: [lore-and-mysteries.md]
+    related: [loc:chandlers-folly, loc:djeteke, loc:village-of-lapo]
+
+  - id: thread:afras-spark
+    name: "Afra's Spark (origin mystery)"
+    type: thread
+    aliases: []
+    region: null
+    status: unexplained
+    summary: "Why the party already carries the Afra's Spark enchantment is unexplained — it may point to undisclosed party origins."
+    sources: [lore-and-mysteries.md]
+    related: [artifact:afras-spark, deity:afra]
+
+  - id: thread:kalinore-ilymna
+    name: "Kalinore & Ilymna"
+    type: thread
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "mystery; both ghosts persist"
+    summary: "A legendary Bokkaran romance turned tomb; what truly happened between Kalinore and Ilymna remains unknown."
+    sources: [lore-and-mysteries.md]
+    related: [creature:kalinore, npc:ilymna, subloc:kalinores-domain]
+
+  - id: thread:slave-remnants
+    name: "Slave network remnants"
+    type: thread
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "ongoing threat"
+    summary: "Gala dak's ring was broken and he held leverage over Governor Kilmah Fari, but his allies survive."
+    sources: [lore-and-mysteries.md]
+    related: [npc:gala-dak, npc:kilmah-fari, faction:slave-trade]
+
+  - id: thread:holy-cities-politics
+    name: "Holy Cities politics"
+    type: thread
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "leverage not yet cashed in"
+    summary: "A three-way factional struggle (reformist priests, merchants, aristocrats) plus recovered extortion notes."
+    sources: [lore-and-mysteries.md]
+    related: [npc:eamon-al-sabir, npc:youssef-al-salim, npc:fatima-zaman, region:holy-cities]
+
+  - id: thread:the-thorn
+    name: "The Thorn"
+    type: thread
+    aliases: ["Black Thorn"]
+    region: null
+    status: "removed from Maghiel (Day 109); link unresolved"
+    summary: "A parasitic corruption infecting Maghiel, removed in a final confrontation; possibly linked to the Bokkara statue disease."
+    sources: [lore-and-mysteries.md, adventures.md]
+    related: [npc:maghiel, mystery:maghiel-goals, mystery:bokkara-disease]
+
+  # =====================================================================
+  # ADVENTURES (written homebrew)
+  # =====================================================================
+
+  - id: adventure:exploring-hothme
+    name: "Exploring Hothme and the Granite Empire"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: established Hothme base"
+    summary: "The party arrives at Hothme, fights Sea of Souls creatures at the port, meets Clan Gideon, and builds a city network."
+    sources: [adventures.md]
+    related: [loc:hothme, faction:clan-gideon, loc:sea-of-souls]
+
+  - id: adventure:returning-hothme
+    name: "Returning to Hothme from the Saragubi"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: secured permanent lease"
+    summary: "The party returns to Hothme by damaged boat through a scorpion horde, then arranges a permanent lease with Clan Gideon."
+    sources: [adventures.md]
+    related: [loc:hothme, faction:clan-gideon, loc:sea-of-souls]
+
+  - id: adventure:valeskas-needle
+    name: "Valeska's Needle, Afra's Temple, and the Scholar's Guild"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: discovered Kalinore's music box"
+    summary: "Emerging from Afra's portal into Burga's library, the party learns of Kalinore's tomb and engages Maghiel at the Sacred Baths."
+    sources: [adventures.md]
+    related: [subloc:valeskas-needle, npc:burga, artifact:music-boxes, npc:maghiel, faction:scholars-guild]
+
+  - id: adventure:slumbering-titan
+    name: "Slumbering Titan Adventure"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: awakened Afra, gained Afra's Spark"
+    summary: "The party unlocks a sealed Ukar ruin, fights guardians and a Spinosaurus, and awakens the Titan-architect Afra."
+    sources: [adventures.md]
+    related: [loc:slumbering-titan, deity:afra, artifact:afras-spark, npc:ninla, mystery:ukar-portal-network]
+
+  - id: adventure:tugari-in-need
+    name: "The Tugari in Need"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "prior campaign: rescued Tugari, found ley-line lens"
+    summary: "Onsun asks the party to rescue kidnapped Tugari; they reach the Nurian Necropolis and confront Maghiel's earth-draining rituals."
+    sources: [adventures.md]
+    related: [loc:nurian-necropolis, npc:onsun, npc:maghiel, creature:salajah, thread:bokkaran-schism]
+
+  - id: adventure:search-al-faiz
+    name: "In Search of Al Faiz (Sefurah Springs)"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: defeated Ylgavroth, got Blackwater's Dirge"
+    summary: "The party recovers Blackwater's Dirge from a swamp and defeats the water demon Ylgavroth to win passage to Al Faiz."
+    sources: [adventures.md]
+    related: [loc:al-faiz-springs, creature:water-demon-ylgavroth, artifact:blackwaters-dirge, creature:swamp-elemental]
+
+  - id: adventure:twin-altars
+    name: "Twin Altars (Sefurah Springs)"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: met Bokkara, gained blessings"
+    summary: "The party earns the favor of the goddess Bokkara and the Ukar at twin Air and Earth altars unlocking Al Faiz's inner gardens."
+    sources: [adventures.md]
+    related: [loc:al-faiz-springs, deity:bokkara, people:ukar, creature:stone-golems]
+
+  - id: adventure:battle-sefura
+    name: "Battle for Sefura"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: breached Sefura Gardens"
+    summary: "A large-scale mass-combat through Maghiel's army of undead and soldiers before reaching Sefura Gardens (level 16-20)."
+    sources: [adventures.md]
+    related: [loc:al-faiz-springs, npc:maghiel]
+
+  - id: adventure:final-al-faiz
+    name: "Final Confrontation in Al Faiz"
+    type: adventure
+    aliases: []
+    region: "The Granite Empire"
+    status: "prior campaign: defeated/subdued Maghiel; desert transformed"
+    summary: "The party interrupts Maghiel's ritual and faces the Black Thorn moral choice; the desert is reborn fertile (level 16-20+)."
+    sources: [adventures.md]
+    related: [loc:al-faiz-springs, npc:maghiel, thread:the-thorn, artifact:al-faiz-tree]
+
+  - id: adventure:finding-crypt
+    name: "Finding the Crypt of the Saragubi Desert"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "not yet run by new party"
+    summary: "A Clan Gideon storm-orchid commission leads into the undead-guarded Hidden Crypt near the Pyramid; battle with King Donol."
+    level: "L1-5"
+    sources: [adventures.md]
+    related: [subloc:crypt-saragubi, creature:donol, npc:barthazai-gideon, item:iron-faerie-carving, artifact:storm-orchids]
+
+  - id: adventure:escaping-crypt
+    name: "Escaping the Crypt of the Saragubi Desert"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "not yet run by new party"
+    summary: "Having slain Donol, the party races out of the collapsing crypt past ghost-guarded ritual chambers and Indith's performance test."
+    level: "L1-5"
+    sources: [adventures.md]
+    related: [subloc:crypt-saragubi, npc:indith, deity:imroth, creature:donol]
+
+  - id: adventure:navigating-saragubi
+    name: "Navigating the Saragubi Desert"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "prior campaign: gained Gnoll trading vessel"
+    summary: "Stranded after losing their boat, the party survives the desert, deals with cult knights, and secures Gnoll passage home."
+    level: "L1-5"
+    sources: [adventures.md]
+    related: [subloc:the-disk, subloc:whistling-towers, subloc:gnoll-village-gila, creature:black-water-knight, creature:giant-sand-worm]
+
+  - id: adventure:kalinores-tomb
+    name: "Kalinore's Domain (Kalinore's Tomb Adventure)"
+    type: adventure
+    aliases: ["Kalinore's Tomb adventure"]
+    region: "The Saragubi Desert"
+    status: "not yet run by new party"
+    summary: "On Burga's behalf, the party uses the music box to open Kalinore's tomb and confronts the lich in his phylactery cavern."
+    level: "L1-5"
+    sources: [adventures.md]
+    related: [subloc:kalinores-domain, creature:kalinore, npc:ilymna, artifact:music-boxes, npc:burga, npc:maghiel]
+
+  - id: adventure:basq-aftermath
+    name: "Basq — Kalinore's Aftermath"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "not yet run by new party"
+    summary: "After the Rift Bridge is destroyed, the party aids Basq, routes supplies through Tugari lands, and scouts Charnel Keep."
+    sources: [adventures.md]
+    related: [loc:basq, subloc:saragubi-rift, npc:tenetu, npc:weshkhasi, npc:mthorsz, subloc:charnel-keep]
+
+  - id: adventure:kalinores-chaos
+    name: "Kalinore's Chaos in the Saragubi Desert (Charnel Keep)"
+    type: adventure
+    aliases: []
+    region: "The Saragubi Desert"
+    status: "not yet run by new party"
+    summary: "The party infiltrates Charnel Keep to defeat Kalinore, stop Maghiel, and repair the Bokkaran power plant containing the chaos."
+    sources: [adventures.md]
+    related: [subloc:charnel-keep, creature:kalinore, npc:maghiel, npc:vesagol, npc:onsun]
+
+  - id: adventure:tinkerers-workshop
+    name: "Tinkerer's Workshop: Kantaroz Summit"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "Count Duroigh's workshop beneath a Bokkaran tower, where a Nalfeshnee manipulates him into building a summoning vessel."
+    level: "L3-6"
+    sources: [adventures.md]
+    related: [loc:kantaron, npc:duroigh, creature:nalfeshnee]
+
+  - id: adventure:crisis-kantaron
+    name: "Crisis at Kantaron Summit"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "Duroigh's constructs overrun the Tel A'bib area; the party traces the plague to Duroigh and the growing demon threat."
+    sources: [adventures.md]
+    related: [loc:kantaron, npc:duroigh, creature:durels-constructs, creature:nalfeshnee]
+
+  - id: adventure:pursuing-nalfeshnee
+    name: "Pursuing Nalfeshnee at the Kantaron Summit"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "The party tracks the loose Nalfeshnee through a drained Sea of Souls spillway and must restore the Sea of Souls engine."
+    sources: [adventures.md]
+    related: [loc:kantaron, creature:nalfeshnee, npc:maghiel, loc:sea-of-souls]
+
+  - id: adventure:dark-arts-holy-cities
+    name: "The Dark Arts of Diplomacy: The Holy Cities"
+    type: adventure
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "not yet run by new party"
+    summary: "The m'Thorsz sends the party to expose a Black Water Cult conspiracy of merchants, politicians, and cult leadership."
+    sources: [adventures.md]
+    related: [loc:holy-cities, faction:black-water-cult, npc:mthorsz, thread:holy-cities-politics]
+
+  - id: adventure:dark-arts-caravan
+    name: "The Dark Arts: Caravan Rescue"
+    type: adventure
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "not yet run by new party"
+    summary: "A tactical defense of a supply caravan against Black Water raiders and desert monsters after the Holy Cities investigation."
+    sources: [adventures.md]
+    related: [faction:black-water-cult, creature:salajah, creature:bulette, npc:nailah-kopak]
+
+  - id: adventure:dark-arts-heist
+    name: "The Dark Arts: Black Water Heist"
+    type: adventure
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "not yet run by new party"
+    summary: "The party raids the Black Water Cult HQ beneath Sheloah to steal the Ukar wreath and glass bird and gather evidence."
+    sources: [adventures.md]
+    related: [subloc:sheloah, faction:black-water-cult, artifact:ukar-wreath-bird]
+
+  - id: adventure:dark-arts-raid-fort
+    name: "The Dark Arts: Raid the Cult's Desert Fort"
+    type: adventure
+    aliases: []
+    region: "The Holy Cities (Bluffside)"
+    status: "prior campaign: defeated cult, took fort decision"
+    summary: "The party razes the Cult's mesa fort (excavating toward the Sea of Souls), rescues Rochig, and negotiates the fort's future."
+    sources: [adventures.md]
+    related: [loc:bw-desert-fort, creature:salajah, npc:rochig, npc:nailah-kopak, npc:maghiel]
+
+  - id: adventure:djeteke-excavation
+    name: "Djeteke Black Water Cult Excavation"
+    type: adventure
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "not yet run by new party"
+    summary: "The party drives the Black Water Cult off a deep-desert Bokkaran tomb sealed by five obsidian disks; recovers Bokkaran loot."
+    sources: [adventures.md]
+    related: [loc:djeteke, faction:black-water-cult, creature:oteraghs]
+
+  - id: adventure:tel-abib-dock
+    name: "Tel A'bib Dock: Sea of Souls Adventure"
+    type: adventure
+    aliases: ["Caverns near the Tel A'bib Dock"]
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "After defeating Gala dak, the party explores the Sea of Souls caverns seeking trade routes and drow contacts."
+    sources: [adventures.md]
+    related: [loc:tel-abib, loc:sea-of-souls, npc:gala-dak]
+
+  - id: adventure:trade-route-sos
+    name: "Establishing a Trade Route in the Sea of Souls"
+    type: adventure
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "not yet run by new party"
+    summary: "The party tries to establish a profitable Sea of Souls trade route to the Granite Empire and other distant lands."
+    sources: [adventures.md]
+    related: [loc:sea-of-souls, region:granite-empire]
+
+  - id: adventure:mesos-dock
+    name: "Mesos' Dock"
+    type: adventure
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "not yet run by new party"
+    summary: "The party crosses the Sea of Souls to a hidden Bokkaran dock to recover the artifact that disarms Mesos' Dream Catcher."
+    sources: [adventures.md]
+    related: [subloc:mesos-dock, creature:bokkaran-guardian, artifact:dream-catcher, npc:mesos]
+
+  - id: adventure:titans-finger
+    name: "The Titan's Finger and the Fire Beetles"
+    type: adventure
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "prior campaign: learned Dream Trap, met Mesos"
+    summary: "A titan's finger reacts near B'rath; the party explores the caves, deals with spiders, and reunites the finger with Mesos' hand."
+    sources: [adventures.md]
+    related: [loc:brath, loc:brath-caves, npc:mesos, artifact:dream-catcher, creature:fiend-spider, artifact:mesos-remains]
+
+  - id: adventure:return-to-mesos
+    name: "Return to Mesos"
+    type: adventure
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "prior campaign: recovered the Bokkaran Lathe"
+    summary: "The party returns to B'rath with another titan's finger, recovers the Bokkaran Lathe, and learns Titan-Bokkaran history."
+    sources: [adventures.md]
+    related: [loc:brath-caves, npc:mesos, artifact:bokkaran-lathe, artifact:dream-catcher, creature:iron-golem]
+
+  - id: adventure:freeing-mesos
+    name: "Freeing Mesos"
+    type: adventure
+    aliases: []
+    region: "The Deep Desert & Oases"
+    status: "prior campaign: Mesos freed"
+    summary: "The party descends to the titan prison with Mesos' parts and the disabling artifact, defeats the guardians, and frees the Titan."
+    sources: [adventures.md]
+    related: [loc:brath-caves, npc:mesos, artifact:dream-catcher, artifact:mesos-remains, mystery:slumbering-titan]
+
+  - id: adventure:finding-bokkaral
+    name: "Finding Bokkaral"
+    type: adventure
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "not yet run by new party"
+    summary: "The party sets out to find the hidden Bokkaran city of Bokkaral, where survivors may hold knowledge to counter Maghiel."
+    sources: [adventures.md]
+    related: [loc:bokkaral, people:bokkaran, npc:maghiel]
+
+  - id: adventure:stopping-slave-traders
+    name: "Stopping the Slave Traders"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "The party discovers a slavery operation disrupting normal trade and works to dismantle the slave-trader networks."
+    sources: [adventures.md]
+    related: [faction:slave-trade, npc:gala-dak]
+
+  - id: adventure:stopping-slave-behind
+    name: "Stopping those Behind the Slave Trade"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "prior campaign: defeated Gala dak, took compound"
+    summary: "The party uncovers Gala dak as the slave-trade ringleader, brings down his organization, and gains Sea of Souls transport."
+    sources: [adventures.md]
+    related: [faction:slave-trade, npc:gala-dak, npc:kilmah-fari, loc:sea-of-souls]
+
+  - id: adventure:crystal-towers
+    name: "Crystal Towers: Pursuing Maghiel"
+    type: adventure
+    aliases: []
+    region: "The Sea of Souls & Subterranean"
+    status: "not yet run by new party"
+    summary: "The party reaches the shifting Crystal Towers to stop Maghiel activating a Bokkaran 'Slarecian Engine' before the city sinks."
+    sources: [adventures.md]
+    related: [loc:crystal-towers, npc:maghiel, creature:mind-demons, npc:duroigh]
+
+  - id: adventure:bridged-city-schism
+    name: "Bridged City — Scholarly Schism"
+    type: adventure
+    aliases: []
+    region: "Other Sited Ruins"
+    status: "not yet run by new party"
+    summary: "Maghiel attacked the College's Reliquaries Tower seeking the box holding the Clasp of Vergren; the party pursues her drow party."
+    level: "L2-4"
+    sources: [adventures.md]
+    related: [loc:bridged-city, npc:maghiel, mystery:maghiel-goals, loc:sea-of-souls]
+
+  - id: adventure:radiant-necropolis
+    name: "Radiant Necropolis (Chandler's Folly)"
+    type: adventure
+    aliases: []
+    region: "Other Sited Ruins"
+    status: "not yet run by new party"
+    summary: "A Thari stone-giant temple guards a Sea of Souls stretch; the party clears guardians to open the passage toward Bokkaral."
+    level: "L4-6"
+    sources: [adventures.md]
+    related: [loc:chandlers-folly, loc:bokkaral, item:ukar-hammer-white-death]
+
+  - id: adventure:dimark-glade
+    name: "Dimark Village & Tanil's Glade"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party"
+    summary: "A rescued villager leads the party to Dimark and Tanil's Glade to gain spellcasting from Tanil via one of three paths."
+    level: "L3-4"
+    sources: [adventures.md]
+    related: [loc:dimark, subloc:glade-of-tanil, deity:tanil, pc:serinde]
+
+  - id: adventure:air-spire
+    name: "Air Spire"
+    type: adventure
+    aliases: []
+    region: "Tel A'bib & the Near Desert"
+    status: "not yet run by new party (sketch notes only)"
+    summary: "A stone tower with gondola access to the floating Air Spire; wyverns, ghouls, and dormant repair constructs within."
+    sources: [adventures.md]
+    related: [loc:air-spire, creature:wyverns, creature:flesh-blob]

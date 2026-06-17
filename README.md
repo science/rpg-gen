@@ -10,8 +10,9 @@ once more than one game needs it.
 | Game | What's here | Status |
 |------|-------------|--------|
 | [`cthulhu/`](cthulhu/) | *Call of Cthulhu* 7e — character-sheet rendering and adventure-script tooling. | ✅ active |
+| [`dnd/`](dnd/) | *D&D 5e* — campaign knowledge base + adventure manager for the *Deserts of Ajiibwan* world. | 🚧 building |
 
-More games (D&D, Pathfinder, …) get their own top-level folder as they appear.
+More games (Pathfinder, …) get their own top-level folder as they appear.
 
 ## Layout
 
@@ -20,6 +21,9 @@ rpg-gen/
 ├── cthulhu/              # game: Call of Cthulhu 7e
 │   ├── character-sheets/ #   tool: investigator dossiers → HTML/PDF
 │   └── adventure-scripts/#   tool: adventure script generation/revision
+├── dnd/                  # game: D&D 5e
+│   ├── tools/            #   reusable scripts: convert, index, render, art
+│   └── ajiibwan/         #   campaign content: Deserts of Ajiibwan
 ├── shared/               # game-agnostic libraries, tools, and agent instructions
 ├── .venv/                # one shared Python virtualenv for the whole repo
 ├── LICENSE
