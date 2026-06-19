@@ -30,9 +30,14 @@ _LONG_SIDE = 768
 
 
 # --------------------------------------------------------------------------- env
+# Accept common alternate key names for the Replicate token.
+_KEY_ALIASES = {"REPLICATE_API_KEY": "REPLICATE_API_TOKEN"}
+
+
 def load_dotenv(*paths: str | os.PathLike) -> None:
-    """Load KEY=VALUE pairs from the first existing .env, without overriding
-    variables already set in the environment."""
+    """Load KEY=VALUE pairs from every existing file given, without overriding
+    variables already set in the environment (earlier files/env win). Known
+    aliases (e.g. replicate_api_key) are mapped to REPLICATE_API_TOKEN."""
     for p in paths:
         p = pathlib.Path(p)
         if not p.is_file():
@@ -43,8 +48,11 @@ def load_dotenv(*paths: str | os.PathLike) -> None:
                 continue
             key, _, val = line.partition("=")
             key, val = key.strip(), val.strip().strip("'\"")
+            key = _KEY_ALIASES.get(key.upper(), key)
             os.environ.setdefault(key, val)
-        return
+    for src, dst in _KEY_ALIASES.items():
+        if os.environ.get(src) and not os.environ.get(dst):
+            os.environ[dst] = os.environ[src]
 
 
 def have_token() -> bool:
@@ -162,7 +170,8 @@ def generate_to_file(prompt: str, out_path: str | os.PathLike, **kw) -> pathlib.
 def main(argv: list[str] | None = None) -> int:
     here = pathlib.Path(__file__).resolve()
     repo_root = here.parents[2]
-    load_dotenv(repo_root / ".env", here.parents[1] / ".env")
+    load_dotenv(repo_root / "credentials" / "env.production",
+                repo_root / ".env", here.parents[1] / ".env")
 
     ap = argparse.ArgumentParser(description="Generate an image via Replicate.")
     ap.add_argument("--prompt", required=True)

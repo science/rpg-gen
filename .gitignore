@@ -22,3 +22,6 @@ __pycache__/
 
 # Secrets (REPLICATE_API_TOKEN etc.)
 .env
+
+# Local credentials (API tokens) — never commit
+credentials/

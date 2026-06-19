@@ -206,7 +206,8 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     base = REPO_ROOT / "dnd" / args.campaign
-    art.load_dotenv(REPO_ROOT / ".env", base / ".env")
+    art.load_dotenv(REPO_ROOT / "credentials" / "env.production",
+                    REPO_ROOT / ".env", base / ".env")
     if args.fake:
         import os
         os.environ["ART_FAKE"] = "1"
