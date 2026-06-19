@@ -1,0 +1,78 @@
+# Art prompts for "The Tinkerer's Strings" + reusable Ajiibwan subjects.
+#
+# Review / regenerate / accept via the local web app:
+#   .venv/bin/python dnd/tools/art_review.py ajiibwan
+#
+# The effective prompt sent to the model = `style` + "\n" + the subject's `prompt`.
+# Editing a prompt in the app updates the live gallery state (build/art/gallery.json);
+# this file is the committed seed. Keep good prompts here once you're happy with them.
+
+model: "bytedance/seedream-5-lite"
+size: "2K"               # 2K (<=2048px) or 3K (<=3072px)
+
+# Shared style preamble — keeps the set visually consistent across regenerations.
+style: >
+  Deserts of Ajiibwan — sun-bleached desert high-fantasy. Ancient Bokkaran architecture
+  of pale, smooth, seamlessly fitted stone carved with sharp angular glyphs. Painterly
+  D&D concept-art, rich detail, dramatic natural light, muted desert palette with one
+  cold magical accent color. No text, no watermark, no lettering, no UI elements.
+
+subjects:
+  - id: kantaroz-tower
+    label: "Kantaroz tower (exterior)"
+    aspect_ratio: "3:4"
+    prompt: >
+      An ancient Bokkaran tower standing alone atop a barren rocky summit above a vast
+      desert. Four storeys of pale seamless fitted stone, weathered yet pristine, ~100 feet
+      tall, glyph-carved. A low iron service hatch set into the scree at its base; a couple
+      of brass-and-bone automatons trudge a switchback path carrying ore. Hard golden
+      late-afternoon light, long shadows, distant dunes. Wide establishing shot.
+
+  - id: soul-construct
+    label: "Soul-driven construct (worker)"
+    aspect_ratio: "1:1"
+    prompt: >
+      A worn humanoid automaton of riveted brass plates and yellowed bone, articulated
+      grasping hands built for digging and salvage, salvage tools hung from its frame. A
+      single glowing crystal is socketed where a brain would be — the trapped soul that
+      drives it — casting a faint cold light. Ancient, heavily used, dust-caked. Full-body
+      creature concept sheet on a neutral sandstone background.
+
+  - id: durel
+    label: "Durel — mind-controlled artificer"
+    aspect_ratio: "3:4"
+    prompt: >
+      Character portrait of Durel, a human artificer-magician in fine but disheveled
+      scholar's robes, mid-40s, sharp intelligent face gone hollow and cold. His eyes are
+      faintly clouded, gaze fixed on nothing, as if listening to a voice only he can hear.
+      He holds an ornate Bokkaran instrument of brass and crystal. A sickly green glow
+      underlights him; a candlelit ancient laboratory recedes behind. Unsettling, tense.
+
+  - id: caged-whisper
+    label: "The Caged Whisper (incomplete demon)"
+    aspect_ratio: "4:3"
+    prompt: >
+      An incomplete demon being grown into the world: a huge half-formed body with too
+      many joints and wet glistening hide, only partly finished, suspended and confined
+      between three floating carved-stone slabs. Arcs of dark energy crawl between the
+      slabs. Black water races in channels around the stone platform. An underground
+      Bokkaran laboratory lit a sickly green. Ominous dark-fantasy horror, dramatic.
+
+  - id: jeff
+    label: "Jeff (Jeffron Giltor)"
+    aspect_ratio: "3:4"
+    prompt: >
+      Character portrait of Jeffron Giltor "Jeff", a lean half-orc/half-elf grifter:
+      greenish skin, small lower tusks, sharp half-elven features, a sly survivor's grin
+      that never reaches his calculating eyes. Travel-worn desert clothes, wrists bound
+      with rope. An old pale stone tower blurred behind him in low desert light.
+      Characterful, roguish, a little dangerous.
+
+  - id: jiyloo
+    label: "Jiyloo Ubbett (barbarian guide)"
+    aspect_ratio: "3:4"
+    prompt: >
+      Character portrait of Jiyloo Ubbett, a rugged, good-natured desert barbarian guide;
+      weathered sun-dark skin, practical leather-and-cloth wraps against sun and sand, a
+      heavy single-bladed weapon slung across her back. She stands watch in a rocky desert
+      pass, alert and steady. Warm, sympathetic, grounded.

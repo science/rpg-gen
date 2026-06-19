@@ -22,8 +22,11 @@ Run from this `dnd/` directory; the venv lives at the repo root (two levels up).
 # render a scenario packet to HTML/PDF
 ../../.venv/bin/python tools/render.py ajiibwan/scenarios/<name>.yaml --html-only
 
-# generate art (needs REPLICATE_API_TOKEN)
-../../.venv/bin/python tools/art.py --prompt "..." --out ajiibwan/build/art
+# generate one image (needs REPLICATE_API_TOKEN; --fake for an offline placeholder)
+../../.venv/bin/python tools/art.py --prompt "..." --out ajiibwan/build/art/x.png
+
+# review/regenerate/accept scenario art in a local web app (binds 0.0.0.0:5005)
+../../.venv/bin/python tools/art_review.py ajiibwan
 ```
 
 ## Host vs VM — Google Drive access
