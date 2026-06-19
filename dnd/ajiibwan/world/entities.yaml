@@ -1391,7 +1391,27 @@ entities:
     status: "alive, established patron"
     summary: "Wealthy elf merchant of Tel A'bib, expert in ancient artifacts and Desert Script; key information broker and patron."
     sources: [cast.md]
-    related: [loc:tel-abib, faction:athyes, npc:elruen, faction:taliphan-militia, npc:abet]
+    related: [loc:tel-abib, faction:athyes, npc:elruen, faction:taliphan-militia, npc:abet, npc:jeff-giltor, npc:boetharch]
+
+  - id: npc:boetharch
+    name: "The Boetharch of Tel A'bib"
+    type: npc
+    aliases: ["Boetharch"]
+    region: "Tel A'bib & the Near Desert"
+    status: "alive — Vanic imperial authority over Tel A'bib"
+    summary: "The Vanic imperial official governing Tel A'bib. Quietly corrupt and well-connected; shares a standing weekly lunch with Elmingwed to coordinate corrupt practices, rivals, and Imperial trade. Documents reaching him implicating Orkideh in the abacA naval-cable fraud would put her in serious danger."
+    sources: [scenarios/the-tinkerers-strings.md]
+    related: [loc:tel-abib, npc:elmingwed, npc:jeff-giltor, faction:athyes]
+
+  - id: npc:jeff-giltor
+    name: "Jeffron Giltor"
+    type: npc
+    aliases: ["Jeff"]
+    region: "Tel A'bib & the Near Desert"
+    status: "alive — captured by the party at Kantaroz (game-2)"
+    summary: "Half-orc/half-elf grifter (level 1 Rogue); Orkideh's former criminal partner from a sisal/jute-for-abacA naval-cable fraud that collapsed in mutual betrayal. Caught looting the Kantaroz tower; bargaining for his life. Holds a Bokkaran spider bracelet and (he claims) leverage over Orkideh. A combat wildcard — may fight on the wrong side if freed."
+    sources: [scenarios/the-tinkerers-strings.md, "Ajiibwan Games Notes 2026"]
+    related: [npc:elmingwed, pc:jiyloo, loc:kantaron, item:spider-bracelets]
 
   - id: npc:abet
     name: "Abet"

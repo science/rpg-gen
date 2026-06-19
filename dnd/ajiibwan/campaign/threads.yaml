@@ -1,0 +1,94 @@
+# threads.yaml — live plot threads for the game-2 run.
+#
+# status: dormant | active | advancing | resolved
+# autonomous: what the thread/faction does ON ITS OWN each world tick if the party
+#   ignores it (dnd/CLAUDE.md principle 2 — the world doesn't care about the party).
+#   The world clock (state.yaml) ticks these between sessions regardless of action.
+
+threads:
+
+  - id: thread:jeff-fate
+    title: "What to do with Jeff"
+    status: active
+    summary: >
+      Jeffron Giltor is captured and bargaining. He'd rather join the party than be
+      returned to Elmingwed (whom he fears). Options on the table: hand him to Elmingwed
+      (collect the deal), keep him as a leashed/hostile passenger, send him back escorted
+      by Jiyloo (losing the party's muscle), or kill him.
+    leverage: "He holds (and claims to hold) a secret dangerous to Orkideh — see thread:orkideh-secret."
+    autonomous:
+      - "If returned to Elmingwed alive: Jeff talks/negotiates his way loose within a tick or two and resurfaces later as a rival/operator — and Elmingwed is now in his debt-orbit, not the party's."
+      - "If kept with the party: he watches for a betrayal opening (steal back the bracelet, slip his bonds, sell the party's plans) the moment odds favor him."
+      - "If killed/stranded: his dead-man's deposit fires — an unnamed Tel A'bib merchant hands the fraud packet to the Boetharch of Tel A'bib ([[npc:boetharch]]). It implicates Elmingwed (who does not care — he already briefed the Boetharch) but, more dangerously, Orkideh."
+
+  - id: thread:orkideh-secret
+    title: "Orkideh & Jeff's fraud against the Vanic Navy"
+    status: dormant     # becomes active the moment Jeff starts talking
+    summary: >
+      Orkideh and Jeff ran a sisal/jute-for-abacA fiber-substitution scam: sell cheap
+      fiber as premium maritime cable/hawser to the Vanic Imperial Navy and be long gone
+      before the rope rotted in salt water. The partnership collapsed in mutual betrayal:
+      Jeff says Orkideh was about to have him murdered and keep the profits; Orkideh says
+      Jeff ran off with the seed money and wrecked the venture. (GM truth: Jeff DID take
+      the assets, and will never admit it.) Neither can run to the law — both conspired to
+      defraud the Empire itself.
+    leverage: "A classic 'no, YOU'RE the criminal' bind that should give Orkideh's player real pause; the world can push back on her here."
+    contingency: >
+      Jeff's dead-man's deposit (see scenarios/the-tinkerers-strings.md). A packet of fraud
+      documents sits with an unnamed Tel A'bib merchant; if Jeff doesn't return by a set
+      time it goes to the Boetharch of Tel A'bib ([[npc:boetharch]]). The papers implicate
+      Elmingwed too — but he's untouchable (weekly lunch with the Boetharch). The real
+      target is Orkideh, especially once the Boetharch knows she's in the area.
+    autonomous:
+      - "Jeff will use it as currency — revealing it to the party to drive a wedge and buy his life — but will never name the merchant holding the packet."
+      - "If the deposit ever reaches the Boetharch, an investigation/warrant simmers toward Orkideh over the following weeks; a future Tel A'bib visit gets dangerous for her."
+
+  - id: thread:kantaron-summoning
+    title: "The demon being grown at Kantaroz"
+    status: advancing   # the central ouija-board clock of this session
+    ref: "[[creature:nalfeshnee]]"
+    summary: >
+      In the Kantaroz basement lab a Balor (named Nalfeshnee) is being SUMMONED — its
+      spirit drawn from another plane while a body is 'grown' for it, powered by the
+      tower's Bokkaran water/leyline engine. Durel, the tower's artificer-magician, has
+      fallen under its mental control and tends the work, believing he is recovering
+      Bokkaran secrets. It is INCOMPLETE and stoppable now.
+    note: "Disrupting it has NO downstream cost at this scale — the only price is a hard fight. DELAY is the danger: dithering because the fight is hard is what lets it grow."
+    autonomous:
+      - "Every stretch of lollygagging advances the summoning. If the party never intervenes (or fails), the body completes: a full Balor lairs at Kantaron, enslaves/discards Durel, and threatens Tel A'bib (prior-run precedent)."
+      - "Constructs continue stripping resources from the foothills under Durel's control."
+
+  - id: thread:sea-of-souls-water
+    title: "Kantaroz feeds the Sea of Souls (seed only)"
+    status: dormant
+    ref: "[[item:spider-bracelets]]"
+    summary: >
+      The Kantaroz basement is a wellhead of the unseen water that fills the distant Sea
+      of Souls (Bokkaran leyline tech draining to a facility near Tel A'bib). FLAVOR/MYSTERY
+      only for now — at level 1 it has no mechanical consequence; it's a seed for a later
+      Sea-of-Souls arc and explains the spider bracelet's purpose.
+    autonomous:
+      - "Inert for now. The connection only matters once the party engages the Sea of Souls in a future adventure."
+
+  - id: thread:elmingwed-deal
+    title: "Elmingwed's patronage"
+    status: active
+    ref: "[[npc:elmingwed]]"
+    summary: >
+      Elmingwed — powerful by wealth and connections, not by levels — pre-bought half of
+      Jeff's value sight-unseen and hired Jiyloo to deliver the party. How the party
+      handles Jeff sets the relationship.
+    autonomous:
+      - "Elmingwed's interests (and his militia captain, [[npc:abet]]) keep moving regardless. A dead Jeff or a stiffed deal cools the patronage; delivering Jeff (or his loot) warms it and opens further business."
+
+  - id: thread:maghiel-nascent
+    title: "Maghiel, just beginning"
+    status: dormant
+    ref: "[[npc:maghiel]]"
+    summary: >
+      Deep background only. A Drow battle-mage, newly Thorn-cursed, starting her villain
+      path roughly in parallel with the party. NOT on-screen at Kantaron in this timeline
+      (in the prior run she was the one who later reanimated Durel into 'Duroigh' — a
+      precedent, not current fact). Seeded so future sessions can connect the dots.
+    autonomous:
+      - "Advances entirely off-screen for now; surfaces only via rumor until the party crosses her path."

@@ -1,0 +1,76 @@
+# state.yaml — live state of the CURRENT (game-2, new-players) run.
+#
+# Seeded at the game-1 START state (see dnd/CLAUDE.md principle 1: the world is
+# reset pre-trigger — cult at full strength, demon UNSUMMONED, sites unlooted,
+# prior PCs absent). Prior-run history in world/ is reference only.
+#
+# Update this after each session (see methodology step 7).
+
+campaign: "Deserts of Ajiibwan"
+run: "game-2"          # the reset playthrough with new players
+status: "in-play — first designed session: The Tinkerer's Strings (Kantaroz)"
+
+# --- Party ------------------------------------------------------------------
+# Active table: 4 PCs at level 1 (Orkideh is central to the current adventure).
+# Timiki & Hasochi are additional game-2 PCs who may rotate in.
+party:
+  level: 1
+  size: 4
+  members:
+    - name: "Ren"        # player: Toan
+      race: "Halfling"
+      notes: "Spotted a construct in the foothills below Kantaron — the hook that led here."
+    - name: "Orkideh"    # player: Steph (new player; likes to drive the story)
+      race: "Elf"
+      age: "~700"
+      notes: >
+        Former criminal partner of the captive Jeff (Jeffron Giltor). Cut a deal with
+        Elmingwed to hand Jeff over for half the proceeds of his loot. Carries a hidden,
+        unprovable secret — see thread:orkideh-secret. The leash on her player runs through
+        Jeff, who cannot be safely silenced.
+    - name: "Lia"        # player: Ania
+      race: "Tiefling"
+    - name: "Gereon"     # player: Mia
+      race: "Dwarf"
+    # Additional game-2 PCs who may rotate in (table runs 4 at a time):
+    - name: "Timiki"     # player: Briar
+      bench: true
+    - name: "Hasochi"    # player: Phoenix
+      bench: true
+
+# Permanent / recurring NPCs traveling with the party
+companions:
+  - name: "Jiyloo Ubbett"
+    ref: "[[pc:jiyloo]]"
+    sheet: "level 1 Barbarian"
+    role: "Guide & front-line muscle ('meat shield'), hired by Elmingwed to take the party to Kantaron."
+    disposition: "Decent; wants Jeff kept alive. Will escort Jeff back to Elmingwed if asked — but then the party loses her muscle."
+
+# Captive in tow (not a companion — a live problem)
+captives:
+  - name: "Jeffron Giltor"
+    ref: "[[npc:jeff-giltor]]"   # see scenarios/the-tinkerers-strings.md dossier
+    aka: "Jeff"
+    race: "Half-orc / half-elf"
+    sheet: "level 1 Rogue"
+    status: "Captured at Kantaroz tower, coming out with loot. Bargaining for his life and freedom."
+    combat: "Wildcard — may fight on the wrong side if loose, or sit tied up (then the party is a body down). Affects balance; the GM accepts that."
+
+# --- Where & when -----------------------------------------------------------
+location:
+  region: "[[region:tel-abib-near-desert]]"
+  site: "Kantaron Summit — exterior of the Kantaroz tower ([[loc:kantaron]])"
+  situation: "Party has just captured Jeff outside the tower; Jiyloo present. The tower (the Tinkerer's Workshop) looms unentered."
+
+clock:
+  in_world_day: 1               # reset run starts fresh; advance from here
+  # Time dilation is handled NARRATIVELY between adventures, not with a factor: when the
+  # party returns to Tel A'bib, ~6 weeks pass before the next adventure (game 1 used ~2).
+  # That downtime gap is when autonomous threads (threads.yaml) tick.
+  between_adventure_gap: "~6 weeks at Tel A'bib"
+
+milestones: []                  # populate as the party hits them
+
+# --- Bookkeeping ------------------------------------------------------------
+last_session: null              # set to sessions/NN.md after first play
+open_threads_file: "campaign/threads.yaml"

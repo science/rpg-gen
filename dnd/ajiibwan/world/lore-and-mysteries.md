@@ -124,9 +124,9 @@ who seek them out.
   can grant True Seeing for 24 hours).
 
 - **Anauld** — namesake of **Anauld's Eve**, a local tradition near Tel A'bib in which
-  young men prove valor by running into the **Eye of Kings** tombs and out again. The
-  **Cult of Anauld** is a sect of the Church of Dorne that controlled the Eye of Kings,
-  used undead, and kidnapped children (party cleared it).
+  young people of dubious wisdom try to prove valor by running into the **Eye of Kings** 
+  tombs and out again. The **Cult of Anauld** is a sect of the Church of Dorne that 
+  controlled the Eye of Kings, used undead, and kidnapped children (party cleared it).
 
 - **Dorne (formerly Doorne)** — a martial or strength-focused deity (followed by the
   companion Jiyloo Ubbett). **Dorne / Dornian** is the **local desert religion**: a
@@ -148,7 +148,7 @@ who seek them out.
   (seeds, tools, wands, the librarian-robot Ninla) and a magical Spinosaurus. *See Open
   Mysteries — The Ukar portal network / Afra's Spark.*
 
-- **Elsrok** — the dark power served by the **Black Water Cult**, whose members follow
+- **Elsraj** — the dark power served by the **Black Water Cult**, whose members follow
   the "**Great Design**." (Not a benevolent deity; included as the cult's object of
   worship.)
 
@@ -175,7 +175,6 @@ backlash when a spell is cast outside safe parameters. The danger is severe enou
 those classes **do not exist in the Vanic nation**. Consequences can be avoided by:
 
 - possessing a **Bokkaran magical charm**,
-- casting a spell in a slot **two levels below** the caster's capability, or
 - casting a **Bokkaran anti-miscast spell** one round before the intended spell.
 
 A recurring theme reinforces this: **forbidden knowledge carries built-in penalties.**
@@ -209,6 +208,45 @@ room (controls water flow/restoration). The **ley-line network** can be manipula
 with proper lenses and observatory equipment to affect petrification states, magical
 gates, and world healing. Ancient gates open via ritual (e.g. a bloodstone candlestick
 plus the **Ritual of Ancient Light and Authority**).
+
+### The Sea of Souls water engine (Kantaroz → Tel A'bib)
+The **Sea of Souls** — the great body of *unseen ("invisible") water* that fills the
+underground caverns and serves as a hidden travel network — is not natural. It is
+**manufactured by Bokkaran leyline technology**, and the **Kantaroz tower** at Kantaron
+Summit is one of its wellheads. Deep in the tower's basement laboratory, water is
+**conjured from a leyline running through the mountain** and runs in channels between the
+walkways (an oddity a careful party will note: *a mountaintop tower should have no such
+volume of water — where is it coming from?*). That water **drains down through the
+mountain to a Bokkaran underground facility nearer Tel A'bib**, where a second engine — a
+**transformation engine** — turns it into the **unseen water that fills the Sea of Souls**.
+In principle, catastrophically wrecking the wellhead *could* disturb that distant flow —
+but this is a **large-scale, late-game** concern, not something a small disruption causes.
+*(Prior-run precedent, reference only: when Kantaron was catastrophically wrecked the Sea
+of Souls dried up, and restoring the engine flow was what banished the demon — see
+[[adventure:crisis-kantaron]]. Hold it as a possibility at scale, not an automatic
+consequence; simply stopping a summoning at the wellhead does not drain the sea.)*
+Crossing the unseen
+water unharmed requires a **[[item:spider-bracelets|Bokkaran spider bracelet]]** (it wards
+the sleep/drowning effect of the invisible water).
+
+### Item identification & the old-school convention
+**House rule / world flavor (applies to all item rewards).** This world deliberately
+evokes **late-1970s D&D**: *you do not get to know what an object does by looking at it.*
+
+- There is **no Detect Magic and no Identify spell**, and no short-rest "commune" to read
+  out an item's properties.
+- A character **can attune** to a magic item over a short rest, and at that point **knows
+  only that it is magical** — not what it does, nor whether it is **cursed**.
+- An item's powers are learned the old way: **by using it**, by **experimentation**, by
+  **lore/research** (finding the item described in a text — itself a challenge), or by
+  taking it to someone with the right knowledge.
+- A few rare Bokkaran/Ukar engines exist that *can* identify (e.g. the **Wand of
+  Identification**), but they are scarce, charged, and not in casual reach.
+
+Design consequence for adventure rewards: hand out treasure as **described objects**, not
+stat blocks. "A white-metal bracelet wrought as a long-legged spider" — *not* "a Bracelet
+of Sea-of-Souls Warding." The mystery, the risk of a curse, and the payoff of figuring it
+out are part of the fun.
 
 ---
 
@@ -446,5 +484,5 @@ backstory the new party inherits, not a script.
 > **Where the new party comes in:** The desert is still poisoned (Polgar work), the **El
 > Faiz** awakening is unperformed, **Mesos** is not fully free (and **Afra** still sleeps,
 > undiscovered, west of Hothme), **Maghiel** is just beginning her Black-Thorn-driven
-> villain path with her box quest open, the Black Water Cult's leadership (**Elsrok**) and
+> villain path with her box quest open, the Black Water Cult's leadership (**Elsraj**) and
 > Hothme mole survive, and **Raffin** and the lost caravans are still missing.
