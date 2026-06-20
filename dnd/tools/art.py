@@ -22,6 +22,7 @@ import argparse
 import os
 import pathlib
 import sys
+import time
 
 DEFAULT_MODEL = "bytedance/seedream-5-lite"
 
@@ -130,6 +131,123 @@ def _read_output(out) -> bytes:
     raise TypeError(f"Unexpected Replicate output type: {type(item)!r}")
 
 
+def _build_payload(
+    prompt: str,
+    *,
+    aspect_ratio: str,
+    size: str,
+    reference_images: list[str] | None = None,
+) -> dict:
+    """Assemble the Replicate `input` dict. The chosen aspect_ratio/size MUST
+    be carried through verbatim (regression guard for the 'always 3:2' report)."""
+    payload = {"prompt": prompt, "aspect_ratio": aspect_ratio, "size": size}
+    if reference_images:
+        payload["image_input"] = reference_images
+    return payload
+
+
+def _get_client():
+    import replicate
+    return replicate.Client(api_token=os.environ.get("REPLICATE_API_TOKEN"))
+
+
+class LiveHandle:
+    """Wraps a Replicate Prediction; `poll()` refreshes and normalizes it."""
+
+    def __init__(self, prediction):
+        self.pred = prediction
+
+    def poll(self) -> dict:
+        p = self.pred
+        try:
+            p.reload()
+        except Exception:  # noqa: BLE001 — a transient reload failure is not fatal
+            pass
+        status = getattr(p, "status", None) or "starting"
+        logs = getattr(p, "logs", "") or ""
+        error = getattr(p, "error", None)
+        progress = _live_progress(p)
+        out_bytes = ext = None
+        if status == "succeeded":
+            out = getattr(p, "output", None)
+            if out is not None:
+                out_bytes = _read_output(out)
+                ext = _ext_from_bytes(out_bytes)
+        return {"status": status, "logs": logs, "progress": progress,
+                "error": str(error) if error else None,
+                "output_bytes": out_bytes, "ext": ext}
+
+
+def _live_progress(pred) -> float | None:
+    prog = getattr(pred, "progress", None)
+    pct = getattr(prog, "percentage", None)
+    try:
+        return float(pct) if pct is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
+class FakeHandle:
+    """Offline stand-in that simulates starting -> processing -> succeeded over
+    `delay` seconds and yields a Pillow placeholder. delay=0 -> instant success."""
+
+    def __init__(self, prompt, *, aspect_ratio="3:4", label="", delay=0.0):
+        self.prompt = prompt
+        self.aspect_ratio = aspect_ratio
+        self.label = label
+        self.delay = delay
+        self._t0 = time.time()
+
+    def poll(self) -> dict:
+        elapsed = time.time() - self._t0
+        if elapsed < self.delay * 0.5:
+            return {"status": "starting", "logs": "", "progress": 0.0,
+                    "error": None, "output_bytes": None, "ext": None}
+        if elapsed < self.delay:
+            return {"status": "processing", "logs": "rendering (placeholder)",
+                    "progress": 0.5, "error": None, "output_bytes": None, "ext": None}
+        data = _placeholder(self.prompt, self.aspect_ratio, self.label)
+        return {"status": "succeeded", "logs": "done", "progress": 1.0,
+                "error": None, "output_bytes": data, "ext": "png"}
+
+
+def _is_fake(fake: bool | None) -> bool:
+    if fake is None:
+        return os.environ.get("ART_FAKE") == "1" or not have_token()
+    return fake
+
+
+def submit(
+    prompt: str,
+    *,
+    model: str = DEFAULT_MODEL,
+    aspect_ratio: str = "3:4",
+    size: str = "2K",
+    reference_images: list[str] | None = None,
+    label: str = "",
+    fake: bool | None = None,
+    delay: float = 0.0,
+    client=None,
+):
+    """Start a generation and return a poll-able handle immediately (non-blocking).
+
+    Live mode creates a Replicate prediction (no version pin needed); fake mode
+    returns a FakeHandle. `delay` only affects fake handles; `client` is injectable
+    for tests."""
+    if _is_fake(fake):
+        return FakeHandle(prompt, aspect_ratio=aspect_ratio, label=label, delay=delay)
+    payload = _build_payload(prompt, aspect_ratio=aspect_ratio, size=size,
+                             reference_images=reference_images)
+    client = client or _get_client()
+    pred = client.predictions.create(model=model, input=payload)
+    return LiveHandle(pred)
+
+
+def poll(handle) -> dict:
+    """Return {status, logs, progress, error, output_bytes, ext} for a handle."""
+    return handle.poll()
+
+
 def generate(
     prompt: str,
     *,
@@ -139,21 +257,18 @@ def generate(
     reference_images: list[str] | None = None,
     label: str = "",
     fake: bool | None = None,
+    poll_interval: float = 0.5,
 ) -> tuple[bytes, str]:
-    """Generate one image. Returns (image_bytes, file_extension)."""
-    if fake is None:
-        fake = os.environ.get("ART_FAKE") == "1" or not have_token()
-    if fake:
-        return _placeholder(prompt, aspect_ratio, label), "png"
-
-    import replicate
-
-    payload = {"prompt": prompt, "aspect_ratio": aspect_ratio, "size": size}
-    if reference_images:
-        payload["image_input"] = reference_images
-    out = replicate.run(model, input=payload)
-    data = _read_output(out)
-    return data, _ext_from_bytes(data)
+    """Blocking convenience: submit, then poll until done. Returns (bytes, ext)."""
+    handle = submit(prompt, model=model, aspect_ratio=aspect_ratio, size=size,
+                    reference_images=reference_images, label=label, fake=fake)
+    while True:
+        r = poll(handle)
+        if r["status"] == "succeeded":
+            return r["output_bytes"], r["ext"] or _ext_from_bytes(r["output_bytes"])
+        if r["status"] in ("failed", "canceled"):
+            raise RuntimeError(f"generation {r['status']}: {r.get('error')}")
+        time.sleep(poll_interval)
 
 
 def generate_to_file(prompt: str, out_path: str | os.PathLike, **kw) -> pathlib.Path:

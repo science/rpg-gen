@@ -22,3 +22,6 @@ requests>=2.31
 Flask>=3.0
 # (Pillow renders offline placeholder images; usually already present)
 Pillow>=10.0
+
+# tests — TDD suite for art.py / art_jobs.py / art_review.py (tools/tests/)
+pytest>=8.0

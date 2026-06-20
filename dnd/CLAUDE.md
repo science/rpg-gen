@@ -27,7 +27,16 @@ Run from this `dnd/` directory; the venv lives at the repo root (two levels up).
 
 # review/regenerate/accept scenario art in a local web app (binds 0.0.0.0:5005)
 ../../.venv/bin/python tools/art_review.py ajiibwan
+
+# run the art tooling test suite (art.py / art_jobs.py / art_review.py)
+../../.venv/bin/python -m pytest tools/tests -q
 ```
+
+Note: the shared `.venv` is built with the VM's pyenv, so its `python` symlink only
+resolves **on the VM** — run these tools (and pytest, and the art_review server)
+there, not on the host. The review app binds `0.0.0.0`, so review art from the host
+browser at `http://<vm-ip>:5005`. Generation runs as background jobs in a thread pool;
+the HTTP layer is non-blocking, so several subjects render in parallel in one process.
 
 ## Host vs VM — Google Drive access
 
