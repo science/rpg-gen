@@ -38,6 +38,13 @@ there, not on the host. The review app binds `0.0.0.0`, so review art from the h
 browser at `http://<vm-ip>:5005`. Generation runs as background jobs in a thread pool;
 the HTTP layer is non-blocking, so several subjects render in parallel in one process.
 
+Models & providers: `tools/art.py` has a `MODEL_REGISTRY` (Replicate `seedream-5-lite`
+and `seedream-4.5`; OpenAI `gpt-image-2`). The review app shows a per-card model picker.
+Keys live in `credentials/env.production` (gitignored): `REPLICATE_API_TOKEN`
+(alias `replicate_api_key`) and `OPENAI_API_KEY`. A model whose provider key is missing
+falls back to offline placeholders. The "adjust from current image" toggle does
+image-to-image (Replicate `image_input` via data-URI / OpenAI `images.edit`).
+
 ## Host vs VM — Google Drive access
 
 rclone is configured on the **host OS only** (`gdrive-personal` → `~/gdrive/personal`),

@@ -14,8 +14,9 @@ PyYAML>=6.0
 Jinja2>=3.1
 WeasyPrint>=60
 
-# art.py — image generation via the Replicate Python client
+# art.py — image generation via the Replicate Python client + OpenAI gpt-image
 replicate>=0.32
+openai>=1.0
 requests>=2.31
 
 # art_review.py — local web app to review / regenerate / accept generated art

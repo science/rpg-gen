@@ -97,6 +97,50 @@ def test_accept_sets_accepted_file(app):
     assert beta["accepted"] == fname
 
 
+def test_state_exposes_model_registry_and_subject_default(app):
+    c = app.test_client()
+    state = c.get("/api/state").get_json()
+    model_ids = {m["id"] for m in state["models"]}
+    assert "gpt-image-2" in model_ids and "bytedance/seedream-4.5" in model_ids
+    alpha = next(s for s in state["subjects"] if s["id"] == "alpha")
+    assert alpha["model"] == "bytedance/seedream-5-lite"  # default from seed
+
+
+def test_generate_persists_chosen_model(app):
+    c = app.test_client()
+    c.post("/api/generate", json={"id": "alpha", "prompt": "p",
+                                  "aspect_ratio": "1:1", "model": "bytedance/seedream-4.5"})
+    state = c.get("/api/state").get_json()
+    alpha = next(s for s in state["subjects"] if s["id"] == "alpha")
+    assert alpha["model"] == "bytedance/seedream-4.5"
+
+
+def _wait_done(c, job_id, timeout=5):
+    end = time.time() + timeout
+    while time.time() < end:
+        jobs = c.get("/api/jobs").get_json()["jobs"]
+        row = next(j for j in jobs if j["id"] == job_id)
+        if row["status"] == "done":
+            return row
+        time.sleep(0.05)
+    raise AssertionError("job did not finish")
+
+
+def test_adjust_from_existing_image_produces_a_new_turn(app):
+    c = app.test_client()
+    b1 = c.post("/api/generate", json={"id": "alpha", "prompt": "base",
+                                       "aspect_ratio": "1:1"}).get_json()
+    first = _wait_done(c, b1["job_id"])
+    # now adjust from that produced image
+    b2 = c.post("/api/generate", json={"id": "alpha", "prompt": "make it night",
+                                       "aspect_ratio": "1:1",
+                                       "adjust_from": first["file"]}).get_json()
+    _wait_done(c, b2["job_id"])
+    state = c.get("/api/state").get_json()
+    alpha = next(s for s in state["subjects"] if s["id"] == "alpha")
+    assert len(alpha["turns"]) == 2
+
+
 def test_index_serves_html_shell(app):
     c = app.test_client()
     html = c.get("/").get_data(as_text=True)

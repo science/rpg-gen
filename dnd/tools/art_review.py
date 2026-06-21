@@ -54,11 +54,15 @@ def make_app(campaign_base) -> Flask:
 
     def state_payload() -> dict:
         st = mgr().get_state(app.config["SEED"])
-        subjects = [{"id": sid, **subj} for sid, subj in st["subjects"].items()]
-        return {"model": st.get("model", art.DEFAULT_MODEL),
+        default_model = st.get("model", art.DEFAULT_MODEL)
+        subjects = []
+        for sid, subj in st["subjects"].items():
+            subjects.append({"id": sid, **subj,
+                             "model": subj.get("model") or default_model})
+        return {"model": default_model,
                 "size": st.get("size", "2K"), "style": st.get("style", ""),
                 "have_token": art.have_token(), "aspect_ratios": ASPECT_RATIOS,
-                "subjects": subjects}
+                "models": art.MODEL_REGISTRY, "subjects": subjects}
 
     # ---- views --------------------------------------------------------------
     @app.route("/")
@@ -80,13 +84,21 @@ def make_app(campaign_base) -> Flask:
         prompt = (data.get("prompt") or "").strip()
         aspect = data.get("aspect_ratio") or "3:4"
         seed = app.config["SEED"]
-        # persist the edit, then kick off the job (returns at once)
-        mgr().set_subject(subject_id=sid, prompt=prompt, aspect_ratio=aspect, seed=seed)
+        model = data.get("model") or seed.get("model", art.DEFAULT_MODEL)
+        # resolve an optional "adjust from" source image to a local path (image-to-image)
+        refs = None
+        adjust_from = data.get("adjust_from")
+        if adjust_from:
+            src = artdir / pathlib.Path(adjust_from).name  # basename only — no traversal
+            if src.is_file():
+                refs = [str(src)]
+        # persist the edits, then kick off the job (returns at once)
+        mgr().set_subject(subject_id=sid, prompt=prompt, aspect_ratio=aspect,
+                          model=model, seed=seed)
         job = mgr().submit_job(
-            subject_id=sid, prompt=prompt, aspect_ratio=aspect,
-            model=seed.get("model", art.DEFAULT_MODEL),
+            subject_id=sid, prompt=prompt, aspect_ratio=aspect, model=model,
             size=seed.get("size", "2K"), style=seed.get("style", ""),
-            label=sid, delay=app.config["FAKE_DELAY"])
+            label=sid, delay=app.config["FAKE_DELAY"], reference_images=refs)
         return jsonify({"job_id": job.id, "n": job.n})
 
     @app.route("/api/jobs")
@@ -137,6 +149,17 @@ TEMPLATE = """
  .film img.on{border-color:#7fd18b;border-width:2px}
  .film button{padding:2px 6px;font-size:11px;margin-top:3px;width:100%}
  .film figcaption{font-size:10px;color:#9a8fae}
+ .cur{cursor:zoom-in}
+ label.adj{display:flex;align-items:center;gap:5px;font-size:12px;color:#cabfe0;cursor:pointer}
+ label.adj input{cursor:pointer}
+ /* lightbox */
+ .lb{position:fixed;inset:0;background:rgba(8,6,12,.92);z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center}
+ .lb img{max-width:92vw;max-height:80vh;object-fit:contain;border-radius:6px;box-shadow:0 10px 40px #000}
+ .lb .x{position:absolute;top:16px;right:20px;font-size:22px;line-height:1;padding:6px 12px}
+ .lb .nav{position:absolute;top:50%;transform:translateY(-50%);font-size:30px;padding:10px 16px;background:#2b2336cc;border-color:#5b4a83}
+ .lb .nav.l{left:18px}.lb .nav.r{right:18px}
+ .lb .cap{margin-top:14px;display:flex;gap:14px;align-items:center;background:#1f1b27cc;border:1px solid #352c42;border-radius:8px;padding:8px 14px;max-width:92vw}
+ .lb .cap .t{font-size:13px;color:#e8e4ee}
 </style></head>
 <body x-data="review()" x-init="init()">
 <header>
@@ -159,17 +182,28 @@ TEMPLATE = """
       </h3>
 
       <template x-if="currentImage(s)">
-        <img class="cur" :src="'/art/' + currentImage(s) + '?v=' + bust" :alt="s.id">
+        <img class="cur" :src="'/art/' + currentImage(s) + '?v=' + bust" :alt="s.id"
+             @click="openLightbox(currentImage(s))">
       </template>
       <template x-if="!currentImage(s)"><div class="none">no image yet — Generate</div></template>
 
       <textarea x-model="s.prompt" @input="dirty[s.id]=true"></textarea>
       <div class="row">
-        <select x-model="s.aspect_ratio" @change="dirty[s.id]=true">
+        <select x-model="s.model" @change="dirty[s.id]=true" title="model">
+          <template x-for="m in models" :key="m.id"><option :value="m.id" x-text="m.label"></option></template>
+        </select>
+        <select x-model="s.aspect_ratio" @change="dirty[s.id]=true" title="aspect ratio">
           <template x-for="ar in aspect_ratios" :key="ar"><option :value="ar" x-text="ar"></option></template>
         </select>
+      </div>
+      <div class="row">
         <button class="go" @click="generate(s)" :disabled="isRunning(s.id)"
                 x-text="isRunning(s.id) ? 'generating…' : (have_token ? 'Generate' : 'Generate (placeholder)')"></button>
+        <template x-if="currentImage(s) && modelMeta(s.model).i2i">
+          <label class="adj" :title="'use the current image as input — ' + modelMeta(s.model).label">
+            <input type="checkbox" x-model="adjust[s.id]"> adjust from current
+          </label>
+        </template>
         <span class="meta"><span x-text="(s.turns||[]).length"></span> turn(s)</span>
       </div>
 
@@ -178,7 +212,7 @@ TEMPLATE = """
           <template x-for="t in s.turns" :key="t.file">
             <figure>
               <img :class="t.file==s.accepted ? 'on' : ''" :src="'/art/' + t.file + '?v=' + bust"
-                   :title="'turn ' + t.n + ' · ' + t.aspect_ratio">
+                   :title="'turn ' + t.n + ' · ' + t.aspect_ratio" @click="openLightbox(t.file)">
               <button class="acc" @click="accept(s, t.file)" x-text="t.file==s.accepted ? '✓ accepted' : 'accept'"></button>
               <figcaption x-text="'t' + t.n + ' · ' + t.aspect_ratio + (t.fake ? ' (ph)' : '')"></figcaption>
             </figure>
@@ -189,16 +223,33 @@ TEMPLATE = """
   </template>
 </div>
 
+<!-- lightbox: global gallery across all images -->
+<template x-if="lightbox.open && lbCur()">
+  <div class="lb" @keydown.window.escape="lbClose()"
+       @keydown.window.arrow-left="lbNav(-1)" @keydown.window.arrow-right="lbNav(1)">
+    <button class="x" @click="lbClose()" title="close (Esc)">✕</button>
+    <button class="nav l" @click="lbNav(-1)" title="previous (←)">‹</button>
+    <img :src="'/art/' + lbCur().file + '?v=' + bust" :alt="lbCur().subjectId">
+    <button class="nav r" @click="lbNav(1)" title="next (→)">›</button>
+    <div class="cap">
+      <span class="t" x-text="lbCur().label + ' · t' + lbCur().n + ' · ' + lbCur().aspect + ' · ' + modelLabel(lbCur().model)"></span>
+      <button class="acc" @click="lbAccept()"
+              x-text="lbIsAccepted() ? '✓ accepted' : 'accept'"></button>
+    </div>
+  </div>
+</template>
+
 <script>
 function review(){
   return {
-    model:'', size:'', style:'', have_token:false, aspect_ratios:[],
-    subjects:[], jobs:[], bust:0, dirty:{},
+    model:'', size:'', style:'', have_token:false, aspect_ratios:[], models:[],
+    subjects:[], jobs:[], bust:0, dirty:{}, adjust:{}, lightbox:{open:false,index:0},
     async init(){ await this.loadState(true); setInterval(()=>this.pollJobs(), 1500); },
     async loadState(initial=false){
       const d = await (await fetch('/api/state')).json();
       this.model=d.model; this.size=d.size; this.style=d.style;
       this.have_token=d.have_token; this.aspect_ratios=d.aspect_ratios;
+      this.models=d.models||[];
       if(initial){ this.subjects = d.subjects; return; }
       // dirty/clean: the draft fields (prompt, aspect_ratio) are server-hydrated but
       // user-editable. A background refresh re-hydrates a draft ONLY while it's clean.
@@ -209,17 +260,38 @@ function review(){
         const cur = byId[s.id];
         if(!cur) return s;                  // brand-new subject — take it wholesale
         if(!this.dirty[s.id]) return s;     // clean — accept server values (incl. prompt)
-        return {...s, prompt:cur.prompt, aspect_ratio:cur.aspect_ratio};  // dirty — keep edits
+        return {...s, prompt:cur.prompt, aspect_ratio:cur.aspect_ratio, model:cur.model};  // dirty — keep edits
       });
     },
     async generate(s){
+      const body = {id:s.id, prompt:s.prompt, aspect_ratio:s.aspect_ratio, model:s.model};
+      if(this.adjust[s.id] && this.currentImage(s)) body.adjust_from = this.currentImage(s);
       const r = await (await fetch('/api/generate',{method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({id:s.id, prompt:s.prompt, aspect_ratio:s.aspect_ratio})})).json();
+        headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)})).json();
       this.dirty[s.id] = false;  // submitted value is now what the server holds → clean
       this.jobs = this.jobs.filter(j=>j.subject_id!==s.id);
       this.jobs.push({id:r.job_id, subject_id:s.id, status:'queued', elapsed:0});
     },
+    modelMeta(id){ return this.models.find(m=>m.id===id) || {id, label:id, i2i:false}; },
+    modelLabel(id){ return id ? this.modelMeta(id).label : '—'; },
+    allImages(){
+      const out=[];
+      for(const s of this.subjects){ for(const t of (s.turns||[])){
+        out.push({subjectId:s.id, label:s.label, file:t.file, n:t.n,
+                  aspect:t.aspect_ratio, model:t.model});
+      }}
+      return out;
+    },
+    openLightbox(file){
+      const i=this.allImages().findIndex(im=>im.file===file);
+      if(i>=0){ this.lightbox.index=i; this.lightbox.open=true; }
+    },
+    lbCur(){ const a=this.allImages(); return a.length? a[Math.min(this.lightbox.index,a.length-1)] : null; },
+    lbNav(d){ const a=this.allImages(); if(!a.length) return; this.lightbox.index=(this.lightbox.index+d+a.length)%a.length; },
+    lbClose(){ this.lightbox.open=false; },
+    lbSubject(){ const im=this.lbCur(); return im? this.subjects.find(s=>s.id===im.subjectId) : null; },
+    lbIsAccepted(){ const im=this.lbCur(), s=this.lbSubject(); return !!im && !!s && s.accepted===im.file; },
+    lbAccept(){ const im=this.lbCur(), s=this.lbSubject(); if(im && s) this.accept(s, im.file); },
     async accept(s, file){
       await fetch('/api/accept',{method:'POST',headers:{'Content-Type':'application/json'},
         body:JSON.stringify({id:s.id, file})});

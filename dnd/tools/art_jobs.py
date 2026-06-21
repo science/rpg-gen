@@ -72,6 +72,7 @@ class Job:
     subject_id: str
     prompt: str
     aspect_ratio: str
+    model: str = ""
     n: int = 0
     status: str = "queued"   # queued | starting | processing | done | failed
     started_at: float | None = None
@@ -88,7 +89,7 @@ class Job:
         return {"id": self.id, "subject_id": self.subject_id, "n": self.n,
                 "status": self.status, "elapsed": elapsed, "error": self.error,
                 "file": self.file, "aspect_ratio": self.aspect_ratio,
-                "fake": self.fake}
+                "model": self.model, "fake": self.fake}
 
 
 # ----------------------------------------------------------------- JobManager
@@ -112,7 +113,8 @@ class JobManager:
             return load_state(self.gallery_path, seed)
 
     def set_subject(self, *, subject_id: str, prompt: str | None = None,
-                    aspect_ratio: str | None = None, seed: dict | None = None) -> dict:
+                    aspect_ratio: str | None = None, model: str | None = None,
+                    seed: dict | None = None) -> dict:
         with self.lock:
             state = load_state(self.gallery_path, seed)
             subj = state["subjects"].setdefault(subject_id, _blank_subject(subject_id))
@@ -120,6 +122,8 @@ class JobManager:
                 subj["prompt"] = prompt
             if aspect_ratio is not None:
                 subj["aspect_ratio"] = aspect_ratio
+            if model is not None:
+                subj["model"] = model
             save_state(self.gallery_path, state)
             return subj
 
@@ -136,14 +140,17 @@ class JobManager:
     # -- jobs --------------------------------------------------------------
     def submit_job(self, *, subject_id: str, prompt: str, aspect_ratio: str,
                    model: str, size: str, style: str = "", label: str = "",
-                   fake: bool | None = None, delay: float = 0.0) -> Job:
+                   fake: bool | None = None, delay: float = 0.0,
+                   reference_images: list[str] | None = None) -> Job:
         with self.lock:
             self._seq += 1
             jid = f"job{self._seq}"
             job = Job(id=jid, subject_id=subject_id, prompt=prompt,
-                      aspect_ratio=aspect_ratio, fake=self.art._is_fake(fake))
+                      aspect_ratio=aspect_ratio, model=model,
+                      fake=self.art._is_fake(fake, self.art.provider_for(model)))
             self.jobs[jid] = job
-        self.executor.submit(self._run, job, model, size, style, label, fake, delay)
+        self.executor.submit(self._run, job, model, size, style, label, fake, delay,
+                             reference_images)
         return job
 
     def get_job(self, job_id: str) -> Job:
@@ -156,14 +163,16 @@ class JobManager:
             return [j.to_dict(now) for j in self.jobs.values()]
 
     # -- worker ------------------------------------------------------------
-    def _run(self, job: Job, model, size, style, label, fake, delay):
+    def _run(self, job: Job, model, size, style, label, fake, delay,
+             reference_images=None):
         with self.lock:
             job.status = "starting"
             job.started_at = self.time()
         try:
             eff = self._effective_prompt(style, job.prompt)
             handle = self.art.submit(eff, model=model, aspect_ratio=job.aspect_ratio,
-                                     size=size, label=label, fake=fake, delay=delay)
+                                     size=size, label=label, fake=fake, delay=delay,
+                                     reference_images=reference_images)
             while True:
                 r = self.art.poll(handle)
                 status = r["status"]
@@ -208,7 +217,8 @@ class JobManager:
             tmp.write_bytes(data)
             os.replace(tmp, self.artdir / fname)
             subj["turns"].append({"n": n, "file": fname, "prompt": job.prompt,
-                                  "aspect_ratio": job.aspect_ratio, "fake": job.fake})
+                                  "aspect_ratio": job.aspect_ratio,
+                                  "model": job.model, "fake": job.fake})
             job.n = n
             save_state(self.gallery_path, state)
         return fname

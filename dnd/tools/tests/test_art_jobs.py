@@ -127,6 +127,30 @@ def test_job_records_error_on_failure(tmp_path, monkeypatch):
     assert "exploded" in (done.error or "")
 
 
+def test_turn_records_the_model_used(tmp_path):
+    mgr = _make_manager(tmp_path)
+    job = mgr.submit_job(**_gen_kwargs("alpha", "p", model="bytedance/seedream-4.5"))
+    _wait(mgr, job)
+    turn = mgr.get_state()["subjects"]["alpha"]["turns"][0]
+    assert turn["model"] == "bytedance/seedream-4.5"
+
+
+def test_reference_images_flow_through_to_art_submit(tmp_path, monkeypatch):
+    mgr = _make_manager(tmp_path)
+    captured = {}
+    orig = art.submit
+
+    def spy(*a, **k):
+        captured.update(k)
+        return orig(*a, **k)
+    monkeypatch.setattr(art, "submit", spy)
+
+    job = mgr.submit_job(**_gen_kwargs("alpha", "adjust", reference_images=["/tmp/x.png"]))
+    _wait(mgr, job)
+    assert captured.get("reference_images") == ["/tmp/x.png"]
+    assert len(mgr.get_state()["subjects"]["alpha"]["turns"]) == 1
+
+
 def test_snapshot_is_json_serializable(tmp_path):
     mgr = _make_manager(tmp_path)
     job = mgr.submit_job(**_gen_kwargs("alpha", "p", delay=0.2))

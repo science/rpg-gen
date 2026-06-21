@@ -60,6 +60,51 @@ def have_token() -> bool:
     return bool(os.environ.get("REPLICATE_API_TOKEN"))
 
 
+def have_token_for(provider: str) -> bool:
+    if provider == "openai":
+        return bool(os.environ.get("OPENAI_API_KEY"))
+    return have_token()  # replicate
+
+
+# --------------------------------------------------------------- model registry
+# Selectable models across providers. `prompts.yaml` may add/override via `models:`;
+# the seed `model:` stays the default selection. i2i = supports image-to-image.
+MODEL_REGISTRY = [
+    {"id": "bytedance/seedream-5-lite", "label": "Seedream 5 Lite (Replicate)",
+     "provider": "replicate", "i2i": True, "sizes": ["2K", "3K"]},
+    {"id": "bytedance/seedream-4.5", "label": "Seedream 4.5 (Replicate)",
+     "provider": "replicate", "i2i": True, "sizes": ["2K", "4K"]},
+    {"id": "gpt-image-2", "label": "GPT-Image-2 (OpenAI)",
+     "provider": "openai", "i2i": True, "sizes": ["auto"]},
+]
+_REGISTRY_BY_ID = {m["id"]: m for m in MODEL_REGISTRY}
+
+
+def model_meta(model_id: str) -> dict:
+    """Registry entry for a model id; unknown ids fall back to a replicate default."""
+    return _REGISTRY_BY_ID.get(
+        model_id,
+        {"id": model_id, "label": model_id, "provider": "replicate",
+         "i2i": True, "sizes": ["2K"]})
+
+
+def provider_for(model_id: str) -> str:
+    return model_meta(model_id)["provider"]
+
+
+# OpenAI gpt-image uses pixel sizes, not aspect strings — map the UI aspect choice.
+def _aspect_to_openai_size(aspect_ratio: str) -> str:
+    try:
+        w, h = (float(x) for x in aspect_ratio.split(":"))
+    except Exception:
+        w, h = 1.0, 1.0
+    if w > h:
+        return "1536x1024"   # landscape
+    if h > w:
+        return "1024x1536"   # portrait
+    return "1024x1024"       # square
+
+
 # ------------------------------------------------------------------- generation
 def _aspect_wh(aspect_ratio: str) -> tuple[int, int]:
     try:
@@ -151,6 +196,15 @@ def _get_client():
     return replicate.Client(api_token=os.environ.get("REPLICATE_API_TOKEN"))
 
 
+def _file_to_data_uri(path: str | os.PathLike) -> str:
+    """Encode a local image as a data URI (for Replicate image_input — no upload)."""
+    import base64
+    data = pathlib.Path(path).read_bytes()
+    ext = _ext_from_bytes(data)
+    mime = {"png": "image/png", "jpg": "image/jpeg", "webp": "image/webp"}.get(ext, "image/png")
+    return f"data:{mime};base64," + base64.b64encode(data).decode()
+
+
 class LiveHandle:
     """Wraps a Replicate Prediction; `poll()` refreshes and normalizes it."""
 
@@ -211,9 +265,77 @@ class FakeHandle:
                 "error": None, "output_bytes": data, "ext": "png"}
 
 
-def _is_fake(fake: bool | None) -> bool:
+class OpenAIHandle:
+    """Runs an OpenAI gpt-image generate/edit call in a background thread so the
+    JobManager's poll loop stays responsive. poll() reports `processing` until the
+    thread finishes, then `succeeded` with decoded bytes (or `failed` + error)."""
+
+    def __init__(self, prompt, *, model, aspect_ratio, reference_images=None,
+                 quality="high", client=None):
+        import threading
+        self._lock = threading.Lock()
+        self._status = "starting"
+        self._bytes = None
+        self._error = None
+        self._size = _aspect_to_openai_size(aspect_ratio)
+        self._t = threading.Thread(
+            target=self._work,
+            args=(prompt, model, self._size, quality, reference_images, client),
+            daemon=True)
+        self._t.start()
+
+    def _work(self, prompt, model, size, quality, reference_images, client):
+        try:
+            if client is None:
+                from openai import OpenAI
+                client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+            if reference_images:
+                files = [open(p, "rb") for p in reference_images]
+                try:
+                    resp = client.images.edit(model=model, image=files,
+                                              prompt=prompt, size=size)
+                finally:
+                    for f in files:
+                        f.close()
+            else:
+                resp = client.images.generate(model=model, prompt=prompt,
+                                              size=size, quality=quality)
+            data = _openai_bytes(resp)
+            with self._lock:
+                self._bytes, self._status = data, "succeeded"
+        except Exception as e:  # noqa: BLE001 — surface to the UI as a failed job
+            with self._lock:
+                self._error, self._status = str(e), "failed"
+
+    def poll(self) -> dict:
+        with self._lock:
+            status, data, err = self._status, self._bytes, self._error
+        if status == "succeeded":
+            return {"status": "succeeded", "logs": "", "progress": 1.0,
+                    "error": None, "output_bytes": data, "ext": _ext_from_bytes(data)}
+        if status == "failed":
+            return {"status": "failed", "logs": "", "progress": None,
+                    "error": err, "output_bytes": None, "ext": None}
+        return {"status": "processing", "logs": "", "progress": None,
+                "error": None, "output_bytes": None, "ext": None}
+
+
+def _openai_bytes(resp) -> bytes:
+    """Extract image bytes from an OpenAI images response (b64 or url)."""
+    import base64
+    item = resp.data[0]
+    b64 = getattr(item, "b64_json", None)
+    if b64:
+        return base64.b64decode(b64)
+    url = getattr(item, "url", None)
+    if url:
+        return _read_output(url)
+    raise TypeError("OpenAI image response had neither b64_json nor url")
+
+
+def _is_fake(fake: bool | None, provider: str = "replicate") -> bool:
     if fake is None:
-        return os.environ.get("ART_FAKE") == "1" or not have_token()
+        return os.environ.get("ART_FAKE") == "1" or not have_token_for(provider)
     return fake
 
 
@@ -231,13 +353,19 @@ def submit(
 ):
     """Start a generation and return a poll-able handle immediately (non-blocking).
 
-    Live mode creates a Replicate prediction (no version pin needed); fake mode
-    returns a FakeHandle. `delay` only affects fake handles; `client` is injectable
-    for tests."""
-    if _is_fake(fake):
+    Routes by the model's provider (Replicate predictions API, or OpenAI gpt-image).
+    `reference_images` (local paths) triggers image-to-image. Fake mode returns a
+    FakeHandle; `delay` affects only fake handles; `client` is injectable for tests."""
+    provider = provider_for(model)
+    if _is_fake(fake, provider):
         return FakeHandle(prompt, aspect_ratio=aspect_ratio, label=label, delay=delay)
+    if provider == "openai":
+        return OpenAIHandle(prompt, model=model, aspect_ratio=aspect_ratio,
+                            reference_images=reference_images, client=client)
+    # replicate
+    refs = [_file_to_data_uri(p) for p in reference_images] if reference_images else None
     payload = _build_payload(prompt, aspect_ratio=aspect_ratio, size=size,
-                             reference_images=reference_images)
+                             reference_images=refs)
     client = client or _get_client()
     pred = client.predictions.create(model=model, input=payload)
     return LiveHandle(pred)
