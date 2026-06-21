@@ -24,7 +24,7 @@ party:
       race: "Elf"
       age: "~700"
       notes: >
-        Former criminal partner of the captive Jeff (Jeffron Giltor). Cut a deal with
+        Former criminal partner of the captive Jeff (Jeffrol Giltor). Cut a deal with
         Elmingwed to hand Jeff over for half the proceeds of his loot. Carries a hidden,
         unprovable secret — see thread:orkideh-secret. The leash on her player runs through
         Jeff, who cannot be safely silenced.
@@ -48,7 +48,7 @@ companions:
 
 # Captive in tow (not a companion — a live problem)
 captives:
-  - name: "Jeffron Giltor"
+  - name: "Jeffrol Giltor"
     ref: "[[npc:jeff-giltor]]"   # see scenarios/the-tinkerers-strings.md dossier
     aka: "Jeff"
     race: "Half-orc / half-elf"

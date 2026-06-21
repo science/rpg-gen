@@ -1404,7 +1404,7 @@ entities:
     related: [loc:tel-abib, npc:elmingwed, npc:jeff-giltor, faction:athyes]
 
   - id: npc:jeff-giltor
-    name: "Jeffron Giltor"
+    name: "Jeffrol Giltor"
     type: npc
     aliases: ["Jeff"]
     region: "Tel A'bib & the Near Desert"
