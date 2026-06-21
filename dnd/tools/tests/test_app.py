@@ -141,6 +141,37 @@ def test_adjust_from_existing_image_produces_a_new_turn(app):
     assert len(alpha["turns"]) == 2
 
 
+def test_accept_toggles_off_when_clicking_the_accepted_file(app):
+    c = app.test_client()
+    body = c.post("/api/generate", json={"id": "beta", "prompt": "p",
+                                         "aspect_ratio": "16:9"}).get_json()
+    fname = _wait_done(c, body["job_id"])["file"]
+    r1 = c.post("/api/accept", json={"id": "beta", "file": fname}).get_json()
+    assert r1["accepted"] == fname
+    # clicking the same (already accepted) file clears the selection
+    r2 = c.post("/api/accept", json={"id": "beta", "file": fname}).get_json()
+    assert r2["accepted"] is None
+    state = c.get("/api/state").get_json()
+    beta = next(s for s in state["subjects"] if s["id"] == "beta")
+    assert beta["accepted"] is None
+
+
+def test_add_box_creates_a_new_blank_subject(app):
+    c = app.test_client()
+    r = c.post("/api/add_subject", json={"label": "Scratch"}).get_json()
+    assert r["id"] == "box-1" and r["label"] == "Scratch" and r["turns"] == []
+    ids = {s["id"] for s in c.get("/api/state").get_json()["subjects"]}
+    assert {"alpha", "beta", "box-1"} <= ids
+
+
+def test_delete_box_removes_it_and_does_not_resurrect_seed_subjects(app):
+    c = app.test_client()
+    # delete a seed subject; the tombstone must stop the prompts.yaml merge re-adding it
+    c.post("/api/delete", json={"id": "alpha"})
+    ids = {s["id"] for s in c.get("/api/state").get_json()["subjects"]}
+    assert "alpha" not in ids and "beta" in ids
+
+
 def test_index_serves_html_shell(app):
     c = app.test_client()
     html = c.get("/").get_data(as_text=True)

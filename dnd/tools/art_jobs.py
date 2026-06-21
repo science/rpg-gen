@@ -36,12 +36,15 @@ def load_state(gallery_path, seed: dict | None = None) -> dict:
     gp = pathlib.Path(gallery_path)
     state = json.loads(gp.read_text()) if gp.is_file() else {"subjects": {}}
     state.setdefault("subjects", {})
+    # `deleted` tombstones suppress re-adding seed subjects the user removed; without
+    # it, a deleted prompts.yaml subject would resurrect on the next merge.
+    state.setdefault("deleted", [])
     if seed:
         state["model"] = seed.get("model", state.get("model", ""))
         state["size"] = seed.get("size", state.get("size", "2K"))
         state["style"] = (seed.get("style") or state.get("style") or "").strip()
         for s in seed.get("subjects", []):
-            if s["id"] not in state["subjects"]:
+            if s["id"] not in state["subjects"] and s["id"] not in state["deleted"]:
                 state["subjects"][s["id"]] = _blank_subject(
                     s["id"], label=s.get("label"),
                     aspect_ratio=s.get("aspect_ratio", "3:4"),
@@ -128,14 +131,45 @@ class JobManager:
             return subj
 
     def accept(self, *, subject_id: str, file: str, seed: dict | None = None) -> dict:
+        """Toggle the accepted image. Accepting the file that's already accepted
+        clears the selection (back to 'none selected') so the choice is undoable."""
         with self.lock:
             state = load_state(self.gallery_path, seed)
             subj = state["subjects"].get(subject_id)
             if subj is None:
                 raise KeyError(subject_id)
-            subj["accepted"] = file
+            subj["accepted"] = None if subj.get("accepted") == file else file
             save_state(self.gallery_path, state)
             return subj
+
+    def add_subject(self, *, label: str = "", aspect_ratio: str = "3:4",
+                    prompt: str = "") -> tuple[str, dict]:
+        """Create a fresh general-purpose box with an auto-generated `box-N` id and
+        return (id, subject). Clears any stale tombstone if the id is reused."""
+        with self.lock:
+            state = load_state(self.gallery_path)
+            n = 1
+            while f"box-{n}" in state["subjects"]:
+                n += 1
+            sid = f"box-{n}"
+            if sid in state["deleted"]:
+                state["deleted"].remove(sid)
+            subj = _blank_subject(sid, label=(label.strip() or sid),
+                                  aspect_ratio=aspect_ratio, prompt=prompt)
+            state["subjects"][sid] = subj
+            save_state(self.gallery_path, state)
+            return sid, subj
+
+    def delete_subject(self, subject_id: str) -> dict | None:
+        """Remove a box from the gallery (tombstoned so a seed subject won't return).
+        Its turn image files are left on disk. Returns the removed subject, or None."""
+        with self.lock:
+            state = load_state(self.gallery_path)
+            subj = state["subjects"].pop(subject_id, None)
+            if subject_id not in state["deleted"]:
+                state["deleted"].append(subject_id)
+            save_state(self.gallery_path, state)
+        return subj
 
     # -- jobs --------------------------------------------------------------
     def submit_job(self, *, subject_id: str, prompt: str, aspect_ratio: str,

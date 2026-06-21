@@ -111,9 +111,25 @@ def make_app(campaign_base) -> Flask:
         sid = data.get("id") or abort(400)
         fname = data.get("file") or abort(400)
         try:
-            mgr().accept(subject_id=sid, file=fname, seed=app.config["SEED"])
+            subj = mgr().accept(subject_id=sid, file=fname, seed=app.config["SEED"])
         except KeyError:
             abort(404)
+        # echo the (possibly toggled-off) selection so the UI reflects the server
+        return jsonify({"ok": True, "accepted": subj["accepted"]})
+
+    @app.route("/api/add_subject", methods=["POST"])
+    def api_add_subject():
+        data = request.get_json(force=True, silent=True) or {}
+        label = (data.get("label") or "").strip()
+        aspect = data.get("aspect_ratio") or "3:4"
+        sid, subj = mgr().add_subject(label=label, aspect_ratio=aspect)
+        return jsonify({"id": sid, **subj})
+
+    @app.route("/api/delete", methods=["POST"])
+    def api_delete():
+        data = request.get_json(force=True, silent=True) or {}
+        sid = data.get("id") or abort(400)
+        mgr().delete_subject(sid)
         return jsonify({"ok": True})
 
     return app
@@ -152,6 +168,11 @@ TEMPLATE = """
  .cur{cursor:zoom-in}
  label.adj{display:flex;align-items:center;gap:5px;font-size:12px;color:#cabfe0;cursor:pointer}
  label.adj input{cursor:pointer}
+ button.del{background:#2b2336;border-color:#5a3a3a;color:#e6a8a8;padding:5px 9px}
+ button.del:hover{background:#3a2b2b}
+ .card.add{display:flex;flex-direction:column;justify-content:center;align-items:stretch;border-style:dashed;border-color:#4a3f59;background:#1a1622}
+ .card.add h3{text-align:center;color:#cabfe0}
+ .card.add input{width:100%;box-sizing:border-box;background:#161320;color:#e8e4ee;border:1px solid #3a3145;border-radius:6px;padding:8px;font-size:13px;margin-bottom:8px}
  /* lightbox */
  .lb{position:fixed;inset:0;background:rgba(8,6,12,.92);z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center}
  .lb img{max-width:92vw;max-height:80vh;object-fit:contain;border-radius:6px;box-shadow:0 10px 40px #000}
@@ -205,6 +226,7 @@ TEMPLATE = """
           </label>
         </template>
         <span class="meta"><span x-text="(s.turns||[]).length"></span> turn(s)</span>
+        <button class="del" @click="del(s)" title="delete this box and its images">🗑 delete</button>
       </div>
 
       <template x-if="(s.turns||[]).length">
@@ -221,6 +243,14 @@ TEMPLATE = """
       </template>
     </div>
   </template>
+
+  <!-- add a fresh general-purpose box to generate & iterate on any image -->
+  <div class="card add">
+    <h3>+ New box</h3>
+    <input x-model="newLabel" placeholder="Label (optional)" @keydown.enter="addBox()">
+    <div class="row"><button class="go" @click="addBox()">Add box</button></div>
+    <div class="meta">A blank canvas — name it, write a prompt, pick a model, generate.</div>
+  </div>
 </div>
 
 <!-- lightbox: global gallery across all images -->
@@ -243,7 +273,7 @@ TEMPLATE = """
 function review(){
   return {
     model:'', size:'', style:'', have_token:false, aspect_ratios:[], models:[],
-    subjects:[], jobs:[], bust:0, dirty:{}, adjust:{}, lightbox:{open:false,index:0},
+    subjects:[], jobs:[], bust:0, dirty:{}, adjust:{}, newLabel:'', lightbox:{open:false,index:0},
     async init(){ await this.loadState(true); setInterval(()=>this.pollJobs(), 1500); },
     async loadState(initial=false){
       const d = await (await fetch('/api/state')).json();
@@ -272,6 +302,22 @@ function review(){
       this.jobs = this.jobs.filter(j=>j.subject_id!==s.id);
       this.jobs.push({id:r.job_id, subject_id:s.id, status:'queued', elapsed:0});
     },
+    async addBox(){
+      const r = await (await fetch('/api/add_subject',{method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({label:this.newLabel})})).json();
+      this.newLabel='';
+      this.subjects.push({id:r.id, label:r.label, aspect_ratio:r.aspect_ratio,
+        prompt:r.prompt, accepted:r.accepted, turns:r.turns||[], model:this.model});
+    },
+    async del(s){
+      if(!confirm('Remove the box "'+(s.label||s.id)+'"? (its image files are kept on disk)')) return;
+      await fetch('/api/delete',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({id:s.id})});
+      this.subjects = this.subjects.filter(x=>x.id!==s.id);
+      this.jobs = this.jobs.filter(j=>j.subject_id!==s.id);
+      if(this.lightbox.open) this.lbClose();
+    },
     modelMeta(id){ return this.models.find(m=>m.id===id) || {id, label:id, i2i:false}; },
     modelLabel(id){ return id ? this.modelMeta(id).label : '—'; },
     allImages(){
@@ -293,9 +339,11 @@ function review(){
     lbIsAccepted(){ const im=this.lbCur(), s=this.lbSubject(); return !!im && !!s && s.accepted===im.file; },
     lbAccept(){ const im=this.lbCur(), s=this.lbSubject(); if(im && s) this.accept(s, im.file); },
     async accept(s, file){
-      await fetch('/api/accept',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({id:s.id, file})});
-      s.accepted = file;
+      // server toggles: accepting the already-accepted image clears it (none selected)
+      const r = await (await fetch('/api/accept',{method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({id:s.id, file})})).json();
+      s.accepted = r.accepted;
     },
     async pollJobs(){
       const d = await (await fetch('/api/jobs')).json();
