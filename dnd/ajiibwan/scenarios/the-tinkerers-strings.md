@@ -34,7 +34,7 @@ thread:jeff-fate · thread:orkideh-secret · thread:kantaron-summoning
 ## Background
 
 Guided by **Jiyloo** (hired by the merchant-magnate **Elmingwed**), the party tracked
-**Orkideh's** old criminal partner — **Jeffrol Giltor**, "Jeff," a half-orc/half-elf — to
+**Orkideh's** old criminal partner — **Jeffron Giltor**, "Jeff," a half-orc/half-elf — to
 **Kantaron Summit**, and caught him slipping out of an ancient **Bokkaran tower
 (Kantaroz)** with loot in his pack. *(That capture has already happened — the session opens
 with Jeff trussed and the tower still unentered.)*
