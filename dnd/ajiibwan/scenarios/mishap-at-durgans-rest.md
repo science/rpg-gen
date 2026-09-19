@@ -164,9 +164,7 @@ to their player directly, no check required. She's Hasted; pursuit is hopeless (
 hard rail from the GM-only truth above — see her card's "when things go bad" line).
 **Your move:** if anyone chases Maghiel, describe her impossible speed and let it fail
 narratively — don't roll a chase you can't let them win. Running down her escort instead is
-a real, winnable fight if the party commits to it. Around now, **[Tsendur's husband — name
-your call, not in the source material]** appears outside, panicked, pleading for someone to
-go in after Tsendur.
+a real, winnable fight if the party commits to it. Around now, Tsendur's husband **Troilan** appears outside, panicked, pleading for someone to go in after Tsendur.
 **Your move:** if no one's already moving toward Tsendur, use the husband's plea as the nudge.
 
 **Round 4+ — The rescue.** Combat and exploration of the house continue: the goal is
