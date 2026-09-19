@@ -192,7 +192,7 @@ Items recovered and held by the party (or known/available) that have defined mec
 | Crystal "Brain" / Heart Box (white metal) | Active crystal-construct core / runed white-metal box from a construct's torso | Party (study) | Bokkaran construct | Journal |
 | Jade Pyramid (dangerous) | Triggers dread and opens/activates caskets when handled (tied to King Donol's tomb) | Party | Bokkaran | Journal |
 | Crystal Flask with Red Liquid | Stoppered crystal bottle, Bokkaran-labeled red liquid (grave good) | Party | Bokkaran | Journal |
-| Fire Beetle Lantern (Cool Fire Lantern) | Cool, heatless light using "cold fuel"; valuable trade good | Party (B'rath gift) | B'rath | Journal |
+| Fire Beetle Lantern (Cool Fire Lantern) | Cool, heatless light burning fire-beetle oil; **smokeless** (attracts nothing), **needs no air** (burns sealed/flooded/beneath the Sea of Souls), ~1 week per tank — not inexhaustible; expensive trade good. Many are etched on the brass foot with the unlabeled five-Holy-Cities road map (see *Map references*, below). | Party (B'rath gift); one recoverable at the Oasis of Sia tomb, game-2 | B'rath | Journal |
 | Scroll with Martial Ritual (Bokkaran) | Ritual to a martial god grants +1 AC blessing (performed by A''ki) | Party | Bokkaran | Journal |
 | Elixir of Elemental Resistance (x3) | 1 hr resistance to a chosen element | Party (consumable) | Alchemical | Mesos' Dock.md |
 | Potion of Greater Regeneration (x3) | Heal 4d8 + 2d8/round regen | Party (consumable) | Alchemical | Mesos' Dock.md |
@@ -234,7 +234,7 @@ The party's **Bokkaran Lathe** plus recovered infusion blueprints (the "Bokkaran
 | El Faiz Sculpture | Bokkaran sculpture, ~250 gp | Party strongbox | Bokkaran | Strongbox |
 | Bokkaran Painting | Portrait of a Bokkaran (Sea-of-Souls) engineer, ~50 gp; on consignment for premium | Nassa Vahya, Holy Cities | Bokkaran | Strongbox |
 | Gold Ring #2 (non-magical) | Intricate ring, ~12 gp | Silverin | — | Strongbox |
-| Map references | Engraved oil lamp / seashell maps of the "five Holy Cities"; Hothme height drawing; Gala dak's compound map; recovered Bokkaran map fragments (museum theft by Grey Dust, GM IDs 22-23) | Party / documented | Various | Journal; Lore — Map fragments |
+| Map references | Engraved oil lamp (**a B'rath Fire Beetle Lantern** — the five cities marked in an unreadable script and joined by the roads that really connect them) / seashell maps of the "five Holy Cities"; Hothme height drawing; Gala dak's compound map; recovered Bokkaran map fragments (museum theft by Grey Dust, GM IDs 22-23) | Party / documented | Various | Journal; Lore — Map fragments |
 
 ---
 

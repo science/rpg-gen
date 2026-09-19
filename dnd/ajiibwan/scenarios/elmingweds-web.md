@@ -32,6 +32,28 @@ thread:jeff-fate · thread:orkideh-secret · thread:elmingwed-deal · thread:tat
 
 ---
 
+> ## ✅ PLAYED — session 4, 2026-09-06. Outcomes (recap: `campaign/sessions/04.md`)
+>
+> - **Tath'Shar debuted** (Phoenix; they/them). Now an active PC in `campaign/state.yaml`.
+>   **Timiki did not attend.**
+> - **Scene 3 resolved as a fourth option, better than any on the table.** Jeffrol was neither
+>   handed over, kept, nor killed: Elmingwed sent him **up the northern trade road to the
+>   Granite Empire** to personally shepherd the camel venture his stolen money is riding on and
+>   make sure the share pays out. **Back in ~9 weeks.** `thread:jeff-fate` → resolved; the
+>   Hothme/m'Thorsz rival arc opened as `thread:jeffrol-hothme`.
+> - **Scene 4: the party took Option A and refused payment for it.** The fork ran as
+>   gold-vs-reputation — take Elmingwed's fee to carry the Tsendur message, or take nothing and
+>   put Elmingwed *and* the Tel A'bib merchants in their debt by reopening the Sia route.
+>   **They chose reputation.** Tath'Shar argued for Tsendur (holding their private reason back)
+>   and accepted the vote without a fight.
+> - **But they kept the letter.** Elmingwed's sealed message for Tsendur is in Tath'Shar's
+>   pocket, **undelivered**, and the party has not read it. They took the harder job without
+>   giving the other one back — tracked as `thread:tsendur-letter`. Durgan's Rest
+>   (`scenarios/mishap-at-durgans-rest.md`) is still ahead and its window is still closing.
+> - `scenarios/ashes-at-the-sphinx.md` is now the live scenario; the party is inside the tomb.
+
+---
+
 ## Where things actually stand (continuity note)
 
 Per `campaign/sessions/03.md`: the party never reached the Kantaroz tower. They intercepted

@@ -286,12 +286,23 @@ entities:
   - id: subloc:sphinx-sia
     name: "The Sphinx (Oasis of Sia)"
     type: sublocation
-    aliases: []
+    aliases: ["Tomb of the Sphinx"]
     region: "The Deep Desert & Oases"
     status: "partially explored; treasure remains"
     summary: "Ancient sphinx with subterranean levels, living statues, prayer halls, and a massive treasure chamber behind a secret door."
+    function: >
+      GAME-2 ESTABLISHED (scenarios/ashes-at-the-sphinx.md -> "Rule three: reading the doors"):
+      the complex is not primarily a tomb. Its main job is HOLDING the dead and the damned.
+      Doorne does not destroy — the desert does not either; a thing left in the sand dries and
+      stays. So what is wrong is marked, shut and kept, either SEALED (held forever) or WASHING
+      (purified toward eventual release). The priests never entered the marked rooms; they were
+      their keepers, leaving offerings at threshold dishes outside doors that have handles only
+      on the corridor side, and the gold-flecked pilgrim road routes around every one. The king
+      is buried here because you bury your king where the god is already looking. Practical
+      upshot: it is a prison with a tomb in it, and it has gone on filing people for four
+      centuries with no priests — including at least one tomb-robber, and counting.
     sources: [gazetteer.md]
-    related: [loc:oasis-of-sia]
+    related: [loc:oasis-of-sia, deity:doorne]
 
   - id: loc:oasis-of-farravn
     name: "Oasis of Favarr'n"
@@ -1012,6 +1023,18 @@ entities:
     region: null
     status: "active and dangerous"
     summary: "Secretive 'medieval Scientologist' order whose god and leader is Elsrok (a woman); voracious recruiters and hoarders of capital, feckless yet very dangerous when provoked; primary antagonist faction following the 'Great Design'."
+    doctrine: >
+      Standing strategic posture ("four fires, one hearth") — timeless, applies in the game-2
+      reset. Do not conquer the desert; make it ungovernable by anyone else, then be the only
+      source of order on offer. Four parallel destabilization targets: (1) the Granite Empire /
+      m'Thorsz at Hothme — take materiel via approved caravans while wrecking the trade base
+      and running a palace mole; (2) the Holy Cities — infiltrate the Senate so it cannot act
+      or referee; (3) the desert nomad tribes — break the water-rights truce that holds them
+      together, the cheapest target because the tribes will quarrel over wells anyway; (4) the
+      Vanic at Tel A'bib — not attacked, kept IGNORANT, because an ungarrisoned near desert is
+      where everything else gets done. End state: every ruler, council and tribe owes somebody
+      for order. See world/factions.md for the full write-up and the institutional-contradiction
+      note (foolish members, formidable institution).
     sources: [factions.md, lore-and-mysteries.md]
     related: [npc:maghiel, deity:elsrok, npc:sayed-azhar, npc:soraya-fawaz, npc:murtaza-ghanem, npc:mouse, loc:bw-desert-fort, mystery:bw-leadership]
 
@@ -2516,6 +2539,26 @@ entities:
     summary: "Ukar white-metal lantern that reveals invisible creatures/objects in its light; burns fire-beetle oil."
     sources: [artifacts.md]
     related: [pc:thieri, people:ukar, loc:brath]
+
+  - id: item:fire-beetle-lantern
+    name: "Fire Beetle Lantern"
+    type: item
+    aliases: ["Cool Fire Lantern", "B'rath lantern", "beetle-oil lamp"]
+    region: "The Deep Desert & Oases"
+    status: "in play (game-2) — one recoverable in the Tomb of the Sphinx, Oasis of Sia"
+    summary: >
+      Expensive brass-and-glass lantern made at B'rath and burning fire-beetle oil. Cool and
+      heatless, smokeless (attracts nothing), needs no air (burns sealed, flooded, or beneath
+      the Sea of Souls), and runs about a week per tank — it is NOT inexhaustible. B'rath will
+      refill lanterns for a fee. Prized kit for Sea-of-Souls work.
+    mystery: >
+      The brass foot is etched with five marks in a rough ring joined by lines that fork and
+      bend like real roads, each labelled in an unreadable script: a map of the five Holy
+      Cities and the roads between them. Unremarked and unexplained until the party stands
+      somewhere that makes the shape click. world/artifacts.md already logs "engraved oil lamp
+      / seashell maps of the five Holy Cities" among the campaign's map references.
+    sources: [artifacts.md, gazetteer.md]
+    related: [loc:brath, creature:fire-beetles, item:fanoos-al-kashf, loc:holy-cities, thread:sea-of-souls-water]
 
   - id: item:ukar-chainblade
     name: "Ukar Chainblade"

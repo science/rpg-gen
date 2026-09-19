@@ -35,5 +35,24 @@ assigned: []
   #        source: "..."
   #        note: "Attuned/wielded — clear individual possession."
 
+# --- Not items, but they travel with the party --------------------------
+companions:
+  - name: "The oasis dog"
+    owner: "Orkideh"
+    source: "Oasis of Sia, session 4 — freed from a collapsed tent, calmed, healed by Gereon."
+    note: >
+      Not loot; a companion. Tracked in campaign/state.yaml -> companions. Listed here only
+      so nobody re-derives it as a strongbox entry.
+
+# --- Unrecorded, confirm at the table -----------------------------------
+# Session 4 produced no written loot. Available if Steve wants it:
+#   - three Black Water cultists' scimitars and kit (sphinx guard, beat 2a)
+#   - whatever the tavern's dead were still carrying (area 3)
+#   - Temple al Sia (area 6) is UNLOOTED and the party has not been inside: a silver altar
+#     setting and a lockbox with 87gp / 23sp / 106cp are sitting there untouched. Note that
+#     robbing it is the single fastest way to make Jiyloo an enemy, and per the source
+#     "nearly every person in the desert would chase them until they had been caught and
+#     killed." That is a decision, not a pickup.
+
 # --- Bookkeeping --------------------------------------------------------
-last_updated: "campaign/sessions/03.md"
+last_updated: "campaign/sessions/04.md"

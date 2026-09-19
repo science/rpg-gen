@@ -85,6 +85,38 @@ A compendium of the powers, peoples, cults, and guilds of the Deserts of Ajiibwa
 - Goals / operations: amass wealth, influence, and converts, then manufacture chaos and seize control through engineered crises — extortion and destabilization of trade routes, blackmail and corruption of government officials, artifact theft, kidnapping, well/water poisoning (e.g., Abarul), and sabotage. They excavate beneath the desert fort toward Sea of Souls access. Their knights serve as heavy cavalry on Bulette mounts. They take arms and materiel from m'Thorsz (via approved caravans, unknown to him) while secretly planning to wreck his trade and power base, and run a mole in his palace. They provide military support to Maghiel at Charnel Keep in exchange for her magical/undead-control training.
 - Relationship to the party/world: the primary antagonist faction. The party has disrupted operations repeatedly — the Gala dak compound takeover; investigation, capture of cultists (including "Dil Logoin" and "Reg Tol Mahon"); a raid on the Cult HQ (stealing Ukar artifacts); caravan defense; and an assault on the desert fort. Partially defeated but not eliminated; ongoing threat through its allies. Easy to underestimate, but lethal when cornered.
 - Key figures: **Elsrok** (god and leader of the cult, a woman); high operatives Sayed Azhar (political influence), Soraya Fawaz (orphanage cover), Dr. Murtaza Ghanem (poisoner); the infiltrator "Mouse" in Hothme government; a Black Water priest. Allied with Maghiel (military support at Charnel Keep).
+- **Standing doctrine — "four fires, one hearth."** *(Timeless strategic posture, not run
+  history — this applies in the game-2 reset exactly as it did before; see `dnd/CLAUDE.md`
+  principle 1.)* The Cult does not try to conquer the desert. It tries to make the desert
+  **ungovernable by anyone else**, then rents out the only stability on offer. Four
+  destabilization targets are worked in parallel, and the Cult's patience is its real weapon —
+  none of these has to pay off this year:
+  1. **The Granite Empire / m'Thorsz at Hothme.** Take arms, coin and materiel through
+     m'Thorsz-approved caravans while quietly wrecking the trade base those caravans serve; run
+     a mole inside the palace. A dwarven empire whose trade routes keep failing starts looking
+     for someone to blame, and then for someone to fix it.
+  2. **The Holy Cities.** Infiltrate the Senate and the bureaucracy rather than fight them.
+     A legislature that cannot trust its own members cannot act, and a paralyzed Holy Cities
+     cannot referee anybody else's quarrel.
+  3. **The desert nomad tribes and their uneasy truce.** The truce is held together by water
+     rights. Poison a well, buy a well, dry a well, or simply be seen near one, and old
+     grievances do the rest. **This is the cheapest of the four and the Cult knows it** — the
+     tribes will fight over the wells eventually with or without help, so the Cult's role is
+     to make sure it happens at a useful moment.
+  4. **The Vanic garrison and administration at Tel A'bib.** Not attacked — *kept ignorant*.
+     A Vanic force that does not know what is happening in the near desert will not garrison
+     it, and an ungarrisoned near desert is where everything else gets done.
+  The end state is not a throne. It is a region where every ruler, council and tribe owes
+  somebody for order — and the Cult is the only institution with the reach, the money and the
+  memory to be that somebody. **It is not a bad strategy.** What makes it survivable for the
+  rest of the world is that the people executing it are, individually, mostly fools.
+- **The institutional contradiction (play this at the table).** Rank-and-file cultists are
+  dullards, lackwits and cretins — lazy on watch, quick to blame each other, quick to fold.
+  The *institution* is another animal entirely: mean-spirited, vindictive, long-memoried, and
+  capable of things no individual member could manage. Senior figures hold genuine political
+  power, run blackmail and behind-the-scenes control, and some of the clerics are magically
+  dangerous. Their reliquaries hold real artifacts. The cult is easy to beat and almost
+  impossible to finish, and underestimating it is the specific mistake it feeds on.
 - Status: active and dangerous; primary antagonist, partially defeated.
 - sources: Lore - Ajiibwan Wilderlands; Lore - Primary Source materials; Navigating the Saragubi Desert.md; Basq - Kalinore's Aftermath.md; Kalinore's Chaos in the Saragubi Desert.md; The Dark Arts of Diplomacy: The Holy Cities.md; The Dark Arts: Caravan Rescue.md; The Dark Arts: Black Water heist.md; The Dark Arts: Raid the Cult's Desert Fort.md
 

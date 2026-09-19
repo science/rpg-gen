@@ -9,21 +9,20 @@ threads:
 
   - id: thread:jeff-fate
     title: "What to do with Jeff"
-    status: active
+    status: resolved     # session 4 — deployed, not handed over, not killed
     summary: >
-      Jeffrol Giltor was captured at his camp near Kantaroz (session 3, not inside the
-      tower) and hauled to Tel A'bib — the party is at Elmingwed's gate with him, decision
-      pending as session 4 opens. He'd rather join the party than be handed over (whom he
-      fears). His stolen operating money is gone — sunk into a speculative camel-trade
-      venture now ~8-9 weeks out toward the Granite Empire — so he has no coin to offer,
-      only information and labor. Options on the table: hand him to Elmingwed, keep him as
-      a leashed/hostile passenger, send him off on a caravan (Elmingwed's Sept-4 offer),
-      or kill him.
-    leverage: "He holds (and claims to hold) a secret dangerous to Orkideh — see thread:orkideh-secret. He has already used it once, in session 3."
+      RESOLVED at Elmingwed's compound, session 4. Elmingwed had no coin to collect (Jeff's
+      stolen operating money was already sunk in a speculative camel venture), so he converted
+      the debt into labor: Jeffrol was sent up the NORTHERN TRADE ROAD toward the Granite
+      Empire to personally shepherd that venture and make sure Elmingwed's share pays out.
+      He is due back in ~9 WEEKS. He leaves alive, useful, and owing — the outcome most likely
+      to bring him back as a complication rather than a corpse.
+    consequences:
+      - "The party never had to decide whether to kill him; the pressure came off without the bind going away."
+      - "Orkideh's leash is loosened, not cut — see thread:orkideh-secret. He returns."
+      - "Follow-on arc opened: thread:jeffrol-hothme."
     autonomous:
-      - "If returned to Elmingwed alive: Jeff talks/negotiates his way loose within a tick or two and resurfaces later as a rival/operator — and Elmingwed is now in his debt-orbit, not the party's."
-      - "If kept with the party: he watches for a betrayal opening (steal back the bracelet, slip his bonds, sell the party's plans) the moment odds favor him."
-      - "If killed/stranded: his dead-man's deposit fires — an unnamed Tel A'bib merchant hands the fraud packet to the Boetharch of Tel A'bib ([[npc:boetharch]]). It implicates Elmingwed (who does not care — he already briefed the Boetharch) but, more dangerously, Orkideh."
+      - "Nine weeks of unsupervised road. He makes contacts, he makes money, and he makes himself useful to people who are not Elmingwed."
 
   - id: thread:orkideh-secret
     title: "Orkideh & Jeff's fraud against the Vanic Navy"
@@ -80,45 +79,74 @@ threads:
       campaign/inventory.yaml), unidentified. GM-ONLY TRUTH: it wards against the Sea of
       Souls' unseen water, specifically preventing the wearer from succumbing to sleep
       there. Save the reveal for when the party actually reaches the Sea of Souls.
+    accumulating_kit: >
+      The party is quietly assembling a Sea-of-Souls expedition kit without knowing the place
+      exists. (1) The white-metal spider bracelet, session 3, unidentified — wards against the
+      unseen water, prevents the wearer succumbing to sleep there. (2) A B'rath **Fire Beetle
+      Lantern** ([[item:fire-beetle-lantern]]), recoverable from the cult dead in the Tomb of
+      the Sphinx — smokeless, needs no air, burns about a week per tank; the standard light for
+      working beneath the Sea of Souls, where an ordinary flame is useless AND an advertisement.
+      Do not connect these for the party. The moment they finally stand at the Sea of Souls and
+      realize they have been carrying the right gear for two adventures is worth more than any
+      reveal you could hand them.
+    slow_seed: >
+      The lantern's brass foot is etched with five marks joined by roads and labelled in a
+      script nobody can read: the five Holy Cities. Unexplained, unremarked, and not connected
+      to this thread at all until the party sees the shape somewhere real.
     autonomous:
       - "Inert for now. The connection only matters once the party engages the Sea of Souls in a future adventure."
 
   - id: thread:elmingwed-deal
     title: "Elmingwed's patronage"
-    status: active
+    status: advancing     # session 4 — warm, and the party bought in deeper than he asked
     ref: "[[npc:elmingwed]]"
     summary: >
       Elmingwed — powerful by wealth and connections, not by levels — pre-bought half of
-      Jeff's value sight-unseen and hired Jiyloo to deliver the party. Jeff arrives with the
-      party at his gate (session 3 cliffhanger) but with empty pockets (see thread:jeff-fate)
-      — so session 4 is where Elmingwed converts the debt into a service ask rather than a
-      cash payout: cooperative work reopening the [[loc:oasis-of-sia]] trade route, or
-      splitting the party (Jeff onto a caravan out; the rest carrying a message to
-      [[npc:tsendur]] at [[loc:durgans-rest]]). See scenarios/elmingweds-web.md.
+      Jeff's value sight-unseen and hired Jiyloo to deliver the party. Jeff arrived with
+      empty pockets, so in session 4 Elmingwed converted the debt into service and offered a
+      fork: take a fee to carry a message to [[npc:tsendur]] at [[loc:durgans-rest]], or take
+      NO fee and reopen the choked trade route at the [[loc:oasis-of-sia]], putting Elmingwed
+      and the merchants of Tel A'bib in the party's debt instead.
+      **The party chose reputation over gold** and took the Sia job unpaid. They also still
+      carry the Tsendur letter (thread:tsendur-letter) — they took the harder job without
+      giving the other one back.
+    standing: >
+      Warm and rising. If Sia is actually reopened, Elmingwed owes them publicly and so do
+      Feltan, Al-Esellin and the western-route merchants — a reputation asset the party can
+      spend, which is what they were angling for. It is also a debt with no receipt: make
+      them work a little to cash it, or the choice costs nothing.
     autonomous:
-      - "Elmingwed's interests (and his militia captain, [[npc:abet]]) keep moving regardless. A dead Jeff or a stiffed deal cools the patronage; delivering Jeff (or his loot, or labor in lieu of it) warms it and opens further business."
+      - "Elmingwed's interests (and his militia captain, [[npc:abet]]) keep moving regardless."
+      - "If the party fails or abandons Sia, he does not rage — he simply commissions someone else and the debt never forms. That is the real cost of the unpaid gamble."
 
   - id: thread:tathshar-maghiel
     title: "Tath'Shar's search for their sister"
-    status: dormant     # activates on introduction, session 4; see scenarios/mishap-at-durgans-rest.md for the GM-only truth this unlocks
+    status: active      # session 4 — Tath'Shar debuted and named Maghiel at the table
     ref: "[[npc:maghiel]]"
     summary: >
-      Tath'Shar (new PC, session 4; they/them — gender-neutral, trans) is a Drow noble who
-      received a letter of introduction FROM Elmingwed TO Tsendur (not just a courtesy
-      letter — it warns Tsendur that Maghiel hunts "prohibited artifacts"). Their real
-      purpose: they believe their sister Maghiel (she/her) is active in the region and want
-      to find/organize against her before she goes further down that path. CORRECTED
-      WORLD-TRUTH for this reset run (overrides
-      world/entities.yaml's prior-campaign "already Black-Thorn-cursed" status — see
-      dnd/CLAUDE.md principle 1, world/ is reference only): **Maghiel is NOT yet cursed.**
-      She becomes so only after the events of scenarios/mishap-at-durgans-rest.md, where she
-      steals the Clasp of Vergren from Tsendur (unknowingly a sealed Black Thorn splinter —
-      thread:the-thorn) and is pierced by it studying the theft off-screen. The party's own
-      letter may be what puts her on Durgan's Rest's map — deliberately left ambiguous, but
-      real complicity, not just Tath'Shar's personal stake. NOT to be revealed to the party
-      outright until that session plays out.
+      Tath'Shar (PC, debuted session 4; they/them — gender-neutral, trans, NEVER she/her) is
+      a Drow noble who received from Elmingwed a letter for [[npc:tsendur]] at
+      [[loc:durgans-rest]] — not a courtesy note: it warns Tsendur that a drow wizard is
+      hunting "prohibited artifacts." Their real purpose: they believe their sister Maghiel
+      (she/her) is active in the region and want to find and stop her before she goes further
+      down that path. Session 4: they voiced this, argued for going to Tsendur first, lost the
+      vote to the Oasis of Sia, and accepted it without a fight. The letter is still in their
+      pocket (thread:tsendur-letter).
+      CORRECTED WORLD-TRUTH for this reset run (overrides world/entities.yaml's
+      prior-campaign "already Black-Thorn-cursed" status — see dnd/CLAUDE.md principle 1):
+      **Maghiel is NOT yet cursed.** She becomes so only after the events of
+      scenarios/mishap-at-durgans-rest.md, where she steals the Clasp of Vergren from Tsendur
+      (unknowingly a sealed Black Thorn splinter) and is pierced by it studying the theft
+      off-screen. The party's own letter may be what puts her on Durgan's Rest's map —
+      deliberately ambiguous, but real complicity, not just Tath'Shar's personal stake.
+      NOT to be revealed to the party outright until that session plays out.
+    the_bind: >
+      Tath'Shar wants to save their sister. Delivering the letter is what damns her. They do
+      not know that and must not be told. Meanwhile the delay is its own answer — see
+      thread:tsendur-letter.
     autonomous:
-      - "Off-screen for now. Advances hard once the party carries Elmingwed's letter to Tsendur at Durgan's Rest — see scenarios/mishap-at-durgans-rest.md for the scripted outcome (Maghiel must escape with the Clasp)."
+      - "Advances hard the moment the party reaches Durgan's Rest — see scenarios/mishap-at-durgans-rest.md for the scripted outcome (Maghiel must escape with the Clasp)."
+      - "While the party is at Sia, Maghiel is doing her own work somewhere. Rumor, not presence."
 
   - id: thread:maghiel-nascent
     title: "Maghiel, just beginning"
@@ -131,3 +159,150 @@ threads:
       precedent, not current fact). Seeded so future sessions can connect the dots.
     autonomous:
       - "Advances entirely off-screen for now; surfaces only via rumor until the party crosses her path."
+
+  # ---------------------------------------------------------------------------
+  # Opened in session 4 (2026-09-06)
+  # ---------------------------------------------------------------------------
+
+  - id: thread:tsendur-letter
+    title: "The undelivered letter to Tsendur"
+    status: active
+    ref: "[[npc:tsendur]]"
+    summary: >
+      Elmingwed's sealed letter for Tsendur at [[loc:durgans-rest]] is in Tath'Shar's hands,
+      carried and UNDELIVERED as of session 4. The party has not read it and knows only that
+      they were asked to carry it. Its real content warns Tsendur that a drow wizard is
+      hunting prohibited artifacts and to guard anything of that description — i.e. it tells
+      Tsendur to protect the Clasp of Vergren.
+    the_crux: >
+      Delivering it is the act that plausibly puts Maghiel on Durgan's Rest's map, and
+      Tath'Shar is the courier. See thread:tathshar-maghiel and
+      scenarios/mishap-at-durgans-rest.md. Do not surface the irony until it lands.
+    autonomous:
+      - "Every session it stays in a pocket is a session Tsendur sits unwarned. GM's call whether that helps him (nobody points Maghiel at him) or hurts him (he never gets the chance to hide the Clasp) — pick one now and be consistent, because the party's dithering should mean something either way."
+      - "Elmingwed will eventually notice it was never delivered. That is a small, real cost to the patronage in thread:elmingwed-deal."
+
+  - id: thread:missing-caravans
+    title: "The choked western route"
+    status: active     # the party is on it as of session 4
+    ref: "[[loc:oasis-of-sia]]"
+    summary: >
+      Caravans on the western route stopped arriving. The cause is the Black Water Cult raid
+      on the Oasis of Sia: the oasis sacked, its people killed or taken as slaves, the water
+      fouled, and the site held while the cult digs for what is under the sphinx. Feltan has
+      a standing reward out for an answer; the party took Elmingwed's version of the job
+      instead, and took it unpaid (thread:elmingwed-deal).
+    open_at_the_table:
+      - "Afara Al-Doorne and her daughter Dasara are ALIVE in a covered hole near the pond and have not been found. Abd Al-Doorne was killed getting them hidden (Elven Goods, area 5). Distinct from the El-Alouph family below."
+      - "The slaves taken by the raiders were led into the desert days ago — INCLUDING the El-Alouph family of the wagon shop, whose dog Orkideh now has. Per the source the dog will lead the party on its family's trail, which makes it a live lead on the slave caravan. Nobody at the table has mentioned the slaves yet. This is the part of the job that is not about gold."
+    autonomous:
+      - "If the party clears the site and leaves, the route reopens slowly on its own — traders test it, word spreads, the reputation payoff arrives late but real."
+      - "If the party dies or withdraws, the Black Water Cult finishes its excavation and the western route stays shut. Feltan's reward goes to someone else eventually."
+
+  - id: thread:sia-tomb
+    title: "The Tomb of the Sphinx"
+    status: active
+    ref: "[[subloc:sphinx-sia]]"
+    summary: >
+      The party is inside, as of the end of session 4 — east hallway off 9a, the 9b door
+      forced open, Giant Ants coming through. Above ground the oasis is clear of living
+      cultists but for one captive.
+    session_5_opening: >
+      The party is mid-fight with the Giant Ants (9b). DESIGNED WAY OUT (not mandatory —
+      fighting is fully supported): Jiyloo realises the problem is their dirty feet, slams and
+      braces the door herself, and sends the party back to 9a's pools to wash — including
+      carrying water back and kneeling to wash HERS, since she can't let go. The ants settle in
+      stages as each person comes clean, then go still. This reframes 9b: the ants were never
+      checking credentials, they were attacking a TRESPASS (dirty feet + a door marked "no
+      passage"), and removing the trespass removes the reason. Afterwards the party can enter
+      9b safely to recover the dead cultist and his route-sketch — but prying fittings or floor
+      gold wakes all twelve, which is the free, survivable lesson in "come empty."
+      Then 9a is re-read as the VESTIBULE it always was, and all five observances are found in
+      it. See scenarios/ashes-at-the-sphinx.md -> "Session 5 opens here".
+    the_real_clock: >
+      From the session-4 interrogation, earned not narrated: the cult's MAIN BODY left ~a
+      week ago to fetch MAGICAL ITEMS NEEDED TO PENETRATE THE TOMB, and is due back within
+      1-2 DAYS. Two things follow, and both are gifts. (1) There is something down there the
+      cult could not get past — and as of session 4 it is NAMED: the tomb's two
+      credential-checking guardians. The Caryatid Columns in 9a are UNDYING (the cult knocked
+      them down and they got back up, every crossing costing bodies for nothing), and the Stone
+      Guardian in 9e is functionally immune to how the cult fights — quarter damage from edged
+      weapons, zero from missiles, immune to mind control. The safe phrase that opens it
+      requires praising Doorne, which Elsrok-sworn fanatics will not do. The door was open the
+      whole time; they went shopping instead. Jiyloo walked the party past the first of those
+      two by drawing her pendant and saying so out loud.
+      (2) The cult is returning with the means to get past it. This replaces the source
+      module's flat 24-hour patrol clock; it is shorter, it is the party's own information,
+      and it tells them what the fight at the end will be about.
+    house_rule_in_effect: >
+      DOORNE'S RULES (scenarios/ashes-at-the-sphinx.md -> "Doorne's rules at the table").
+      Rule one, the PENDANT: an openly displayed pyramid satisfies 9a's Caryatid Columns;
+      spoken praise satisfies 9e's Stone Guardian. Those are the only two credential-checking
+      guardians in sixteen rooms. Rule two, the BLESSING: offered in 9A (the vestibule), right
+      after the ant scene. Each PC individually kneels in one of 9a's four doorframes and says
+      "I take the goodness of Doorne into my heart." The door chosen sets a boon for the whole
+      delve, keyed to the god's four names: EAST/Creator = no food or water needed + advantage
+      on saves vs poison and disease; WEST/All-Knowing = advantage on Investigation, History and
+      Religion here + the Rule-three door-marks read as plain language; NORTH/Mighty = carried
+      gear weighs half + advantage on Athletics to lift/shove/brace/hold; SOUTH/Omnipotent =
+      advantage on saves vs frightened, charmed, paralysed or forced movement. Decline all four
+      and you are *Unwelcome*: -1d4 on attacks, saves and checks, but ONLY in Doornian conflicts
+      and against Doornian obstacles — NOT the gargoyle, the Dark Creeper, the scarab swarm, the
+      settled ants, or the Black Water Cult. The choice is made ONCE and rides; 9m (Temple of
+      the Sphynx) is the only place to convert, renounce or re-dedicate. Escalation widens scope, never the die — by the fifth room of
+      refusal, Jiyloo's pendant no longer covers the holdout. Refusing buys something real:
+      no Deception disadvantage in holy rooms, and Sia (9p) will only negotiate with the
+      unblessed, treating the blessed as subjects.
+      Rule three, READING THE DOORS: the tomb's primary function is not burial, it is holding
+      the dead and the damned — Doorne does not destroy, he keeps. Four door-signs: clean
+      pyramid (his), skull turned outward on the flank = SEALED (held forever), skull set into
+      the face turned up to the apex = WASHING (being purified toward eventual release), base-
+      road struck through = NO PASSAGE (9b). The priests never entered the marked rooms; they
+      were their keepers, left offerings at the threshold dishes, and the gold-flecked pilgrim
+      road routes around every one. Marked rooms: 9d/9g/9h sealed, 9i/9k washing, 9b no passage,
+      9f defaced (unreadable — An-Zefful likely erased his own sentence). Marks label ROOMS not
+      objects, so 9l/9j/9n are unmarked and still dangerous. **9p has NO mark although it holds
+      a wight** — physical evidence that Sia's high priest, not Doorne, put him there.
+    design: >
+      The tomb as written is a room-by-room monster crawl with no information, no pressure,
+      nobody to talk to and a poisoned reward. Review and six proposed depth concepts are in
+      scenarios/ashes-at-the-sphinx-depth-concepts.md. Nothing there requires retconning what
+      was already played.
+    autonomous:
+      - "The tomb does not care. Its guardians are ancient and faction-blind and will kill Black Water cultists exactly as readily as the party."
+      - "Ashiq and the main body arrive on their own schedule whether the party is ready, deep inside, or already gone."
+
+  - id: thread:jeffrol-hothme
+    title: "Jeffrol on the northern road"
+    status: dormant
+    ref: "[[npc:jeff-giltor]]"
+    summary: >
+      Deep background, not in play. Sent north by Elmingwed in session 4 to shepherd the
+      camel venture to the Granite Empire, due back in ~9 weeks. On that road he ingratiates
+      himself with the **m'Thorsz at [[loc:hothme]]** and sets himself up as a trading
+      partner — and eventually a trading rival, thorn, and irritant to whoever the party is
+      working for. He surfaces if and when the party reaches Hothme and the western edge of
+      the Vanic Imperial side of the desert.
+    note: >
+      This is the payoff for NOT killing him. He comes back richer, better connected, and
+      still holding thread:orkideh-secret.
+    autonomous:
+      - "Nine weeks of contacts. He does not need the party for anything, which is exactly what makes him dangerous to them later."
+
+  - id: thread:the-prisoner-on-the-plinth
+    title: "The execution at the sphinx"
+    status: dormant     # no consequence yet — deliberately
+    summary: >
+      Session 4: the party took three cultists at the sphinx, killed one in the fight, and
+      then **executed one of the two who had surrendered.** Tath'Shar did it willingly; the
+      less bloody-minded PCs found something else to look at. It happened on the plinth of
+      the sphinx, on the threshold of a god's tomb. No outside witness survives.
+    why_track_it: >
+      Not to punish the table — to make it matter. Three places it can pay off, pick as many
+      as fit: (1) Doorne. The tomb's own rite turns on being clean, and "Doorne the
+      All-Knowing" is one of his four names. See the depth-concepts doc, Sketch 1 — the party
+      walked in carrying this. (2) Jiyloo saw it and is Dorne-faithful. She does not have to
+      say anything yet. (3) The party will meet another cornered, harmless cultist below —
+      the same choice with the stakes flipped, and it plays completely differently now.
+    autonomous:
+      - "Nothing propagates outward — nobody survived to report it. This is an internal debt, between the party, their god-haunted companion, and the tomb."

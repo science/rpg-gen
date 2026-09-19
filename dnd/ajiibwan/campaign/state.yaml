@@ -8,96 +8,167 @@
 
 campaign: "Deserts of Ajiibwan"
 run: "game-2"          # the reset playthrough with new players
-status: "in-play — 3 sessions played (see campaign/sessions/01-03.md); Kantaroz tower NOT yet entered; Jeffrol captured and in tow at Elmingwed's gate"
+status: >
+  in-play — 4 sessions played (campaign/sessions/01-04.md). The party is INSIDE the Tomb of
+  the Sphinx at the Oasis of Sia, mid-combat: standing in the east hallway off 9a with the
+  9b door forced open and Giant Ants coming through. Jeffrol is resolved and gone (north
+  road, ~9 weeks out). The Kantaroz tower is still unentered and its summoning still ticks.
+  Elmingwed's letter to Tsendur is carried but UNDELIVERED.
 
 # --- Party ------------------------------------------------------------------
-# Active table: 4 PCs at level 2 (Orkideh is central to the current adventure).
-# Possible future scale: if Jeffrol ends up staying with the party (rather than handed
-# over/sent away), the ongoing outfit becomes 5 PCs (incl. Tath'Shar) + Jiyloo + Jeffrol =
-# a 7-body party. Enemy stat blocks in scenarios/the-tinkerers-strings.md were tuned
-# smaller — scale up if that's where session 4 lands.
+# Active table: 5 PCs at level 2, plus Jiyloo (NPC) and Orkideh's dog. Six bodies and a
+# dog in the field — meaningfully more capable than the "4 level-1 PCs" assumption baked
+# into the world compendium's Oasis of Sia entry. Jeffrol is no longer with the party.
 party:
   level: 2
-  size: 4
+  size: 5
   members:
     - name: "Ren"        # player: Toan
+      pronouns: "she/her"
       race: "Halfling"
-      notes: "Spotted a construct in the foothills below Kantaron — the hook that led here."
+      notes: "Spotted a construct in the foothills below Kantaron — the hook that led there."
     - name: "Orkideh"    # player: Steph (new player; likes to drive the story)
+      pronouns: "she/her"
       race: "Elf"
       age: "~700"
       notes: >
-        Former criminal partner of the captive Jeff (Jeffrol Giltor). Cut a deal with
-        Elmingwed to hand Jeff over for half the proceeds of his loot. Carries a hidden,
-        unprovable secret — see thread:orkideh-secret (now ACTIVE — Jeff already told his
-        side in session 3). The leash on her player runs through Jeff, who cannot be safely
-        silenced.
+        Former criminal partner of Jeffrol Giltor. Cut a deal with Elmingwed to hand Jeff
+        over for half the proceeds of his loot; the proceeds turned out not to exist. Carries
+        a hidden, unprovable secret — see thread:orkideh-secret (ACTIVE; Jeff told his side in
+        session 3). Jeff is now 9 weeks up the northern road, which loosens but does not cut
+        the leash — he comes back. Session 4: befriended and now keeps the oasis dog (below).
     - name: "Lia"        # player: Ania
+      pronouns: "she/her"
       race: "Tiefling"
     - name: "Gereon"     # player: Mia
+      pronouns: "he/him"
       race: "Dwarf"
-    # Additional game-2 PCs who may rotate in (table runs 4-5 at a time):
-    - name: "Tath'Shar"  # player: Phoenix — NEW as of session 4 (2026-09-06); replaces the one-off Hasochi
+      notes: >
+        Scraggly dark brown-grey beard; plain (not fancy) robes, dressed too warm for the
+        desert. Fast on foot — ran down the fleeing cult monk at the sphinx in session 4.
+        Healed the oasis dog, which sealed its loyalty to Orkideh.
+    - name: "Tath'Shar"  # player: Phoenix — debuted session 4 (2026-09-06)
+      pronouns: "they/them"
       race: "Drow"
       notes: >
-        Gender-neutral, trans; they/them pronouns ONLY — do not default to she/her.
-        Rogue from a rich family; glamoured studded leather worn as ordinary clothing (DC
-        check after a long rest to notice); casts Thaumaturgy in place of the usual drow
-        Dancing Lights. Carries a letter of introduction to Elmingwed, and receives from him
-        a second letter for Tsendur at Durgan's Rest (real content — warns of Maghiel
-        hunting "prohibited artifacts"; see scenarios/elmingweds-web.md Scene 2). Their
-        sibling is [[npc:maghiel]] (she/her) — they believe Maghiel is active in the region
-        and want to find/stop her. GM-ONLY: in this reset
-        timeline Maghiel is NOT yet Black-Thorn-cursed — see
+        Trans, gender-neutral — **they/them ONLY, never she/her.** (Their sister Maghiel is
+        she/her.) Rogue from a rich family; subtly rich clothing — glamoured studded leather
+        that reads as ordinary fine travel wear (DC Investigation to notice, and only after
+        watching them through a long rest). Casts Thaumaturgy in place of the usual drow
+        Dancing Lights. Carries Elmingwed's sealed letter for Tsendur at Durgan's Rest,
+        still undelivered (thread:tsendur-letter). Has named [[npc:maghiel]] as their sister
+        at the table and knows she is active in the region. Session 4: personally executed a
+        bound cult prisoner on the sphinx's plinth, willingly.
+        GM-ONLY: in this reset timeline Maghiel is NOT yet Black-Thorn-cursed — see
         scenarios/mishap-at-durgans-rest.md for the origin event this is building toward.
-    - name: "Timiki"     # player: Briar — one-off guest in session 3, attendance for session 4 unconfirmed
+    - name: "Timiki"     # player: Briar — one-off guest in session 3
       bench: true
-      notes: "Guest appearance session 3 (caught the fleeing Jeff). Not confirmed for session 4."
+      notes: "Guest appearance session 3 (caught the fleeing Jeff). Did not attend session 4."
 
 # Permanent / recurring NPCs traveling with the party
 companions:
   - name: "Jiyloo Ubbett"
     ref: "[[pc:jiyloo]]"
     sheet: "level 1 Barbarian"
-    role: "Guide & front-line muscle ('meat shield'), hired by Elmingwed to take the party to Kantaron."
-    disposition: "Decent; wants Jeff kept alive. Will escort Jeff back to Elmingwed if asked — but then the party loses her muscle."
+    role: "Guide & front-line muscle, originally hired by Elmingwed to take the party to Kantaron; still with them."
+    disposition: >
+      Decent. Dorne-faithful (see [[deity:doorne]]) — she has a real personal stake in the
+      Oasis of Sia and will push back hard, in character, against stripping the temple or
+      the tomb.
+    gear: >
+      **Doornian pyramid pendant**, worn under her robes. Session 4: she led down the sphinx
+      stair, saw 9a, drew it out, wore it openly and announced "This area is holy for believers
+      of Doorne." That is why the Caryatid Columns never attacked — the tomb's two credential-
+      checking guardians are satisfied by an openly displayed pyramid (9a) or by spoken praise
+      (9e). She said it in front of the whole party, so the fact is theirs; whether they have
+      drawn the conclusion is another matter.
+    operable: >
+      The pendant must be VISIBLE and near the front to do anything. If Jiyloo is downed,
+      rear-ranked, separated, or sent back up the stair, 9a stops being safe ground. It covers
+      exactly two rooms of sixteen (9a, 9e) — not the undead, not the beasts, not the traps, and
+      not An-Zefful, whom Doorne cursed rather than commissioned. Full coverage table and the
+      "why the cult had to retreat and we walked in" answer:
+      scenarios/ashes-at-the-sphinx.md -> "Doorne's rules at the table". Note also that ANYONE can wear a
+      pyramid — Temple al Sia above ground is covered in them and the party has never been
+      inside it. Jiyloo also gates the per-character BLESSING ("kneel in the doorframe and say
+      'I take the goodness of Doorne into my heart'"); PCs who decline take the *Unwelcome*
+      penalty in Doornian rooms. Same write-up.
+  - name: "The oasis dog"
+    ref: "area 4 mastiff, scenarios/ashes-at-the-sphinx.md"
+    owner: "Orkideh"
+    acquired: "Session 4 — freed from under a collapsed tent, calmed by Animal Handling + Speak with Animals, healed by Gereon."
+    role: >
+      Permanent companion. Standing: passive Perception (scent) for the party. Potential,
+      with training: active Perception (scent) checks. Orkideh can also spend a Speak with
+      Animals to brief it and hear back what it smells.
+    open: >
+      It is the EL-ALOUPH family's dog (area 4, the wagon/camel shop). That family surrendered
+      and was TAKEN AS SLAVES into the desert — so per the source the dog "will follow the party,
+      or lead them on the trail to its family," which makes it a live lead on the slave caravan
+      (thread:missing-caravans). Separately, Afara Al-Doorne and her daughter Dasara are alive in
+      a covered hole near the pond (Elven Goods, area 5; Abd killed getting them hidden) and have
+      not been found. Two different households — do not merge them.
 
-# Captive in tow (not a companion — a live problem)
-captives:
+# Captives / departed
+departed:
   - name: "Jeffrol Giltor"
-    ref: "[[npc:jeff-giltor]]"   # see scenarios/the-tinkerers-strings.md dossier (tower content still unplayed)
-    aka: "Jeff"
-    race: "Half-orc / half-elf"
-    sheet: "level 1 Rogue"
+    ref: "[[npc:jeff-giltor]]"
     status: >
-      Captured at his camp near the Kantaroz tower, session 3, after he and his mercenaries
-      emerged from a day inside it (see campaign/sessions/03.md — the party ambushed them at
-      the camp, not inside the tower). Hauled to Tel A'bib; at Elmingwed's compound gate,
-      not yet handed over. His pockets are empty: he sank the stolen operating money in
-      a speculative camel-trade venture now en route to the Granite Empire, ~8-9 weeks out.
-      Bargaining for his life and freedom. If he ends up staying with the party rather than
-      being handed over, the ongoing outfit scales to 7 (see party note above).
-    combat: "Wildcard — may fight on the wrong side if loose, or sit tied up (then the party is a body down). Affects balance; the GM accepts that."
+      RESOLVED, session 4. Not handed over and not killed — Elmingwed put him to work.
+      He is on the northern trade road toward the Granite Empire, personally shepherding
+      the camel venture his stolen operating money is riding on, so Elmingwed's share pays
+      out. Due back in ~9 weeks.
+    gm_subplot: >
+      On that road he ingratiates himself with the m'Thorsz at [[loc:hothme]] and sets up as
+      a trading partner — and eventually a thorn/irritant — resurfacing as a rival operator
+      if the party reaches Hothme and the western edge of the Vanic Imperial desert.
+      See thread:jeffrol-hothme. Not yet in play.
 
 # --- Where & when -----------------------------------------------------------
 location:
-  region: "[[region:tel-abib-near-desert]]"
-  site: "Tel A'bib — the gate of Elmingwed's compound ([[npc:elmingwed]])"
+  region: "[[region:deep-desert-oases]]"
+  site: "[[loc:oasis-of-sia]] — inside [[subloc:sphinx-sia]], the Tomb of the Sphinx"
+  precise: >
+    The east hallway running off 9a (Hall of Water). Two doors at the end: one south
+    (unopened), one east (open). Giant Ants (9b) are coming through the east door.
+    Session 5 opens in initiative or in the decision right before it — see
+    scenarios/ashes-at-the-sphinx.md -> "Session 5 opens here" for the designed way out
+    (Jiyloo braces the door; the party washes their feet in 9a's pools and hers; the ants
+    settle) and for 9a as the vestibule that teaches all five observances and offers the
+    four-door oath. Fighting the ants remains fully available.
   situation: >
-    Session 3 ended here: Jeffrol in tow, not yet handed over. Session 4 (2026-09-06) opens
-    on this threshold. See scenarios/elmingweds-web.md for the planned session.
+    Above ground the oasis is cleared of living cultists except one captive: the surviving
+    cult monk who showed them the entrance. Two more cultists are dead — one in the fight,
+    one executed after surrender. The El-Alouph family is alive and undiscovered in their
+    pit. The scenario packet is scenarios/ashes-at-the-sphinx.md; the design review and
+    proposed depth work is scenarios/ashes-at-the-sphinx-depth-concepts.md.
 
 clock:
-  in_world_day: 1               # still day 1 of the reset run's tracked clock; refine once dilation is applied session-by-session
+  in_world_day: 4          # APPROXIMATE — day 1 was Elmingwed's gate; add travel Tel A'bib -> Sia. Adjust to your map distance.
   # Time dilation is handled NARRATIVELY between adventures, not with a factor: when the
   # party returns to Tel A'bib, ~6 weeks pass before the next adventure (game 1 used ~2).
   # That downtime gap is when autonomous threads (threads.yaml) tick.
   between_adventure_gap: "~6 weeks at Tel A'bib"
+  active_countdowns:
+    - name: "Black Water main body returns to the sphinx"
+      due: "1-2 days from the session-4 interrogation"
+      note: >
+        Replaces the source module's flat 24-hour patrol clock. The captured guards said the
+        main body left ~a week ago to fetch MAGICAL ITEMS NEEDED TO PENETRATE THE TOMB —
+        i.e. something down there stopped them cold and they are coming back able to open it.
+        This is a much better clock than the source's and it is the party's information,
+        earned by interrogation, not GM fiat.
+    - name: "Jeffrol returns from the Granite Empire road"
+      due: "~9 weeks"
+    - name: "Kantaroz summoning"
+      due: "no fixed date — ticks on every stretch of party inaction (thread:kantaron-summoning)"
 
 milestones:
-  - "Session 3: Jeffrol captured (thread:jeff-fate active; disposition still undecided)."
+  - "Session 3: Jeffrol captured. Party leveled to 2."
+  - "Session 4: Jeffrol resolved (deployed north, not handed over). Party chose reputation over gold and took Elmingwed's Oasis of Sia job unpaid. Tath'Shar joined. Tomb of the Sphinx entered."
 
 # --- Bookkeeping ------------------------------------------------------------
-last_session: "campaign/sessions/03.md"
+last_session: "campaign/sessions/04.md"
 open_threads_file: "campaign/threads.yaml"
 inventory_file: "campaign/inventory.yaml"
+active_scenario: "scenarios/ashes-at-the-sphinx.md"
