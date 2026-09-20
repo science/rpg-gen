@@ -287,14 +287,23 @@ convert, renounce or re-dedicate. *It is not faith* — no protection from the S
 **③ The doors.** Doorne does not destroy, he **keeps**. Most of this complex is a gaol, and the
 mark over each door tells you which kind:
 
+All of them are carved on the **lintel**, hand-sized. Marked rooms also have a **raised sill**, a
+**stone offering-dish in the floor outside**, and **a handle on the corridor side only.**
+
 | Mark | Meaning | Rooms |
 |---|---|---|
-| Clean pyramid | His | 9a, 9c, 9e, 9m |
-| **Skull on the flank, facing out** | **SEALED** — held forever. Don't open. | **9d, 9g, 9h** |
-| **Skull in the face, turned up to the apex** | **WASHING** — being purified toward release. Don't open. | **9i, 9k** |
-| Base-road struck through | **NO PASSAGE** — the route doesn't go this way | **9b** |
-| *Defaced* | can't tell which | **9f** |
-| *None* | not Doorne's work — squatters, objects, or **evidence** | 9j, 9l, 9n, 9o, **9p** |
+| Clean pyramid | His | 9a, 9c, 9e, 9l, 9m |
+| **Skull on the flank, turned OUT** (facing you, away from the god) | **SEALED** — held forever. Don't open. | **9d, 9g, 9h** |
+| **Skull set INTO the face, tilted up to the apex** (facing the god) | **WASHING** — being purified toward release. Don't open. | **9i, 9k** |
+| Base-road **struck through** | **NO PASSAGE** — the route doesn't go this way | **9b** |
+| **An open mouth beneath the pyramid** | ★ **This one wants WORDS, not a worn symbol.** Speak a name. | **9e**, 9m, and **the secret door into 9p** |
+| *Defaced — hammered flat* | was marked; can't tell which | **9f** |
+| *None at all* | not Doorne's work — squatters, objects, or **evidence** | 9j, 9n, 9o, **9p** |
+
+**★ The open mouth is the sign that wins the adventure.** It's on 9e, where the pendant stops
+working — and it's on the secret door into Sia's tomb, which the Black Water Cult beat on for days
+with fire, steel, acid and magic. That door has never been locked. It opens for four words, and
+nobody down here could read a mouth.
 
 **The gold-flecked pilgrim road routes around every marked room.** Follow the floor and you meet
 none of them. Marked doors have **handles on the corridor side only** and a **raised sill**, with
@@ -353,7 +362,28 @@ party executed a prisoner.*
 
 ### The tomb
 
+*Each card carries its own signs, repeated in full so you never have to scroll back. The
+complete grammar is on the rules card above and in Part 2, Rule three.*
+
+**The physical tells, identical on every marked door:** a hand-sized pyramid carved into the
+**lintel**; a **raised stone sill** you must step over deliberately; a **shallow offering dish set
+into the floor outside**, still holding four hundred years of dried nothing; and **a handle on the
+corridor side only.** You can open these doors. Nothing can open them from within.
+
+---
+
 ### 9a — Hall of Water ⟨clean⟩ · **the vestibule**
+
+**The doors (all four).** Every lintel carries a clean pyramid — no skull, no sill, no offering
+dish. Each is cut with one extra element, and **those four elements are the four aspects:**
+
+| | Lintel carving | Aspect |
+|---|---|---|
+| **East** | water running down both slopes, wheat standing at the base | the **Creator** |
+| **West** | a half-sun setting behind the pyramid, a small pair of scales | the **All-Knowing** |
+| **North** | a block of dressed stone resting on the pyramid's shoulder | the **Mighty** |
+| **South** | sand-lines streaming around the pyramid, which does not move | the **Omnipotent** |
+
 > **Read:** "Ornate to the point of showing off. Frescoes of a green and crowded empire. The floor
 > is black marble streaked with gold. Two pools of clear, slowly turning water stand before the
 > wyrmwood door in the west wall, and two more before the door in the east. There are doors north
@@ -362,70 +392,127 @@ party executed a prisoner.*
 **In it:** two of the four statues are **Caryatid Columns** — *dormant, because Jiyloo's pendant is
 showing.* They wake for anyone approaching a door with no pyramid on display.
 
-**Matters — this room is a classroom and the party has walked through it twice:**
-- **The pools are in front of the doors.** That's a washing station, not decoration.
-- The statues wear **Jiyloo's pendant**. *(free)*
-- A band of script under the frescoes — **DC 13 History** → the four names.
-- The frescoes show pilgrims **washing their feet on these pool rims**, one kneeling to wash an
-  elder's. *(free after the ant scene)*
-- **DC 14 Investigation/Religion** → the god's substance was *poured into* the building: gold into
-  the floor, water into the pools, fire into the hearth. **You can't carry the holiness out, so
-  you can't carry the things out.**
-- **The four doors** — the oath and the boons. **→ the rules card, ②**
+**The walls — this room is a classroom and the party has crossed it twice:**
+- **The four statues wear a carved pyramid pendant, identical to Jiyloo's.** *(free)* → **rite 1**
+- **A band of script runs beneath the frescoes on all four walls.** **DC 13 History** → the four
+  names: *Doorne the All-Knowing, Mighty Doorne, Doorne the Omnipotent, Doorne the Creator.*
+  → **rite 2**
+- **Pilgrims are shown seated on these exact pool rims washing their feet**, one kneeling to wash
+  an elder's. *(free after the ant scene, otherwise DC 10)* → **rite 3**
+- **Every figure painted inside the building has empty or open hands.** The ones carrying goods
+  are all outside it. **DC 14 Investigation/Religion:** the panels show the god's substance being
+  *poured into* the place — gold into the floor, water into the pools, fire into the hearth.
+  Look down: the marble really is streaked with gold. **You cannot carry the holiness out, so you
+  cannot carry the things out.** → **rite 4**
+
+**Do:** wash feet in the pools. Then each PC kneels at one door and takes the oath — **the door
+they pick sets their boon.** → rules card ②
 
 **Loot:** none. That's the lesson.
 
-### 9b — Guardian Ants ⟨NO PASSAGE⟩
+---
+
+### 9b — Guardian Ants ⟨**NO PASSAGE**⟩
+
+**The door.** Pyramid on the lintel standing on a carved **base-line — a road** — and that road is
+**cut clean through by a single deep chisel stroke.** No skull. No sill, no offering dish: this is
+not a cell. **It means: the route does not go this way.** The builders were being helpful.
+
 > **Read:** "The walls carry bas-reliefs of giant ants eating people staked out in the sand. Some
 > of the ants standing along the north and south walls stop being carvings."
 
 **In it:** **12 Giant Soldier Ants**, two waking per round for six rounds. Fight to the death.
 
-**Matters:**
-- **The way out is the wash, not the fight** — **→ the opening scene.** Fighting is equally fine;
-  reward backing into 9a and taking them through the doorway one at a time.
-- Once settled: **taking the dead cultist and his route-sketch is safe** (he came from outside).
-  **Prying the door fittings or chipping the floor wakes all twelve.** That distinction *is*
-  rite four, delivered survivably.
+**The walls.** Not decoration and not a threat display — **a picture of the penalty for robbery,
+hung in the room that carries it out.** Spread-eagled figures pegged in sand, ants over them.
 
-**Loot:** a dead cultist's kit and a charcoal **route-sketch** of everything the expedition mapped
-— the ant room crossed out, two rooms blank, one corridor drawn wrong.
+**Do:** **the way out is the wash, not the fight** (→ the opening scene). Once the ants settle,
+**taking the dead cultist and his route-sketch is safe** — he came from outside. **Prying the door
+fittings or chipping the floor wakes all twelve**, because that is robbery and robbery is the one
+thing this room exists for. That distinction *is* rite 4, delivered survivably.
 
-### 9c — Hall of the Great God ⟨clean⟩ · **the cult's camp**
+**Loot:** a dead cultist's kit and a charcoal **route-sketch** — ant room crossed out, two rooms
+blank, one corridor drawn wrong.
+
+---
+
+### 9c — Hall of the Great God ⟨clean⟩ · **the teaching room, and the cult's camp**
+
+**The door.** Clean pyramid, **sun disc on the apex, wheat at the base.** No sill, no dish. The
+gold-flecked pilgrim road runs straight down the middle of this hall — **this is the processional,
+the spine of the complex.**
+
 > **Read:** "A hall twenty feet wide, frescoed end to end: desert people in lush country
 > worshipping a man who wears a pyramid for a hat. A pyramid stands in every panel — struck by
-> lightning, with the sun on its point, with wheat growing out of the top. Some have a skull on
-> the side. At the far end stand two statues of armoured men, hands on their sword hilts."
+> lightning, with the sun on its point, with wheat growing out of the top. Some of them have a
+> skull on the side. At the far end stand two statues of armoured men, hands on their sword hilts."
 
 **In it:** nothing hostile. Twenty-odd cultists lived here for a month.
 
-**Matters:**
-- **Teach the skull grammar here. DC 10:** there are two kinds of pyramid on these walls.
-- **Secret door between the two statues**, CL 10 → **CL 7** if someone remarks that there are only
-  two statues and they're five feet apart → **CL 5** if they've noticed the matching pair in the
-  west hall.
-- **The camp** — the tally (31 marks, 19 struck through), the dispatch, the unsent letter, the
-  mapcase, a latrine dug under a fresco of the harvest. **DC 10:** bedding rolled, firepits banked,
-  stores stacked — *nobody who leaves for good tidies up.* **They're coming back here.**
-  **→ The cult's high-water mark**
+**The walls — ★ this is where the grammar gets taught.** The source hands you every variation of
+the pyramid on one hallway:
+- struck by lightning · sun touching the pinnacle · wheat growing from the top → **the clean sign.
+  His. Worship, harvest, weather, passage.**
+- **and some with a skull on the side** → **the other kind.**
 
-**Loot:** no coin (they took it). Bulk water, oil, rations, rope, timber, canvas — logistics, worth
-more than coin on a clock.
+**DC 10 Investigation:** there are two kinds of pyramid on these walls, and the skull ones are
+always beside panels of the dead. **DC 13:** the skull sign also appears *over doorways* — and the
+gold road never once turns into a room that has one. **DC 16 / Religion:** the skull's orientation
+is the word. Facing **out, away from the pyramid** = *sealed.* Set **into the face, tilted up
+toward the apex** = *washing.*
+
+**Also in the walls:** a **secret door between the two armoured statues** at the north end. CL 10
+→ **CL 7** if someone remarks there are only two statues and they stand five feet apart → **CL 5**
+if they've noticed the matching pair in the west hall.
+
+**The camp.** Tally scratched into the plaster (**31 marks, 19 struck through**), the dispatch in
+an oilcloth wallet under a bedroll (**DC 13**), an unsent letter home, the mapcase, and a latrine
+trench dug under a fresco of the harvest. **DC 10:** bedding rolled, firepits banked, stores
+stacked — *nobody who leaves for good tidies up.* **They are coming back here.**
+→ Part 2, *The cult's high-water mark*
+
+**Do:** learn the signs here. From this room on, **look at every lintel before touching a door.**
+
+**Loot:** no coin. Bulk water, oil, rations, rope, timber, canvas — logistics, worth more than
+coin on a clock.
+
+---
 
 ### 9d — Skeletal Guardians ⟨**SEALED**⟩
-> **Read:** "Eight skeletons, two in each corner. All eight heads turn. The frescoes show people
-> being sacrificed in front of a pyramid with a skull on its side."
+
+**The door. ★ Do not open this one.** Pyramid on the lintel with a **skull in low relief on the
+right flank, turned outward** — it faces *you*, standing in the corridor, and faces *away* from the
+god. Raised sill. Offering dish in the floor outside with the dust of the last offering still in
+it. Handle on the corridor side only. **Sealed: what is in here is held, and will be held.
+Nothing about it is going to change.**
+
+> **Read (only if they open it):** "Eight skeletons, two in each corner. All eight heads turn. The
+> frescoes show people being sacrificed in front of a pyramid with a skull on its side."
 
 **In it:** **8 Skeletons.** Vulnerable to bludgeoning. **They chase** — the only marked room whose
-occupants pursue.
+occupants pursue past the threshold.
 
-**Matters:** these are the people the state killed in Doorne's name. **There is no rite for the
-murdered**, so they can't be purified — only held, because they're angry. They have a case, and
-they want out. **The door said don't.**
+**The walls.** Sacrifice, repeated: figures held down before a skull-marked pyramid. **Their hands
+are bound and their faces are turned away from the god** — the same direction the skull on the
+lintel faces. That is the whole meaning of *sealed*, said twice.
+
+**What it actually is:** the people the state murdered in Doorne's name. **There is no rite for
+the murdered** — they did nothing to be purified of — so they are not being washed, only kept,
+because they are furious. They have a case, and that is why they chase.
+
+**Do:** walk past. If they open it, fight in the corridor is a mistake and running doesn't work.
 
 **Loot:** none.
 
-### 9e — Statue Guardians ⟨clean⟩ · **where the cult broke**
+---
+
+### 9e — Statue Guardians ⟨clean, **+ the open mouth**⟩ · **where the cult broke**
+
+**The door. ★ This lintel carries a fifth sign, and it is the one that saves them.** A clean
+pyramid — and **beneath it, small and worn, a carved open mouth.** **The mouth means: this one
+wants words spoken, not a symbol worn.** A party that has got into the habit of reading lintels
+gets this for free and walks through. A party that hasn't, doesn't.
+
 > **Read:** "Statues of men and women in priestly robes line the south wall. Above them, something
 > is chiselled into the stone in large letters — gouged at, scraped, attacked with a chisel, and
 > still perfectly legible. The plinth in the middle of the room is ringed with bodies."
@@ -434,189 +521,355 @@ they want out. **The door said don't.**
 spoken. AC 18; **edged weapons quarter damage, missiles do nothing and are destroyed**, wood hafts
 break; immune to mind control; sees invisible. Won't leave the room.
 
-**Matters:**
-- **The pendant does not work here — it wants words.** Any of the four names, said before 15 ft.
-  Said *mid-fight* it stops and resets — **unless it's struck again afterwards**, which restarts
-  the fight for good.
-- **Seven or eight mummified cultists** ringed at exactly its reach, scimitars snapped, arrows in
-  splinters nowhere near it. **DC 10:** they attacked it on separate days; they came back and tried
-  again. **DC 14 Religion / Jiyloo:** the defaced inscription reads *"Praise Doorne the All-Knowing
-  and live."* They read the instructions, tried to destroy them, and went shopping.
+**The walls.** Worship at the feet of the pyramid-hatted man; one panel shows **two sphinxes
+genuflecting.** And above the statues, in Doornian script *and* hieroglyphs, large enough to read
+across the room:
+
+> ***"Praise Doorne the All-Knowing and live."***
+
+It has been gouged, scraped and chiselled at — and left perfectly legible.
+
+**Do:** **say one of the four names out loud before anyone is 15 ft into the room.** The pendant
+does nothing here. Said *mid-fight* it stops the guardian and resets it — **unless it's struck
+again afterwards**, which restarts the fight for good.
+
+**The cult, at their high-water mark:** seven or eight mummified cultists ringed at exactly the
+guardian's reach, scimitars snapped, arrows in splinters nowhere near it. **DC 10:** they attacked
+it on separate days — they came back and tried again. **DC 14 Religion / Jiyloo:** they read the
+inscription, tried to destroy it, and went into the desert to buy magic rather than say four
+words to the wrong god.
 
 **Loot:** cult gear.
 
-### 9f — An-Zefful, the Minotaur ⟨**defaced**⟩
+---
+
+### 9f — An-Zefful, the Minotaur ⟨**DEFACED**⟩
+
+**The door.** The lintel has been **hammered flat.** You can make out the ghost outline of a
+pyramid and a rough oval where something was set into it — **and you cannot tell which orientation
+the skull had.** The sill is still there and so is the offering dish, kicked half out of its
+setting. So it *was* marked, and someone destroyed the label.
+
 > **Read:** "Every fresco in this room has been smashed and scratched off the wall. Blood stains
-> the whole north wall. In the middle stands a minotaur with an axe over his shoulder. He turns,
-> lowers his head, and bellows."
+> the whole north wall, old and black. In the middle stands a minotaur with an axe over his
+> shoulder. He turns, lowers his head, and bellows."
 
-**In it:** **An-Zefful.** 35 HP, +7 to hit, 1d8+5 (Battle Axe +1). **Never Surprised.** Powerful
-Charge on round 1 if the room allows. Cannot be talked down; has a death wish. Can't follow anyone
-out; turns to dust if magically removed.
+**In it:** **An-Zefful.** 35 HP, +7, 1d8+5 (**Battle Axe +1**). **Never Surprised.** Powerful
+Charge on round 1 if the room allows it. Cannot be talked down; has a death wish. Can't follow
+anyone out; turns to dust if magically removed.
 
-**Matters:** the door's mark was destroyed and **you cannot tell whether he is sealed or washing**
-— whether killing him ends a punishment or interrupts a redemption. Best answer: **he erased it
-himself**, over four centuries. **No blessing is available in here.** Killing him is a mercy; give
-it a line of narration when he goes down.
+**The walls.** There aren't any left. That is the information.
+
+**What it means:** the party **cannot tell whether he is sealed or washing** — whether killing him
+ends a punishment or interrupts a redemption. Best answer, never stated: **he did it himself,**
+over four centuries, trying to erase his own sentence. **No blessing is available in this room**,
+because there is nothing left to read.
+
+**Do:** walk past. If they fight him, give the kill a line of narration — it's a mercy either way,
+and nobody will ever know which.
 
 **Loot:** **Battle Axe +1.**
 
-### 9g — Coffer Corpse ⟨**SEALED** — and the mark is newer⟩
-> **Read:** "The walls are painted with weather — sunrises through to floods — and over all of it
-> a giant man in a pyramid hat, standing and smiling. A lifelike statue of a desert warrior stands
-> in the room, and a statue of an ugly, buzzard-like thing. In the northeast corner a long-dead
-> woman turns, raises her arms, and runs at you."
+---
+
+### 9g — Coffer Corpse ⟨**SEALED** — and the carving is newer⟩
+
+**The door.** Sealed mark: skull on the flank, turned outward. Sill, dish, corridor-side handle.
+**DC 12 — and this is the one worth catching:** the carving is **sharper and less weathered than
+every other mark in the complex.** It was cut centuries after the rest.
+
+> **Read (only if they open it):** "The walls are painted with weather — sunrises through to floods
+> — and over all of it a giant man in a pyramid hat, standing and smiling. A lifelike statue of a
+> desert warrior stands in the room, and a statue of an ugly, buzzard-like thing. In the northeast
+> corner a long-dead woman turns, raises her arms, and runs at you."
 
 **In it:** **Coffer Corpse.** 10 HP — **only harmed by magic weapons** (say this before three
 whiffs). Choke: automatic follow-up damage the round after it hits. Resists turning.
 
-**Matters:** the warrior statue is a **bandit who was caught robbing this tomb** — *after* the
-priests stopped coming. The buzzard is a **petrified cockatrice** (turn it back to flesh and it
-fights). **This room is still being filled.** → and see *the new statue*, below.
+**The walls.** Everything the god does to the world, in order, with him standing over it smiling:
+sunrise, growth, storm, flood. A room about power over nature — which is a dark joke about the two
+statues standing in it.
+
+**What it means:** the "statues" are a **petrified bandit** who was caught robbing this tomb and
+the **cockatrice** that caught him. *After the priests stopped coming.* **The building cut a fresh
+mark and filed him.** It has gone on working in the dark for four hundred years, and it is still
+working now. → and see *the new statue*, at the end of these cards.
+
+**Do:** walk past. If they open it: magic weapons only, and don't turn the cockatrice back to flesh.
 
 **Loot:** nothing worth it.
 
+---
+
 ### 9h — Ogre Guardian ⟨**SEALED**⟩
-> **Read:** "The walls are painted black, with small yellow lights shining on them. On the far wall
-> a large man in a pyramid hat is painted, staring at you. Below him the decaying corpse of an ogre
-> opens its eyes."
+
+**The door.** Sealed mark: skull on the flank, turned outward. Sill, corridor-side handle — and
+**the offering dish outside this one is scoured clean and empty,** with no residue at all. Every
+other dish in the complex has centuries of dried offerings in it. **Nobody ever left anything for
+this one.** Whatever is in there, the priests kept it and did not feed it.
+
+> **Read (only if they open it):** "The walls are painted black, with small yellow lights shining
+> on them. On the far wall a large man in a pyramid hat is painted, staring at you. Below him the
+> decaying corpse of an ogre opens its eyes."
 
 **In it:** **Monster Zombie (Ogre).** 20 HP, slam 1d6+4, **Slow** (always acts last). Won't chase.
 
-**Matters:** the yellow lights are **22 citrines**, 20 gp each. Half an hour to pry out cleanly;
-fifteen minutes damages them to 10 gp. **Come empty applies.** The cult got most of the easy ones —
-leave four in place if you want the party to find evidence of the prying.
+**The walls.** Black, and the yellow lights are **22 citrines** set into the walls and ceiling,
+20 gp each — a night sky, with the god painted staring straight at the door. Half an hour to pry
+them cleanly; fifteen minutes damages them down to 10 gp.
+
+**What it means:** sealed, and filed without ceremony. Not even a Doornian — just a thing that had
+to go somewhere.
+
+**Do:** walk past. **The citrines are the temptation, and rite 4 applies** — they're set into the
+fabric of the building. Prying them is the same act the man in the wall in 9j died committing.
 
 **Loot:** up to 440 gp of citrine, at a price.
 
+---
+
 ### 9i — Ghoul Guardians, the dakhma ⟨**WASHING**⟩
-> **Read:** "The room reeks. The reliefs show the man in the pyramid hat — a skull on the side of
-> it — standing in the well of a dakhma, bodies laid out in rings around him, his hand raised. Four
-> of the bodies in the relief are standing, with long fangs. Four in the room begin to shuffle
-> toward you."
+
+**The door.** Pyramid on the lintel with the skull **set into the sloping face like an inlaid
+stone, tilted up toward the apex** — it faces *the god*, not you. Sill, corridor-side handle. And
+**the offering dish outside this one is the deepest-crusted in the complex** — layer on layer of
+grain and oil residue. *Somebody tended this one, every day, for a very long time.* **Washing: the
+thing inside is being worked on, and the work was meant to end in release.**
+
+> **Read (only if they open it):** "The room reeks. The reliefs show the man in the pyramid hat —
+> a skull on the side of it — standing in the well of a dakhma, bodies laid out in rings around
+> him, his hand raised. Four of the bodies in the relief are standing, with long fangs. Four in
+> the room begin to shuffle toward you."
 
 **In it:** **4 Ghouls.** Two claws each per turn. **Paralysis on a claw hit — STR save or 1d4+1
-minutes.** Call it out loudly the first time.
+minutes.** Call it out loudly the first time it lands; it is the real danger, not the damage.
 
-**Matters:** the paralysis is the danger, not the damage. **This is a purification in progress** —
-these are people who died accursed of Doorne and are being cleansed, four hundred years in. Killing
-them **ends** the process rather than completing it, and **Jiyloo will say so, badly.** Optional:
-**complete the rite** — bodies back in the circles, their names spoken, and **Doorne's own fire**
-(Sia's Coal, or a brand from the restored Ember). **→ Rule three, "finishing a washing"**
+**The walls.** A **dakhma** — a tower of silence, a structure whose actual purpose is to expose and
+purify the dead. The relief shows the rite as it should look: concentric rings of laid-out bodies,
+the god in the well with his hand raised. **Four of them are standing up in the picture too.** The
+relief is a diagram of a process, and it is a diagram of a process that has gone wrong.
+
+**What it means:** these are people who died accursed of Doorne and are being **cleansed**. Four
+hundred years in, and not clean yet, because the fire went out when the Ember did.
+
+**Do:** walk past. **Killing them ends the process rather than completing it**, and Jiyloo will say
+so, badly, the way people say things they were raised on and can't argue for.
+**Optional — complete the rite:** bodies returned to the circles, **their names** (findable in 9c's
+frescoes or a priest's roll in 9m), and **Doorne's own fire** — Sia's Coal, or a brand from the
+relit Ember. → Part 2, Rule three, *finishing a washing*
 
 **Loot:** none.
 
-### 9j — Hall of the Forgotten Guardians ⟨none⟩ · **the dig**
+---
+
+### 9j — Hall of the Forgotten Guardians ⟨**none**⟩ · **the dig**
+
+**The door.** **Plain lintel. No pyramid at all, no sill, no dish.** To a party that has learned to
+read, that says something useful: **this is a corridor of the complex, not a cell.** It is also a
+reminder that an unmarked room can still kill you — the tomb only labels *its own* work.
+
 > **Read:** "The walls show humans working in mines and building tombs, every overseer in a pyramid
-> hat. Two brightly painted statues stand on the east wall. And in the far wall someone has hacked
+> hat. Two brightly painted statues stand on the east wall. And in the far wall, someone has hacked
 > a tunnel."
 
 **In it:** **1 Gargoyle** — one of the two painted statues. **Freeze:** give it a surprise round.
-Pursues this hallway, not beyond. *(A squatter. Not Doorne's, not marked, not answerable to
-anything.)*
+Pursues this hallway, not beyond. *A squatter. Not Doorne's, not marked, not answerable to
+anything.*
 
-**Matters — the centrepiece:**
-- **Eighteen feet of tunnel** driven at the sealed wing, shored with wagon timber cut from the
-  burned shop above ground. **Seven cultists are in the walls** — one sunk to the waist still
-  holding a pick, one a shoulder and half a face, one just a hand flush with the rock at the face.
-- **DC 12:** the fresco isn't miners mining. They're being **taken into** the stone, and the
-  overseers are watching and smiling. The warning was painted here four centuries ago.
-- **DC 15:** absorption runs *against* the dig — the shallowest is the last man in. **They kept
-  sending people.**
-- **Hazard, telegraph it:** first tool that cuts **sticks and is lost, nobody hurt.** Persist → CON
-  13, restrained and sinking, one round for allies to haul them clear. Walking, hauling spoil and
-  carrying bodies out are completely safe. **→ The cult's high-water mark**
+**The walls — ★ look closely, because the cult didn't.** At a glance: miners cutting stone,
+labourers raising tombs, overseers in pyramid hats supervising.
+
+**DC 12:** the miners **are not mining.** Their hands and forearms are already **merged into the
+rock face they are cutting** — the stone has grown over them to the wrist, the elbow, the shoulder
+— and the pyramid-hatted overseers standing behind them are watching it happen **and smiling.**
+
+**This is not a mark and it is not a curse. It is an instruction manual,** painted four hundred
+years ago, in the one room where somebody would eventually be stupid enough to dig.
+
+**The dig.** Eighteen feet of tunnel driven at the sealed wing, shored with wagon timber cut from
+the burned shop above ground. **Seven cultists are in the walls** — one sunk to the waist still
+holding a pick that is also in the stone, one a shoulder and half a face, one just a hand flush
+with the rock at the tunnel face. **DC 15:** absorption runs *against* the dig — the shallowest
+body is the **last** man in. They kept sending people.
+
+**Do — telegraph this hard, it is not a gotcha:** the **first tool that cuts stone sticks and is
+lost. Nobody is hurt.** That's the warning shot. Persist → **CON 13**, restrained and sinking, one
+round for allies to haul them clear; a second failure costs the hand. **Walking, hauling spoil and
+carrying bodies out are completely safe** — say so if they ask.
 
 **Loot:** steel mining tools (~40 gp). In the waist-deep man's pocket: a **black obsidian serpent
-ring** (Cult membership token — infiltration later) and **~15 gp of gold filings** he'd been
+ring** (Cult membership token — infiltration later) and **~15 gp of gold filings** he had been
 scraping out of 9a's floor for weeks, hidden, against orders.
 
+---
+
 ### 9k — Zombie Guardians ⟨**WASHING**⟩
-> **Read:** "Deep reliefs of people clawing their way up out of the ground while a man in a pyramid
-> hat smiles down at them. Four dried corpses shuffle at the door, raising their arms and groaning."
 
-**In it:** **4 Zombies.** Slow. Won't chase.
+**The door.** Skull **set into the face, tilted up toward the apex** — facing the god. Sill, dish
+with a moderate residue, corridor-side handle. **Washing.**
 
-**Matters:** "Doorne's less faithful followers, serving him better in death than in life" — penance
-through labour, and the work was meant to finish. It hasn't.
+> **Read (only if they open it):** "Deep reliefs of people clawing their way up out of the ground
+> while a man in a pyramid hat smiles down at them. Four dried corpses shuffle at the door,
+> raising their arms and groaning."
+
+**In it:** **4 Zombies.** Slow (always act last). Won't chase.
+
+**The walls.** People dragging themselves up out of the earth, and the god **smiling** — which
+reads as horror until you know the grammar, and then reads as approval. They are being *raised*,
+not punished: "Doorne's less faithful followers, serving him better in death than in life."
+**Penance through labour**, and the labour was supposed to end.
+
+**Do:** walk past. If they open it, it's four slow zombies and no pursuit — the cheapest of the
+marked rooms to make a mistake in, which makes it a good place to *learn* that the marks are real.
 
 **Loot:** none.
 
-### 9l — Scarab Guardians ⟨none — a clean room⟩
+---
+
+### 9l — Scarab Guardians ⟨**none** — and the door is telling the truth⟩
+
+**The door.** **A clean pyramid with wheat at the base. No skull. No sill. No offering dish.** This
+is a *good* room and the lintel says so honestly.
+
 > **Read:** "A bright sun fills the northwest corner. The floor is green stone, inlaid with people
 > dancing with their hands joined. In the centre lies a beautifully wrought golden scarab."
 
-**In it:** nothing — **unless someone lifts the scarab**, at which point a **Scarab Beetle Swarm**
-pours from the east and west walls onto whoever is holding it.
+**In it:** nothing — **until someone lifts the scarab**, at which point a **Scarab Beetle Swarm**
+pours out of the east and west walls onto whoever is holding it.
 
-**Matters — this is the lesson that keeps the mark system honest.** A *clean* room with a cursed
-thing in it. **The marks label rooms, not objects.** The curse: the bearer can't sleep well enough
-to heal or recover spells until it's returned; dropping or selling it makes it reappear in their
-path; *Remove Curse* only holds 24 hours unless cast by a 9th-level priest.
+**The walls and floor.** The high-water mark of the good reign: a sun, joined hands, dancing.
+**And not one figure in the inlay is holding anything** — the same empty-handed motif as 9a.
+
+**What it means — ★ this is the room that keeps the whole mark system honest.** The marks label
+**rooms, not objects.** This room is clean. The thing lying in the middle of it is not. Let the
+system fail here, exactly once, on purpose.
+
+**Do:** admire it. **Don't pick up the scarab.** If someone does: the swarm, and the curse — the
+bearer can't sleep well enough to heal or recover spells until it's returned; dropping or selling
+it makes it reappear in their path; *Remove Curse* holds only 24 hours unless cast by a 9th-level
+priest.
 
 **Loot:** the scarab. Don't.
 
-### 9m — Temple of the Sphynx ⟨clean, maximally⟩
+---
+
+### 9m — Temple of the Sphynx ⟨**clean, and maximally**⟩
+
+**The door.** Clean pyramid, **sun on the apex, and the open mouth beneath it** — the same sign as
+9e: *this place answers people who speak.* And cut into the threshold stone itself, a **shallow
+basin**, worn smooth by centuries of hands. Inside, the three doors are inlaid rather than carved:
+**west a golden sun, east a mother-of-pearl moon, south a brown soapstone pyramid.**
+
 > **Read:** "A temple, and stunning. An ironwood podium stands at the centre of the south wall with
 > a chair behind it, flanked by huge seated statues of **dog-headed men in pyramid hats** — the
-> left one's eyes are rubies, the right one's emeralds. Rows of carved benches fill the rest. The
-> west door is inlaid with a golden sun, the east with a mother-of-pearl moon, the south with a
-> brown soapstone pyramid."
+> left one's eyes are rubies, the right one's emeralds. Rows of carved benches fill the rest."
 
 **In it:** nothing hostile.
 
-**Matters:**
-- **The only place to convert, renounce, or re-dedicate** (rules card ②). If someone has been
-  eating the −1d4 for six rooms, this is their destination.
-- **The dog.** Describe the dog-headed statues, then describe **Orkideh's dog going quiet when it
+**The walls and statues.** This is the living heart of the complex — the room the priests actually
+worked in, between rounds of leaving grain at eleven thresholds. The **dog-headed attendants** are
+Doorne's servants; the benches mean this room held *people*, not just rites.
+
+**Do:**
+- **★ This is the only place to convert, renounce, or re-dedicate** (rules card ②). The worn basin
+  in the threshold is where you kneel. If someone has been eating the −1d4 for six rooms, this is
+  their destination — say the basin is worn smooth and let them draw the conclusion.
+- **The dog.** Describe the dog-headed statues. Then describe **Orkideh's dog going quiet when it
   sees them.** Say nothing else.
-- Rubies 400 gp each, emeralds 600 gp each, door inlay ~17 gp. **Come empty**, and looting a temple
-  in front of Jiyloo is not a loot decision, it's a relationship decision.
+- **A priest's roll** is findable here — the names needed to finish the washing in 9i.
+
+**Rite 4 bites hardest here:** rubies 400 gp each, emeralds 600 gp each, ~17 gp of door inlay.
+Prying the eyes out of a temple in front of Jiyloo is not a loot decision, it's a relationship one.
 
 **Loot:** 2,000 gp of eyes you shouldn't take.
 
-### 9n — Tomb Guardians ⟨none⟩ · **the Griffon Blades**
-> **Read:** "Five stone coffins rest on catafalques, each carved with the relief of a knight holding
-> a sword. Statues of the pyramid-hatted man stand in the northeast and southeast corners, and
-> between them the walls carry knights flying on gryphons."
+---
+
+### 9n — Tomb Guardians ⟨**none** — a different vocabulary⟩
+
+**The door.** No pyramid on the lintel. Instead the whole frame is carved with **gryphons in
+flight** — military heraldry, not priestly signage. **This isn't a cell and it isn't a shrine. It's
+an honour vault**, granted space inside the god's house.
+
+> **Read:** "Five stone coffins rest on catafalques, each carved with the relief of a knight
+> holding a sword. Statues of the pyramid-hatted man stand in the northeast and southeast corners,
+> and between them the walls carry knights flying on gryphons."
 
 **In it:** **Dark Creeper** in the centre coffin. AC 20 (16 in light), 6 HP. Grabs a light source
-and vanishes. **Let him succeed once; don't spend more than two rounds on him.**
+and vanishes rather than fighting. **Let him succeed once; don't spend more than two rounds.**
 
-**Matters:** four of the five coffins hold **Griffon Blades** — an elite knightly order that
-**still exists and is honoured across the desert**, and which has lost the location of this tomb.
-Returning one knight's blade and sigil to the living order costs nothing but the carrying and is
-worth more than the grave goods. **This is the reputation payoff, and reputation is what this
-party chose over gold in session 4.**
+**The walls and coffins.** Each of the five coffin lids names its knight in the relief. Four of the
+five hold **Griffon Blades** — an elite order that **still exists and is honoured across the
+desert**, and which has lost the location of this tomb entirely.
+
+**Do:** **read the coffin reliefs and write the names down.** Returning one knight's blade and
+sigil to the living order costs nothing but the carrying and is worth more than the grave goods.
+**This is the reputation payoff, and reputation is exactly what this party chose over gold at
+Elmingwed's gate.**
 
 **Loot:** four knights' arms. Spend them on standing, not on a fence.
 
-### 9o — False Treasure Room ⟨none⟩ · **the humiliation**
+---
+
+### 9o — False Treasure Room ⟨**none** — and that should feel wrong⟩ · **the humiliation**
+
+**The door.** **Plain. No pyramid, no skull, no sill, no dish.** By now that should bother
+somebody: *the treasure room of a god's tomb, and the god didn't sign it?* **Because it isn't the
+treasure room and it isn't his work. It's Sia's.**
+
 > **Read:** "This must be the treasure room. The paintings show a man whipping slaves, waging war,
-> lounging among beautiful women. Two ivory chests stand against the north wall and two against the
-> south — all four smashed open, the birch showing through the thin ivory. Three hundred silver
+> lounging among beautiful women. Two ivory chests stand against the north wall and two against
+> the south — all four smashed open, the birch showing through the thin ivory. Three hundred silver
 > pieces lie scattered where somebody weighed them. The bronze daggers have been thrown at a wall.
 > In the corner is a neat little heap of scraped gold leaf. And most of the floor is gone."
 
-**In it:** no creature. **The cult already fired the trap** — they moved the golden statues without
-finding the switch and dropped the floor. **Four mummified cultists** are on the spikes ten feet
-down (the poison died centuries ago). The **two-foot ledge** in front of the secret door survives.
+**In it:** no creature. **The cult already fired the trap** — moved the golden statues without
+finding the switch and dropped the floor. **Four mummified cultists** on the spikes ten feet down
+(the poison died centuries ago). The **two-foot ledge** in front of the secret door survives.
 
-**Matters:**
-- Everything here is fake: ivory over birch, gold leaf over worm-eaten wood, shaved silver, bronze
-  daggers at −1, pewter "chainmail." Somebody spent a day scraping and got **10 gp of leaf**.
-  *(Contrast deliberately with the miner's private 15 gp in 9j.)*
-- **The secret door** on the ledge — CL 2 now the floor is down. Soot in a fan shape, every edge
-  chiselled, a **pick-head snapped off in the top seam**, acid runnels — and wipe it clean and
-  **the stone underneath is perfect.** **DC 13:** fire, steel, acid, over days. **DC 16 / Arcana
-  14:** and at least one real spell. **It isn't locked.** It's Doornian, it opens for the rite, and
-  that is what the main body left the desert to buy a way around.
+**The walls — ★ the tell.** Whipping, war, concubines. **The pyramid appears in exactly none of
+these panels.** Every other room in this complex has the god somewhere in the picture. Here the
+king is alone, and everything in the room is counterfeit: ivory over birch, gold leaf over
+worm-eaten wood, shaved silver, −1 bronze daggers, pewter "chainmail." Somebody spent a full day
+scraping and came away with **10 gp of leaf**. *(Contrast deliberately with the miner's private
+15 gp in 9j: one is sanctioned and pointless, the other is a man robbing his own side in secret.)*
+
+**★ The secret door on the ledge — and the payoff of the whole system.** CL 2 now the floor is
+down, so they'll find it easily. Look at *its* lintel: **a clean pyramid with the open mouth
+beneath it.** The same sign as 9e.
+
+> **It isn't locked. It has never been locked. It opens for words.**
+
+And it has been **worked on for days**: soot in a fan shape, every edge chiselled, a **pick-head
+snapped off in the top seam**, acid runnels down the face. Wipe it clean and **the stone
+underneath is perfect.** **DC 13:** fire, steel and acid, over days. **DC 16 / Arcana 14:** and at
+least one real spell.
+
+**Do:** **speak one of the four names.** A party that learned the grammar opens in one sentence
+the door a month of siege engineering could not touch — which is the moment this entire adventure
+has been building toward. Give them the beat.
 
 **Loot:** four cultists' gear, ~25 gp, and the **Fire Beetle Lantern** in the hand of the one
 nearest the ledge. *(Smokeless, needs no air, ~a week per tank, five Holy Cities etched on the
 base in a script nobody can read. Do not explain it.)*
 
-### 9p — Tomb of Sia ⟨**NO MARK** — and that's the evidence⟩
+---
+
+### 9p — Tomb of Sia ⟨**NO MARK** — ★ and that is the evidence⟩
+
+**The signs — read this carefully, it's the best find in the dungeon.**
+- **The way in** (the secret door from 9o) carries a **clean pyramid and an open mouth.** So the
+  *door* is his.
+- **The room is not.** No skull on any lintel, no sill, no offering dish, nothing on the
+  sarcophagus, nothing over the sarcophagus.
+
+**In a building whose entire purpose is marking and holding the condemned, nobody marked the room
+with the undead king in it.** Doorne files everything. Doorne did not file this. **Because Doorne
+didn't put him here — his high priest did.**
+
+A party that has been reading lintels all evening gets that **with no roll at all**, and it is
+physical evidence of a four-hundred-year-old murder.
+
 > **Read:** "Wealth of a kind most people only hear about. Against the west wall, a carved
 > sarcophagus inlaid with gold, flanked by two canopic jars. Along the south wall, a rack of gilded
 > weapons, a closed ivory chest, a heap of silk pillows, and an altar with a golden pyramid
@@ -624,23 +877,26 @@ base in a script nobody can read. Do not explain it.)*
 > an ornate chair."
 
 **In it:** **Sia**, a wight. 28 HP, energy drain, create spawn (GM discretion). **Throws off the
-lid and attacks the instant the sarcophagus is opened**, and chases.
+lid and attacks the instant the sarcophagus is opened**, and chases anyone who runs.
 
-**Matters:**
-- **There is no skull over this door.** In a building that marks everything it condemns, nobody
-  marked the room with the wight in it — because **Doorne didn't put him here. His high priest
-  did.** A party that's been reading doors all evening gets this **with no roll**, and it's
-  physical evidence of the murder.
-- **He can be talked to.** He wants to know whether the empire survived, where his priest went
-  (**one of those two canopic jars is the priest's**, three feet from a wight who could never
-  reach it), and his fire back. Condemn him / absolve him / rob him — **→ depth-concepts, Sketch 5.**
+**The walls.** Nothing punitive, nothing instructional — **this room is furnished, not frescoed.**
+A king's chair, a king's pillows, a king's weapons packed the way he travelled. Which is its own
+piece of evidence: every other room in this complex is *about* something. This one is just a man's
+belongings, in a gaol, with no paperwork.
+
+**Do:**
+- **Don't open the lid without speaking first.** He's lucid — he's had the Scepter's telepathy and
+  four centuries of talking to statues. He wants to know whether the empire survived, where his
+  priest went, and his fire back. **One of the two canopic jars is the priest's**, three feet from
+  a wight who could never reach it. Condemn him, absolve him, or rob him.
+  → depth-concepts, Sketch 5
 - **The golden pyramid on the altar is Sia's Coal** — the live fragment of the hearth-flame that
-  relights Doorne's Ember above ground. **→ Doorne's Ember**
+  relights Doorne's Ember above ground. → Part 2, *Doorne's Ember*
 
 **Loot:** 3,000 sp · 500 gp · 20 rubies at 100 gp · **Heavy Scimitar +1** · **dagger +2** ·
 **Splint Mail +1 with a dog's head for a helm** · the **Scepter of Ice** (30,000 gp, **4d6 cold to
-a bearer who isn't faithful** and 4d6 again next round if not dropped, unfenceable locally, and
-Jiyloo will turn on them for it).
+a bearer who isn't faithful** and 4d6 again next round if not dropped — *and the doorframe oath is
+not faith*; unfenceable locally; Jiyloo will turn on them for it).
 
 ---
 
@@ -1232,8 +1488,10 @@ Sia. That is where the treasure is, and that is the wall they broke on.
    hafts break; immune to mind control; sees invisible. A column of scimitar-and-bow fanatics
    cannot meaningfully hurt it. They would need magic they didn't bring — which is exactly what
    the captured guards said they went to fetch.
-3. **And the door was open the whole time.** Four words of praise to Doorne and the Stone
-   Guardian stands aside. The source doesn't require sincerity — it says anyone who *makes
+3. **And the door was open the whole time, and it was labelled.** The lintel at 9e carries the
+   *open mouth* — the sign that means *this one answers speech* — and the wall above the statues
+   spells out the phrase in two scripts. Four words of praise to Doorne and the Stone Guardian
+   stands aside. The source doesn't require sincerity — it says anyone who *makes
    praises to any of the names* passes unmolested. **The Black Water Cult is stopped by a door
    that opens if you say a sentence, and they would rather walk back into the desert and go
    shopping for a magic item.**
@@ -1464,9 +1722,16 @@ hold in their heads is worth ten times one that's complete.
 | Sign | What it looks like | What it means |
 |---|---|---|
 | **The clean pyramid** | Plain, whole, often with sun, wheat or water | His. Worship, passage, servants who check credentials (*Rule one*). |
-| **The sealed** | Skull on the **outer flank**, facing **away** from the pyramid | **Containment.** What is in here is held, and will be held. Turned away from the god. Nothing about it is going to change. Do not open. |
-| **The washing** | Skull set **into** the face, turned **up toward the apex** | **Purification.** What is in here is being worked on, and the work is meant to end in release. Also do not open — but for a different reason. |
-| **No passage** | Pyramid whose base-road is **struck through** | Not a curse and not the damned. Simply: *the route does not go this way.* This is what's over the door of **9b**, and the builders meant it kindly. |
+| **The sealed** | Skull on the **outer flank**, facing **away** from the pyramid — i.e. looking at *you* in the corridor | **Containment.** What is in here is held, and will be held. Turned away from the god. Nothing about it is going to change. Do not open. |
+| **The washing** | Skull set **into** the face like an inlaid stone, turned **up toward the apex** — looking at *the god* | **Purification.** What is in here is being worked on, and the work is meant to end in release. Also do not open — but for a different reason. |
+| **No passage** | Pyramid whose base-road is **struck through** by one deep chisel stroke | Not a curse and not the damned. Simply: *the route does not go this way.* This is what's over the door of **9b**, and the builders meant it kindly. |
+| **The open mouth** ★ | A small worn mouth carved **beneath** a clean pyramid | **This threshold answers speech, not display.** A worn pendant does nothing; say one of the four names. It is on **9e**, on **9m's** threshold (which also has a hand-worn basin cut into the stone), and — the one that matters — **on the secret door into 9p.** |
+
+> **The open mouth is the keystone, so don't bury it.** It makes 9e *fair* — a party that has
+> formed the habit of reading lintels walks through a fight that killed eight cultists. And it
+> makes the last door in the dungeon openable in one sentence, after a month of siege work
+> failed on it, because the Black Water Cult could not read a mouth. Five signs is still a
+> language a table can hold in its head; this is the fifth.
 
 **Teach it in layers, don't hand it over:**
 
@@ -1537,7 +1802,10 @@ explain it; it just gives the −1d4 a face.
 | **9g** Coffer Corpse | **Sealed — and the mark is newer than the others** | Per the source, the statue in here is **a bandit who was caught looting the tomb.** Which means: **this room is still being filled.** The tomb has gone on filing people for four centuries with no priests, no ceremony and no supervision. See below. |
 | **9b** Ants | **No passage** | Not cursed. The builders are telling you the road doesn't go this way, and they were right. |
 | **9f** An-Zefful | **Defaced — you can see there *was* a mark, and cannot read which** | Somebody destroyed this room's frescoes, bloodied the north wall, and took the sign with them. **Best answer: he did it himself.** He has a death wish and four hundred years, and he has been trying to erase his own sentence. The party cannot tell whether he is *sealed* or *washing* — whether killing him ends a punishment or interrupts a redemption. Leave that unresolved. It is the whole reason his death is worth a line of narration. |
-| **9l** Scarab | **None — clean room** | The curse is on the object. The lesson. |
+| **9e** Statue Guardians | **Clean + the open mouth** | The threshold that wants *words*. Also where the cult's dead are piled at exactly the guardian's reach. |
+| **9l** Scarab | **Clean pyramid, wheat at the base — no skull, no sill, no dish** | A genuinely good room. The curse is on the *object*. The lesson that marks label rooms, not things. |
+| **9m** Temple | **Clean + the open mouth + a hand-worn basin in the threshold** | The only place to convert, renounce or re-dedicate. |
+| **secret door → 9p** | **Clean + the open mouth** | Never locked. Opens for four words. The cult spent days on it with fire, steel, acid and a spell. |
 | **9j** Gargoyle / **9n** Dark Creeper | **None** | Squatters. Moved in after. |
 | **9o** False treasure | **None** | Sia's vanity and Sia's trap, not Doorne's work. |
 | **9p** Tomb of Sia | **None** | ← *read the next section* |
@@ -1823,8 +2091,11 @@ image in this whole section:
 scoring around the frame with no corresponding physical damage. Somebody with real training
 worked this door personally and got nowhere. (Ashiq. Don't name her; let them meet her.)
 
-**And it isn't locked.** There is no mechanism. It is Doornian, it opens for the rite, and it
-does not open for people who will not perform it. **This is the thing the main body went
+**And it isn't locked.** There is no mechanism. Look at its lintel: **a clean pyramid with an
+open mouth carved beneath it** — the same sign as 9e. *This threshold answers speech.* It opens
+for four words and it does not open for people who will not say them. The cult spent days on a
+door whose instructions were carved above it, in a complex where they had already defaced the
+identical instructions in 9e rather than read them. **This is the thing the main body went
 shopping for** — they left the desert to buy a way through a door that opens if you say four
 words, because saying them is apostasy. Everything the party has learned about the pendant and
 the blessing converges here (see *Doorne's rules at the table*).
