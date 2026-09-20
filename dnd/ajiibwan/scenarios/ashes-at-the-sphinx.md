@@ -80,7 +80,7 @@ fast, everything you need is in Part 1.
 |---|---|
 | **At a glance** | party, position, clock, what's still untouched |
 | **Session 5 opens here** | the way out of the ant fight, and 9a as the vestibule |
-| **Doorne's rules — the table card** | all three rules on one page |
+| **Doorne's rules — the table card** | the five rites and all three rules, on one page |
 | **Room cards** | one card per room: *Read · In it · Matters · Loot* |
 | **Combat reference** | trackers, reference cards, round-by-round guides |
 
@@ -170,7 +170,7 @@ refuse the wrong one.
 the door, spike it, or back into 9a and take the ants one at a time through the doorway, run it
 and reward the tactics. This is an *exit*, not the correct answer.
 
-### The first test of "come empty" — free, safe, and instructive
+### The first test of **Depart holy** — free, safe, and instructive
 
 With the ants still, the party can walk into 9b. **There is a dead cultist in there** (see *The
 cult's high-water mark*), with his kit and a copy of the route-sketch on him.
@@ -180,7 +180,8 @@ cult's high-water mark*), with his kit and a copy of the route-sketch on him.
 - **Prying the bronze fittings off the door, or chipping at the floor: not safe.** Twelve ants,
   immediately.
 
-That distinction is the whole of Rule 4 (*come empty*) delivered as a free, survivable
+That distinction is the whole of **rite 4, *Depart holy*** — you leave this place as holy as you
+entered it, which means leaving its holiness where it is — delivered as a free, survivable
 experiment, and it teaches the party that the tomb's rules are **specific rather than
 arbitrary** — which is the difference between a dungeon they can play and a dungeon that just
 happens to them.
@@ -200,9 +201,9 @@ station, and the party walked between them twice.
 |---|---|---|
 | **1. Bear the sign** | Each of the four corner statues — the **Brides of Doorne**, a knightly order believed extinct — wears a carved pyramid pendant. It is **the same pendant Jiyloo is wearing.** | **Free.** The moment anyone looks at her and then at a statue. Give it to them; they earned it by surviving. |
 | **2. Speak the praise** | A band of script runs beneath the frescoes on all four walls. | **DC 13 History.** Decoding gives **the four names** — Doorne the All-Knowing, Mighty Doorne, Doorne the Omnipotent, Doorne the Creator — and the instruction to speak one at every threshold. They don't strictly need this to survive 9e, but a party that decodes it here walks into 9e already knowing, which is enormously more satisfying than being rescued by a wall inscription. |
-| **3. Come wet** | The frescoes show pilgrims seated on **these exact pool rims**, washing their feet before going on. One panel shows a younger person kneeling to wash an elder's feet. | **Free after the ant scene** — and let it land that the panel depicts precisely what they just did for Jiyloo, badly and under pressure. Otherwise **DC 10**. |
-| **4. Come empty** | The frescoes show the god's substance being *poured into* the building: gold into the floor, water into the pools, fire into the hearth. Nothing here was put in for safekeeping. It was put in to **be** the place. | **DC 14 Investigation or Religion.** And look down: the black marble is *streaked with gold*. Gold in a floor is not storage. **Jiyloo's version, if they need it plainer:** *"You can't carry the holiness out. So you can't carry the things out either."* → This is also the epitaph for the man they'll later find fused into a wall in 9j with 15 gp of that floor in his pocket. |
-| **5. Come clean** | The four doors. → *next section* | The oath. Optional, and the one that divides them. |
+| **3. Arrive clean** | The frescoes show pilgrims seated on **these exact pool rims**, washing their feet before going on. One panel shows a younger person kneeling to wash an elder's feet. | **Free after the ant scene** — and let it land that the panel depicts precisely what they just did for Jiyloo, badly and under pressure. Otherwise **DC 10**. |
+| **4. Depart holy** | The frescoes show the god's substance being *poured into* the building: gold into the floor, water into the pools, fire into the hearth. Nothing here was put in for safekeeping. It was put in to **be** the place. | **DC 14 Investigation or Religion.** And look down: the black marble is *streaked with gold*. Gold in a floor is not storage. **Jiyloo's version, if they need it plainer:** *"You can't carry the holiness out. So you can't carry the things out either."* → This is also the epitaph for the man they'll later find fused into a wall in 9j with 15 gp of that floor in his pocket. |
+| **5. Remain pure** | The four doors. → *next section* | The oath. Optional, and the one that divides them. |
 
 ---
 
@@ -260,6 +261,31 @@ one. Say the rule out loud once, plainly, when it first bites. Then never mentio
 ## Doorne's rules — the table card
 
 *The one-page version. Full reasoning and room lists in Part 2.*
+
+### The five rites
+
+What a pilgrim owes this place. Taught in **9a**, the vestibule; the three rules below are how
+they cash out at the table.
+
+| | Rite | What it is | Covered by |
+|---|---|---|---|
+| **1** | **Bear the sign** | Wear a pyramid of Doorne openly | Rule ① — *this is Jiyloo's pendant* |
+| **2** | **Speak the praise** | Say one of the four names at a threshold | Rule ① — *the open-mouth doors* |
+| **3** | **Arrive clean** | Wash in his water before going deeper | *the foot-washing that settles the ants* |
+| **4** | **Depart holy** | Leave as holy as you came — carry none of it out | ★ *this is what prices the loot* |
+| **5** | **Remain pure** | The oath, and conduct afterward | Rule ② — *and already broken on the plinth* |
+
+**The four names:** *Doorne the All-Knowing · Mighty Doorne · Doorne the Omnipotent · Doorne the
+Creator.* Any one of them satisfies rite 2, and **sincerity is not required** — which is the whole
+reason the Black Water Cult is standing outside.
+
+**Rites 4 and 5 are the ones with teeth.** ***Depart holy*** is not a prohibition on theft, it's a
+statement about what this building *is*: the gold is in the floor, the water is in the pools, the
+fire is in the hearth. You can't take the holiness out, so you can't take the things out.
+***Remain pure*** isn't an act you perform once — it's a standing condition, which is why a
+killing done on the god's own threshold keeps mattering.
+
+---
 
 **① The pendant.** Only **two** things in sixteen rooms check credentials, and they want
 different keys:
@@ -393,20 +419,31 @@ dish. Each is cut with one extra element, and **those four elements are the four
 showing.* They wake for anyone approaching a door with no pyramid on display.
 
 **The walls — this room is a classroom and the party has crossed it twice:**
-- **The four statues wear a carved pyramid pendant, identical to Jiyloo's.** *(free)* → **rite 1**
+- **The four statues wear a carved pyramid pendant, identical to Jiyloo's.** *(free)*
+  → **rite 1, Bear the sign**
 - **A band of script runs beneath the frescoes on all four walls.** **DC 13 History** → the four
   names: *Doorne the All-Knowing, Mighty Doorne, Doorne the Omnipotent, Doorne the Creator.*
-  → **rite 2**
+  → **rite 2, Speak the praise**
 - **Pilgrims are shown seated on these exact pool rims washing their feet**, one kneeling to wash
-  an elder's. *(free after the ant scene, otherwise DC 10)* → **rite 3**
+  an elder's. *(free after the ant scene, otherwise DC 10)* → **rite 3, Arrive clean**
 - **Every figure painted inside the building has empty or open hands.** The ones carrying goods
   are all outside it. **DC 14 Investigation/Religion:** the panels show the god's substance being
   *poured into* the place — gold into the floor, water into the pools, fire into the hearth.
   Look down: the marble really is streaked with gold. **You cannot carry the holiness out, so you
-  cannot carry the things out.** → **rite 4**
+  cannot carry the things out.** → **rite 4, Depart holy**
 
-**Do:** wash feet in the pools. Then each PC kneels at one door and takes the oath — **the door
-they pick sets their boon.** → rules card ②
+**The five rites, in the order the room teaches them:**
+**1. Bear the sign** · **2. Speak the praise** · **3. Arrive clean** · **4. Depart holy** ·
+**5. Remain pure.**
+
+The last two are the ones with teeth. ***Depart holy*** means you leave as holy as you came —
+which, in a building whose wealth *is* its holiness, means taking none of it. ***Remain pure*** is
+not a single act but a standing condition: the oath at the doorframe, and conduct afterward. *(It
+is also the one the party has already broken — see Part 2, Rule two, on the prisoner executed on
+the plinth.)*
+
+**Do:** wash feet in the pools (**Arrive clean**). Then each PC kneels at one door and takes the
+oath (**Remain pure**) — **the door they pick sets their boon.** → rules card ②
 
 **Loot:** none. That's the lesson.
 
@@ -429,7 +466,7 @@ hung in the room that carries it out.** Spread-eagled figures pegged in sand, an
 **Do:** **the way out is the wash, not the fight** (→ the opening scene). Once the ants settle,
 **taking the dead cultist and his route-sketch is safe** — he came from outside. **Prying the door
 fittings or chipping the floor wakes all twelve**, because that is robbery and robbery is the one
-thing this room exists for. That distinction *is* rite 4, delivered survivably.
+thing this room exists for. That distinction *is* **rite 4, Depart holy**, delivered survivably.
 
 **Loot:** a dead cultist's kit and a charcoal **route-sketch** — ant room crossed out, two rooms
 blank, one corridor drawn wrong.
@@ -621,8 +658,8 @@ them cleanly; fifteen minutes damages them down to 10 gp.
 **What it means:** sealed, and filed without ceremony. Not even a Doornian — just a thing that had
 to go somewhere.
 
-**Do:** walk past. **The citrines are the temptation, and rite 4 applies** — they're set into the
-fabric of the building. Prying them is the same act the man in the wall in 9j died committing.
+**Do:** walk past. **The citrines are the temptation, and *Depart holy* applies** — they are set
+into the fabric of the building. Prying them is the same act the man in the wall in 9j died committing.
 
 **Loot:** up to 440 gp of citrine, at a price.
 
@@ -778,7 +815,8 @@ Doorne's servants; the benches mean this room held *people*, not just rites.
   sees them.** Say nothing else.
 - **A priest's roll** is findable here — the names needed to finish the washing in 9i.
 
-**Rite 4 bites hardest here:** rubies 400 gp each, emeralds 600 gp each, ~17 gp of door inlay.
+***Depart holy* bites hardest here:** rubies 400 gp each, emeralds 600 gp each, ~17 gp of door
+inlay.
 Prying the eyes out of a temple in front of Jiyloo is not a loot decision, it's a relationship one.
 
 **Loot:** 2,000 gp of eyes you shouldn't take.

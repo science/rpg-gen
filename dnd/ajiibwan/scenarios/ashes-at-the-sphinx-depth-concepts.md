@@ -161,14 +161,15 @@ them the truth: this room was never on the route.
 ## 4. Sketch two — the tomb can be passed, not only fought
 
 > **⚑ Partly superseded, and improved on, by the rule Steve built after session 4.** The
-> *Unwelcome* blessing (`ashes-at-the-sphinx.md` → *Rule two*) does the job of observances 1-2
+> *Unwelcome* blessing (`ashes-at-the-sphinx.md` → *Rule two*) does the job of rites 1-2
 > better than this sketch did, for one reason I hadn't found: **it resolves per character
 > instead of per party.** My version gated a door for everybody, which makes it a puzzle the
 > party solves once. Steve's version makes each PC answer for themselves, in front of the
 > others, and then *keep* answering for it every room — which produces intra-party friction, a
 > grumbling holdout, and a running cost, all of which are worth more than a solved door.
-> What survives below and is still worth taking: **observances 3, 4 and 5** (come wet, come
-> empty, come clean), which the blessing doesn't cover and which is where the loot gets priced.
+> What survives below and is still worth taking: **rites 3, 4 and 5** — ***Arrive clean***,
+> ***Depart holy***, ***Remain pure*** — which the blessing doesn't cover and which is where the
+> loot gets priced.
 
 
 **The idea.** Generalize the two rules the source already gives you into one system the party
@@ -176,21 +177,23 @@ can discover and exploit. In 9a the Caryatid Columns stand down for anyone openl
 a pyramid of Doorne. In 9e the Stone Guardian stands down for anyone who speaks praise. Those
 aren't two quirks. They're two-fifths of a rite.
 
-**The Pilgrim's Observances.** Five, in ascending order of what they cost:
+**The Five Rites.** In ascending order of what they cost:
 
 1. **Bear the sign.** Wear a pyramid of Doorne openly. Cheap — the temple above ground is
    carved with them; any of them can be taken or copied.
 2. **Speak the praise.** Name him aloud on entering: the All-Knowing, the Mighty, the
    Omnipotent, the Creator.
-3. **Come wet.** Wash hands and face in the pools of 9a before going deeper. The water is his;
+3. **Arrive clean.** Wash in the pools of 9a before going deeper. The water is his;
    a dry pilgrim reads as a robber. *This is the one that makes 9a a hub instead of a
    vestibule* — the party has to go back, which gives that room a permanent function.
-4. **Come empty.** Carry nothing taken from inside the tomb. The instant someone pockets the
-   citrines from 9h or the scarab from 9l, the observances stop working **for that person
+4. **Depart holy.** Leave as holy as you arrived — which, in a building whose wealth *is* its
+   holiness, means carrying none of it out. The instant someone pockets the
+   citrines from 9h or the scarab from 9l, the rites stop working **for that person
    specifically.** Everyone else walks; the thief fights alone.
-5. **Come clean.** Carry no unavenged killing done on the god's own ground.
+5. **Remain pure.** Not a single act but a standing condition — the oath, and conduct
+   afterward. Carry no unavenged killing done on the god's own ground.
 
-**Observance 5 is the one your table already broke.** They executed a bound prisoner on the
+***Remain pure* is the one your table already broke.** They executed a bound prisoner on the
 sphinx's plinth in session 4. One of Doorne's four names is *the All-Knowing*. Tath'Shar reads
 as unclean from the moment they descend, no matter what else they do — and nothing announces
 it. The party just has to notice that the statues track one of them and not the others. That
@@ -198,7 +201,7 @@ is a far better consequence than a lecture, and it's recoverable: the god wants 
 buried, or the name spoken, or the survivor released. Your call which; pick before session 5.
 Tracked as `thread:the-prisoner-on-the-plinth`.
 
-**Jiyloo already taught them observance 1, out loud, and it was better than a reveal.** She
+**Jiyloo already taught them rite 1, out loud, and it was better than a reveal.** She
 led down the stair, saw 9a, pulled her Doornian pendant out from under her robes and said
 *"This area is holy for believers of Doorne."* The Caryatid Columns never moved. So the party
 isn't carrying a secret they have to earn — they watched a woman produce a piece of jewelry and
@@ -234,7 +237,7 @@ which is a much healthier place for the campaign to end up. Let them find it; do
 **What it buys you.** A competence curve instead of an attrition curve. The party fights 9b
 and 9d because they didn't know. Somewhere around 9e they work it out. By 9j and 9k they're
 walking through rooms that would have been fights, and *that feels like mastery* in a way that
-winning the fights doesn't. Then they reach the treasure rooms and observance 4 prices the
+winning the fights doesn't. Then they reach the treasure rooms and ***Depart holy*** prices the
 loot in safety — the gold or the free passage, not both. The dungeon starts asking them
 questions.
 
@@ -487,7 +490,7 @@ You're opening in a narrow hallway with the 9b door forced open. In order:
    Jiyloo realises the problem is their *feet*, slams and braces the door, and sends them back
    to the pools to wash — including bringing water back for hers, which somebody has to kneel
    and do. The ants settle in stages as each person comes clean. Then the party goes back and
-   reads 9a properly, and finds all five observances sitting in a room they'd crossed twice:
+   reads 9a properly, and finds all five rites sitting in a room they'd crossed twice:
    the statues' pendants, a decodable inscription, pilgrims washing their feet at those exact
    pools, gold poured *into* the floor, and four carved doors. Full staging in
    `ashes-at-the-sphinx.md` → *Session 5 opens here*.
