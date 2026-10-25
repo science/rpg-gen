@@ -39,7 +39,11 @@ browser at `http://<vm-ip>:5005`. Generation runs as background jobs in a thread
 the HTTP layer is non-blocking, so several subjects render in parallel in one process.
 
 Models & providers: `tools/art.py` has a `MODEL_REGISTRY` (Replicate `seedream-5-lite`
-and `seedream-4.5`; OpenAI `gpt-image-2`). The review app shows a per-card model picker.
+and `seedream-4.5`; OpenAI `gpt-image-2`, plus `gpt-image-2.5-sunburst` (best) and
+`gpt-image-2.5-flare` (fast), which get custom sizes up to a 2048px long edge, e.g. 3:4 →
+1536x2048). The review app shows a per-card model picker. `art_review.py --base <folder>`
+points the app at any folder holding `art/prompts.yaml` (e.g. a Cthulhu adventure) instead
+of `dnd/<campaign>`.
 Keys live in `credentials/env.production` (gitignored): `REPLICATE_API_TOKEN`
 (alias `replicate_api_key`) and `OPENAI_API_KEY`. A model whose provider key is missing
 falls back to offline placeholders. The "adjust from current image" toggle does

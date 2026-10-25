@@ -76,6 +76,13 @@ MODEL_REGISTRY = [
      "provider": "replicate", "i2i": True, "sizes": ["2K", "4K"]},
     {"id": "gpt-image-2", "label": "GPT-Image-2 (OpenAI)",
      "provider": "openai", "i2i": True, "sizes": ["auto"]},
+    # 2.5 family (2026-09): accepts custom WIDTHxHEIGHT and quality up to xhigh/max.
+    {"id": "gpt-image-2.5-sunburst", "label": "GPT-Image-2.5 Sunburst (OpenAI) — best",
+     "provider": "openai", "i2i": True, "sizes": ["auto"],
+     "custom_size": True, "quality": "high"},
+    {"id": "gpt-image-2.5-flare", "label": "GPT-Image-2.5 Flare (OpenAI) — fast",
+     "provider": "openai", "i2i": True, "sizes": ["auto"],
+     "custom_size": True, "quality": "high"},
 ]
 _REGISTRY_BY_ID = {m["id"]: m for m in MODEL_REGISTRY}
 
@@ -103,6 +110,35 @@ def _aspect_to_openai_size(aspect_ratio: str) -> str:
     if h > w:
         return "1024x1536"   # portrait
     return "1024x1024"       # square
+
+
+# gpt-image-2.5 takes any WIDTHxHEIGHT: multiples of 16, aspect within 1:3..3:1.
+# Long edge 2048, capped at 2560x1440's pixel count (larger is "experimental").
+_OPENAI_MAX_PIXELS = 2560 * 1440
+
+
+def _aspect_to_openai_custom_size(aspect_ratio: str) -> str:
+    try:
+        w, h = (float(x) for x in aspect_ratio.split(":"))
+    except Exception:
+        w, h = 1.0, 1.0
+    ratio = min(max(w / h, 1 / 3), 3.0)
+    long_edge = 2048
+    while True:
+        if ratio >= 1:
+            pw, ph = long_edge, long_edge / ratio
+        else:
+            pw, ph = long_edge * ratio, long_edge
+        pw, ph = (max(16, round(v / 16) * 16) for v in (pw, ph))
+        if pw * ph <= _OPENAI_MAX_PIXELS:
+            return f"{pw}x{ph}"
+        long_edge -= 16
+
+
+def _openai_size_for(model: str, aspect_ratio: str) -> str:
+    if model_meta(model).get("custom_size"):
+        return _aspect_to_openai_custom_size(aspect_ratio)
+    return _aspect_to_openai_size(aspect_ratio)
 
 
 # ------------------------------------------------------------------- generation
@@ -271,13 +307,14 @@ class OpenAIHandle:
     thread finishes, then `succeeded` with decoded bytes (or `failed` + error)."""
 
     def __init__(self, prompt, *, model, aspect_ratio, reference_images=None,
-                 quality="high", client=None):
+                 quality=None, client=None):
         import threading
         self._lock = threading.Lock()
         self._status = "starting"
         self._bytes = None
         self._error = None
-        self._size = _aspect_to_openai_size(aspect_ratio)
+        self._size = _openai_size_for(model, aspect_ratio)
+        quality = quality or model_meta(model).get("quality", "high")
         self._t = threading.Thread(
             target=self._work,
             args=(prompt, model, self._size, quality, reference_images, client),

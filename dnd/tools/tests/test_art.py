@@ -120,11 +120,14 @@ def test_fake_handle_progresses_over_delay():
 
 
 # ============================================================ model registry
-def test_registry_lists_three_models_with_providers():
+def test_registry_lists_models_with_providers():
     ids = {m["id"] for m in art.MODEL_REGISTRY}
     assert "bytedance/seedream-5-lite" in ids
     assert "bytedance/seedream-4.5" in ids
     assert "gpt-image-2" in ids
+    assert "gpt-image-2.5-sunburst" in ids
+    assert "gpt-image-2.5-flare" in ids
+    assert art.provider_for("gpt-image-2.5-sunburst") == "openai"
 
 
 def test_provider_for_routes_by_model():
@@ -157,6 +160,22 @@ def test_aspect_to_openai_size_mapping():
 
 
 # -------------------------------------------------- replicate image-to-image
+def test_aspect_to_openai_custom_size_mapping():
+    assert art._aspect_to_openai_custom_size("3:4") == "1536x2048"
+    assert art._aspect_to_openai_custom_size("16:9") == "2048x1152"
+    assert art._aspect_to_openai_custom_size("1:1") == "1920x1920"   # pixel cap
+    for aspect in ["1:1", "4:3", "3:4", "16:9", "9:16", "3:2", "2:3", "21:9", "1:5"]:
+        w, h = (int(v) for v in art._aspect_to_openai_custom_size(aspect).split("x"))
+        assert w % 16 == 0 and h % 16 == 0
+        assert 1 / 3 <= w / h <= 3
+        assert 655_360 <= w * h <= 2560 * 1440
+
+
+def test_openai_size_for_routes_by_model():
+    assert art._openai_size_for("gpt-image-2", "3:4") == "1024x1536"
+    assert art._openai_size_for("gpt-image-2.5-flare", "3:4") == "1536x2048"
+
+
 def test_replicate_reference_image_becomes_data_uri(tmp_path):
     ref = tmp_path / "src.png"
     ref.write_bytes(PNG_1x1)
@@ -221,6 +240,15 @@ def test_openai_generate_maps_size_and_decodes_b64():
     assert client.images.generate.__self__.gen_captured["model"] == "gpt-image-2"
     assert client.images.generate.__self__.gen_captured["size"] == "1536x1024"
     assert client.images.edit.__self__.edit_captured is None  # generate, not edit
+
+
+def test_openai_25_generate_uses_custom_size_and_quality():
+    client = _FakeOpenAI(_b64(PNG_1x1))
+    handle = art.submit("a tower", model="gpt-image-2.5-sunburst", aspect_ratio="3:4",
+                        fake=False, client=client)
+    assert _drain(handle)["status"] == "succeeded"
+    cap = client.images.generate.__self__.gen_captured
+    assert cap["size"] == "1536x2048" and cap["quality"] == "high"
 
 
 def test_openai_edit_path_used_when_reference_given(tmp_path):

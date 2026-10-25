@@ -177,3 +177,8 @@ def test_index_serves_html_shell(app):
     html = c.get("/").get_data(as_text=True)
     assert "<html" in html.lower()
     assert "alpine" in html.lower() or "x-data" in html.lower()
+
+
+def test_campaign_base_defaults_to_dnd_folder_or_uses_base(tmp_path):
+    assert art_review.campaign_base("ajiibwan") == art_review.REPO_ROOT / "dnd" / "ajiibwan"
+    assert art_review.campaign_base("ajiibwan", tmp_path) == tmp_path.resolve()

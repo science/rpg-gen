@@ -18,6 +18,8 @@ otherwise (or when ART_FAKE=1).
 Run (on the VM; binds 0.0.0.0 so the host browser can reach it):
     .venv/bin/python dnd/tools/art_review.py ajiibwan            # http://<vm-ip>:5005
     .venv/bin/python dnd/tools/art_review.py ajiibwan --port 5005 --fake
+    # any folder holding art/prompts.yaml (e.g. a Cthulhu adventure):
+    .venv/bin/python dnd/tools/art_review.py --base cthulhu/adventure-scripts/<name>
 """
 from __future__ import annotations
 
@@ -373,6 +375,11 @@ function review(){
 
 
 # ------------------------------------------------------------------------ main
+def campaign_base(campaign: str, base=None) -> pathlib.Path:
+    """Folder holding art/prompts.yaml: --base if given, else dnd/<campaign>."""
+    return pathlib.Path(base).resolve() if base else REPO_ROOT / "dnd" / campaign
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Local art review web app.")
     ap.add_argument("campaign", nargs="?", default="ajiibwan")
@@ -380,9 +387,12 @@ def main(argv=None):
     ap.add_argument("--port", type=int, default=5005)
     ap.add_argument("--fake", action="store_true",
                     help="force offline placeholder generation")
+    ap.add_argument("--base", type=pathlib.Path,
+                    help="use this folder (art/prompts.yaml, build/art/) instead "
+                         "of dnd/<campaign>")
     args = ap.parse_args(argv)
 
-    base = REPO_ROOT / "dnd" / args.campaign
+    base = campaign_base(args.campaign, args.base)
     art.load_dotenv(REPO_ROOT / "credentials" / "env.production",
                     REPO_ROOT / ".env", base / ".env")
     if args.fake:
@@ -391,7 +401,7 @@ def main(argv=None):
 
     app = make_app(base)
     live = not (args.fake or not art.have_token())
-    print(f"art review for '{args.campaign}'  →  http://{args.host}:{args.port}  "
+    print(f"art review for '{args.base or args.campaign}'  →  http://{args.host}:{args.port}  "
           f"({'live ' + (app.config['SEED'].get('model','')) if live else 'placeholders'})")
     # threaded=True: status polls/submits are served while a generation runs.
     app.run(host=args.host, port=args.port, debug=False, threaded=True)
