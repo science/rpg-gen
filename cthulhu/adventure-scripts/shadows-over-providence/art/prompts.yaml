@@ -1,0 +1,328 @@
+# Art prompts for "Shadows over Providence" (Call of Cthulhu, Providence RI, October 1921).
+#
+# Review / regenerate / accept via the art review app (see README.md beside this file):
+#   .venv/bin/python dnd/tools/art_review.py --base cthulhu/adventure-scripts/shadows-over-providence
+#
+# Effective prompt sent to the model = `style` + blank line + the subject's `prompt`.
+# Three looks are used, chosen per subject in its prompt:
+#   - "PORTRAIT": matches the existing NPC photo set in build/old-photos — a black-and-
+#     white 1920s studio portrait, head and shoulders, with an Egyptian-museum gallery
+#     (statues, lit glass cases) softly out of focus behind.
+#   - "HANDOUT PHOTO": a period press photograph, the kind Mary Mazars would print.
+#   - "ILLUSTRATION": a painterly scene for the Keeper to show at the table.
+#
+# Old photos KEPT as-is (no subject here): Agnes & Edmund Blackwood, Drummond,
+# Thornwood, Walsh, Rikards, Eddie Mars, Gil Friar, Gilbert Angell, Ives, Mary & Paul
+# Mazars, Cronin, Prudence Tillinghast, Ashworth, Hannigan, Nilsen, the Masons, Rotary
+# and council groups, the two waiters (Gerald and Jeanette), the Mayor (a real
+# historical photograph), and "Entering the 17th floor".
+# REPLACED: Bronson (old portraits read as about 30; the script has her in her 50s),
+# Fox Iona (old portrait is a man; she is a red-haired woman), Pemberton (old portrait
+# is a young woman in field kit; she is mid-40s), and the death scene.
+# Real people (Mayor Gainer) are described generically, never as a likeness.
+
+model: "gpt-image-2.5-sunburst"
+size: "2K"
+
+style: >
+  Providence, Rhode Island, October 1921. Strict period accuracy in clothing, hair,
+  interiors, cars and technology (Prohibition era, pre-Art-Deco Edwardian-to-twenties
+  transition). Call of Cthulhu cosmic-horror mood: dread built from ordinary details,
+  the horror half-seen. No text, no lettering, no captions, no watermark, no borders.
+  When a prompt says PORTRAIT: an authentic black-and-white 1920s studio portrait
+  photograph, head and shoulders, soft key light, fine grain, shallow depth of field,
+  an Egyptian antiquities gallery with statues and lit glass cases out of focus behind.
+
+subjects:
+  # ------------------------------------------------------------------ people
+  # Portraits are 1:1 to match the old set (1024x1024 squares).
+  - id: bronson-portrait
+    label: "Dr. Caitlin Bronson — the curator (alive)"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. Dr. Caitlin Bronson, a British Museum curator in her early fifties:
+      brisk, warm, amused, visibly tired. Greying hair pinned up, reading spectacles on a
+      chain, a dark 1921 evening dress with a high lace collar. One hand rests at her
+      collar where a cord disappears beneath the lace, the way someone touches a
+      crucifix. Out of focus behind her, a lit case holding a tall clay jar bound with
+      twine. She looks like someone you would trust immediately.
+
+  - id: owen-hartley
+    label: "Owen Hartley — investigator portrait (matches the other PC portraits)"
+    aspect_ratio: "3:4"
+    prompt: >
+      An authentic black-and-white 1921 photograph, three-quarter length, in the
+      style of a candid documentary portrait: natural light, fine grain, slight
+      sepia tone. Owen Hartley, 36, an English museum curator and former infantry
+      officer, stands in a museum storeroom among open wooden packing crates
+      stencilled with numbers and spilling straw, a crowbar leaning on one. Tall,
+      spare, sandy hair going thin at the temples and neatly parted; a good but tired
+      three-piece tweed suit, white cotton handling gloves tucked in a pocket, a ring
+      of brass keys at his waistcoat, a small regimental tie-pin. He carries his right
+      shoulder a little high from an old wound and holds a small Egyptian shabti
+      figurine in his left hand. Sun-lines at the eyes. Expression: courteous,
+      steady, quietly troubled — a conscientious man hiding a private guilt.
+
+  - id: margaret-pemberton
+    label: "Dr. Margaret Pemberton — Radcliffe archaeologist"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. Dr. Margaret Pemberton, mid-forties, a Radcliffe archaeologist of English
+      and Egyptian heritage: dignified, proud, formidable, grieving. A 1921 evening dress
+      (the woman in blue), dark hair with a streak of grey, a leather-bound family
+      notebook held against her chest.
+
+  - id: fox-iona
+    label: "Fox Iona — the thief"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. Fox Iona, a Boston professional jewel thief in her thirties: a striking
+      red-haired woman (the hair reads as pale grey-auburn in black and white), finger-
+      waved bob, a beaded 1921 evening gown, long gloves. Cool, amused, appraising —
+      she is looking past the camera at the lock on a display case.
+
+  - id: harold-sullivan
+    label: "Councilman Harold Sullivan"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. A Providence city councilman in his forties in white tie: handsome,
+      sleek dark hair, a politician's ready smile that stops short of the eyes, a very
+      good gold watch chain. He is glancing sideways at someone out of frame with cool
+      calculation. Generic period face, not a likeness of any real person.
+
+  - id: adelaide-carruthers
+    label: "Mrs. Adelaide Carruthers — Blanche's client"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. A Boston society widow in her sixties: pearls, an elaborate feathered
+      evening headdress slightly out of date, bright hungry eyes, a smile that is a
+      little too intense. She looks like someone who has decided you are her dearest
+      friend.
+
+  - id: marcus-webb
+    label: "Dr. Marcus Webb — coroner"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. A police coroner in his fifties: rumpled white coat over a waistcoat,
+      wire spectacles pushed up on his forehead, rubber gloves in one hand, a careful,
+      honest, frightened face. Background: a tiled hospital morgue softly out of focus
+      instead of the gallery.
+
+  - id: ambrose-worthington
+    label: "Professor Ambrose Worthington — Brown"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. An elderly Brown University Egyptologist, about seventy-five: white
+      mutton-chop whiskers, a velvet smoking jacket, pince-nez on a ribbon, delighted
+      and mid-lecture with one finger raised. Background: a book-lined library reading
+      room with gas lamps, softly out of focus.
+
+  - id: thomas-yee
+    label: "Thomas Yee — Rikards's graduate student"
+    aspect_ratio: "1:1"
+    prompt: >
+      PORTRAIT. A Chinese-American geology graduate student of twenty-four at a 1921
+      scientific convention: round spectacles, a slightly too-large tweed suit, a
+      convention ribbon on his lapel, a mineral specimen in his hand, and a starstruck,
+      eager expression. Background: glass cases of rock samples, softly out of focus.
+
+  # --------------------------------------------------------------- objects
+  - id: ibnhotep-jar
+    label: "The Ibnhotep jar"
+    aspect_ratio: "3:4"
+    prompt: >
+      ILLUSTRATION. Museum object study: a tall ancient Egyptian funerary jar of dark
+      red clay, its lid sealed with hardened amber-colored honey, its neck bound with
+      ancient brown twine knotted in an intricate loop pattern (the knot of Isis), with
+      one band of clean, modern pale linen tape where the twine was repaired. Under a
+      glass display case on a velvet plinth, dramatic museum spotlight, deep shadow.
+      Subtly wrong: the jar seems to lean, very slightly, toward the viewer.
+
+  - id: tyet-necklace
+    label: "The tyet (knot of Isis) necklace"
+    aspect_ratio: "1:1"
+    prompt: >
+      ILLUSTRATION. Close-up still life: an ancient Egyptian tyet amulet (the knot of
+      Isis, shaped like an ankh with drooping arms) in deep blue faience, on a snapped
+      linen cord, lying in an open palm. Faint inner glow, as if lit from inside the
+      glaze. Background: dark wood floor scattered with glass shards.
+
+  - id: scarab
+    label: "Ibnhotep's heart scarab"
+    aspect_ratio: "1:1"
+    prompt: >
+      ILLUSTRATION. Close-up: a large ancient Egyptian heart scarab carved from dark
+      green stone, fist-sized, its underside covered in tiny carved hieroglyphs (not
+      legible text), clutched in a woman's gloved hand on a tar-papered rooftop at night.
+      Cold moonlight, a faint wet sheen on the stone that should not be there.
+
+  - id: shabti
+    label: "Elisabeth Hartley's blue shabti"
+    aspect_ratio: "1:1"
+    prompt: >
+      ILLUSTRATION. A finger-length ancient Egyptian shabti figurine in bright blue
+      faience, slightly worn at the face, standing on an old English writing desk
+      beside a fountain pen and a faded 1870s photograph of a stern young woman curator.
+      Soft lamplight. Peaceful, protective feeling.
+
+  # ---------------------------------------------------------------- scenes
+  - id: biltmore-exterior
+    label: "The Providence Biltmore, night"
+    aspect_ratio: "3:4"
+    prompt: >
+      ILLUSTRATION. The Providence Biltmore Hotel in 1921 at night, seen from Dorrance
+      Street: a tall red-brick and limestone hotel tower, lit windows, the top floor
+      ballroom blazing. Wet cobbles and streetcar rails reflect the lights. Period
+      automobiles at the curb, including a black Packard idling with a lone driver in a
+      flat cap. Low cloud, autumn leaves in the gutter. A sense of something about to
+      go wrong high above.
+
+  - id: meet-and-greet
+    label: "Scene 1 — the private preview"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. A hotel ballroom an hour before a museum reception, 1921: lit glass
+      display cases of Egyptian antiquities, waiters setting out punch bowls, a string
+      quartet tuning in the corner. In the center, a tall red clay jar bound in twine on
+      a plinth under glass. A small group in evening dress gathered around it: a warm
+      curator in green gesturing at the jar, a portly mayor, a sleek councilman, a
+      nervous young Englishman hovering at the case, and a slight, elegant stage
+      magician in white tie doing a coin trick that makes the curator laugh. A young
+      woman photographer raises a flash pan.
+
+  - id: the-heist
+    label: "Scene 3 — the robbery"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. A 1921 hotel ballroom museum reception at the moment of a robbery:
+      a red-haired woman in an emerald gown stands on a chair with a revolver raised;
+      three men in ill-fitting waiter's jackets with revolvers at the doors; guests in
+      evening dress cowering; a gunman's hands reaching into a smashed display case for
+      a tall red clay jar that is already tipping toward a curator in green, her hand
+      thrown out. Frozen moment, glass in the air, chandelier light.
+
+  - id: bronson-death-photo
+    label: "Mary's photograph — the death (HANDOUT)"
+    aspect_ratio: "4:3"
+    prompt: >
+      HANDOUT PHOTO. An authentic 1921 press photograph taken with a flash-powder pan in
+      a dark ballroom: harsh frontal flash, blown highlights, deep black falloff, motion
+      blur, silver gelatin grain, sepia-toned, faint scratches on the print. Slightly
+      off-center, a woman in her early fifties with greying auburn hair pinned up, in a
+      dark green evening dress with a high lace collar, staggering, one hand clutching
+      at her bare throat where a necklace was torn away, mouth open. Pouring down over
+      her from the darkness above, a dense churning haze like smoke drawn the wrong way;
+      inside the haze, only barely discernible, the suggestion of faces and fingers,
+      ambiguous enough that a viewer could argue it is a flaw in the plate. Shattered
+      red clay jar at her feet. Guests in evening dress panicking and fleeing in
+      blurred streaks, one man diving under a table. Horrifying, but only half seen;
+      nothing gory, nothing cartoonish.
+
+  - id: creature-photo
+    label: "Mary's photograph — the haze (HANDOUT)"
+    aspect_ratio: "4:3"
+    prompt: >
+      HANDOUT PHOTO. An authentic 1921 flash photograph, sepia silver-gelatin print,
+      heavy grain, accidental double exposure. A dark ballroom floor strewn with broken
+      red pottery; above the shards floats a translucent smear of shapes with something
+      almost like a face, and inside it, internal structures like organs or drowned
+      faces, caught in the flash. A man's blurred hand in the corner of the frame. The
+      kind of photograph a newspaper would refuse to print.
+
+  - id: bronson-body
+    label: "The body (tasteful)"
+    aspect_ratio: "4:3"
+    prompt: >
+      ILLUSTRATION. Aftermath in a 1921 hotel ballroom with the lights back on: broken
+      glass and red pottery shards across a marble floor, an overturned gilt chair, and a
+      woman's body in a green evening dress lying among the shards, seen from a
+      respectful distance. Her visible hand is grey, dry and impossibly thin, like old
+      paper. A detective in an overcoat crouches beside her, not touching. Guests held
+      back by men in Masonic lapel pins at the doors. Quiet, sickening, not gory.
+
+  - id: room-808
+    label: "Scene 7 — room 808, searched"
+    aspect_ratio: "4:3"
+    prompt: >
+      ILLUSTRATION. A 1921 hotel guest room that has been ransacked: drawers pulled out,
+      mattress slit, papers and translations scattered across the carpet, a steamer
+      trunk thrown open. The window to the air shaft is open and the curtains move
+      inward. A man in an ill-fitting waiter's jacket lies by the window, his face
+      turned away, his hand grey and withered. On the desk, untouched, a black
+      notebook.
+
+  - id: voice-in-the-vent
+    label: "Scene 8 — the voice in the walls"
+    aspect_ratio: "3:4"
+    prompt: >
+      ILLUSTRATION. Close-up of an ornate brass ventilation grate low on a hotel corridor
+      wall, 1921, frost forming on its louvres in a warm corridor. Behind the grate, in
+      the dark of the duct, the faint suggestion of a woman's face and fingertips
+      pressed to the metal from the inside, and behind her more faces, receding. A
+      hotel maid's dropped linen on the carpet. Dim sconce light, deep shadow.
+
+  - id: seance
+    label: "Scene 8 — the séance"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. A séance in a 1921 hotel parlour: a round table, joined hands, a single
+      candle. An elderly society widow in pearls, an excited heiress, a professional
+      spirit medium in theatrical dark clothing mid-performance, and a slight stage
+      magician in evening dress watching the room with professional suspicion. Behind
+      the medium, a brass ventilation grate breathes visible cold vapor, and every face
+      at the table has just turned toward it. The candle flame leans toward the grate.
+
+  - id: darkroom-attack
+    label: "Scene 6 — the darkroom"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. A cramped 1921 newspaper darkroom lit only by a red safelight: prints
+      on a drying line, developing trays, chemical bottles. A translucent amorphous mass,
+      glistening like wet glass with dark shapes inside, pours out of a heating duct
+      near the floor and up the wall. A young woman photographer scrambles back
+      clutching wet prints; someone raises a chemical bottle like a weapon.
+
+  - id: federal-hill
+    label: "Thread C — the Federal Hill warehouse"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. Interior of a 1921 bootlegger's warehouse on Federal Hill at night:
+      crates of whiskey, smashed bottles glittering in pools across the floor, a
+      loading bay door half open to the rain. Two men in shirtsleeves lie still among
+      the crates, their skin shrunken and grey. A single bulb swings. Wet, faintly
+      glowing trails lead to a drain grate in the floor.
+
+  - id: radiation-device
+    label: "Thread D — Rikards's radiation device"
+    aspect_ratio: "4:3"
+    prompt: >
+      ILLUSTRATION. A makeshift 1921 scientific apparatus on a hotel conference table:
+      a lead-lined wooden box with a polished copper parabolic reflector, chunks of
+      glowing green torbernite crystal packed inside, carrying handles of leather strap,
+      wires to a brass Geiger counter. Around it, a geologist in shirtsleeves and a
+      cab driver in a flat cap and work coat tightening a bolt with a wrench.
+
+  - id: ibnhotep-full
+    label: "Act 4 — Ibnhotep in the shaft"
+    aspect_ratio: "3:4"
+    prompt: >
+      ILLUSTRATION. The bottom of a disused hotel elevator shaft lit by red emergency
+      lamps: brick walls, iron girders, snapped cables. Filling the shaft from floor to
+      as high as the light reaches is an enormous translucent mass of living protoplasm
+      like wet glass, internal structures pulsing with pale light, dozens of human
+      shapes suspended inside it like drowned swimmers. One human hand presses outward
+      against the inner surface, fingers splayed, as if someone inside is trying to get
+      out. Tiny human figures with a lantern at the bottom for scale. Cosmic horror,
+      awe and grief more than gore.
+
+  - id: the-binding
+    label: "Act 4 — the binding"
+    aspect_ratio: "16:9"
+    prompt: >
+      ILLUSTRATION. Climactic ritual in a hotel basement, 1921: a translucent glowing mass
+      being drawn down like water into a drain into a plain clay vessel set on the
+      flagstones. Honey glows amber around the vessel's mouth; a blue faience knot of
+      Isis amulet lies across the seal, shining deep blue. Three or four people in
+      ruined evening clothes and work clothes stand around it speaking in unison, one
+      of them holding a lead-lined box that casts a green light. Pale human faces rise
+      out of the mass and dissolve into light, released.

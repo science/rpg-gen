@@ -1,0 +1,325 @@
+--- # Call of Cthulhu 7e — Investigator Backstory Metadata
+# Setting: Providence, Rhode Island, October 1921 (Shadows over Providence).
+# Drop-in character for the 4th player. Built to own the party's KNOWLEDGE pillar —
+# the table is a stage magician (Mercure), a spirit medium (Blanche Cormier), and a
+# taxi-driving union organizer (Iris); nobody else is a scholar. Playable if the
+# player returns; otherwise the Keeper runs him as an NPC (see keeper_notes).
+#
+# Reconciled with "Owen_Hartley attribute pages.pdf" (Drive: Call of Cthulhu/Player
+# Characters). Numbers below (Credit Rating, weapon skills, wealth) are copied from
+# that page, not invented. Key stats that shape the backstory: age 36; STR 35 (the
+# war's lasting cost); Firearms (Rifle/Shotgun) 50, Fighting (Brawl) 50, First Aid 50,
+# Dodge 50 (front-line infantry service); History 70, Library Use 70, Language
+# (Egyptian) 65, Appraise 60, Archaeology 50 (the scholar); Occult 27 (grandmother's
+# stories); Charm 45 (a country gentleman's manners); no Arabic, no Navigate.
+
+meta:
+  schema_version: 1
+  ruleset: "Call of Cthulhu 7th Edition"
+  setting: "Providence, Rhode Island, 1921"
+  role: "Player Character (drop-in player; Keeper NPC if absent)"
+
+identity:
+  legal_name: "Owen Ellis Hartley"
+  known_as: "“Mr. Hartley” to everyone; “Captain Hartley” to old soldiers; “Owl” to his sister"
+  stage_name: ""                          # not a performer — masthead falls back to legal name
+  billing: "Assistant Keeper · Dept. of Egyptian & Assyrian Antiquities, British Museum"
+  sex: "Male"
+  age: 36
+  born: 1885
+  occupation: "Museum curator (Assistant Keeper)"
+  residence: "London (rooms in Bloomsbury); currently the Providence Biltmore, with the collection"
+  status: "Comfortable country stock risen into the scholarly elite — respected, but still feels like a guest there"
+
+birthplace:
+  location: "Ardingly, West Sussex"
+  notes: >
+    Born in Ardingly, a few hundred souls strung along a ridge of the Sussex
+    Weald above the upper Ouse valley: a church, two pubs, a forge, hop
+    gardens, and woods running down to the river. The Hartleys were comfortable
+    rather than grand. His father, Arthur, was land agent to one of the big
+    neighbouring estates, a careful, decent, unimaginative man who kept the
+    rent books and the shooting calendar and expected his son to go into the
+    law. The family had a good brick house on the Haywards Heath road, a cook
+    and a girl, a pony, and a gun cabinet. Owen went to Ardingly College as a
+    day boy, where he was clever, quiet, and better at Latin than at games, and
+    spent his autumns walking the stubble fields behind his father with a
+    twelve-bore after partridge and pheasant. Most Augusts a school friend's
+    family took him north to their Yorkshire grouse moor. He was a good shot,
+    unshowy and patient, and still is.
+    The other world was in London. His father's mother, Elisabeth Hartley, was
+    one of the very few women the British Museum allowed to hold a curatorial
+    post in the Victorian years. Her tall narrow house in Gower Street was
+    full of casts, squeezes, and papyrus fragments under glass. Owen spent
+    every Christmas there, sitting on the hearthrug and copying hieroglyphs
+    into a school exercise book. Every Christmas, by family custom, she told
+    "Gran's tale of the jar": the night in 1879 a cleaner knocked a sealed Late
+    Period vessel off a storeroom shelf, three Museum men died before morning,
+    and young Mrs. Hartley "put the thing back where it belonged." The children
+    shrieked. The adults smiled at the old lady's ghost story. Elisabeth never
+    smiled while telling it.
+    Owen read Egyptology at University College London (1903–1906), lodging with
+    her in Gower Street, and in 1909, to his father's mild disappointment, was
+    taken on at the Museum. She died in 1912, proud of him. He has never been
+    entirely sure whether he earned the post or inherited it with the surname.
+
+career_arc:
+  origin: >
+    A Sussex land agent's son: Ardingly College, Christmases on his
+    grandmother's hearthrug, University College London, then the British
+    Museum in 1909 as a Junior Assistant. In 1914, at twenty-nine, he took a
+    commission in his county regiment, the 4th Battalion of the Royal Sussex,
+    and went with it to Gallipoli (Suvla Bay, August 1915), then to Egypt, and
+    then into Palestine. He was a conscientious, unglamorous infantry officer
+    who learned to fight hand to hand in the trenches and to keep his men
+    alive with field dressings when the stretcher-bearers couldn't reach them.
+    At the Third Battle of Gaza (November 1917) a Turkish machine-gun bullet
+    went through his right shoulder. A winter of fever in a Cairo hospital
+    followed, and he came home in 1918 a weaker man than he went out: the arm
+    never got its strength back, and he tires faster than he used to.
+    Returned to the Museum in 1919 and was promoted Assistant Keeper in 1920.
+  current_standing: >
+    A competent, well-liked Assistant Keeper in the Department of Egyptian and
+    Assyrian Antiquities, a few years behind where he would have been without
+    the war. He is curator-courier for the American tour of the Ibnhotep
+    collection: responsible for every crate, customs bond, case key, and
+    condition report. Dr. Caitlin Bronson, the tour's keeper and his mentor
+    since his first year at the Museum, fought the Deputy Keeper to get him
+    the assignment.
+  unreached_ambition: >
+    To be a scholar in his own right — his own name on his own monograph,
+    five years late — and to prove the post was earned, not handed to
+    Elisabeth Hartley's grandson.
+  current_mood: >
+    On the evening of the reception: quietly proud, over-prepared, and nervous
+    in a way he can't name. The jar's binding has looked wrong to him since
+    Southampton, and he knows exactly why. After the heist: shattered, and
+    then, in the way the war taught him, very calm. The one person who
+    believed in him is dead on the ballroom floor, the collection he was sworn
+    to protect is scattered, and he has a private, sickening suspicion that
+    the careless thing he did in a Southampton warehouse is the reason.
+
+# Items carried on his person. Useful in a pinch, never decisive.
+# Built for the scholar/curator niche — deliberately NO lockpicks, flash
+# powder, or crank (those belong to Mercure, Blanche, and Iris).
+pocket_litter:
+  - item: "The registrar's ledger"
+    desc: "A canvas-bound collection inventory: every object on tour by accession number, case position, dimensions, condition notes, and photograph reference, in his own small upright hand. Outside London it is the only complete record of the collection, piece by piece."
+  - item: "Ring of display-case keys"
+    desc: "Brass keys to every case in the exhibition, tagged by case number, plus the key to the hotel strongroom where the packing crates are stored. Opens the cases legitimately — which is the only way Owen opens anything."
+  - item: "Roll of museum linen tape"
+    desc: "Unbleached conservation tape for securing labels, wrapping, and padding. A perfectly ordinary tool of the trade. He has not been able to look at it without a twist in the stomach since Southampton."
+  - item: "Folding hand lens"
+    desc: "A 10x jeweller's loupe in a horn case. Reads faded hieratic, tool marks, maker's stamps, and the difference between old breakage and new — and, he will tell you, the difference between a genuine piece and a good fake."
+  - item: "Officer's field-dressing tin"
+    desc: "A battered tin from Palestine, restocked out of habit: two shell dressings, a roll of bandage, iodine, safety pins, and a tourniquet strap. He has used it on men under fire and will use it on anyone bleeding in front of him without being asked."
+  - item: "Pocket sketchbook & pencils"
+    desc: "A small hardbacked book of drawing paper. He sketches objects the way other men take notes — profiles of pots, the angle of a break, the knots in a cord — and he draws them accurately."
+  - item: "Cotton handling gloves"
+    desc: "Two pairs of white cotton gloves for touching objects. He will put them on before handling anything ancient, even in an emergency, even when it looks absurd."
+  - item: "Tour papers wallet"
+    desc: "Customs bonds, insurance schedules, the loan agreement with the Providence committee, and a letter of introduction from the Museum's Director — the document that makes American officials take an English museum man seriously for about ten minutes."
+  - item: "Silver cigarette case"
+    desc: "Egyptian cigarettes from a Cairo tobacconist, a habit picked up in hospital. Offered more often than smoked; a reliable way to start a conversation with policemen, porters, and old soldiers."
+  - item: "Regimental tie-pin"
+    desc: "The Royal Sussex star in gilt and enamel. Old soldiers notice it, and nod."
+  - item: "This week's letter to Win"
+    desc: "A half-written letter to his sister in London — he writes every Sunday without fail. The draft describes the crossing, the customs men at Boston, and Dr. Bronson working too hard, as usual."
+  - item: "Bronson's spare room key (No. 808)"
+    desc: "She gave it to him on arrival 'so you can fetch papers without waking me.' Her working papers and translations are kept in that room."
+
+backstory:
+
+  personal_description: >
+    A tall, spare Englishman of thirty-six in a good but tired grey suit, with
+    sun-lines at the corners of the eyes that don't belong on a man who works
+    in a basement, and a countryman's way of walking, as if there were a field
+    under the carpet. He carries his right shoulder a little high and favours
+    that arm without seeming to notice; he shakes hands carefully and lifts
+    anything heavy with his left. He is courteous to the point of stiffness,
+    apologises when other people bump into him, and calls the Mayor "sir" and
+    the waiters "sir" in exactly the same voice. Under fire he goes quiet,
+    precise, and practical — the officer comes back without being asked for.
+    When he talks about the objects in the cases, though, the stiffness drops
+    away entirely and something warm and boyish and fluent comes through, and
+    strangers are surprised to find themselves listening. He wears his
+    grandmother's signet ring on his little finger and turns it when he is
+    deciding whether to say something he shouldn't.
+
+  ideology_beliefs: >
+    Owen believes in procedure. Accession numbers, condition reports, chains of
+    custody, the right form signed by the right man: they are how a civilisation
+    keeps faith with the dead, and how a curator proves he is fit to be
+    trusted. The war only hardened that — he saw what happens when nobody does
+    their small job properly. And he has broken that faith exactly once. At
+    Southampton, unpacking for the customs inspection, he found that the
+    ancient twine binding on the Ibnhotep jar had frayed through in its crate.
+    The rules said: report damage, halt the shipment, await conservation —
+    which would have cancelled the tour Bronson had spent two years building.
+    So he re-tied it himself, neatly, with museum linen tape, told no one, and
+    wrote "condition unchanged" in the ledger. Bronson never knew. He is
+    a rationalist by training and a believer by inheritance.
+
+  significant_people:
+    - name: "Dr. Caitlin Bronson"
+      relation: "Mentor & keeper of the tour"
+      desc: >
+        The Museum's senior Egyptologist on the tour and the scholar who taught
+        Owen that Egyptology is about people, not objects. She took him under
+        her wing in his first year, wrote to him every month he was at the
+        front, and argued him onto this tour over the Deputy Keeper's head.
+        Brisk, funny, generous. She trusted him with everything: the keys, the ledger, the artifacts.
+    - name: "Elisabeth Hartley (1841–1912)"
+      relation: "Grandmother & first teacher (deceased)"
+      desc: >
+        The formidable Victorian curator who, in 1879, "put the thing back
+        where it belonged" — and who later wrote a dry 1903
+        monograph, Anomalous Containment Practices in Late Period Egyptian
+        Temple Ritual, that almost nobody has read. Owen was her favourite.
+        She left him her desk, her signet ring, and a small blue shabti "for
+        luck, against the darkness." He used to think that inscription referred to a premonition of the Great War.
+    - name: "Arthur Hartley"
+      relation: "Father — land agent, Ardingly"
+      desc: >
+        Steady, kind, and baffled by his son. He taught Owen to shoot, to walk a
+        hedgerow quietly, and to keep accounts, and he still writes each month to
+        ask whether "the Museum business" might lead to something more settled.
+        Owen loves him and has never once talked to him about the war.
+    - name: "Dr. Lionel Fanshawe"
+      relation: "Rival — Deputy Keeper, British Museum"
+      desc: >
+        Owen's immediate superior in London: able, ambitious, a year younger
+        than Owen, and promoted over him while Owen was in Palestine. He is
+        openly of the view that the Hartley man was hired on his grandmother's
+        name and that a touring loan of fragile Late Period material was
+        Bronson's vanity project.
+    - name: "Winifred “Win” Hartley"
+      relation: "Sister & confidante (London)"
+      desc: >
+        His elder sister, widowed in 1916, now running a Holborn typing bureau:
+        sharp-tongued, loyal, and the only person alive who knows how badly he
+        wanted this job. He writes to her every Sunday; she writes back by
+        return with gossip, advice, and the occasional cutting from the Times.
+        If Owen tells anyone the truth about Southampton, it will be Win — in a
+        letter he can't quite bring himself to post.
+
+  meaningful_locations:
+    - name: "The Egyptian Department storerooms, British Museum"
+      desc: "The long basement corridors under the galleries, shelved floor to ceiling with crated antiquities — where Owen does his real work, and where, in 1879, his grandmother's three colleagues died. The particular shelf is still pointed out to new staff as a joke and a warning."
+    - name: "The house on the Haywards Heath road, Ardingly"
+      desc: "Red brick, a gun cabinet in the hall, his father's rent books on the study desk, and the woods running down to the Ouse. The place he goes back to in his head when he can't sleep, and the place he has least to say to."
+    - name: "Grandmother's study, Gower Street"
+      desc: "Now sold; it lives in memory — casts on the shelves, the smell of paper and coal, the hearthrug, and Elisabeth's voice telling the tale of the jar. The place his scholarship and his superstition were both born."
+    - name: "The ridge before Gaza"
+      desc: "Cactus hedges, sand, and the November dawn when a bullet found him. He doesn't speak of it. In his worst dreams the sand is moving, and something under it is breathing."
+    - name: "The Biltmore strongroom, Providence"
+      desc: "The locked basement room where the tour's empty packing crates and spare materials wait for the return voyage. Owen holds the key. It is the one place in the hotel that is still, in any sense, his."
+
+  treasured_possessions:
+    - name: "Grandmother's blue shabti"
+      desc: "A finger-length funerary figurine in bright blue faience, a little worn at the face, that stood on Elisabeth Hartley's desk for thirty years and was left to Owen in her will with the note 'for luck, against the darkness.' He carries it in his waistcoat pocket on this tour because it seemed sentimental and harmless."
+    - name: "Elisabeth Hartley's signet ring"
+      desc: "A worn gold ring cut with a small ankh, worn on his little finger. Turning it is his only nervous habit."
+    - name: "A presentation copy of the 1903 monograph"
+      desc: "Anomalous Containment Practices in Late Period Egyptian Temple Ritual, inscribed 'To Owen, when you are old enough to need it — E.H.' Dry going; he read it once, dutifully, and has never been sure what she meant by the inscription. His copy is on the shelf in his London rooms."
+    - name: "His campaign medals"
+      desc: "The 1914–15 Star, British War Medal and Victory Medal, kept in their box in his luggage and never worn. He is proud of the men he brought back and not of much else."
+    - name: "The Southampton condition report"
+      desc: "His own carbon copy of the page on which he wrote 'binding — condition unchanged.' He has meant to destroy it for three weeks and has not."
+
+  character_traits:
+    - "The party's scholar: reads hieroglyphs and, slowly, hieratic; knows the collection object by object; can find the right book in any library and tell a genuine piece from a fake"
+    - "A good, unshowy shot with a shotgun — Sussex partridge, Yorkshire grouse, and then the war"
+    - "An infantry officer's habits: calm under fire, quick with a field dressing, and better in a scuffle than he looks"
+    - "His right arm never recovered from Gaza — he tires quickly and lifts with his left"
+    - "Rule-bound to a fault — gloves on before he touches an artifact, forms filled in even during a crisis"
+    - "Carries a secret that makes him desperate to be useful and terrified of being found out"
+    - "A rationalist raised on a ghost story he has never quite managed to laugh at"
+
+# --- Wealth & means (from the attribute page: CR 30, spending $10, cash $60, assets $1500) ---
+wealth:
+  spending_level: "Average — $10 a day"
+  cash: "$60 in American notes, plus a Museum letter of credit"
+  assets: "$1,500 — savings, his grandmother's desk and books, a share in the family's Sussex property"
+  credit_rating: "30"
+  asset_details:
+    - "A Museum letter of credit at a Providence bank (for tour expenses, strictly accountable)"
+    - "Joint custody, with Dr. Bronson, of the Ibnhotep collection while it is on tour"
+    - "The Director's letter of introduction: real weight with American officials, briefly"
+
+inventory:
+  gear:
+    - item: "Conservation kit in a leather case"
+      desc: "Soft brushes, cotton wool, tweezers, acid-free tissue, labels, a bottle of shellac, and small brass scales. Meant for loose labels, flaking glaze, and the small repairs a touring collection always needs."
+    - item: "Folding pocket camera (Vest Pocket Kodak)"
+      desc: "For condition photographs. Takes clear record shots in daylight; useless indoors at night."
+    - item: "Electric torch"
+      desc: "A Museum-issue flashlight for crate inspections, with a spare battery."
+
+weapons:
+  - name: "Fighting (Brawl)"
+    skill: "50"
+    damage: "1D3 + DB"
+    range: "—"
+    attacks: "1"
+    ammo: "—"
+    malfunction: "—"
+  - name: "12-gauge double-barrel shotgun — his skill; none brought to America"
+    skill: "50"
+    damage: "4D6/2D6/1D6"
+    range: "10/20/50 yds"
+    attacks: "1 or 2"
+    ammo: "2"
+    malfunction: "100"
+  - name: "Webley Mk VI revolver (.455) — his service sidearm, in his luggage, not on his person"
+    skill: "20"
+    damage: "1D10+2"
+    range: "15 yds"
+    attacks: "1 (3)"
+    ammo: "6"
+    malfunction: "100"
+
+injuries_scars:
+  - name: "Bullet wound, right shoulder"
+    desc: "A Turkish machine-gun round at the Third Battle of Gaza, November 1917, followed by a winter of fever in a Cairo hospital. The entry and exit scars are ugly; the arm never got its strength back, and he tires faster than he did before the war."
+  - name: "Gallipoli"
+    desc: "No scar to show for Suvla Bay, only a dislike of crowded beaches, flies, and the smell of cordite in the sun."
+
+# --- Keeper notes (not for the player sheet) ---
+keeper_notes:
+  table_convention: >
+    Per the Keeper's standing rule: racism exists in this 1921 world but stays
+    OFF-STAGE. Owen's service in Egypt and Palestine is written as a soldier's
+    hard experience and respect for the places and people, never as colonial
+    adventure. Separately: Mercure's male stage persona is the player's to
+    control. Owen (and every NPC) takes "Monsieur Mercure" at face value; the
+    persona is never used as a plot threat or exposure risk unless the player
+    opts in.
+  stats_reconciliation: >
+    Backstory matched to the attribute page. STR 35 is the war's lasting cost
+    (the Gaza shoulder wound plus fever); CON 50 and HP 10 are ordinary.
+    Firearms (Rifle/Shotgun) 50 is country shooting plus the infantry; Brawl
+    50, Dodge 50, First Aid 50 and Psychology 40 are the front line. He has
+    no Arabic and no Navigate, so he was not a liaison officer or surveyor.
+    Occult 27 is his grandmother's stories. Sanity 55 (= POW, unreduced):
+    the war hurt him without breaking him.
+  play_modes: >
+    PLAYABLE: hand the player this sheet plus the Southampton secret, and let
+    them decide when (or whether) to confess it. NPC MODE: if the player does
+    not return, the Keeper runs Owen as the party's guilt-driven guide — he
+    volunteers the ledger, the keys, room 808, and the library, and asks the
+    party for help because the police will not listen to a foreigner talking
+    about curses. In a fight he is a steady shotgun and a field medic.
+  exit_options:
+    - "Send him to Brown's John Hay Library with Margaret Pemberton to dig out the other copy of his grandmother's monograph — he leaves the table but his research arrives later as a handout."
+    - "The creature takes him in the night (he went back to the ballroom alone to collect fragments). He becomes one of the voices in the vents — calling the party by name, confessing Southampton through the grille."
+  hooks:
+    - "The Southampton secret is the engine: he loosened the binding (or believes he did). Confession to the party, to Drummond, or to Pemberton is a dramatic beat the player controls; exposure by Fanshawe's cable is the Keeper's lever if he sits on it too long."
+    - "Grandmother's shabti makes its bearer invisible to the creature — the party may already own its best defence without knowing it. Reveal when someone researches the 1879 incident or when the creature visibly fails to see him."
+    - "He is a living clue index: the ledger (what was taken, where pieces fell), the case keys, Bronson's room key, and the name of the 1903 monograph all route the party to the right nodes without a die roll."
+    - "Fanshawe's cable creates institutional pressure: the Museum wants the remaining collection crated and shipped, and Owen ordered off the case — a mundane clock that competes with the monster's."
+    - "Old soldiers recognise him: Hannigan or Drummond may have served in France, and the regimental tie-pin opens a conversation the Mayor's letter can't."
+    - "The 1903 monograph contains the binding procedure in Elisabeth's dry academic prose. Owen's own copy is in London; Brown's John Hay Library has the other known copy (Thread A). He knows the title, which gives a bonus die to finding it."
+    - "His dreams of moving sand at Gaza are the creature's way in: Ibnhotep can use them in the finale's psychic assault."
+  suggested_skills_flavor: ["History", "Library Use", "Language (Egyptian — hieroglyphic & hieratic)", "Appraise", "Archaeology", "Firearms (Rifle/Shotgun)", "First Aid", "Fighting (Brawl)", "Spot Hidden", "Charm", "Psychology", "Occult"]
+  note: "Credit Rating, weapon skills and wealth figures are copied from the attribute page; no other numbers are invented here."

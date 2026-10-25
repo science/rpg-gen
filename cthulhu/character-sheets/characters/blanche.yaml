@@ -1,0 +1,175 @@
+--- # Call of Cthulhu 7e — Investigator Backstory Metadata
+# Player: Devon. Ported from the player's own backstory page
+# (Drive: Call of Cthulhu/Player Characters/Blanche_Cormier_Page2.html) and attribute
+# sheet ("Blanche_Cormier (Devon).pdf"). Prose reworded into third person from the
+# source (which was second person, written for the player) to match this folder's
+# other sheets. Everything on the rendered sheet comes from the player's page; the
+# reference-only sections (birthplace.notes, career_arc) and keeper_notes are
+# Keeper synthesis, and are marked as suggestions where they go beyond the source.
+#
+# Attribute sheet, for reference: age 30, born Biddeford ME, occupation Occultist.
+# STR 40, CON 40, SIZ 40, DEX 75, APP 65, INT 75, POW 60, EDU 68; Luck 60; HP 8;
+# MP 12 (current 10); Sanity 50. Charm 75, Sleight of Hand 70, Occult 60, Spot
+# Hidden 55, History 50, Library Use 50, Psychology 40, Electrical Repair 40,
+# Mechanical Repair 40, First Aid 30, Science (Astronomy) 23, Credit Rating 30,
+# Dodge 37, Fighting (Brawl) 25.
+
+meta:
+  schema_version: 1
+  ruleset: "Call of Cthulhu 7th Edition"
+  setting: "New England, 1921 (classic era)"
+  role: "Player Character (Devon)"
+
+identity:
+  legal_name: "Blanche Cormier"
+  known_as: ""
+  stage_name: "Madeleine Séraphine"
+  billing: "\"Spirit Medium · Clairvoyant · Messages from Beyond the Veil\""
+  sex: "Female"
+  age: 30
+  born: 1891
+  occupation: "Spirit medium (Occultist)"
+  residence: "Boston, Massachusetts"
+  status: "Welcome in Beacon Hill parlours — as long as nobody looks too closely"
+
+birthplace:
+  location: "Biddeford, Maine"
+  notes: >
+    (Keeper suggestion, beyond the player's page — confirm with Devon.)
+    Biddeford is a textile town on the Saco River, its mills worked in 1891
+    largely by French-Canadian families who came down from Quebec for the
+    wages; "Cormier" is a name from that world. That would explain the faint,
+    unplaceable accent Blanche adjusts to the room: a childhood in French at
+    home and English at the mill gate, sanded down later in Boston. It would
+    also explain the habit of watching people a beat too long — mill-town
+    children learn early to read the foreman's mood. At some point she came
+    to Boston, and to Aunt Vera's séance room in the North End, and learned a
+    trade that paid better than any loom.
+
+# Reference-only (NOT rendered). Synthesized from the player's page.
+career_arc:
+  origin: >
+    Taken under the wing of "Aunt Vera," who ran séances above a tailor's shop
+    in the North End. Learned cold reading, misdirection, and how to control a
+    room. Her first real score was a monogrammed silver cigarette case lifted
+    from a client's husband's coat at a house party.
+  current_standing: >
+    A working medium with Beacon Hill clients, an alias ("Madeleine
+    Séraphine"), business cards with the address of a bar she frequents, and
+    a leather notebook of her clients' secrets. Her most valuable client, Mrs.
+    Adelaide Carruthers, is also her biggest problem.
+  unreached_ambition: >
+    (Keeper suggestion.) Enough money to stop needing the Mrs. Carrutherses of
+    the world — and, though she would never say it, an answer about the
+    remainder: the few nights the room answered back.
+  current_mood: >
+    Cool on the outside and anxious underneath. The game is going well enough,
+    but the leash is tightening, and some nights the room answers back in ways
+    she didn't plan.
+
+# Carried on her person (from the player's Gear & Possessions list).
+pocket_litter:
+  - item: "\"Ritual\" pouch"
+    desc: "A small drawstring pouch of props: dried herbs, a stub of black candle, a vial of rosewater. Set dressing for a sitting — and, in a pinch, a candle, a light, and something that smells convincingly of church."
+  - item: "Lycopodium powder (2 vials)"
+    desc: "Ready to use. Thrown into a flame it makes a sudden, startling flash and burst of fire — a séance 'manifestation,' a distraction, or a way to light a dark room for one second."
+  - item: "Business cards"
+    desc: "A few cards in the name of Madeleine Séraphine, with the address of a bar she frequents. Handed out with a meaningful look."
+  - item: "Small folding knife"
+    desc: "A one-inch blade. For cutting thread, trimming candle wicks, and fixing apparatus. Not a weapon."
+
+backstory:
+
+  personal_description: >
+    A woman just past her late twenties who dresses just well enough to pass
+    in a Beacon Hill parlour, but never quite right: the fabrics a little too
+    theatrical, the jewellery a touch too bold. Dark eyes that settle on people
+    a beat longer than is comfortable. She speaks with a faint, unplaceable
+    accent that she adjusts depending on the room. To her clients she is
+    Madeleine Séraphine.
+
+  ideology_beliefs: >
+    "The rich rig the game and call it virtue. I rig the game and they call it
+    crime. At least I'm honest about being dishonest." Every ghost Blanche has
+    ever conjured was her — every single one. But some nights the room answers
+    back in ways she didn't plan, and she hasn't found the trick in that yet.
+    Most of what people call the supernatural is loneliness, grief, and bad
+    lighting. Most. She is genuinely troubled, and a little curious, about the
+    remainder.
+
+  significant_people:
+    - name: "“Aunt Vera”"
+      relation: "Mentor (no blood relation)"
+      desc: >
+        Ran séances in the North End when Blanche was young and took her under
+        her wing. Blanche learned cold reading, misdirection, and how to control
+        a room from Vera. Now elderly, ailing, and "out of the game," Vera is one
+        of the few people Blanche has ever genuinely respected. She still visits
+        to trade stories of successful cons and foolhardy marks.
+    - name: "Mrs. Adelaide Carruthers"
+      relation: "Client — confidante — leash"
+      desc: >
+        A society woman who became too attached after a séance and now
+        considers Blanche a close confidante. Useful for access and referrals,
+        but increasingly erratic and possessive. Blanche can't afford to cut
+        her loose, and she is starting to feel the leash.
+
+  meaningful_locations:
+    - name: "Aunt Vera's apartment, North End"
+      desc: "A cramped apartment above a tailor's shop where Vera held her séances. It smelled of candle wax and cigarette smoke. Blanche learned her trade in that room, and she still has a key."
+    - name: "Boston Public Library, Copley Square"
+      desc: "The reading room. Free, warm, and nobody asks questions. She researches new material there — folklore, spiritualism, stage-magic technique — and it is one of the few places she feels safe and calm."
+
+  treasured_possessions:
+    - name: "A small leather notebook"
+      desc: "Filled with shorthand notes on her clients: their fears, their dead relatives' names, their secrets. Not just a tool — it is proof that she is good at what she does. Losing it would be professionally devastating and personally dangerous."
+    - name: "A worn Rider-Waite tarot deck"
+      desc: "One of the first printings, from 1909, given to her by Vera when she was starting out. She has memorized every card but still uses this deck for readings. A few cards carry faint pencil marks on the backs — a cheat system she no longer needs but can't bring herself to erase."
+    - name: "A silver cigarette case"
+      desc: "Monogrammed with initials that aren't hers. Lifted from a client's husband's coat during a house party, it was her first real score. She keeps it as a reminder that rich people don't notice what's missing."
+
+  character_traits:
+    - "Cool under pressure but privately anxious — chews her thumbnail when alone and nervous"
+    - "Genuinely curious in a way she can't fully suppress; it makes her a good cold reader, and it gets her into trouble"
+    - "Dry, deflective humour — uses jokes to avoid sincerity or being seen"
+    - "Protective of people she sees being hustled by someone other than herself"
+
+wealth:
+  spending_level: "Average — $10.00/day"
+  cash: "$60.00"
+  assets: "$200.00"
+  credit_rating: "30"
+  asset_details: []
+
+weapons:
+  - name: "Fighting (Brawl)"
+    skill: "25"
+    damage: "1D3 + DB"
+    range: "—"
+    attacks: "1"
+    ammo: "—"
+    malfunction: "—"
+
+# --- Keeper notes (not for the player sheet) ---
+keeper_notes:
+  stats_reconciliation: >
+    Electrical Repair 40 and Mechanical Repair 40 are the séance trade: hidden
+    wires, rapping devices, a bell that rings on cue, a table that lifts. She
+    is the party member who can tell whether a room has been rigged. Sanity 50
+    is ten below her POW of 60 — she has already lost something to "the
+    remainder," whether or not she admits it. MP shows 12 maximum, 10 current.
+    Science (Astronomy) 23 is a medium's horoscope knowledge.
+  table_convention: >
+    Per the Keeper's standing rule: racism exists in this 1921 world but stays
+    OFF-STAGE. If the Franco-American background is used, it is texture and
+    strength, never a wound the table pokes at. Mercure's male stage persona is
+    the player's to control and is never used as a plot threat or exposure
+    risk unless that player opts in.
+  hooks:
+    - "The remainder: she has always half-wondered about the nights the room answered back. In Shadows over Providence it answers clearly — at the meet-and-greet, and then at the séance, where Bronson speaks through the vent and possibly through Blanche herself."
+    - "Mrs. Carruthers is the standing pressure. She can turn up anywhere society gathers (in Providence: her sister lives there), vouch for Blanche, demand her attention, or make a jealous scene in front of the wrong people."
+    - "The client notebook is a liability waiting to happen: if it is lost or stolen, a dozen Beacon Hill secrets are in someone else's hands, with her name on them."
+    - "Mercure has exposed mediums for a living, and Mercure's rival Cornelius Vane is a Boston medium with wealthy clients. Blanche may know Vane's act — or be useful against him. Keep the professional friction with Mercure collegial unless the players push."
+    - "Belief is the binding prayer's price. The fraud who has heard a real voice may be the one person in the party who can mean the words."
+  suggested_skills_flavor: ["Charm", "Sleight of Hand", "Occult", "Psychology", "Spot Hidden", "Library Use", "History", "Electrical Repair", "Mechanical Repair"]
+  note: "Credit Rating, Brawl and wealth are copied from the attribute sheet; all other numbers stay on that sheet."
