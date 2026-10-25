@@ -79,6 +79,8 @@ threads:
       campaign/inventory.yaml), unidentified. GM-ONLY TRUTH: it wards against the Sea of
       Souls' unseen water, specifically preventing the wearer from succumbing to sleep
       there. Save the reveal for when the party actually reaches the Sea of Souls.
+      Also halves language-engine damage, one wearer per bracelet per engine (see
+      thread:the-keeper -> reward); that half of its truth can surface at Sia.
     accumulating_kit: >
       The party is quietly assembling a Sea-of-Souls expedition kit without knowing the place
       exists. (1) The white-metal spider bracelet, session 3, unidentified — wards against the
@@ -110,6 +112,12 @@ threads:
       **The party chose reputation over gold** and took the Sia job unpaid. They also still
       carry the Tsendur letter (thread:tsendur-letter) — they took the harder job without
       giving the other one back.
+    after_sia: >
+      (Steve, after session 5.) The party WILL bring him the captive monk; that is treasure to him
+      on its own. Restoring the transit lane is the main thing. Leaving the tomb's treasure in place
+      reads to him as smart, seeing the bigger picture. He does NOT write to the Bridged City;
+      introductions there are Tsendur's (to Dain Ironheart). Negotiation:
+      scenarios/mishap-at-durgans-rest.md -> "The audience with Elmingwed".
     standing: >
       Warm and rising. If Sia is actually reopened, Elmingwed owes them publicly and so do
       Feltan, Al-Esellin and the western-route merchants — a reputation asset the party can
@@ -140,6 +148,12 @@ threads:
       off-screen. The party's own letter may be what puts her on Durgan's Rest's map —
       deliberately ambiguous, but real complicity, not just Tath'Shar's personal stake.
       NOT to be revealed to the party outright until that session plays out.
+    crew_rule: >
+      Campaign-long convention (Steve): Maghiel is always ahead of the party in level and very hard
+      to beat; she always gets away. Her named crew (Gotrin, Tolovin, Kyorgar) stay at or near the
+      party's level, so those fights are fair. When losing, she often teleports out WITH whichever
+      crew members are standing near her; anyone downed, grappled or cut off stays and can be
+      captured (the game-1 party did). Every encounter also brings red shirts: drow mercenaries.
     the_bind: >
       Tath'Shar wants to save their sister. Delivering the letter is what damns her. They do
       not know that and must not be told. Meanwhile the delay is its own answer — see
@@ -179,7 +193,7 @@ threads:
       Tath'Shar is the courier. See thread:tathshar-maghiel and
       scenarios/mishap-at-durgans-rest.md. Do not surface the irony until it lands.
     autonomous:
-      - "Every session it stays in a pocket is a session Tsendur sits unwarned. GM's call whether that helps him (nobody points Maghiel at him) or hurts him (he never gets the chance to hide the Clasp) — pick one now and be consistent, because the party's dithering should mean something either way."
+      - "DECIDED (after session 5): the delay neither helps nor hurts Tsendur. Maghiel is following the COURIER, not hunting Tsendur — she wants to know what the sealed letters say — so the raid comes the night the letter is delivered, whenever that is. She has been shadowing the party all along, Sia included. Show it once on the mountain road (scenarios/mishap-at-durgans-rest.md -> Coming here from Sia)."
       - "Elmingwed will eventually notice it was never delivered. That is a small, real cost to the patronage in thread:elmingwed-deal."
 
   - id: thread:missing-caravans
@@ -195,6 +209,11 @@ threads:
     open_at_the_table:
       - "Afara Al-Doorne and her daughter Dasara are ALIVE in a covered hole near the pond and have not been found. Abd Al-Doorne was killed getting them hidden (Elven Goods, area 5). Distinct from the El-Alouph family below."
       - "The slaves taken by the raiders were led into the desert days ago — INCLUDING the El-Alouph family of the wagon shop, whose dog Orkideh now has. Per the source the dog will lead the party on its family's trail, which makes it a live lead on the slave caravan. Nobody at the table has mentioned the slaves yet. This is the part of the job that is not about gold."
+    session_6_option: >
+      If the party takes the Keeper's errand north (thread:the-keeper), the dog can pick up the
+      El-Alouph family's trail on the old stone road to Ayatorrah, forking from it at the first
+      pair of obelisks (the "Turnings of Fate", six miles out). Optional — a fork in the
+      adventure, not only the road.
     autonomous:
       - "If the party clears the site and leaves, the route reopens slowly on its own — traders test it, word spreads, the reputation payoff arrives late but real."
       - "If the party dies or withdraws, the Black Water Cult finishes its excavation and the western route stays shut. Feltan's reward goes to someone else eventually."
@@ -204,9 +223,33 @@ threads:
     status: active
     ref: "[[subloc:sphinx-sia]]"
     summary: >
-      The party is inside, as of the end of session 4 — east hallway off 9a, the 9b door
-      forced open, Giant Ants coming through. Above ground the oasis is clear of living
-      cultists but for one captive.
+      Session 5 was a full crawl: the party explored nearly every room, learned the door
+      grammar and used it (marked cells left shut), and slammed 9f shut on An-Zefful. They
+      ended at the hidden door between the two armoured statues, which opens into 9o (the
+      False Treasure Room); 9p, Sia's tomb, is beyond it. Above ground the oasis is clear of
+      living cultists but for one captive.
+    ashiq_lore: >
+      DECIDED after session 5: Ashiq heads the Black Water Cult. She and the other top ranks
+      WOULD say the four names if it made life easier, but can never be seen doing it — one
+      overheard prayer to Doorne and they look mortal and craven, and the fanatics' devotion
+      collapses on them. The cult they built traps them into performing purity to Elsrok. Hence
+      the drowned priest (a puppet's mouth is doctrinally clean). At the table: alone she bargains
+      and might say the names; in front of one fanatic she dies first; a credible rumour that she
+      prayed to Doorne is a weapon. scenarios/ashes-at-the-sphinx.md -> Rule one, "Would Ashiq
+      say the words?".
+    after_the_tomb: >
+      Two roads out: north on the Keeper's errands (Forsaken Pyramid), or Tel A'bib then Durgan's
+      Rest (expected — the party promised Tath'Shar). What happens at Sia behind them depends on
+      whether they relit the Ember and buried the murdered priest. scenarios/ashes-at-the-sphinx.md
+      -> "After the tomb — which way?".
+    session_6_opening: >
+      At the hidden door into 9o. Prep in scenarios/ashes-at-the-sphinx.md -> "Session 6 opens
+      here": the grammar as a search aid for both hidden doors; five options for 9o (the plank
+      crossing over the pit; Tabbat, a cultist stranded eight days on the ledge who will not say
+      the names; the high priest Kamenhet painted at the king's shoulder where the god should be,
+      his name under the scraped gold leaf, and a last panel showing him sealing himself in; the
+      Keeper speaking through the door before it opens; and Ashiq's column arriving so that the
+      wight's room becomes the only sanctuary). Then the Keeper — see thread:the-keeper.
     session_5_opening: >
       The party is mid-fight with the Giant Ants (9b). DESIGNED WAY OUT (not mandatory —
       fighting is fully supported): Jiyloo realises the problem is their dirty feet, slams and
@@ -251,8 +294,8 @@ threads:
       settled ants, or the Black Water Cult. The choice is made ONCE and rides; 9m (Temple of
       the Sphynx) is the only place to convert, renounce or re-dedicate. Escalation widens scope, never the die — by the fifth room of
       refusal, Jiyloo's pendant no longer covers the holdout. Refusing buys something real:
-      no Deception disadvantage in holy rooms, and Sia (9p) will only negotiate with the
-      unblessed, treating the blessed as subjects.
+      no Deception disadvantage in holy rooms, and in 9p the Keeper's hunger can speak only to
+      an unsworn mind (thread:the-keeper). Session 5: everyone but Tath'Shar took the oath.
       THE FIVE RITES (taught in 9a, the vestibule): 1. Bear the sign. 2. Speak the praise.
       3. Arrive clean. 4. Depart holy. 5. Remain pure. Rites 1-2 are Rule one (the pendant and the
       spoken names); rite 3 is the foot-washing that settles the ants; rite 5 is the doorframe
@@ -269,8 +312,9 @@ threads:
       were their keepers, left offerings at the threshold dishes, and the gold-flecked pilgrim
       road routes around every one. Marked rooms: 9d/9g/9h sealed, 9i/9k washing, 9b no passage,
       9f defaced (unreadable — An-Zefful likely erased his own sentence). Marks label ROOMS not
-      objects, so 9l/9j/9n are unmarked and still dangerous. **9p has NO mark although it holds
-      a wight** — physical evidence that Sia's high priest, not Doorne, put him there.
+      objects, so 9l/9j/9n are unmarked and still dangerous. **9p has NO mark outside although it
+      holds a wight** — its mark is on the INSIDE lintel, a skull recut over and over: the
+      Keeper sealed himself in (thread:the-keeper).
     design: >
       The tomb as written is a room-by-room monster crawl with no information, no pressure,
       nobody to talk to and a poisoned reward. Review and six proposed depth concepts are in
@@ -279,6 +323,60 @@ threads:
     autonomous:
       - "The tomb does not care. Its guardians are ancient and faction-blind and will kill Black Water cultists exactly as readily as the party."
       - "Ashiq and the main body arrive on their own schedule whether the party is ready, deep inside, or already gone."
+
+  - id: thread:the-keeper
+    title: "The Keeper — the priest who stayed"
+    status: dormant     # goes active when the party reaches 9o/9p (session 6)
+    ref: "[[subloc:sphinx-sia]]"
+    summary: >
+      The wight in 9p is NOT Sia (Steve, after session 5). It is KAMENHET, Sia's high priest.
+      When the empire fell and the priests stopped coming, he took the Scepter of Ice (the
+      keeping-tool the tomb's guardians answer to) and made himself undead so the keeping would
+      never end and the oasis would stay safe for the king's temples and travellers. Becoming a
+      wight put a terrible evil in him — the hunger — so he sealed himself into the inner tomb with
+      an oath on Doorne's names, behind a door that only opens to praise from outside. Sia lies
+      dead and at rest in the sarcophagus; the Keeper keeps vigil in the chair at his feet. 9p is
+      unmarked from outside; its INNER lintel carries a skull recut over and over between sealed
+      and washing. He is rational and reasonable, but a wight: dangerous and unstable. The Ember
+      going out two weeks ago has loosened his hold. He is the one still filing thieves (9g, the
+      petrified cultist).
+    protocol: >
+      Confides only in priests (Gereon, Acolyte, is the honest answer; a false priest faces
+      Insight +3). Answers the four oath-takers as pilgrims. Will not address Tath'Shar (unsworn,
+      and killed on his threshold) — but the HUNGER speaks privately to the unsworn mind, and only
+      to it: one truth (Tath'Shar's sister will come for the Scepter, a prohibited artifact) and one
+      lie (leave the door open and it's yours). Jiyloo knows him from her grandmother's story, "the
+      priest who stayed," kneels, and cannot speak to him.
+    hunger_track: >
+      0-6, starts at 3 (2 if the Ember is relit first). Rises on: someone within reach, blood, a
+      drawn weapon, touching the Scepter/Coal/sarcophagus, a caught lie, the door left open. Falls
+      on: his name spoken (-2 first time), a prayer in one of the four names, the door closed behind
+      them, his feet washed. 0-2 the priest; 3-4 cracks (bargains here are partly the hunger's);
+      5 he warns them to go; 6 he attacks — names spoken mid-fight can stop him, a blow after
+      restarts it. He cannot cross his own threshold.
+    the_offer: >
+      "Keep my oath where I can't." (1) Relight the Ember with his Coal. (2) Bring back the oasis's
+      people (the slaves; the dog has the El-Alouph scent). (3) End the drowning of the dead at its
+      source: the Temple of Mennuj at AYATORRAH, 22 miles north on an old stone road — the source's
+      own sequel, Forsaken Pyramid (ONA-16), where the cult's mystics bottle water spirits. It was
+      his order's seat; he can teach the entry rite that disarms its gates for the faithful. A desert
+      adventure on a dead priest's vow, not Elmingwed's interest. A living Doornian priest found
+      there could take up the keeping at Temple al Sia — the only way the Keeper can be released
+      without the keeping ending.
+    reward: >
+      (Steve, after session 5.) He promises ANCIENT LANGUAGE: a Bokkaran language engine stands
+      behind his chair in 9p. For the right service he will have the priests, WHEN THEY RETURN to
+      Sia, let the party use it. It is carried out in procession and set up in the great hall (9c)
+      with a ceremony. Touching it deals d100 flat damage; a roll of double the character's HP or
+      more is permanent death (the 5e massive-damage rule from full health). Survivors read and
+      speak Bokkaran. Lethal at low level by design, so the reward pulls the party back later. A
+      second engine waits with Yormon on the Sea of Souls (Bridged City arc); there are more.
+      SPIDER BRACELETS halve engine damage — one wearer per bracelet per engine (tradeable, but
+      each bracelet is used once at each engine). With the party's one bracelet, death needs a
+      d100 roll of 4x HP; no roll can kill a 26+ HP wearer.
+    autonomous:
+      - "He does not move. He has waited four hundred years. But the hunger grows while the Ember stays out."
+      - "If the party leaves 9p shut and the cult arrives with the drowned priest, the door opens for it — and the Keeper only talks to priests."
 
   - id: thread:jeffrol-hothme
     title: "Jeffrol on the northern road"
@@ -312,5 +410,10 @@ threads:
       walked in carrying this. (2) Jiyloo saw it and is Dorne-faithful. She does not have to
       say anything yet. (3) The party will meet another cornered, harmless cultist below —
       the same choice with the stakes flipped, and it plays completely differently now.
+    session_6_payoffs: >
+      (4) Tath'Shar is the only PC who refused the 9a oath. The Keeper in 9p felt a man die on
+      his threshold and will not address them — but the hunger inside him speaks to them alone.
+      (5) Tabbat, stranded on the 9o ledge, is the cornered, harmless cultist from note (3) — and
+      the hunger will ask for him. See scenarios/ashes-at-the-sphinx.md -> 9o, Running the Keeper.
     autonomous:
       - "Nothing propagates outward — nobody survived to report it. This is an internal debt, between the party, their god-haunted companion, and the tomb."

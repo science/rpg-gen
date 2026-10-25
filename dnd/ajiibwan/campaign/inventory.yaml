@@ -19,12 +19,23 @@ strongbox:
       item:spider-bracelets, thread:sea-of-souls-water): a Bokkaran ward against the Sea of
       Souls' unseen water — specifically it prevents the wearer succumbing to sleep while
       in the Sea of Souls. Payoff held for when the party reaches the Sea of Souls arc.
+      ALSO (campaign rule, Steve): it HALVES the damage a Bokkaran language engine deals to its
+      wearer. One use per bracelet per engine — the party can trade it between characters, but a
+      given bracelet protects only one character at a given engine. It works again at the next
+      engine. Engines so far: the Keeper's (9p, Sia) and Yormon's (Sea of Souls, Bridged City arc).
+      USED AT: (none yet)
   - item: "Bokkaran scrolls — Mending, Encode Thoughts, Alarm"
     source: "Jeffrol's mercenary camp, session 3"
     note: "Unusable until someone learns to read Bokkaran, or a magic-trained PC studies them."
   - item: "Herbs & alchemical resources"
     source: "Jeffrol's mercenary camp, session 3"
     note: "Raw materials — not consumables in hand yet."
+  - item: "Black obsidian serpent ring"
+    source: "Off the petrified Black Water cultist ('the new statue') in the Tomb of the Sphinx, session 5"
+    note: >
+      The Black Water Cult's standard membership token. Useful for passing as cult staff at a cult
+      operation (e.g. the Temple of Mennuj at Ayatorrah). Move to `assigned` if a PC starts wearing
+      it. Its twin is still on the half-absorbed miner in 9j.
   - item: "Broken swords, torn armor, misc. equipment"
     source: "Jeffrol's mercenary camp, session 3"
     value: "~12 gp (sale/salvage value, not usable as-is)"
@@ -55,4 +66,4 @@ companions:
 #     killed." That is a decision, not a pickup.
 
 # --- Bookkeeping --------------------------------------------------------
-last_updated: "campaign/sessions/04.md"
+last_updated: "campaign/sessions/05.md"

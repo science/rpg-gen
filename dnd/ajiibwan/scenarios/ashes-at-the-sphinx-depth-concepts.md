@@ -347,6 +347,11 @@ because it changes what 9p is for.
 
 ## 7. Sketch five — Sia wants a verdict, not a fight
 
+> **⚠ Superseded after session 5.** The wight in 9p is **not Sia**. Steve's call: it is Sia's
+> high priest, who made himself a wight to keep the tomb and the oasis safe, and sealed himself in
+> because of the evil that put in him. See `ashes-at-the-sphinx.md` → the 9p card and *Running the
+> Keeper*. This sketch is kept for the history of the design only.
+
 **The idea.** As written, the climax of sixteen rooms is a 28 HP wight that throws off a lid
 and swings. Give him a mouth.
 

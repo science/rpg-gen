@@ -15,59 +15,55 @@ thread:missing-caravans
 
 ---
 
-> ## ⚑ IN PLAY — what actually happened (session 4, 2026-09-06)
+> ## ⚑ IN PLAY — where things stand after session 5
 >
-> This packet is no longer a plan; the party is inside it. Full recap in
-> `campaign/sessions/04.md`. **Design review and six proposed depth upgrades are in
-> `scenarios/ashes-at-the-sphinx-depth-concepts.md`** — none of them require retconning
-> anything below.
+> This packet is no longer a plan; the party is deep inside it. Recaps:
+> `campaign/sessions/04.md` (2026-09-06) and `campaign/sessions/05.md`. Design review and
+> depth concepts: `scenarios/ashes-at-the-sphinx-depth-concepts.md` (its Sketch 5, "Sia wants a
+> verdict," is **superseded** — the wight is not Sia; see *The Keeper*, below).
 >
-> **Table:** Ren, Orkideh, Lia, Gereon, **Tath'Shar** (new, they/them) — 5 PCs at level 2,
-> plus Jiyloo and now a dog. Jeffrol is gone (sent north by Elmingwed, back in ~9 weeks), so
-> the "7-body party" note above no longer applies: it is **six bodies and a dog.**
+> **Table:** Ren, Orkideh, Lia, Gereon, **Tath'Shar** (they/them) — 5 PCs at level 2 (confirm
+> whether session 5 leveled them), plus **Jiyloo** and **Orkideh's dog**. Six bodies and a dog.
 >
-> **Done:**
-> - **Beat 1, partially.** Burnt tents and carnage worked over. The **area-4 mastiff** was
->   freed from under a collapsed tent, calmed (Animal Handling + *Speak with Animals*) and
->   healed by Gereon — it is now **Orkideh's permanent companion**, giving the party passive
->   scent-Perception. **Two separate threads are open here and the source keeps them apart —
->   don't merge them (an earlier draft of this packet did).** The dog belongs to the
->   **El-Alouph** family of area 4, who surrendered and **were taken as slaves into the desert**
->   — so the dog is a lead on the *slave caravan*, not on a hiding place. The survivors in the
->   covered hole near the pond are a different household: **Afara Al-Doorne and her daughter
->   Dasara** of Elven Goods (area 5), with Abd killed getting them hidden. **Neither has been
->   found.**
-> - **Area 3, the tavern.** Slaughtered locals; scraping upstairs; **four zombies locked in
->   an upper room** — reflavored from "inn patrons raised as a trap" to *raised and corralled
->   by the cult against future need*, which is better and is now canon. The party killed all
->   four in one round.
-> - **Beat 2a, the sphinx guard.** Three cultists lounging in the plinth's shade instead of
->   watching. Neither side surprised. All three subdued; the **leading monk** broke for the
->   desert and **Gereon ran her down**. One killed in the fight, two captured — and then
->   **the party executed one of the prisoners**, Tath'Shar willingly, while the squeamier PCs
->   looked elsewhere. Tracked as `thread:the-prisoner-on-the-plinth`; see the depth-concepts
->   doc for where that comes back.
-> - **The interrogation changed the clock.** See "The clock", below — it is now better than
->   what the source gave you.
-> - **Beat 2/3 begun.** The surviving monk showed them the stair between the paws. Party
->   entered **9a (Hall of Water)**, went **east**, reached a hallway ending in a **south door
->   (unopened)** and an **east door**. They opened east, met the **Giant Ants (9b)**, slammed
->   the door — and the ants forced it back open. **That is where session 4 ended.**
+> **Session 4 — the oasis and the stair.**
+> - Burnt tents worked over. The **area-4 mastiff** was freed, calmed and healed — it is now
+>   **Orkideh's dog**. It belongs to the **El-Alouph** family, who were **taken as slaves into
+>   the desert**, so the dog is a lead on the slave caravan. The survivors hidden in the covered
+>   hole near the pond are a *different* household — **Afara Al-Doorne and her daughter Dasara**
+>   (area 5). **Neither has been found. Don't merge them.**
+> - **Area 3, the tavern:** four zombies corralled upstairs by the cult; killed in one round.
+> - **The sphinx guard:** three cultists. One killed in the fight, the fleeing monk run down by
+>   Gereon, and then **one prisoner executed** — Tath'Shar willingly — on the sphinx's plinth
+>   (`thread:the-prisoner-on-the-plinth`). The interrogation gave the party the real clock.
+> - **Jiyloo opened the tomb in the open:** she drew her **Doornian pyramid pendant** at 9a and
+>   said *"This area is holy for believers of Doorne."* That is why the Caryatid Columns never
+>   moved.
 >
-> - **Jiyloo opened the tomb, in the open.** She led down the stair, and the moment she saw
->   9a she pulled a **Doornian pyramid pendant** out from under her robes, put it on show, and
->   said *"This area is holy for believers of Doorne."* **That is why the Caryatid Columns
->   never moved** — the source gates them on a pyramid of Doorne being openly displayed, and
->   she displayed one. She said it out loud in front of everybody, so this is not a secret the
->   party has to earn; it's a fact they already own and may not have finished thinking about.
->   The two running rules that fall out of it — **the pendant** (who the tomb lets past) and
->   **the blessing at the door** (what it costs to refuse him) — are written up below under
->   **"Doorne's rules at the table."**
+> **Session 5 — the full crawl.**
+> - **The ants (9b):** the party worked out how to re-freeze them. **Jiyloo held the door —
+>   "hodor'd" the ants back — while the party washed their feet in 9a's pools, and then washed
+>   hers.** Nobody fought them.
+> - **The oath:** **everyone except Tath'Shar** knelt in a 9a doorframe and took Doorne into
+>   their heart. **Tath'Shar is the one *Unwelcome* character** (−1d4 against Doorne's own work).
+> - **The crawl:** the party learned the door grammar and used it, fighting almost nothing. Route:
+>   **west, then south, then north, past 9o and the treasure wing into the great hall (9c), and
+>   back to the secret-door area** at the north end of 9c. They **slammed 9f shut on An-Zefful**
+>   and left the marked cells alone.
+> - **Loot:** none taken, except from **the petrified cultist** (*the new statue*): a **black
+>   obsidian serpent ring**, the Black Water Cult's membership token.
+> - **Time below: about eight hours.** They moved fast because they had learned to read the
+>   doors.
+> - **Boons:** which door each oath-taker knelt at was not recorded, and it does not need to be.
+>   Boons last only until they leave the tomb, which is soon. If one comes up in 9o or 9p, let
+>   the player say which door they chose.
 >
-> **Not yet touched:** Temple al Sia (area 6, unlooted, with its silver altar and lockbox and
-> its smothered Ember), the Talifan camp and the Water-Claimed (area 7), the oasis waters and
-> the mud elemental (area 8), the El-Alouph pit, the slaves taken into the desert, and every
-> room of the tomb past 9a.
+> **Session 6 opens at the hidden door between the two armoured statues** — the way into **9o**.
+> Start at *Session 6 opens here*, below.
+>
+> **Not yet touched:** Temple al Sia (area 6 — unlooted, its Ember smothered, its murdered priest
+> unburied), the Talifan camp and the Water-Claimed (7), the pond and the mud elemental (8),
+> Afara and Dasara (5), the slaves on the desert road, the cult camp's papers in 9c (seen, not
+> searched), the dig's loot in 9j, and **9o and 9p.**
 
 ---
 
@@ -79,16 +75,18 @@ fast, everything you need is in Part 1.
 | Part 1 — at the table | |
 |---|---|
 | **At a glance** | party, position, clock, what's still untouched |
-| **Session 5 opens here** | the way out of the ant fight, and 9a as the vestibule |
+| **Session 6 opens here** | where they are, the clock, the door grammar as a search aid, running order |
 | **Doorne's rules — the table card** | the five rites and all three rules, on one page |
-| **Room cards** | one card per room: *Read · In it · Matters · Loot* |
+| **Room cards** | one card per room: *Read · In it · Matters · Loot* — plus **9o's five options** and **Running the Keeper** (9p) |
 | **Combat reference** | trackers, reference cards, round-by-round guides |
 
 | Part 2 — behind the screen | |
 |---|---|
 | **The clock** | what the cult went to fetch, and how to run the deadline |
-| **Rules one, two, three in full** | the pendant · the blessing · reading the doors |
+| **Rules one, two, three in full** | the pendant (and why Ashiq won't say the names) · the blessing · reading the doors |
 | **The cult's high-water mark** | the camp, the dig, the door, the investigation ladders |
+| **The road north** | the Keeper's errands, and *Forsaken Pyramid* (ONA-16) as the next adventure |
+| **After the tomb — which way?** | north on the Keeper's errands, or Tel A'bib and Durgan's Rest; what happens at Sia behind them |
 | **Doorne's Ember** · **Adaptation notes** · **The shape of the adventure** | |
 | **Rewards & consequences** · **Post-game seeds** | |
 
@@ -104,157 +102,139 @@ should be read before the session, not during it.*
 
 | | |
 |---|---|
-| **Party** | Ren · Orkideh · Lia · Gereon · Tath'Shar — **5 PCs, level 2** — plus **Jiyloo** (NPC, Dorne-faithful, wearing the pendant) and **Orkideh's dog**. Six bodies and a dog. |
-| **Where** | East hallway off **9a**. South door unopened, **east door open**, Giant Ants (**9b**) coming through. |
-| **The clock** | The cult's main body returns **within 1–2 days**, carrying whatever they bought to open the door they couldn't. |
+| **Party** | Ren · Orkideh · Lia · Gereon · Tath'Shar — **5 PCs, level 2** (confirm) — plus **Jiyloo** (NPC, Dorne-faithful, wearing the pendant) and **Orkideh's dog**. **All but Tath'Shar took the doorframe oath.** Gereon has the Acolyte background. Carrying: one obsidian serpent ring. |
+| **Where** | North end of **9c**, at the hidden door between the two armoured statues. Behind it: **9o**, then **9p** and **the Keeper**. |
+| **The clock** | The cult's main body was due **within 1–2 days** of the session-4 interrogation. After a full crawl, **expect it during session 6.** |
 | **Above ground** | Cleared of living cultists but for **one captive** (the surviving monk). **Not yet touched:** Temple al Sia and its smothered Ember (6), the Talifan camp (7), the pond and the mud elemental (8), Afara and Dasara in their hole (5), and the slave caravan the dog can track. |
-| **Open first** | *The opening scene*, below — the way out of the ant fight, and the 9a vestibule. |
+| **Open first** | *Session 6 opens here*, below. |
 
 **Three things the party does not know and should work out for themselves:**
 1. Jiyloo's pendant is why nothing in 9a attacked them.
 2. The cult spent a month down here, lost nineteen people, and never reached the treasure.
-3. The tomb is not mainly a tomb. It is a prison, and it is still working.
+3. The tomb is not mainly a tomb. It is a prison, and it is still working — because one priest never stopped keeping it.
 
 ---
 
-## Session 5 opens here — the ants, the pools, and what 9a is actually for
+## Session 6 opens here — the false tomb, and the priest who stayed
 
-*This is the scene that gets the party out of the corridor and turns the room they walked
-through in ten seconds into the classroom for the whole dungeon. Everything in Rules one, two
-and three below is **discoverable in 9a**, and the party has already been in it. That's the
-joke, and it should land as "how did we not look at any of this."*
+**Dramatic question for tonight:** *A priest gave up his death to keep this oasis safe, and is
+losing the fight with what that made him. The party can help him hold, use him, or end him —
+and whatever they choose, the oasis has to live with it.*
 
-### Why this works (the short version)
+**Where they are.** At the north end of **9c, the Hall of the Great God**, in front of the
+hidden door between the two armoured statues. Behind it is **9o, the false treasure room**; on
+9o's far wall is the door into **9p, Sia's tomb**, where the wight is.
 
-Elsewhere this packet calls the ants *machinery* — not credential-checkers, not answerable to the
-rite. That still holds. The piece that makes this scene work is one line: **the ants aren't
-attacking the party, they're attacking a trespass.** Twelve soldier ants set to eat robbers, a
-door marked *no passage*, and five people who came off the pilgrim road with a burned village on
-their boots. Take away the trespass and there's nothing left to attack. The ants don't forgive
-anybody — they just stop having a reason.
+**What they are standing in.** 9c is the Black Water Cult's month-long camp, and the party
+walked through it without searching it. Everything on the 9c card is still there: the tally
+(31 marks, 19 struck through), the dispatch, the mapcase, and **the unsent letter home** — which
+complains about *"a man named Tabbat who won't stop praying out loud."* If they search before
+opening the door, they will know Tabbat's name before they meet him (9o, option B).
 
-### Jiyloo's realization
+**What they carry into it.**
+- **Four of five have taken the oath.** To the wight, they are pilgrims. **Tath'Shar is the
+  only unsworn mind in the party** — which matters a great deal in 9p.
+- **Gereon has the Acolyte background** — he served in a temple. He is the closest thing the
+  party has to a priest, and the wight only truly talks to priests.
+- **One obsidian serpent ring**, off a cultist the tomb turned to stone.
+- **Two sessions of reading this building.** They know the grammar. Tonight it pays out.
 
-Run it the moment the ants force the door back open — she's the one who has been leading, and
-she's the one who let this happen.
+### Check the clock first
 
-> **Jiyloo:** *"I'm a fool. Our feet are dirty, and we must come clean to Doorne."*
+The interrogation in session 4 said the cult's main body was due back **within one to two
+days.** The party has been below for **about eight hours**. So the column is due, but it is not
+overdue. It can arrive at whichever moment serves the session best:
+- **While they are in 9o or 9p (strongest).** That is the one part of the tomb the cult has
+  already proved it cannot enter (9o, option E). The Keeper's sanctuary means something only if
+  something is chasing them.
+- **As they climb the stair.** The column is filing into the oasis while the party comes out of
+  the sphinx with whatever they took from 9p. That is a fight in the open, or a hide-and-watch.
+- **After they leave.** The party rides away and the column is behind them. Then it is a
+  consequence instead of a fight: it reaches the tomb with the drowned priest while nobody is
+  there, and the Keeper has to face it alone. That works best if the party is heading for
+  Durgan's Rest — see *After the tomb — which way?*, Part 2.
 
-She throws her shoulder into the door, slams it, and **braces it herself** — and she stays
-there. She cannot leave. She tells them: go back to the pools, wash your feet, and **someone has
-to bring water back and wash mine.**
+What they are bringing: *The clock*, Part 2.
 
-**Running it — keep the pressure on, but there is no fail state.**
+### The grammar, one more time — a search aid
 
-- **Jiyloo holds.** She's a barbarian and this is her moment; don't make her roll for it. But from
-  **round 3** onward, mandibles start getting through the gap: **1d4 per round** to her while she
-  holds. The party can hear her counting rounds without her saying a word.
-- **The pools are back in 9a**, roughly 30–40 ft down the hall — about a round to reach, a round
-  to wash, a round to get back with water. Everyone can go at once. Call it **3–4 rounds** if
-  nobody dithers.
-- **Somebody has to kneel and wash her feet.** She can't do it herself; she's holding the door.
-  This is the scene. *Whoever does it, Jiyloo remembers* — note it on her disposition.
-- **Narrate the ants coming down in stages** as each PC finishes: twelve, then nine, then five,
-  then two, and then a room full of statues that used to be insects. The party can see the
-  mechanism working, which is how they learn it's a mechanism.
-- **When the last person is clean, she lets go and the door drifts open** on a room of perfectly
-  motionless ants.
+*Everything the party could have learned in the crawl, arranged for the two hidden doors in
+front of them. Full reasoning in Part 2, Rule three.*
 
-**If a PC refuses to wash** (and one might), the room does not settle — it settles for *everyone
-present* or nobody. Let the party lean on them. Stakes are deliberately tiny: **this is washing,
-not an oath.** Be explicit about that at the table, because the oath comes later in this same
-scene and it is the one that's meant to divide them. Don't let a player conflate the two and
-refuse the wrong one.
+**The signs carved over doors.** Every sign is built on a pyramid, cut hand-sized into the
+**lintel** (the stone beam over the doorway).
+- **Clean pyramid** (often with sun, wheat or water added) — *His.* Worship and passage. Safe.
+- **Skull on the outer flank, turned outward** (looking at you in the corridor, away from the
+  god) — **SEALED.** What is inside is held forever. Do not open. *(9d, 9g, 9h)*
+- **Skull set into the face like an inlaid stone, tilted up toward the apex** (looking at the
+  god) — **WASHING.** What is inside is being purified toward release. Also do not open — because
+  opening interrupts the work. *(9i, 9k)*
+- **The road under the pyramid struck through** — **NO PASSAGE.** The route does not go this
+  way. *(9b)*
+- **An open mouth carved beneath a clean pyramid** — **this threshold answers speech.** A worn
+  pendant does nothing. Say one of the four names. *(9e, 9m, and the door into 9p)*
+- **Hammered flat** — it was marked and someone destroyed the label. *(9f, An-Zefful)*
+- **No mark at all** — not Doorne's work: squatters, objects, or something the god did not put
+  there. *(9j, 9n, 9o — and, seen from outside, 9p)*
 
-**And fighting is still completely fine.** Steve's session-4 note stands: if they'd rather brace
-the door, spike it, or back into 9a and take the ants one at a time through the doorway, run it
-and reward the tactics. This is an *exit*, not the correct answer.
+**The four names** (any one satisfies an open-mouth door; sincerity is not checked):
+*Doorne the All-Knowing · Mighty Doorne · Doorne the Omnipotent · Doorne the Creator.*
 
-### The first test of **Depart holy** — free, safe, and instructive
+**The physical tells.**
+- **A marked cell has three more tells:** a **raised stone sill** you must step over on purpose,
+  a **shallow offering dish in the floor outside**, and **a handle on the corridor side only.**
+  You can open these doors. Nothing inside can.
+- **The gold-flecked black marble is the priests' road.** It routes around every marked room and
+  never turns into one.
+- **Marks label rooms, not objects.** The scarab in 9l lay in a clean room and was still cursed.
 
-With the ants still, the party can walk into 9b. **There is a dead cultist in there** (see *The
-cult's high-water mark*), with his kit and a copy of the route-sketch on him.
+**Finding the hidden door they are standing at (9c → 9o).** Clues in rising order of
+obviousness:
+- **The gold road ends at a blank wall.** It runs up between the two armoured statues and stops.
+  *A road does not end at a wall.*
+- **The floor in front of the wall is worn** into a shallow hollow, the way stone wears where
+  people stood and bowed for centuries. Pilgrims were allowed this far and no farther.
+- **The matched pair.** Two armoured statues, five feet apart, hands on their sword hilts. The
+  source drops the search to CL 5 if anyone notices this mirrors another pair with a door
+  between them.
+- **The cult found it first.** A curved scrape in the floor dust where a pivoting door has swung,
+  chalk route-marks in the cult's script, boot traffic. **Orkideh's dog** works the base of the
+  wall without being asked — give it the free find.
+- **There is no sign over it.** By the grammar, the room behind is not Doorne's. **Say that out
+  loud if nobody else does: the rules are about to change.**
 
-- **Taking the cultist's body and gear: completely safe.** It came in from outside. The ants
-  don't care.
-- **Prying the bronze fittings off the door, or chipping at the floor: not safe.** Twelve ants,
-  immediately.
+**Finding the door to 9p (inside 9o).** The source makes this easy once the floor has collapsed
+(CL 2). The puzzle is *reading* it, not finding it.
+- **The floor fell everywhere except a two-foot ledge along the west wall.** Builders who dropped
+  a whole floor and spared one strip were telling you where to stand.
+- **A second matched pair:** two golden statues on that wall, a warrior and a priest. Same rule,
+  said again.
+- **The cult's siege:** a fan of soot, chiselled edges, a pick-head snapped off in the top seam,
+  acid runnels. Wipe it and the stone underneath is perfect.
+- **The lintel: a clean pyramid with an open mouth beneath it.** This door wants words.
+- **And the inconsistency, for the readers:** the *door* carries Doorne's sign; the *room* behind
+  it carries nothing. The party may read that as "Doorne didn't put whatever is in there." They
+  are half right. See 9p — the mark is on the inside.
 
-That distinction is the whole of **rite 4, *Depart holy*** — you leave this place as holy as you
-entered it, which means leaving its holiness where it is — delivered as a free, survivable
-experiment, and it teaches the party that the tomb's rules are **specific rather than
-arbitrary** — which is the difference between a dungeon they can play and a dungeon that just
-happens to them.
+**Jiyloo's line, if the party stalls on the ledge:** *"It's the same as the statue room. It wants
+to hear you say it."* She will not say it first.
 
----
+**Jiyloo's other line — give it the first time anyone wonders aloud what is behind that door:**
+*"My grandmother said that when the empire fell, one priest stayed behind, so the dead would stay
+where they were put."* That is all she knows. It is a children's story. It is true.
 
-### 9a is a vestibule, and everything in it is instructional
+### Suggested running order
 
-Then Jiyloo says the useful thing: *go back and look at the room properly.* Once the party
-accepts that 9a is not a foyer but a **preparation station**, the whole room reads:
-
-**Why nobody noticed:** the pools are set **in front of the doors.** Not against a wall, not in
-the corners — *before the thresholds*. Water placed before a door is not decoration. It's a
-station, and the party walked between them twice.
-
-| Rite | What's in 9a | How they get it |
-|---|---|---|
-| **1. Bear the sign** | Each of the four corner statues — the **Brides of Doorne**, a knightly order believed extinct — wears a carved pyramid pendant. It is **the same pendant Jiyloo is wearing.** | **Free.** The moment anyone looks at her and then at a statue. Give it to them; they earned it by surviving. |
-| **2. Speak the praise** | A band of script runs beneath the frescoes on all four walls. | **DC 13 History.** Decoding gives **the four names** — Doorne the All-Knowing, Mighty Doorne, Doorne the Omnipotent, Doorne the Creator — and the instruction to speak one at every threshold. They don't strictly need this to survive 9e, but a party that decodes it here walks into 9e already knowing, which is enormously more satisfying than being rescued by a wall inscription. |
-| **3. Arrive clean** | The frescoes show pilgrims seated on **these exact pool rims**, washing their feet before going on. One panel shows a younger person kneeling to wash an elder's feet. | **Free after the ant scene** — and let it land that the panel depicts precisely what they just did for Jiyloo, badly and under pressure. Otherwise **DC 10**. |
-| **4. Depart holy** | The frescoes show the god's substance being *poured into* the building: gold into the floor, water into the pools, fire into the hearth. Nothing here was put in for safekeeping. It was put in to **be** the place. | **DC 14 Investigation or Religion.** And look down: the black marble is *streaked with gold*. Gold in a floor is not storage. **Jiyloo's version, if they need it plainer:** *"You can't carry the holiness out. So you can't carry the things out either."* → This is also the epitaph for the man they'll later find fused into a wall in 9j with 15 gp of that floor in his pocket. |
-| **5. Remain pure** | The four doors. → *next section* | The oath. Optional, and the one that divides them. |
-
----
-
-### The four doors — the oath, and what it gives you
-
-This is where **Rule two's blessing** is actually taken for the first time, and where the party
-chooses an aspect. It is one act: **kneel in a doorframe, and take Doorne's spirit into your
-heart.** Steve's words for it: *"I take the goodness of Doorne into my heart."*
-
-**The source gives you four names for the god and 9a has four doors.** Use them. Each wyrmwood
-door is carved with one aspect, and whichever a character kneels at is the one that answers.
-
-> **Every PC chooses independently, in front of everybody.** The door they pick says something
-> about them, which is most of the point.
-
-| Door | Aspect | Carved on the wyrmwood | The boon — *"…until you leave this place"* |
-|---|---|---|---|
-| **East** *(pools before it)* | **Doorne the Creator** — sunrise, the flood, the green | A dry wadi filling, water coming down the channel in a wall, wheat standing in it, and above, two open hands pouring | **The Green Hand.** You need no food or water while you are in this place, and you have **advantage on saving throws against poison and disease.** *(Scarab-swarm disease, ghoul filth, the fouled pond above ground — this is the "I intend to survive" pick.)* |
-| **West** *(pools before it)* | **Doorne the All-Knowing** — sunset, the record, where the dead go | The god seated, dog-headed attendants on either side unrolling a long register of names, a pair of scales between them | **The Reader's Eye.** **Advantage on Investigation, History and Religion checks inside this complex** — and the door-marks of Rule three read to you as plain language: no check to tell *sealed* from *washing*. *(The pick for whoever wants to solve this place. It makes that player the party's reader, which is a role worth having.)* |
-| **North** | **Doorne the Mighty** — stone, burden, the raising of the tomb | Labourers hauling a lintel up a ramp — and the god's own shoulder in under the stone alongside them | **The Bearer.** Your carried gear **weighs half** in this place, and you have **advantage on Strength (Athletics) checks to lift, shove, brace, hold or shift weight.** *(Holding a door. Hauling a body out of the dig. Moving a sarcophagus lid. And, yes — carrying things.)* |
-| **South** | **Doorne the Omnipotent** — the storm you cannot argue with | A sandstorm coming on, people kneeling in the lee of a pyramid, the storm parting around them | **The Unmoved.** **Advantage on saving throws against being frightened, charmed, paralysed, or moved against your will** in this place. *(Ghoul paralysis is the single nastiest effect in this dungeon, and Sia's drain is coming.)* |
-
-**Notes on running it:**
-
-- **The baseline is the same for all four:** you are not *Unwelcome* (below). The boon is the
-  extra, and it is the god being a good host, not a reward for merit.
-- **One door, one time.** The choice rides for the whole delve. The only place to re-dedicate to
-  a different aspect is **9m, the Temple of the Sphynx** — same conversion point as Rule two.
-- **It still isn't faith.** Consistent with Rule two: the oath is a courtesy, not a conversion.
-  It does **not** protect anyone from the Scepter of Ice's 4d6, and An-Zefful isn't checking.
-- **It lapses when they leave the tomb**, and can be retaken if they come back.
-- **The joke worth playing:** the North door gives you the strength to carry twice as much, in a
-  building whose fourth rite is *don't take anything*. Doorne is not subtle and he is not
-  unkind. Let somebody notice.
-
-### Declining all four
-
-A character who kneels at no door is **Unwelcome**, exactly as in Rule two — with the
-clarification Steve's design adds, which narrows it usefully:
-
-> **The penalty applies only in Doornian conflicts and against Doornian obstacles.** The
-> guardians, the marked rooms, the traps and wards the priests built, and the tomb itself
-> resisting a search. **It does not apply to anything that isn't Doorne's:** not the gargoyle,
-> not the Dark Creeper, not the scarab swarm, not the giant ants once they're settled, and
-> above all **not the Black Water Cult.** When Ashiq's column comes down that stair, the holdout
-> fights at full strength alongside everybody else.
-
-That carve-out matters for the feel of it. It means the refuser is *fine* in roughly half of
-what's coming, so the −1d4 reads as **this place doesn't want me** rather than *the GM is
-taxing my character sheet* — which is the difference between a grumbling player and a resentful
-one. Say the rule out loud once, plainly, when it first bites. Then never mention it again.
+1. **Search 9c's camp** if they want to (Tabbat's name, the dispatch, the mapcase), then **open
+   the hidden door** using the clues above.
+2. **9o:** pick from options A–E on the 9o card. Give them time with the paintings.
+3. **The voice through the door** (option D) once someone reaches the ledge. Talk through the
+   door for as long as the table enjoys it.
+4. **The column arrives** (option E) when the talk is at its most interesting, or when the table's
+   energy dips. It forces the decision about the door.
+5. **9p:** the Keeper. Run him with the hunger track (*Running the Keeper*, after the 9p card).
+6. **If they make a bargain:** the column meets the tomb, and the session ends on the road north
+   (*The road north*, Part 2).
 
 ---
 
@@ -324,7 +304,7 @@ All of them are carved on the **lintel**, hand-sized. Marked rooms also have a *
 | Base-road **struck through** | **NO PASSAGE** — the route doesn't go this way | **9b** |
 | **An open mouth beneath the pyramid** | ★ **This one wants WORDS, not a worn symbol.** Speak a name. | **9e**, 9m, and **the secret door into 9p** |
 | *Defaced — hammered flat* | was marked; can't tell which | **9f** |
-| *None at all* | not Doorne's work — squatters, objects, or **evidence** | 9j, 9n, 9o, **9p** |
+| *None at all* | not Doorne's work — squatters, objects, or **evidence** | 9j, 9n, 9o — and **9p from outside** (★ its mark is on the *inside*) |
 
 **★ The open mouth is the sign that wins the adventure.** It's on 9e, where the pendant stops
 working — and it's on the secret door into Sia's tomb, which the Black Water Cult beat on for days
@@ -463,7 +443,8 @@ not a cell. **It means: the route does not go this way.** The builders were bein
 **The walls.** Not decoration and not a threat display — **a picture of the penalty for robbery,
 hung in the room that carries it out.** Spread-eagled figures pegged in sand, ants over them.
 
-**Do:** **the way out is the wash, not the fight** (→ the opening scene). Once the ants settle,
+**Do:** **the way out is the wash, not the fight** (✅ *played in session 5: Jiyloo held the door
+while the party washed, then washed hers*). Once the ants settle,
 **taking the dead cultist and his route-sketch is safe** — he came from outside. **Prying the door
 fittings or chipping the floor wakes all twelve**, because that is robbery and robbery is the one
 thing this room exists for. That distinction *is* **rite 4, Depart holy**, delivered survivably.
@@ -628,9 +609,10 @@ sunrise, growth, storm, flood. A room about power over nature — which is a dar
 statues standing in it.
 
 **What it means:** the "statues" are a **petrified bandit** who was caught robbing this tomb and
-the **cockatrice** that caught him. *After the priests stopped coming.* **The building cut a fresh
-mark and filed him.** It has gone on working in the dark for four hundred years, and it is still
-working now. → and see *the new statue*, at the end of these cards.
+the **cockatrice** that caught him. *After the priests stopped coming.* **Somebody cut a fresh
+mark and filed him** — the Keeper in 9p, whose guardians still answer the Scepter. The tomb has
+gone on working in the dark for four hundred years because one priest never stopped. → and see
+*the new statue*, at the end of these cards.
 
 **Do:** walk past. If they open it: magic weapons only, and don't turn the cockatrice back to flesh.
 
@@ -849,11 +831,12 @@ Elmingwed's gate.**
 
 ---
 
-### 9o — False Treasure Room ⟨**none** — and that should feel wrong⟩ · **the humiliation**
+### 9o — False Treasure Room ⟨**none** — and that should feel wrong⟩ · **the humiliation, and the ledge**
 
-**The door.** **Plain. No pyramid, no skull, no sill, no dish.** By now that should bother
-somebody: *the treasure room of a god's tomb, and the god didn't sign it?* **Because it isn't the
-treasure room and it isn't his work. It's Sia's.**
+**The door in (from 9c).** Hidden between the two armoured statues. **Plain. No pyramid, no skull,
+no sill, no dish.** By now that should bother somebody: *the treasure room of a god's tomb, and
+the god didn't sign it?* **Because it isn't the treasure room and it isn't his work. It's Sia's** —
+the king's vanity, built by the king's men.
 
 > **Read:** "This must be the treasure room. The paintings show a man whipping slaves, waging war,
 > lounging among beautiful women. Two ivory chests stand against the north wall and two against
@@ -861,93 +844,396 @@ treasure room and it isn't his work. It's Sia's.**
 > pieces lie scattered where somebody weighed them. The bronze daggers have been thrown at a wall.
 > In the corner is a neat little heap of scraped gold leaf. And most of the floor is gone."
 
-**In it:** no creature. **The cult already fired the trap** — moved the golden statues without
-finding the switch and dropped the floor. **Four mummified cultists** on the spikes ten feet down
-(the poison died centuries ago). The **two-foot ledge** in front of the secret door survives.
+**In it:** no creature (unless you use option B). **The cult already fired the trap** — moved the
+golden statues without finding the switch and dropped the floor. **Four mummified cultists** on the
+spikes ten feet down (the poison died centuries ago). The **two-foot ledge** in front of the door to
+9p survives. The party comes in on the **east** side; the ledge is on the **west** wall, across the pit.
 
 **The walls — ★ the tell.** Whipping, war, concubines. **The pyramid appears in exactly none of
 these panels.** Every other room in this complex has the god somewhere in the picture. Here the
 king is alone, and everything in the room is counterfeit: ivory over birch, gold leaf over
 worm-eaten wood, shaved silver, −1 bronze daggers, pewter "chainmail." Somebody spent a full day
-scraping and came away with **10 gp of leaf**. *(Contrast deliberately with the miner's private
-15 gp in 9j: one is sanctioned and pointless, the other is a man robbing his own side in secret.)*
+scraping and came away with **10 gp of leaf**. *(Contrast with the miner's private 15 gp in 9j: one
+is sanctioned and pointless, the other is a man robbing his own side in secret.)*
 
-**★ The secret door on the ledge — and the payoff of the whole system.** CL 2 now the floor is
-down, so they'll find it easily. Look at *its* lintel: **a clean pyramid with the open mouth
-beneath it.** The same sign as 9e.
+**The door out (to 9p), on the ledge.** Look at *its* lintel: **a clean pyramid with the open mouth
+beneath it.** The same sign as 9e. **It isn't locked. It has never been locked. It opens for
+words.** And it has been **worked on for days**: soot in a fan shape, every edge chiselled, a
+**pick-head snapped off in the top seam**, acid runnels down the face. Wipe it clean and **the
+stone underneath is perfect.** **DC 13:** fire, steel and acid, over days. **DC 16 / Arcana 14:**
+and at least one real spell.
 
-> **It isn't locked. It has never been locked. It opens for words.**
+**Do:** cross the pit, **speak one of the four names** on the ledge. A party that learned the
+grammar opens in one sentence the door a month of siege engineering could not touch. Give them the
+beat — and then give them a reason to hesitate before they say it (options B and D).
 
-And it has been **worked on for days**: soot in a fan shape, every edge chiselled, a **pick-head
-snapped off in the top seam**, acid runnels down the face. Wipe it clean and **the stone
-underneath is perfect.** **DC 13:** fire, steel and acid, over days. **DC 16 / Arcana 14:** and at
-least one real spell.
+**Loot:** four cultists' gear, ~25 gp, and the **Fire Beetle Lantern** in the hand of the one nearest
+the ledge, down on the spikes. *(Smokeless, needs no air, ~a week per tank, five Holy Cities etched
+on the base in a script nobody can read. Do not explain it.)* → Part 2, *The lamp*
 
-**Do:** **speak one of the four names.** A party that learned the grammar opens in one sentence
-the door a month of siege engineering could not touch — which is the moment this entire adventure
-has been building toward. Give them the beat.
+#### 9o — five ways to raise the stakes *(pick two or three; they stack)*
 
-**Loot:** four cultists' gear, ~25 gp, and the **Fire Beetle Lantern** in the hand of the one
-nearest the ledge. *(Smokeless, needs no air, ~a week per tank, five Holy Cities etched on the
-base in a script nobody can read. Do not explain it.)*
+**A. The crossing — the room is a pit.** Between the east doorway and the ledge is a ten-foot drop
+onto spikes (**1d10**). The cult's answer is still in place: **two lengths of wagon timber** laid
+across the pit, the same burned-shop timber that shores the dig in 9j.
+- **One plank is sound; the other is fire-cracked** from the days they burned things against the
+  door. **DC 12 Perception or Investigation** spots the crack before anyone steps on it.
+- **The sound plank:** DC 10 Acrobatics, or no check if roped. **The cracked one** holds one person,
+  then goes — **DC 12 Dexterity save** to catch the ledge.
+- **The ledge holds about four people.** That matters if the column arrives (E): not everyone fits.
+- **The North-door oath (*the Bearer*)** earns its keep: advantage on Athletics to brace a plank,
+  hold a rope, or haul someone off the spikes.
+- *What it buys:* physical tension in a room that was otherwise a museum, and a reason to decide
+  **who goes first** onto a two-foot ledge in front of a door with something behind it.
+
+**B. The man on the ledge — the plinth again, with the stakes reversed.** One of the cult is still
+alive, **sitting on the ledge with his back against the door.** He is **Tabbat** — the man in the
+unsent letter in 9c, "who won't stop praying out loud."
+- He was on the ledge when the floor dropped. The others could not reach him and did not try very
+  hard. He has been there **eight days**, living on the waterskins of the dead men below, fished up
+  one at a time with a hooked spear haft. He is down to the last mouthful, praying to Elsrok in a
+  cracked whisper.
+- **He has spent eight days in front of a door that would open for four words, and he will not say
+  them.** He read the mouth on the lintel days ago.
+- **And something behind the door has been asking him to come in.** *"Every night. Some nights it's
+  kind. Some nights it isn't. It wants me to say the words. I won't."* His refusal to praise Doorne
+  is the only reason he is alive. (He is hearing the Keeper — both of him. See 9p.)
+- **What he knows** (traded freely for water — he is bitter): the main body went for **"drowned
+  spirits in jars, from the old pyramid on the north road"**; Ashiq — "the water-woman" — **worked
+  this door herself with a spell and failed**, and left in a fury.
+- **The choice.** The party executed exactly this man on the plinth. This one is harmless, useful,
+  and will die without help. **Rescue him** (a witness — and a fanatic who may bolt for the door the
+  moment it opens, because Ashiq wanted the Scepter and he has nothing else to bring her). **Leave
+  him** (he dies; nobody will know; Jiyloo will). **Kill him** (the table will watch who reaches for
+  it). **Or give him to what is behind the door**, which will ask for him if it learns he exists. Do
+  not suggest that. If a player does, let the room go quiet.
+
+**C. The god is missing from every picture — and the priest is in all of them.** Add one detail to
+the paintings:
+
+> **In every panel, a man in a high priest's robes stands at the king's shoulder.** Through the
+> whipping, the wars, the women. In the place where every other room puts the god, this room puts
+> the priest.
+
+- **The name.** The two golden statues on the west wall are the king and that priest. **The cult's
+  gold-leaf scraping exposed a name cut into the priest statue's base**, which the gilding had
+  covered. **DC 12 History** (advantage with the West-door *Reader's Eye* oath) reads it: ***Kamenhet,
+  Voice of the King.*** The cult's greed uncovered it and none of them could read it.
+- **The last panel.** Low on the west wall beside the ledge, under the cult's soot, is one small
+  painting in a **plainer, later hand** than the rest. Wipe the soot (**free** to anyone on the ledge
+  who wipes the door; otherwise **DC 13 Investigation**): the same priest, alone, **kneeling at a
+  door with a sceptre across his knees.** Over the painted door, a skull — **set facing inward, toward
+  him.** And behind him, his shadow on the wall has **a skull for a face.**
+- *What it buys:* the party walks into 9p knowing **who** is in there, that **he put himself there**,
+  and that **he is holding something terrible in himself.** And they have his **name** — which is the
+  single most useful thing they can carry through that door (*Running the Keeper*).
+
+**D. A voice through the door — he speaks first.** He has been awake for four hundred years, and for
+the last month he has listened to the cult fail outside his door. **He knows the party is in 9o
+before they know he exists.** When someone reaches the ledge, a voice comes **through the stone,
+aloud** — dry, careful, unused:
+
+> *"Who stands at the door? Are you clean?"*
+
+- That is **the priest**. He asks after their feet, their oath, their god. He addresses whoever
+  answers **as a pilgrim**, and asks whether they have a priest with them.
+- **Tath'Shar hears a second voice, inside their head, that nobody else hears.** It is warmer than
+  the first, and much closer. *"Not you. You didn't kneel. Come here and let me look at you."* That
+  is **the hunger**, and the unsworn are the only minds it can reach. → *Running the Keeper, the
+  hunger's offer*. **Tell Phoenix privately (a passed note or a DM) — this is theirs to share or not.**
+- *Why this is better than a lid flying off:* the conversation starts **with a sealed door between
+  them.** The party can talk, learn, lie, and decide whether to open it at all.
+
+**E. The column arrives — and the only sanctuary is the wight's room.** *Use if the clock lands
+tonight.* The dog hears it first: boots on the stair, far back. Then voices. Then light in the
+corridor behind them. **Ashiq's column is in the tomb.** The party is on a ledge over a pit, with the
+cult behind and a door in front that opens to four words the cult will not say. And the priest's
+voice says:
+
+> *"Speak, and come in. They cannot follow. Close it behind you."*
+
+- **This is the convergence.** The one room the cult has proved it cannot reach is the wight's.
+  Taking sanctuary makes the party **the Keeper's guests** — inside a room with a wight whose hunger
+  is rising, while the cult hammers on the other side.
+- **Pull the planks** after the last person crosses and the cult is stuck across a pit, outside a
+  door — exactly where it has spent the last month. **Or hold the east doorway** and fight in the
+  corridor, a fine fight from a worse position.
+- If the cult has **the drowned priest** with them (Part 2, *The clock*), the door is not safe for
+  long. A mouth that will say the names is walking down the stair.
 
 ---
 
-### 9p — Tomb of Sia ⟨**NO MARK** — ★ and that is the evidence⟩
+### 9p — Tomb of Sia ⟨**no mark outside — ★ and one inside**⟩ · **the Keeper**
 
 **The signs — read this carefully, it's the best find in the dungeon.**
-- **The way in** (the secret door from 9o) carries a **clean pyramid and an open mouth.** So the
-  *door* is his.
-- **The room is not.** No skull on any lintel, no sill, no offering dish, nothing on the
-  sarcophagus, nothing over the sarcophagus.
+- **The way in** (from 9o's ledge) carries a **clean pyramid and an open mouth.** The door is
+  Doorne's, and it answers speech — **from the outside only.** There is no mouth and no handle on
+  the inside face. Whoever is in here cannot open it, and cannot ask to.
+- **From outside, the room is unmarked.** No skull on the lintel, no sill, no offering dish.
+- **★ The mark is on the inside.** Once through, look up at the **inner** lintel — the only mark in
+  the complex carved to be read from *within* a room. It is a pyramid with a skull, and **the skull
+  has been recut, over and over:** turned out (*sealed*), chiselled back and set in (*washing*),
+  recut out again. The stone around it is gouged pale from centuries of the same argument. **Whoever
+  is in here filed himself, and has never been able to decide which kind he is.**
 
-**In a building whose entire purpose is marking and holding the condemned, nobody marked the room
-with the undead king in it.** Doorne files everything. Doorne did not file this. **Because Doorne
-didn't put him here — his high priest did.**
-
-A party that has been reading lintels all evening gets that **with no roll at all**, and it is
-physical evidence of a four-hundred-year-old murder.
+A party that has read lintels all evening gets that with **no roll**. It is the whole Keeper in one
+image: a priest who sealed himself in, hoping he was washing, afraid he was only held.
 
 > **Read:** "Wealth of a kind most people only hear about. Against the west wall, a carved
 > sarcophagus inlaid with gold, flanked by two canopic jars. Along the south wall, a rack of gilded
-> weapons, a closed ivory chest, a heap of silk pillows, and an altar with a golden pyramid
-> standing on it. Against the north, a sealed crate, two open chests spilling coins and gems, and
-> an ornate chair."
+> weapons, a closed ivory chest, a heap of silk pillows, and an altar with a golden pyramid standing
+> on it, glowing faintly, like a coal. Against the north, a sealed crate, two open chests spilling
+> coins and gems — and at the foot of the sarcophagus, in an ornate chair, a seated figure in a high
+> priest's robes, a silver sceptre across his knees, perfectly still. Its eyes are open. Behind
+> the chair, half in shadow, stands a box of white metal the size of a small altar, ringed with
+> nested metal hoops that do not move."
 
-**In it:** **Sia**, a wight. 28 HP, energy drain, create spawn (GM discretion). **Throws off the
-lid and attacks the instant the sarcophagus is opened**, and chases anyone who runs.
+**In it: the Keeper — Kamenhet, once high priest of Sia, now a wight.** He is **not** Sia. **Sia is
+in the sarcophagus**, truly dead, at rest, never raised. The Keeper sits his vigil at the king's feet.
+*(This replaces the source's "Sia's high priest poisoned him and raised him as a wight." Nobody
+poisoned anyone. The priest's name is Steve's to change; "Kamenhet" was never said at the table.)*
 
-**The walls.** Nothing punitive, nothing instructional — **this room is furnished, not frescoed.**
-A king's chair, a king's pillows, a king's weapons packed the way he travelled. Which is its own
-piece of evidence: every other room in this complex is *about* something. This one is just a man's
-belongings, in a gaol, with no paperwork.
+**What he is.** When the empire fell, the priests stopped coming down the stair, and nobody was left
+to keep the condemned in their cells or the oasis safe for the king's temples and the travellers who
+drank there. **One priest stayed.** He took the **Scepter of Ice** — the keeping-tool, through which
+the tomb's guardians hear their orders — and **gave up his death** so the keeping would never end.
+He sealed himself into the deepest room with an oath on Doorne's names, behind a door that only
+opens to praise from outside.
+
+**Why he sealed himself in.** Becoming a wight put **a terrible evil inside him** — the hunger
+every wight has for the warmth of the living. **He bound himself to this room so it could never get
+out.** He has held it for four hundred years. He is lucid, reasonable, courteous and very tired —
+and **he is a wight, dangerous and unstable.** For two weeks it has been harder: he felt the oasis
+go dark when Ashiq smothered the Ember above, and the hunger has been louder ever since. Tabbat
+heard both of him.
+
+**The walls.** None — this room is **furnished, not frescoed**: a king's chair, pillows, weapons
+packed the way he travelled. Every other room in this complex is *about* something. This one is a
+man's belongings and the priest who guards them.
+
+**The language engine.** The white-metal box behind his chair is a **Bokkaran language engine**. Its
+nested rings spin and glow when it wakes. Whoever touches it and seeks what it holds comes away able
+to **read and speak the ancient tongue**. The temple's priests once used it to learn the language of
+the oldest scriptures. It is the Keeper's to give, it is **the reward he offers for service**, and it
+is extremely dangerous. Rules and terms: *Running the Keeper* → *The reward*.
 
 **Do:**
-- **Don't open the lid without speaking first.** He's lucid — he's had the Scepter's telepathy and
-  four centuries of talking to statues. He wants to know whether the empire survived, where his
-  priest went, and his fire back. **One of the two canopic jars is the priest's**, three feet from
-  a wight who could never reach it. Condemn him, absolve him, or rob him.
-  → depth-concepts, Sketch 5
+- **Talk before you get close.** He will talk — he has been waiting for someone to talk to. Run him
+  with the hunger track, below.
+- **Close the door behind you.** He will ask. An open door is the thing the hunger wants most.
+- **Don't touch the Scepter, the Coal, the sarcophagus or the engine without leave.**
 - **The golden pyramid on the altar is Sia's Coal** — the live fragment of the hearth-flame that
-  relights Doorne's Ember above ground. → Part 2, *Doorne's Ember*
+  relights Doorne's Ember above ground. It is his to give. → Part 2, *Doorne's Ember*
 
-**Loot:** 3,000 sp · 500 gp · 20 rubies at 100 gp · **Heavy Scimitar +1** · **dagger +2** ·
-**Splint Mail +1 with a dog's head for a helm** · the **Scepter of Ice** (30,000 gp, **4d6 cold to
-a bearer who isn't faithful** and 4d6 again next round if not dropped — *and the doorframe oath is
-not faith*; unfenceable locally; Jiyloo will turn on them for it).
+**Loot:** Sia's grave goods — 3,000 sp · 500 gp · 20 rubies at 100 gp · **Heavy Scimitar +1** ·
+**dagger +2** · **Splint Mail +1 with a dog's head for a helm.** The **Scepter of Ice** (30,000 gp;
+**4d6 cold to a bearer who isn't faithful**, again next round if not dropped — *the doorframe oath is
+not faith*) is in the Keeper's hands, and **taking it ends the keeping.** The king's goods are not
+Doorne's holiness, so *Depart holy* does not strictly cover them — but they are a grave, and Jiyloo
+knows the difference between a gift and a robbery. **What the Keeper gives freely is clean.**
 
 ---
 
-### One more thing to salt in — the new statue
+### Running the Keeper — 9p at the table
 
-Somewhere in a corridor the party passes twice:
+#### Protocol — who he talks to
+
+- **Priests.** He *confides* only in priests — in life, priests spoke for people; in death, only the
+  faithful can even open his door. His first real question: *"Which of you is the priest?"*
+  - **Gereon** (Acolyte — he served in a temple) is the honest answer. The Keeper calls him
+    *"Brother"* and talks to him as a colleague. Whether Gereon's temple was Doorne's is the next
+    thing he asks, and Mia gets to decide.
+  - **A false priest** is a fine, risky scene: **Deception vs. his Insight (+3).** If caught, the
+    hunger track rises (below) and he never trusts that person again.
+- **Pilgrims** — the four who took the oath. He answers them courteously, as pilgrims, and asks them
+  to put their questions through their priest. A small, playable friction; don't make it a wall.
+- **The unsworn** — **Tath'Shar**. The priest **will not address them at all**: they did not kneel,
+  and they killed a man on his threshold. He felt it. *(Rite 5, Remain pure.)* **The hunger, though,
+  speaks to them — inside their head. Its private voice can reach only an unsworn mind.**
+- **Jiyloo** knows him from her grandmother's story — *the priest who stayed* — and to her he is
+  something close to a saint. **She kneels and cannot speak.** When she sees what he has become, it
+  breaks her heart. If the hunger track needs bringing down and nobody else will do it, **she is the
+  one who gets up and washes his feet** — the same thing the party did for her at the ants door.
+- **The dog.** He sees Orkideh's dog and goes still. Doorne's attendants are dog-headed (9m; the
+  helm in this room). *"A hound of the Weigher, in my king's house."* He is gentlest with the dog's
+  keeper. The dog sits at his feet, unafraid. Do not explain why.
+
+#### The hunger track — how stable he is right now
+
+Keep a number from **0 to 6** in front of you. **Start at 3** — the Ember above is out. *(If the
+party relights the Ember first, start at 2.)*
+
+**Rises by 1** (each trigger once per scene unless noted):
+- A living creature comes **within reach** (5 ft) of him — the first time.
+- **Blood is drawn** in the room or on the ledge.
+- A **weapon is drawn** in his presence.
+- Anyone **touches the Scepter, the Coal or the sarcophagus** without his leave.
+- He **catches a lie** (Insight +3).
+- **The door to 9o is left open** — +1 for every ten minutes it stands open. He can smell the oasis.
+
+**Falls by 1:**
+- **His name is spoken** — *"Kamenhet."* **−2 the first time.** Nobody has said it in four hundred
+  years. (Option C is where they get it.)
+- **A prayer in one of the four names**, led aloud — once per person.
+- **The door is closed behind them** — once. *"Thank you."*
+- **His feet are washed**, or water from 9a's pools is brought to him — **−2**, and it requires
+  coming within reach (+1), so it nets −1 and it is brave. *Arrive clean*, for the one who can't.
+- **The Ember above is relit** — the baseline drops by 1 for good.
+
+**What each level looks like:**
+- **0–2 — the priest.** Lucid, courteous, precise. He bargains honestly and keeps his word.
+- **3–4 — the cracks.** He loses the thread mid-sentence and the other voice slips into his: asks
+  someone to come closer, to leave the door open "for air," for the thief on the ledge, for "only your
+  hand." **DC 12 Insight** notices he is not himself. **A bargain struck at 3 or above was partly the
+  hunger's** — something in its terms is poisoned (*The road north*, Part 2).
+- **5 — the warning.** He grips the chair. The priest uses what he has left: *"Go. Go now. Close the
+  door."* One round. Take it seriously.
+- **6 — the hunger takes him.** He rises and attacks (Combat reference). **But the priest is still in
+  there.** At the start of each of his turns, if anyone spoke **his name or one of the four names**
+  since his last turn, that speaker rolls **DC 12 Religion or Persuasion**: on a success the track
+  drops by 1 and he **loses that turn**, clutching the chair. At 5 or below he stops, horrified. **If
+  anyone strikes him after he has stopped, it goes straight back to 6.** *(Same rule as 9e: words stop
+  it, a blow after the words restarts it.)*
+- **He cannot cross his own threshold.** The oath holds even when he doesn't. Anyone who gets out
+  onto the ledge is safe from him — and the door only opens from the outside.
+
+#### What he wants, in the order he asks
+
+1. **News of the oasis.** *"Are the temples tended? Do travellers still drink at Sia?"* The honest
+   answer — the temple's priest murdered, the Ember out, the oasis burned, its people taken as slaves
+   — is everything he gave his death to prevent, and it failed two weeks ago. He felt it. Telling him
+   is a gut-punch. Lying to him is easy and Insight +3.
+2. **The fire.** Relight the Ember. It is how Doorne watched the oasis, and it is what has kept the
+   hunger quiet for four centuries.
+3. **The oasis's people back**, and the people who took them stopped.
+4. **A priest for Temple al Sia.** The keeping was always meant to be **a dead priest below and a
+   living one above**, tending the Ember. The living one is dead.
+5. **Release.** **He will never ask.** Who would keep the cells? A party that offers it unprompted has
+   understood him — and the answer to "who would keep the cells" is item 4.
+
+#### Helpful levers — what an ally gives
+
+- **Intelligence.** A month of the cult's talk through the stone: what they went to fetch (*drowned
+  spirits in jars, from Ayatorrah*), Ashiq by voice, the dig, the screams when the wall took the men.
+- **The tomb's guardians.** Through the Scepter he can turn them against Ashiq's column, or keep them
+  still for the party. Stacks with the Ember ward (*the patrol returns*).
+- **The Coal**, to relight the Ember.
+- **The old script:** he can read the five-city etching on the Fire Beetle Lantern. "The roads between
+  the five Holy Cities, as they ran when I was young" is enough.
+- **The rites of Ayatorrah.** He was trained at the Temple of Mennuj, the seat of his order. He knows
+  how the faithful enter it — right hand raised to ask Doorne to bless Mennuj, left hand raised to ask
+  Doorne the Destroyer to leave your family in peace — and **that rite turns off the deadliest gates in
+  *Forsaken Pyramid*** (*The road north*).
+- **The king's goods.** He is Sia's steward. The **dagger +2** and the **dog-helm splint mail** are his to
+  give to those who serve the oasis. *"The king paid his soldiers."*
+
+#### The reward — the language engine
+
+**He promises ancient language.** When the party has done him real service, he points to the machine
+behind his chair: *"The priests learned the old tongue from it. You may too — when there are priests
+again."*
+
+- **The terms.** For the right service, he will have **the priests, when they return to Sia**, let the
+  party use it. It is temple property, not his alone, and using it is a rite, not a favour.
+- **The ceremony.** The priests carry the engine out of 9p in procession and set it up **in the great
+  hall (9c)**, with a ceremony. It is the one thing that ever leaves his room with his blessing. He
+  cannot come; he hears it through the stone.
+- **Why it is deferred.** "When the priests return" ties the reward to his other asks: the oasis's
+  people home, the Ember lit, and a priest for Temple al Sia. The reward is the reason to take the
+  road north, and the reason to come back.
+- **The danger — excessive at low level.** Touching it deals **d100 damage, flat.**
+  - **If the roll is double the character's HP or more, they are permanently dead.** No death saves,
+    no ordinary resurrection. This is the 5e massive-damage rule, read from full health.
+  - Otherwise the damage resolves normally: a character dropped to 0 makes death saves as usual.
+  - Anyone who survives gains the language: reads and speaks Bokkaran.
+- **The odds — tell the players plainly.** A character survives only if the d100 roll is below
+  double their HP.
+  - At 15 HP, a roll of 30 or more kills: about a **71%** chance of permanent death.
+  - At 20 HP: about **61%**.
+  - At 30 HP: about **41%**.
+  - At 40 HP: about **21%**.
+  - At 50 HP or more: only a roll of 100 kills.
+  - The Keeper says it his way: *"The young should wait. It was never meant for the young."*
+- **The spider bracelet halves the engine's damage.** This is a campaign rule.
+  - **One character per bracelet per engine.** A given bracelet protects only one person at a given
+    engine. The party can pass a bracelet around, but once it has been used at this engine, it does
+    nothing more here. It works again at the next engine. There are more engines in the world.
+  - **The party has one bracelet** (strongbox, session 3, still unidentified), so at the Keeper's
+    engine exactly one character can use it. Choosing who gets it is a scene in itself.
+  - **The odds with the bracelet.** Halved damage only kills at double HP, so the d100 roll has to be
+    four times the character's HP or more.
+    - At 15 HP, a roll of 60 or more kills: about **41%**.
+    - At 20 HP: about **21%**.
+    - At 25 HP: only a roll of 100 kills, a **1%** chance.
+    - At 26 HP or more: no roll can kill.
+  - **How they find out:** someone who wears it near the engine feels the bracelet go cold and tight,
+    as if bracing. The Keeper knows the old bands on sight: *"The priests wore those to the rite, when
+    they had them."* Tsendur can say the same at Durgan's Rest if someone asks the right question.
+- **Another engine waits in the Bridged City arc:** the one guarded by the ancient lizard Yormon on the
+  Sea of Souls. Learning how this one works is the party's first lesson in what those machines cost.
+
+#### Harmful levers — what makes him dangerous
+
+- **The hunger**, and the track above. At 6 he is a wight: **energy drain** and **create spawn**.
+- **The hunger's offer to Tath'Shar.** It speaks only to the unsworn mind, and it has been reading it.
+  It knows Tath'Shar is hunting someone, and it says one true thing: ***"The one you are looking for
+  collects things like the thing in my hands. She will come for it."*** (The Scepter is exactly the kind
+  of prohibited artifact Maghiel hunts — `thread:tathshar-maghiel`.) Then the lie: **"Leave the door open
+  when you go, and it's yours before she can take it."** It cannot deliver — the Scepter burns anyone
+  who isn't faithful, and a freed hunger keeps no promises. **The ask can also be "bring me the thief"**
+  (Tabbat). Phoenix decides whether Tath'Shar tells the party, bargains, or tells it to go to hell. *Run
+  it as an opportunity for the character, never as a penalty for refusing the oath.*
+- **If Phoenix is not at the table.** Don't play the offer through a backgrounded Tath'Shar; it only
+  works as the player's secret. Two fallbacks:
+  - **Hold it.** The hunger notices the unsworn mind and says nothing yet. Send Phoenix the note before
+    their next session as a dream or a voice on the road: the Scepter line, and *"Come back and open my
+    door."* That keeps a reason to return to Sia alive even if the party heads for Durgan's Rest.
+  - **Turn it on the sworn.** With no unsworn mind to reach, the hunger works through the bargain
+    instead. Any covenant made at 3 or above gets the poisoned term (*"one of them, alive"*, in *The
+    road north*), and nobody hears the second voice at all.
+- **His word, and his oath.** At 0–2 his word is good. **An oath on one of Doorne's four names binds him
+  absolutely** — that is how he has held the hunger for four centuries. A party that learned the names
+  can make any bargain solid by asking him to swear on one.
+- **What the hunger asks for, at 3–4:** come closer, the door open, the thief, a hand.
+
+#### How it can end — helpful to harmful
+
+None of these is the right answer. All should stay reachable.
+
+- **Covenant.** A bargain sworn on a name: he gives intelligence, the Coal, the guardians and the
+  Ayatorrah rite, and promises the language engine when the priests return. The party takes up his
+  vow **outside** the room he can't leave. → *The road north*, Part 2.
+- **Steadying.** Relight the Ember with his Coal, close the door, and leave him to his vigil — stronger
+  than before. The smallest good ending, and a real one.
+- **Release.** A living priest takes up the keeping at Temple al Sia (Gereon? Jiyloo? someone found on
+  the road?), the Scepter passes to them, and the Keeper is allowed to die — or the party finishes his
+  washing (Part 2, Rule three, *finishing a washing*, with him as the subject). Earned, slow, and the
+  best trophy in the dungeon.
+- **Mercy by the blade.** They destroy him. **The keeping ends**: the guardians go still and stop
+  answering anyone, the tomb stops filing, and the Scepter is lying on the floor for whoever comes next
+  — and Ashiq is coming next.
+- **The hunger's bargain.** Somebody takes the offer. The door stays open. That is a future session.
+- **Walk away.** Close the door, leave him. The cult arrives with a mouth that will say the names (Part
+  2, *The clock*) — and the Keeper only talks to priests.
+- **Fight.** A table that wants a boss fight at the end of a long crawl gets one: walk in with steel out
+  and the track is at 5 before anyone speaks.
+
+---
+
+### The new statue — ✅ *found in session 5*
 
 > "A man of stone, mid-stride, one arm raised. Not carved — the proportions are wrong for a
 > sculpture and right for a person. He's wearing a robe you've seen on three corpses today, and on
 > the stone finger of the raised hand there's a ring of black obsidian."
 
-They'll already have one of those rings. **Say nothing else.** It proves the tomb is still open for
-business, and it means the next question anyone asks about a door gets asked seriously.
+**The party took the ring** — a **black obsidian serpent ring**, the Black Water Cult's standard
+membership token (`faction:black-water-cult`), and the single most useful object in this dungeon for a
+party that ever wants to walk into a Cult operation and be taken for staff. Don't suggest it. Let them
+arrive at it. Its twin is still on the waist-deep miner in 9j.
+
+**What it proves:** the tomb is still open for business. **It is the Keeper's work** — the guardians
+answer the Scepter, and he still files the thieves who come. Nothing about that is in the party's
+hands yet. If they meet him, they may work out who filed this one.
 
 ---
 
@@ -1306,39 +1592,82 @@ a Persuasion check.
 - **GM note:** let him succeed at least once. This encounter plays better as an annoyance
   ("who's got another torch") than a grind — don't spend more than a round or two on him.
 
-### Sia (area 9p — the Wight, climactic tomb guardian)
+### The Keeper (area 9p — Kamenhet, the priest who stayed; a wight)
 
 **Tracker**
 
 | Name | AC | Init Mod | HP | Hit Mod | Dmg Die | Dmg Mod |
 |---|---|---|---|---|---|---|
-| Sia (Wight) | 15 | +1 | 28 | +5 | 6 | +2 |
+| The Keeper (Wight) | 15 | +1 | 28 | +5 | 6 | +2 |
 
 **Reference card**
 
-**Sia** — Medium undead, solo climax of the tomb
+**The Keeper** — Medium undead; **a conversation first, a fight only if the hunger wins**
 - **Slam** +5 to hit, 1d6+2 bludgeoning.
 - **Energy drain (situational, big warning):** a hit can drain vitality rather than just HP —
-  don't fold this into the row's average; call it out explicitly the first time it triggers,
-  it's meant to be scary.
-- **Create spawn (GM discretion):** a humanoid killed by Sia's drain can rise as a new wight —
-  a campaign-flavor consequence, not an automatic rule, use only if it serves the story.
-- **Trigger:** throws off the sarcophagus lid and attacks the instant anyone opens it. Fights
-  relentlessly, chasing anyone who flees — this room doesn't end early.
-- Holds the real treasure and the **Scepter of Ice** (below). **Alternate call:** if you want
-  Ashiq to have already taken the Scepter during the raid, Sia instead rages about its theft
-  the whole fight — your choice, make it before you run this room, not mid-fight.
+  don't fold this into the row's average; call it out explicitly the first time it triggers.
+- **Create spawn (GM discretion):** a humanoid killed by his drain can rise as a wight. Use only if
+  it serves the story.
+- **The hunger track (0–6)** decides whether this fight happens at all — full rules in *Running the
+  Keeper*. **At 6 he attacks.** At the start of each of his turns, if anyone spoke **his name or one of
+  the four names** since his last turn, the speaker rolls **DC 12 Religion or Persuasion**; success
+  drops the track by 1 and he **loses that turn**. At 5 or below he stops. **A blow after he stops
+  sends it straight back to 6.**
+- **Bound to the room:** he cannot cross his own threshold. The ledge is safe ground.
+- **Insight +3** against anyone claiming to be a priest, or lying to him.
+- **Holds the Scepter of Ice** (below) — the keeping-tool. Taking it from him ends the keeping.
+- **Alternate call:** if you want Ashiq to have taken the Scepter during the raid, she could not have
+  — nobody has been through this door. Keep it with him.
 
 **Scepter of Ice** — relic, not a creature (no tracker row)
-- Functions as a Staff of Frost with one extra power: each morning, a faithful bearer who
-  offers thanks to Doorne facing east restores one charge (max one restoration/day). Runs dry
-  at zero charges until surrendered by whoever drained it, then recharges naturally at one
-  charge/day.
-- **Non-faithful bearers take 4d6 cold damage on touch**, and another 4d6 next round if not
-  dropped immediately — this is a real hazard for a party member who grabs it without
-  thinking, not just flavor text.
-- Worth 30,000 gp, but far too recognizable to fence locally, and Jiyloo will be dismayed and
-  adversarial toward any attempt to remove it from the temple (per Adaptation notes, above).
+- Functions as a Staff of Frost with one extra power: each morning, a faithful bearer who offers thanks
+  to Doorne facing east restores one charge (max one restoration/day). Runs dry at zero charges until
+  surrendered by whoever drained it, then recharges naturally at one charge/day.
+- **Non-faithful bearers take 4d6 cold damage on touch**, and another 4d6 next round if not dropped —
+  a real hazard for a party member who grabs it without thinking. **The doorframe oath is not faith.**
+- **The keeping-tool:** through it, the tomb's guardians hear their orders. Whoever holds it, faithfully,
+  holds the keeping.
+- Worth 30,000 gp, far too recognizable to fence locally — and the Black Water Cult wants it as a water
+  weapon. Jiyloo will be adversarial toward any attempt to take it out of the tomb against the Keeper's
+  will.
+
+### Tabbat (9o, option B — stranded cultist, eight days on the ledge)
+
+**Tracker**
+
+| Name | AC | Init Mod | HP | Hit Mod | Dmg Die | Dmg Mod |
+|---|---|---|---|---|---|---|
+| Tabbat | 12 | +0 | 4 | +2 | 4 | +0 |
+
+**Reference card**
+
+**Tabbat** — Black Water cultist, starving and dehydrated
+- **Hooked spear haft** +2 to hit, 1d4 bludgeoning. He has nothing better left.
+- **Exhausted (3 levels):** disadvantage on attacks and ability checks, speed halved — already why the
+  numbers are this low.
+- **He will not fight the party.** He fights only if someone drags him toward the door, or if the door
+  opens and he sees a chance at the Scepter.
+- **He will not say the four names**, even to save his own life. That is the whole character.
+
+### The Drowned Priest (the clock — a water-spirit-ridden priest of Temple al Sia)
+
+**Tracker**
+
+| Name | AC | Init Mod | HP | Hit Mod | Dmg Die | Dmg Mod |
+|---|---|---|---|---|---|---|
+| Drowned Priest | 14 | +1 | 20 | +4 | 8 | +2 |
+
+**Reference card**
+
+**Drowned Priest** — Medium undead (Hayawiyya-ridden corpse); a Water-Claimed variant
+- **Slam** +4 to hit, 1d8+2 bludgeoning.
+- **Speaks the names.** Its one purpose: say one of Doorne's four names at 9e and at the door to 9p. It
+  opens both, exactly as a living speaker would. **If it reaches a door, the door opens.**
+- **Kept behind the fanatics.** It is the column's key, not its muscle. Kill the body and the spirit
+  leaves it.
+- **Drowning grab on a natural 20:** face-grapple, CON save each round or start suffocating. Call it
+  out; it is not in the row's math.
+- **Tell:** grey skin, and the whites of its eyes have gone blue.
 
 ### Round-by-round GM guide — the patrol returns
 
@@ -1353,7 +1682,7 @@ for the party this time.
 
 **If Doorne's Ember is relit (→ Part 2, *Doorne's Ember*):**
 - **Round 1 — Doorne answers.** As the patrol crosses onto the temple grounds or the sphinx's
-  plinth, the ward triggers: stone stirs, sand rises, whatever guardians are still standing
+  plinth, the ward triggers (and if the Keeper is allied, he sends them): stone stirs, sand rises, whatever guardians are still standing
   (or new ones — your call) converge on the patrol from *outside* the tomb, somewhere they've
   never had reason to act before.
   **Your move:** this is the payoff beat — make it big and short, not a second dungeon crawl.
@@ -1406,6 +1735,9 @@ striker*
 - She orchestrated the entire raid — zombies, the mud elemental, the animated Talifan
   corpses — and personally disabled Doorne's Ember (→ Part 2). If captured, she's the one
   person who can confirm all of it.
+- **Head of the cult, trapped by it.** She would say the four names privately and never where
+  a fanatic can hear. Alone, she bargains. In front of her followers, she dies first (Part 2, Rule one,
+  *Would Ashiq say the words?*).
 
 **Black Water Fanatic** (×5-10) — mook, Derivesh-lineage rank-and-file
 - **Scimitar** +4 to hit, 1d6+2 slashing (includes Intense Focus, already baked in).
@@ -1439,7 +1771,7 @@ That single sentence does three jobs the source's timer couldn't:
 3. **It tells them what the endgame is.** Not "some patrol shows up eventually" but
    "Ashiq comes back with the key, and we are on the clock to be done or to be waiting."
 
-**What the cult went to fetch.** Pick one and commit before session 5:
+**What the cult went to fetch.** Pick one and commit before session 6:
 - *Recommended, thematic:* **a vessel of the cult's own black water** — their sacrament, to
   drown the god's fire. It rhymes exactly with what Ashiq already did to Doorne's Ember above
   ground (smothered it in ash to blind the tomb's guardians *outside*); now she is coming to
@@ -1448,6 +1780,24 @@ That single sentence does three jobs the source's timer couldn't:
   opposite directions.
 - *Mundane alternative:* a Chime of Opening, a scroll of *Knock*, a stolen pyramid-reliquary
   looted off some other Doornian shrine. Cheaper, less interesting, perfectly serviceable.
+- ★ ***Session-6 recommendation — the drowned priest.*** This keeps the interrogation's "magical
+  items needed to penetrate the tomb" exactly true. The cult's problem is that the doors that stop
+  them (9e, and the door to 9p) want **spoken praise**, and no Elsrok-sworn fanatic will give it — not the rank and file, who believe, and not
+  Ashiq, who would but can't be seen to (Rule one, *Would Ashiq say the words?*).
+  Their solution is **a mouth that isn't theirs.** The main body went north to the Temple of Mennuj at
+  Ayatorrah (*The road north*, below), where the cult's mystics bottle water spirits — **Essence of
+  Hayawiyya** — that animate a corpse and **can speak in any language the body knew.** Ashiq already
+  did this to the four Talifan guards at area 7. **The body she means to use is the murdered priest of
+  Temple al Sia**, whom she killed the day before the raid and who still lies unburied in the temple.
+  A Doornian priest's mouth, a water spirit's will: walk him down the stair and have him say the names.
+  **And the Keeper only talks to priests.** The cult was not just planning to open his door; it was
+  sending him a priest.
+  - **The party can get ahead of it:** find the body in the temple and bury, burn or carry it below
+    (Jiyloo will want him buried regardless — this gives that instinct a payoff they discover later);
+    intercept the column on the stair, where its whole plan walks in the middle of it; or let the
+    Keeper meet it — at 0–2 on his track he knows a drowned mouth when he hears one: *"That is not a
+    priest. That is a well with a man in it."* At 3 or above, the hunger doesn't care.
+  - Stats: *The Drowned Priest*, Combat reference.
 
 **Running the deadline.** The guardians are ancient and faction-blind — they threaten
 cultists exactly as much as the party, which is what keeps "beat the cult back" tense rather
@@ -1501,7 +1851,7 @@ advantage real and narrow at the same time.
 | **9l** Scarab Guardians | Beetle swarm triggered by lifting the scarab | **No.** And the scarab's curse doesn't care who's carrying it either. |
 | **9n** Tomb Guardians | Dark Creeper hiding in a catafalque | **No.** A squatter, not a guardian. He wants your torch. |
 | **9o** False Treasure Room | Collapsing floor over spikes | **No.** Obviously, but say it once so nobody bets their life on it. |
-| **9p** Tomb of Sia | Sia, risen as a wight by his own high priest | **No.** He wasn't put here by Doorne at all — he was murdered and bound by a man who meant to come back and rob him. |
+| **9p** Tomb of Sia | The Keeper — Kamenhet, Sia's high priest, a wight by his own choice | **No — but the oath is how he sorts you.** He is not checking credentials; he is a person. He confides in priests, answers the sworn as pilgrims, and will not address the unsworn. See *Running the Keeper*. |
 
 **Net: two rooms out of sixteen.** Past 9a and 9e, the tomb is exactly as lethal to a pious
 party as to anybody else.
@@ -1546,12 +1896,40 @@ building: individually dull, doctrinally rigid, institutionally capable. They se
 Praising the local god is apostasy and they will not do it — and none of the rank and file is
 clever enough to notice that the god isn't checking.
 
-> **GM choice to make now:** would **Ashiq** say the words? Two good answers, pick one.
-> (a) *She would, and can't.* She's pragmatic enough to spit out four syllables, but she'd be
-> doing it in front of fanatics whose obedience depends on her being the purest of them. The
-> barrier isn't her faith, it's her authority. (b) *She wouldn't.* She's the real thing, and
-> the reason she smothered Doorne's Ember rather than simply looting the temple is that she
-> takes the other god entirely seriously. Either way she comes back with the magic instead.
+### Would Ashiq say the words? ✅ Decided: she would, and she can't
+
+**Ashiq heads the Black Water Cult, and she and the cult's other top ranks would say the four
+names in a heartbeat** if it made their lives easier. Four syllables cost a pragmatist nothing.
+What stops them is not faith. It is being seen.
+
+- **The leader has to be the purest of them.** A cult holds together because its followers
+  believe the people at the top are more than ordinary: closer to Elsrok, beyond fear, beyond
+  bargaining. The fanatics' obedience rests on that belief, and nothing else.
+- **One overheard prayer to the local god breaks it.** If a fanatic caught Ashiq praising
+  Doorne to get through a door, she would stop looking holy and start looking mortal and craven:
+  a woman who does whatever is convenient. Followers who see that do not quietly lose
+  interest. Their attachment breaks all at once, and a cult built on fear and devotion turns
+  on the person who was supposed to embody it. Every cult leader fears that moment.
+- **So the cult she built has trapped her.** She has to perform devotion to Elsrok and
+  obedience to Black Water doctrine at all times, in front of everyone, including at a door
+  that would open for her in a breath. The rank and file won't say the names because they
+  believe. The leaders won't say them because they must be seen believing.
+- **That is why she went shopping for magic.** A drowned priest saying the names is not
+  Ashiq praying to Doorne. It is a puppet doing something unclean on her behalf, which is
+  doctrinally fine. *The clock*, below, has the details.
+
+**At the table:**
+- **Leverage.** A captured Ashiq, alone, out of sight of her fanatics, might say the names
+  to save herself, and might bargain far more freely than her public face suggests. In front of
+  even one fanatic, she will die before she does either. **Get her alone and she is a different
+  person.**
+- **A weapon.** If the party ever makes her say the names where her followers can hear — or
+  just convincingly claims she did — they hit the cult where it is weakest. A rumour that
+  "Ashiq prayed to Doorne at Sia" is worth more than her head.
+- **Her lieutenants are in the same trap,** each watching the others. Any one of them could
+  be turned in private and never in public.
+- **The obsidian ring** lets someone in the party stand close enough to hear what the leaders
+  say when they think only believers are listening.
 
 **So the full answer, when the party asks:** the cult paid in blood for every yard the party is
 walking for free, got most of the way, and then hit a door that opens for four words they will
@@ -1586,9 +1964,10 @@ will ask whether it can be counterspelled. Call it **Unwelcome**, or "the god's 
 
 #### Where the offer happens
 
-**In 9a, right after the ant scene** — see *Session 5 opens here*, above, which has the full
-staging and the four doors to choose between. That's where the oath is taken, that's where the
-aspect is picked, and that's where a character decides to go without.
+**In 9a, right after the ant scene.** ✅ *Played in session 5: everyone except Tath'Shar knelt
+and took the oath. Tath'Shar is Unwelcome.* That's where the oath is taken, that's where the
+aspect is picked (the four doors are on the table card above), and that's where a character
+decides to go without.
 
 That placement is deliberate: **9a is a vestibule.** Preparing pilgrims is literally what the
 room was built to do, and offering the oath anywhere else wastes the architecture. (An earlier
@@ -1613,7 +1992,7 @@ you lose the friction you actually wanted.
 - **Blessed:** nothing happens. You are simply not being resisted. (No bonus — this is not a
   buff, it's the absence of a penalty. Say so plainly or players will feel cheated.)
 - **Blessed, and at a door:** you also carry that door's boon for the whole delve (the four
-  aspects are in *Session 5 opens here*, above).
+  aspects are on the table card, above).
 - **Unwelcome:** **−1d4** on attack rolls, saving throws, and ability checks — **but only in
   Doornian conflicts and against Doornian obstacles.**
 
@@ -1671,11 +2050,12 @@ Give them these, and let them discover both rather than announcing them:
 - **Inside Doornian rooms, the blessed have disadvantage on Deception.** They took the god into
   themselves in a room where he is listening. The unblessed keep their tongue — which a rogue
   will value more than a +2.
-- **Sia will not speak to the blessed as equals.** This is the real payoff, at the climax in 9p.
-  He was a god-king; to the blessed he is talking to *subjects*, and he talks down. The
-  unblessed are the only people in that room he has to negotiate with, and he knows it. Six
-  rooms of grumbling cash out as the spotlight at the trial. See the depth-concepts doc,
-  Sketch 5.
+- **The hunger in 9p can only reach an unsworn mind.** This is the real payoff, at the climax.
+  The Keeper — the priest — will not address the one who refused the oath and killed on his
+  threshold. **But the hunger inside him speaks to them, privately, in their head**, and to
+  nobody else: it has something true to tell them and something false to offer. Six rooms of
+  grumbling cash out as the one character the monster talks to — and whether they tell the
+  party is up to them. See *Running the Keeper* → *the hunger's offer to Tath'Shar*.
 
 **The blessing does NOT make you faithful.** It's a courtesy at a doorframe, not conversion —
 so it does **not** protect a bearer from the Scepter of Ice's 4d6 (that wants the real thing),
@@ -1701,7 +2081,7 @@ know what that means either. Decide later.
 | **9l** Scarab Guardians | ✅ | The sun, the dancing figures — the height of the good reign. |
 | **9m** Temple of the Sphynx | ✅✅ | Maximally. **The one place the choice can be changed.** |
 | **9n** Tomb Guardians | ✅ | Pyramid-hatted statues, the Griffon Blades. |
-| **9p** Tomb of Sia | ✅ | And where refusing finally pays. |
+| **9p** Tomb of Sia | ✅ | And where refusing finally pays — the hunger talks only to the unsworn. |
 | **9b** Guardian Ants | ❌ | The walls show ants eating staked-out people. That's a warning sign, not worship. |
 | **9o** False Treasure Room | ❌ | The paintings are of **Sia** — whipping slaves, waging war, lounging. The king's vanity, not the god. Fittingly, it's also the room where every treasure is fake. |
 | **9f** An-Zefful | ❌ | **The frescoes were smashed and the wall is bloodstained.** There is no blessing available here because somebody destroyed the record. The one room where the god was erased is the one room where his rules don't apply — everyone fights at full strength and nobody is covered. Do not explain this; just don't offer it, and let someone notice. |
@@ -1785,7 +2165,7 @@ hold in their heads is worth ten times one that's complete.
   The architecture is the safety system.
 - **DC 16 / Religion / a priest.** The two skull orientations are different words. *Sealed* and
   *washing.*
-- **No roll at all — just noticing.** See *The mark that isn't there*, below.
+- **No roll at all — just noticing.** See *The mark is on the inside*, below.
 
 ### What the priests' procedure looked like, and what's still lying there
 
@@ -1846,42 +2226,39 @@ explain it; it just gives the −1d4 a face.
 | **secret door → 9p** | **Clean + the open mouth** | Never locked. Opens for four words. The cult spent days on it with fire, steel, acid and a spell. |
 | **9j** Gargoyle / **9n** Dark Creeper | **None** | Squatters. Moved in after. |
 | **9o** False treasure | **None** | Sia's vanity and Sia's trap, not Doorne's work. |
-| **9p** Tomb of Sia | **None** | ← *read the next section* |
+| **9p** Tomb of Sia | **None outside — a recut skull inside** | ← *read the next section* |
 
-### The mark that isn't there ★
+### The mark is on the inside ★
 
-**9p has no skull over its door.**
+**9p has no skull over its door.** There is a wight in it.
 
-There is a wight in it.
+A party that has learned this grammar can walk up to the deepest room in a building whose entire
+purpose is marking and holding the damned, and notice that **nobody marked this one from outside.**
+Doorne files everything. Did Doorne not file this?
 
-A party that has learned this grammar — that has spent an evening reading doors and routing
-around them and stepping over sills — can walk up to the deepest room in a building whose entire
-purpose is marking and holding the damned, and notice that **nobody marked this one.** Doorne
-files everything. Doorne did not file this.
+**Let them think that.** It is half right. Then let them through the door and have them look up.
 
-Because Doorne didn't put Sia here. **His high priest did** — poisoned him, raised him, and shut
-him in a room the god never sentenced, in a building the god uses for exactly that, and then went
-away and died in the Destruction before he could come back and rob it.
+The **inner** lintel — the only mark in the complex carved to be read from *within* a room —
+carries a pyramid and a skull, and **the skull has been recut over and over**: turned out
+(*sealed*), set back in (*washing*), out again, the stone gouged pale around it. **The priest
+inside filed himself.** He bound himself in with an oath on the four names, behind a door that
+only answers praise from outside, to keep the hunger that being a wight put in him away from the
+oasis he gave his death to protect. For four hundred years he has been arguing with himself, in
+stone, about whether he is being purified or only held.
 
-**The missing mark is physical evidence of the murder**, and the party can find it without a
-single roll, purely by having paid attention for three hours. Hand it straight into the trial in
-9p (depth-concepts doc, Sketch 5): they walk in already knowing Sia is not supposed to be there.
-That is a much better door to a negotiation than 28 hit points.
+That is the Keeper in one image, and a party that has paid attention all evening gets it with
+**no roll at all**. It is a much better door into a conversation than 28 hit points.
+→ *Running the Keeper*, after the 9p room card.
 
 ### The tomb is still working ★
 
-9g's inmate is a tomb-robber who arrived *after* the priests stopped coming. Nothing closed that
-room; nothing opened it either. The building has simply gone on doing its job in the dark.
+9g's inmate is a tomb-robber who arrived *after* the priests stopped coming. Somebody cut a new
+mark and filed him. **The building did not do that on its own: the Keeper did**, through the
+guardians that still answer the Scepter of Ice in his hands.
 
-So put one new one in, somewhere in a corridor the party passes twice:
-
-> A man of stone, mid-stride, one arm up. Not carved — the proportions are wrong for sculpture
-> and right for a person. He is wearing a robe the party has now seen on three corpses, and on
-> the stone finger of the raised hand there is a ring of black obsidian.
-
-They will already have one of those rings, off the miner in the wall. **Say nothing else.** It
-is a four-line paragraph, it costs nothing, it proves the tomb is still open for business, and
-it means the next question anyone asks about a door is asked seriously.
+**Played in session 5:** the party found *the new statue* — a Black Water cultist, petrified
+mid-stride in a corridor, a ring of black obsidian on his raised stone finger — and took the
+ring. That is the Keeper's most recent filing. Nobody has told them so.
 
 ### Optional — finishing a washing
 
@@ -2293,7 +2670,9 @@ nothing while the oasis burned. Here's the answer, invented for this run:
 - **Restoring it.** Sia was entombed with a live fragment of the original hearth-flame — the
   source's "altar with a golden pyramid upon it" in **9p (Tomb of Sia)** is that relic here:
   reflavor it as **Sia's Coal**, a fist-sized golden reliquary that still holds a lit ember
-  after centuries (Doorne doesn't let his own fire die). Carrying it back to the temple and
+  after centuries (Doorne doesn't let his own fire die). **The Keeper has tended it for four
+  hundred years and it is his to give**; the Ember above going out is part of why his hold on
+  the hunger is slipping (*Running the Keeper*). Carrying it back to the temple and
   placing in on the Ember-altar with words spoken over by anyone who genuinely means a prayer
   to Doorne (a cleric, a paladin, Jiyloo, or just someone willing to mean it) will relight it.
 - **If it's relit before the patrol returns:** when Ashiq and the retrieval patrol arrive,
@@ -2325,11 +2704,17 @@ nothing while the oasis burned. Here's the answer, invented for this run:
   personal stake in this site** the source doesn't give her: she may be Dorne-faithful, or
   simply raised on "don't rob Doorne's tomb" the way any local would be. Let her push back,
   in-character, if the party starts stripping the temple/tomb for coin.
+- **The wight in 9p is not Sia.** The source says Sia's high priest poisoned him and raised him
+  as a wight. Discarded. **Sia lies dead and at rest in his sarcophagus. The wight is the high
+  priest, Kamenhet, who made himself undead when the empire fell so the tomb would go on being
+  kept and the oasis kept safe for the king's temples and travellers** — and who sealed himself
+  in because of the evil that becoming a wight put in him. Rational, reasonable, dangerous and
+  unstable. See *Running the Keeper*.
 - **The Scepter of Ice** — keep the mechanics (Staff of Frost + telepathy + burns the
   unfaithful) but consider its irony: an ice relic guarded in the middle of a desert, wanted
   by a *Black Water* cult. That tension is free flavor — lean into it.
 - Everything about the tomb's internal guardians (statues, ants, skeletons, the minotaur
-  An-Zefful, ghouls, the gargoyle, Sia's wight) is **ancient and faction-blind** — it
+  An-Zefful, ghouls, the gargoyle, the Keeper) is **ancient and faction-blind** — it
   threatens cultists exactly as much as the party. Keep that: it's what makes the "beat the
   cult patrol back" clock genuinely tense rather than a simple race to loot first.
 
@@ -2353,21 +2738,205 @@ door between the paws — free foreshadowing that something had already been thr
 executed after surrender. Both hooks landed: the cult's real timeline, and the gossip that "the
 mystic" did something to the temple before the attack.
 
-**3 — The tomb (9a–9p).** ⏳ *In progress — 9a passed, the party is in the east hallway with 9b's
-door open.* Run it from the **Room cards**. The spine underneath it is Doorne's three rules: the
-tomb can be **read** (the door-marks), **passed** (the rite), and **negotiated with** (Sia). A
-party that works that out clears rooms it would otherwise have had to survive.
+**3 — The tomb (9a–9p).** ⏳ *Session 5 crawled all of it but 9o and 9p, fighting almost nothing.*
+Run it from the **Room cards**. The spine underneath it is Doorne's three rules: the tomb can be
+**read** (the door-marks), **passed** (the rite), and **negotiated with** (the Keeper). This party
+worked out the first two and cleared the tomb without a fight. The third is session 6.
 
-**4 — The clock lands.** Within 1–2 days the cult's main body returns with whatever they bought to
+**4 — The clock lands.** Probably in session 6. Within 1–2 days the cult's main body returns with whatever they bought to
 open the door. Either the party is gone, or they're at the sphinx's mouth when it arrives, or
 they're caught below and the tomb fights **both** sides. All three are good; the world doesn't wait
 on the party's pace. **→ The clock**, above, and *the patrol returns* in the Combat reference.
 
 ---
 
+## The road north — the Keeper's errands, and *Forsaken Pyramid*
+
+*The adventure that grows out of a covenant with the Keeper. It sends the party into the desert for
+reasons that are theirs and a dead priest's, not Elmingwed's — and it walks them into the cult's
+workshop.*
+
+### The ask: "Keep my oath where I can't"
+
+He swore to keep the oasis safe for the king's temples and the travellers who drink there. He cannot
+leave his room. **The party can.** He asks for three things, and they come in order of distance:
+
+1. **Relight the Ember** (local, this session). His Coal, carried up the stair to Temple al Sia's
+   hearth-altar, with a prayer from someone who means it — Jiyloo, or any of the sworn. It steadies
+   him for good (hunger baseline −1), and it lets the tomb's guardians act **outside** the tomb when
+   the column comes (*the patrol returns*). Also: someone has to bury the temple's priest.
+2. **Bring back the oasis's people** (a day or more out). The slaves the raiders coffled and took into
+   the desert, the El-Alouph family among them. **Orkideh's dog has their scent.**
+3. **End the drowning of the dead, at its source** (a day north). The cult's mystics at Ayatorrah
+   bottle water spirits that ride corpses like puppets. To a priest whose whole vocation is keeping the
+   dead where they were put, that is the worst blasphemy there is — and it is how the cult means to
+   open his door.
+
+### The reward: ancient language
+
+What the Keeper offers in return is **the language engine** behind his chair. When the priests are
+back at Sia, they will set it up in the great hall with a ceremony and let the party use it. It is
+lethal at low level (d100 flat damage; double your HP or more is permanent death; a spider bracelet
+halves it for one wearer), so the reward pulls the party back to Sia later, stronger. Full terms: *Running the Keeper* → *The reward*.
+
+In game 1, the party found and used a language engine in the Forsaken Pyramid. Decide whether that
+one exists in this run. If it does, the Temple of Mennuj offers the same prize without the Keeper's
+terms, which is a temptation worth keeping. If it doesn't, the Keeper's engine is the only one on offer.
+
+### The place is already written: *Forsaken Pyramid* (ONA-16)
+
+The source module's own sequel, and its trail starts at this oasis.
+`assets/_raw/Foresaken Pyramid (21) (Level 3-5) (ONA 16) 1112/Forsaken_Pyramid_(Levels_3_5).pdf`
+
+- **The road.** An old stone road under the sand runs **22 miles** north from the Oasis of Sia to the
+  ruined city of **Ayatorrah**, and the **Temple of Mennuj** — the one building still standing. About
+  eleven hours on foot, half that by camel. Along it, paired obelisks carved with Doornian instructions:
+  the same kind of reading this party has spent two sessions getting good at.
+- **Why the Keeper cares about it.** The Temple of Mennuj was **the seat of his order**; he trained
+  there. He knows the entry rite, and he knows the temple has a **Conformatory** (module area 22) where
+  priests who broke their oaths were punished — and its records.
+- **Who is there now: the cult.** The module's occupants are the **Insemi** (white-robed desert fanatics
+  who, per the module, *took part in the attack on Sia*), two "mystics" secretly serving a priesthood of
+  **Doorne the Destroyer**, and a clan of dog-headed **Anubi.** The mystics are summoning water spirits
+  and bottling them. **This is where Ashiq's column went.** In this run, fold the Insemi and their
+  mystics into the Black Water Cult the same way the Sia raiders were folded in.
+- **The slaves may be on this road too.** Optional: **the dog picks up the El-Alouph trail on the
+  stone road**, and at the first pair of obelisks (*Turnings of Fate*, six miles out) the trail and the
+  road fork. Or the slaves are labour at the temple. Either way, errands 2 and 3 can become one trip.
+- **A successor, if they want one.** The module's area 24 holds **four traditional Doornian priests**
+  among the Insemi — "not Water Priests," who per the module talk if the party has no elves and fight if
+  it does. **This party has two** (Orkideh and Tath'Shar), so recruiting one is a real social problem. One of them, turned, could be **the living priest Temple al Sia needs** (the Keeper's item 4) — the
+  thing that would let the Keeper finally die.
+- **Level.** The module is written for levels 3–5. A level-2 or -3 party survives it by doing what this
+  party does well: reading the place. **The processional statues and gate guardians are lethal to
+  unbelievers** (lightning, *confusion*, a gorgon) **and harmless to the faithful who perform the rite**
+  — and the Keeper can teach them the rite. *Tath'Shar is unsworn; the module's statues check "faithful
+  of Doorne with the party," so the party as a group passes, but Tath'Shar will feel the statues'
+  heads turn to follow them.*
+- **Seed only:** Steve's folder for the module holds a map titled *Secret entrance from Sea of Souls.*
+  The party is already carrying two pieces of Sea-of-Souls kit without knowing it
+  (`thread:sea-of-souls-water`). Leave it there.
+
+### Why this is not Elmingwed's errand
+
+- **Elmingwed wants the trade route open** and the merchants of Tel A'bib in the party's debt. The
+  oasis matters to him as a caravan stop.
+- **The Keeper wants the oasis's people home, its temple tended, and the dead left alone.** The two
+  overlap at the oasis and diverge everywhere else — especially at Ayatorrah, which no merchant has any
+  reason to visit and where the party would be walking into the cult's base.
+- **The party's motive is their own:** a dead priest's vow they chose to carry, a family the dog wants
+  back, and the people who burned this place. Elmingwed gets his road reopened as a side effect, and may
+  not love *how* — the Keeper's terms can include a priest posted at the temple and pilgrims' rights at
+  the sphinx before any caravan stops there.
+
+### The catch
+
+- **A bargain struck while his hunger track was 3 or above was partly the hunger's.** One term is
+  poisoned. Recommended: he asks for **"one of them, alive"** — a cultist brought back from Ayatorrah
+  for judgment. The priest means a trial. The hunger means a meal. The party may not know which they
+  agreed to until they are standing in 9p with a prisoner — the plinth again, a third time.
+- **Release has a price.** If the party learns (from the Conformatory, or from the Keeper at 0–2) how he
+  can be allowed to die, they also learn that his death **ends the keeping** unless a living priest takes
+  up the Scepter at Temple al Sia. Mercy and the oasis's safety pull against each other until someone
+  solves that.
+
+---
+
+## After the tomb — which way?
+
+*When the party comes up the stair, they choose a direction. There are two real roads: **north
+into the desert on the Keeper's errands**, or **back to Tel A'bib and on to Durgan's Rest** with
+Elmingwed's letter. The world keeps moving on whichever one they don't take.*
+
+**Expect Durgan's Rest.** The party promised Tath'Shar that Tsendur came next. They voted
+Tath'Shar down once in session 4 to come here, and Tath'Shar accepted it without a fight. Breaking
+the promise a second time would be a choice the table makes on purpose, not by drift.
+
+### Before they leave Sia — cheap acts that change what happens behind them
+
+Each of these takes an hour or less. Each one decides how the oasis fares while the party is gone.
+Don't list them for the players. Let the dog, Jiyloo and the Keeper point at them.
+
+- **Relight the Ember** with the Keeper's Coal. Then the tomb's guardians watch the oasis, and a
+  column that arrives after the party has left meets them above ground.
+- **Bury or burn the murdered priest** of Temple al Sia. That leaves the drowned-priest plan without
+  its body. Jiyloo will want it done regardless. *Seed:* Ashiq then needs another Doornian mouth, and
+  the nearest one she knows of is travelling with the party.
+- **Find Afara and Dasara** in their covered pit. Ask the dog and it finds them in minutes. They are
+  witnesses to the raid, and they are someone to leave in charge of the well, or to take to Tel A'bib.
+- **Search the 9c camp papers.** They give Tabbat's name, the dispatch and the mapcase: the cult's
+  own description of Ayatorrah. That is useful on either road.
+- **The captive monk** from session 4 goes to Elmingwed. A living cultist from the Sia raid is
+  treasure in itself to him.
+- **Jiyloo may ask to stay.** If the Ember is lit and the temple has no priest, she offers to tend
+  it until a real one comes. That costs the party their guide and their front line. It also leaves
+  a Doorne-faithful woman alone at Sia when the column comes back. Let the party argue her out of
+  it, or not.
+
+### Road A — north into the desert, on the Keeper's errands
+
+The full write-up is *The road north*, above. It is the old stone road, 22 miles to Ayatorrah and the
+Temple of Mennuj, which is *Forsaken Pyramid* (ONA-16, levels 3–5). Ways to play it:
+
+- **The slave trail.** The dog finds the El-Alouph family's trail. It is a chase across open sand
+  that ends at a coffle camped at a waterhole or the first obelisk pair. That is a rescue with a
+  clock on it, and it is the cleanest test of whether the party meant reputation over gold.
+  - **Optional twist:** the trail bends **east, toward Tel A'bib.** The slaves are being sold, not
+    worked. In game 1, Tel A'bib's Imperial Governor turned out to be complicit in the slave trade.
+    That makes the two roads converge, and it puts a dangerous question in Elmingwed's city.
+- **The obelisk road.** Paired obelisks carry Doornian instructions. It is the door grammar
+  again, outdoors, with lethal statues for anyone who reads it wrong. This party is good at that,
+  and it plays to their strength.
+- **Ayatorrah from the inside.** One PC wears the obsidian ring and walks in as cult staff. With
+  the Ashiq lore (*Would Ashiq say the words?*, Rule one), the prize is hearing what the leaders say
+  when they think only believers are listening, or getting one of them alone.
+- **The Temple of Mennuj itself.** The Keeper teaches them the rite. The Conformatory records hold
+  how he can be released. The traditional priests in area 24 might supply a successor, but they
+  fight parties that include elves, and this party has two.
+- **What it costs:** Tath'Shar's promise is broken again, the letter stays in a pocket, and
+  Elmingwed hears nothing.
+
+### Road B — Tel A'bib, then Durgan's Rest
+
+The full write-up, including how to run it without Phoenix, is
+`scenarios/mishap-at-durgans-rest.md` → *⚑ Coming here from Sia*. In short:
+
+- **The audience with Elmingwed.** The party delivers the captive monk and reports the transit
+  lane restored, which is the thing he actually wanted. **He reads their leaving the treasure
+  in the tomb as smart:** they saw the bigger picture. He notices the letter is still undelivered.
+  The negotiation is written out in the Durgan's Rest packet.
+- **The road into the mountains.**
+- **Durgan's Rest.** Tsendur, the letter, and the night Maghiel takes the Clasp.
+
+### What happens at Sia while they are gone
+
+The cult column comes back whether the party is there or not. What it finds depends on what the
+party left behind:
+
+- **Ember relit:** the guardians meet the column above ground. The cult breaks on the oasis and
+  pulls back to Ayatorrah. The caravans can start running again.
+- **Priest buried, Ember still dark:** the column reaches the tomb with no mouth to say the
+  names. It camps in 9c, digs, and loses more men to the wall. Ashiq starts looking for another
+  Doornian body.
+- **Neither:** the drowned priest walks down the stair and says the names. The Keeper meets him at
+  whatever point on the hunger track the party left him.
+  - If the Keeper is **steadied or under a covenant**, he holds the door: *"That is not a priest.
+    That is a well with a man in it."*
+  - If he was left **at 3 or higher**, the hunger opens it. Then the cult has the Scepter, and Sia's
+    guardians answer to Ashiq.
+- **How the party hears about it:** as caravan news in Tel A'bib or on the mountain road, weeks
+  later. Whichever outcome it is, it is the price or the payoff of how they left the oasis. Report
+  it plainly and let it land.
+
+---
+
 ## Rewards & consequences
 - The Scepter of Ice is worth **30,000 gp** but is far
   too recognizable to sell to any local merchant, and Jiyloo would be absolutely dismayed and adversarial to any attempt to remove it from the temple.
+- **Elmingwed reads restraint as judgment.** Restoring the transit lane is what he wanted. Delivering
+  the captive monk is treasure enough. Leaving the tomb's wealth where it lies tells him the party
+  sees the bigger picture: robbed tombs make cursed roads and hostile priests. That is worth more to
+  him than any relic they could carry out, and he says so.
 - Resolving this **pays off `thread:missing-caravans`** (Feltan's standing reward for the
   vanished western-route caravans) and satisfies Elmingwed's actual want — the trade route
   reopened.
@@ -2400,11 +2969,15 @@ on the party's pace. **→ The clock**, above, and *the patrol returns* in the C
 - **thread:elmingwed-deal** warms further — the route's open, the job's done, and they never
   took a fee for it.
 - **thread:sia-tomb → `resolved`**, and record which of Doorne's rules the party actually worked
-  out (the marks? the rite? Sia's trial?) — that knowledge travels with them to any other
-  Doornian site.
+  out (the marks ✅ and the rite ✅ in session 5; the Keeper?) — that knowledge travels with them
+  to any other Doornian site, starting with the Temple of Mennuj.
+- **thread:the-keeper** — record how 9p ended (covenant, steadying, release, mercy, the hunger's
+  bargain, walked away, or a fight), what was sworn and on which name, and whether Tath'Shar told
+  the party what the hunger said to them.
 - **thread:the-prisoner-on-the-plinth** — note whether it ever came back on them, and whether
   Jiyloo ever said anything about it.
-- **campaign/inventory.yaml** — the obsidian serpent ring (infiltration), the Fire Beetle Lantern
+- **campaign/inventory.yaml** — the obsidian serpent ring (✅ taken in session 5, off the petrified
+  cultist; infiltration), the Fire Beetle Lantern
   (and its unread five-city etching, `thread:sea-of-souls-water`), and whatever they decided about
   the Scepter.
 - Note Jiyloo's reaction if the party looted the temple against her wishes — a seed for

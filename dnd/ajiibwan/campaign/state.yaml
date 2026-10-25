@@ -9,19 +9,29 @@
 campaign: "Deserts of Ajiibwan"
 run: "game-2"          # the reset playthrough with new players
 status: >
-  in-play — 4 sessions played (campaign/sessions/01-04.md). The party is INSIDE the Tomb of
-  the Sphinx at the Oasis of Sia, mid-combat: standing in the east hallway off 9a with the
-  9b door forced open and Giant Ants coming through. Jeffrol is resolved and gone (north
-  road, ~9 weeks out). The Kantaroz tower is still unentered and its summoning still ticks.
-  Elmingwed's letter to Tsendur is carried but UNDELIVERED.
+  in-play — 5 sessions played (campaign/sessions/01-05.md). Session 5 was a full crawl of the
+  Tomb of the Sphinx: the party learned the door grammar, left the marked cells shut, slammed
+  9f shut on An-Zefful, and ended at the hidden door into 9o (the false treasure room), one
+  room short of Sia's tomb (9p). Jeffrol is resolved and gone (north road, ~9 weeks out). The
+  Kantaroz tower is still unentered and its summoning still ticks. Elmingwed's letter to
+  Tsendur is carried but UNDELIVERED. Expected next after the tomb: Tel A'bib (a short stop,
+  not the six-week gap; deliver the captive monk to Elmingwed), then Durgan's Rest — the party
+  promised Tath'Shar. Plan: arrive, sleep one night, stop; Phoenix is back for the letter and
+  the raid. scenarios/mishap-at-durgans-rest.md -> "Coming here from Sia".
 
 # --- Party ------------------------------------------------------------------
-# Active table: 5 PCs at level 2, plus Jiyloo (NPC) and Orkideh's dog. Six bodies and a
+# Active table: 5 PCs at level 2 (CONFIRM: may have leveled to 3 in the session-5 crawl),
+# plus Jiyloo (NPC) and Orkideh's dog. Six bodies and a
 # dog in the field — meaningfully more capable than the "4 level-1 PCs" assumption baked
 # into the world compendium's Oasis of Sia entry. Jeffrol is no longer with the party.
 party:
-  level: 2
+  level: 2          # CONFIRM after session 5
   size: 5
+  doorframe_oaths: >
+    Session 5: everyone EXCEPT Tath'Shar took the 9a doorframe oath. Tath'Shar is Unwelcome
+    (-1d4 vs Doorne's own work only). Which door each of the four chose (sets their boon):
+    unrecorded and not needed — boons end when they leave the tomb. In 9p the Keeper answers the sworn as pilgrims, confides in priests
+    (Gereon), and will not address Tath'Shar — but his hunger speaks only to them.
   members:
     - name: "Ren"        # player: Toan
       pronouns: "she/her"
@@ -43,6 +53,7 @@ party:
     - name: "Gereon"     # player: Mia
       pronouns: "he/him"
       race: "Dwarf"
+      class: "Monk (Acolyte background — served in a temple; the party's natural 'priest' when Sia asks for one)"
       notes: >
         Scraggly dark brown-grey beard; plain (not fancy) robes, dressed too warm for the
         desert. Fast on foot — ran down the fleeing cult monk at the sphinx in session 4.
@@ -129,36 +140,39 @@ location:
   region: "[[region:deep-desert-oases]]"
   site: "[[loc:oasis-of-sia]] — inside [[subloc:sphinx-sia]], the Tomb of the Sphinx"
   precise: >
-    The east hallway running off 9a (Hall of Water). Two doors at the end: one south
-    (unopened), one east (open). Giant Ants (9b) are coming through the east door.
-    Session 5 opens in initiative or in the decision right before it — see
-    scenarios/ashes-at-the-sphinx.md -> "Session 5 opens here" for the designed way out
-    (Jiyloo braces the door; the party washes their feet in 9a's pools and hers; the ants
-    settle) and for 9a as the vestibule that teaches all five rites — bear the sign, speak the
-    praise, arrive clean, depart holy, remain pure — and offers the
-    four-door oath. Fighting the ants remains fully available.
+    At the hidden door between the two armoured statues (the "superbly hidden" 9c secret
+    door), which opens into 9o, the False Treasure Room. 9o's floor is already collapsed
+    onto spikes except a two-foot ledge before the door to 9p, Sia's tomb. Session-6 prep:
+    scenarios/ashes-at-the-sphinx.md -> "Session 6 opens here" (the grammar as a search aid,
+    five options for 9o, the Keeper in 9p, and the road north to Ayatorrah).
   situation: >
-    Above ground the oasis is cleared of living cultists except one captive: the surviving
-    cult monk who showed them the entrance. Two more cultists are dead — one in the fight,
-    one executed after surrender. The El-Alouph family is alive and undiscovered in their
-    pit. The scenario packet is scenarios/ashes-at-the-sphinx.md; the design review and
-    proposed depth work is scenarios/ashes-at-the-sphinx-depth-concepts.md.
+    Below: every room explored except 9o and 9p. The marked cells (9d, 9g, 9h, 9i, 9k) were
+    left shut; An-Zefful (9f) is alive behind a door the party slammed. Loot: only a black
+    obsidian serpent ring, off the petrified cultist ("the new statue"). The 9c cult camp was
+    walked through, not searched. Above ground,
+    unchanged since session 4: one captive monk, Temple al Sia unentered with its Ember
+    smothered and its murdered priest unburied, Afara and Dasara still undiscovered in their
+    pit, and the El-Alouph family still on the slave road.
 
 clock:
-  in_world_day: 4          # APPROXIMATE — day 1 was Elmingwed's gate; add travel Tel A'bib -> Sia. Adjust to your map distance.
+  in_world_day: 5          # APPROXIMATE — day 1 was Elmingwed's gate; add travel Tel A'bib -> Sia. Session 5's crawl took ~8 hours below (GM, confirmed).
   # Time dilation is handled NARRATIVELY between adventures, not with a factor: when the
   # party returns to Tel A'bib, ~6 weeks pass before the next adventure (game 1 used ~2).
   # That downtime gap is when autonomous threads (threads.yaml) tick.
   between_adventure_gap: "~6 weeks at Tel A'bib"
   active_countdowns:
     - name: "Black Water main body returns to the sphinx"
-      due: "1-2 days from the session-4 interrogation"
+      due: "1-2 days from the session-4 interrogation. The party has been below ~8 hours: due, not overdue. GM picks: during 9o/9p, on the stair, or after the party leaves (then it hits the tomb with nobody there — see the packet's 'After the tomb')"
       note: >
         Replaces the source module's flat 24-hour patrol clock. The captured guards said the
         main body left ~a week ago to fetch MAGICAL ITEMS NEEDED TO PENETRATE THE TOMB —
         i.e. something down there stopped them cold and they are coming back able to open it.
         This is a much better clock than the source's and it is the party's information,
-        earned by interrogation, not GM fiat.
+        earned by interrogation, not GM fiat. Session-6 refinement (optional): the "magical
+        items" are bottled water spirits (Essence of Hayawiyya) from the Temple of Mennuj at
+        Ayatorrah, meant for the corpse of Temple al Sia's murdered priest, so a Doornian mouth
+        can say the four names the fanatics will not. See scenarios/ashes-at-the-sphinx.md ->
+        "The clock".
     - name: "Jeffrol returns from the Granite Empire road"
       due: "~9 weeks"
     - name: "Kantaroz summoning"
@@ -167,9 +181,10 @@ clock:
 milestones:
   - "Session 3: Jeffrol captured. Party leveled to 2."
   - "Session 4: Jeffrol resolved (deployed north, not handed over). Party chose reputation over gold and took Elmingwed's Oasis of Sia job unpaid. Tath'Shar joined. Tomb of the Sphinx entered."
+  - "Session 5: Full crawl of the Tomb of the Sphinx with almost no fighting. Ants re-frozen by the foot-washing while Jiyloo held the door. All but Tath'Shar took the oath. Door grammar learned and used; marked cells left shut; 9f slammed on An-Zefful. Took the petrified cultist's obsidian ring. Party at the hidden door into 9o."
 
 # --- Bookkeeping ------------------------------------------------------------
-last_session: "campaign/sessions/04.md"
+last_session: "campaign/sessions/05.md"
 open_threads_file: "campaign/threads.yaml"
 inventory_file: "campaign/inventory.yaml"
 active_scenario: "scenarios/ashes-at-the-sphinx.md"
