@@ -211,6 +211,20 @@ clock:
     - name: "Kantaroz summoning"
       due: "no fixed date — ticks on every stretch of party inaction (thread:kantaron-summoning)"
 
+canon:
+  bokkaran_language: >
+    (Steve, after session 6.) Bokkaran is a "Linear A" language. Nobody can read it whole, and
+    nobody can TEACH it. Every small piece of progress took hard labour, and the scholars who made
+    it guard it. The only real ways to learn Bokkaran are a grant from a spirit or god, or a
+    Bokkaran language engine (the Keeper's at Sia is owed to the party if the pyramid is cleared of
+    the Black Water Cult). Tsendur can say roughly what a Bokkaran spell is about, but even he can't
+    cast one without long study, even from a scroll, let alone copy it to a spellbook.
+  magical_consequences: >
+    (Steve, after session 6.) Casting any Bokkaran spell triggers magical consequences: extra
+    effects beyond the spell itself. Ways to avoid them exist (lore-and-mysteries.md names Bokkaran
+    charms and an anti-miscast spell), but in game 2 NOBODY knows what they are yet, and scholars
+    like Tsendur are nowhere close to finding out.
+
 milestones:
   - "Session 3: Jeffrol captured. Party leveled to 2."
   - "Session 4: Jeffrol resolved (deployed north, not handed over). Party chose reputation over gold and took Elmingwed's Oasis of Sia job unpaid. Tath'Shar joined. Tomb of the Sphinx entered."

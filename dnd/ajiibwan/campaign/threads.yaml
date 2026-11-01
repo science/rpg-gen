@@ -535,3 +535,36 @@ threads:
     autonomous:
       - "Nothing propagates outward — nobody survived to report it. This is an internal debt, between the party, their god-haunted companion, and the tomb."
       - "Tabbat is a missing man the cult will notice. Ashiq knows who was on the ledge. If anyone from the cult ever gets a look inside 9p, the party's names come back out with them."
+
+  - id: thread:grizziks-wagon
+    title: "Grizzik's wagon — the kobold traders"
+    status: active      # met at the end of session 6; the trade scene opens session 7
+    summary: >
+      A troupe of six kobolds led by old Grizzik (half a tail, a dozen keys on a string), with
+      Pip, Tamm, Sket and the twins Ob and Ib. They haul a junk wagon on a circuit: the foothill
+      farms below Tel A'bib, Durgan's Rest, the mines, and the Haunting Range pass toward the
+      Bridged City. They surprised the party on the trail at the end of session 6. The game-1 party
+      traded a Bokkaran book with this same troupe. Full scene: scenarios/mishap-at-durgans-rest.md
+      -> "Session 7 opens here".
+    direction: >
+      (Steve, after session 6.) A RECURRING contact. Each visit brings something new on the wagon,
+      something they want to buy, and one piece of news. They trade in goods AND information:
+      nobody lowers their voice in front of kobolds, so they hear everything. They will offer for
+      the Bokkaran scrolls, but the party does better taking those to Tsendur. He can tell them
+      roughly what the scrolls are; he can't make them castable or teach the language (see the
+      bokkaran_language canon in state.yaml).
+    standing: >
+      Strangers (start) -> good customers (fair deal, gift, kindness, or carrying their parcel to
+      Tsendur) -> friends of the wagon (a real favour, e.g. bringing Nib home). Drops for bullying,
+      cheating or drawn steel.
+    hooks:
+      - "The false toll: Under-Collector Hesk and eight bandits in stolen Imperial tabards at a bridge on the Haunting Range road to the Bridged City. With the kobolds' details the party can call the bluff, take the goat track round, or turn Hesk in to the Imperial Guard in the Bridged City."
+      - "Nib, Pip's brother, was taken by the Black Water Cult with four other kobolds to dig at the desert pyramid. He ties Ren's charge to a personal stake, and there are kobold prisoners inside who would help."
+      - "The second wandering Kantaron construct, in a gully east of the pass (Ren's hook)."
+      - "Rumour of the marsh 'where the moon cries' (the Covent of the Weeping Moon)."
+    track: >
+      Record here what the party bought, sold, promised and learned at each meeting, so the next
+      visit can call back to it.
+    autonomous:
+      - "The wagon keeps its circuit. Every few weeks of in-world time it passes wherever the party is in the mountains, carrying whatever news has moved since — cult labour gangs, drow sightings, who's been robbed at Hesk's bridge."
+      - "If the party harms or cheats them, Durgan's Rest hears of it first and Sheriff Isi cools toward the party."

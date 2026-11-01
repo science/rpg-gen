@@ -61,17 +61,79 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 >   them.
 > - **Stats, if you need them:** standard 5e kobolds, AC 12, HP 5, dagger +4 for 1d4+2, Pack
 >   Tactics. They should not need them.
+> - **Names, so they stick when the troupe comes back:**
+>   - **Pip** is the youngest, cheerful, and always tugging a sleeve. The Black Water Cult took
+>     his brother **Nib**.
+>   - **Tamm** is the appraiser. He bites coins, sniffs bottles, and blurts out what things are
+>     really worth, which drives Grizzik mad.
+>   - **Sket** is the scout. She walks ahead of the wagon and hears everything, so most of the
+>     troupe's news comes through her.
+>   - **Ob and Ib** are twins. They haul the wagon, speak no Common, and fight over the birdcage.
+>
+> ### A troupe that keeps turning up
+>
+> Play this troupe as a **recurring contact**, not a one-off encounter (`thread:grizziks-wagon`).
+> - **They run a circuit.** The route goes from the foothill farms below Tel A'bib, up to Durgan's
+>   Rest, out to the mines, over the Haunting Range pass toward the Bridged City, and back again.
+>   Whenever the party is on a mountain road, the wagon can come round the bend. Use them every few
+>   weeks of in-world time, or whenever the table needs a breather between hard scenes.
+> - **Every visit brings three things:** something new on the wagon, something they want to buy,
+>   and one piece of news.
+> - **Why they know things.** Kobolds go everywhere and sell to everyone, and nobody lowers their
+>   voice in front of a kobold. Bandits, cultists, drow, farmers and the town watch all say things
+>   over the troupe's heads that they would never say to a stranger. That makes the troupe the
+>   cheapest spy network in the mountains, for a party that treats them well.
+> - **Their opinion of the party moves in three steps.**
+>   - **Strangers** (where they start): fair prices, the wagon goods only, and the free news below.
+>   - **Good customers:** earned by a fair deal, a gift, or a small kindness, like fixing the wagon
+>     wheel, sharing the fire, or admiring Grizzik's keys. Grizzik opens the box under the wagon bed
+>     (below) and starts trading news.
+>   - **Friends of the wagon:** earned by a real favour, such as carrying the parcel to Tsendur or
+>     bringing Nib home. They come looking for the party to warn them, hold good items back for
+>     them, and vouch for them in Durgan's Rest.
+>   - **Their opinion drops** if the party bullies them, cheats them or draws steel on them. A
+>     cheated troupe still comes back, but it sells the party junk at full price and keeps its news.
 >
 > ### How they trade
 >
 > - **They prefer barter to coin.** Gold is fine, but shiny, noisy or strange things get a better
 >   price than their weight in gold.
-> - **They want the Bokkaran scrolls most of all.** Grizzik knows white-metal writing sells high
->   "to the bearded scribe up the hill" — Tsendur. That makes it a small choice: sell the scrolls
->   here for goods now, or carry them to the man who can read them.
 > - **They will not touch the obsidian serpent ring.** If anyone shows it, the troupe goes quiet and
 >   Grizzik pushes it back with a stick. *"Black-water people. Bad people. Took Pip's brother for
 >   digging."* (The cult takes kobold labour too.)
+>
+> ### What they'll buy from the party
+>
+> - **Their tastes.** Keys first: Grizzik collects them, pays double for any key, and throws in a
+>   piece of news. After keys come bottles, bells, mirrors, anything that rattles or shines, anything
+>   with writing on it, and boots of any size.
+> - **What they pay.** Half of book value in coin, or full value in trade goods. They are short of
+>   coin and say so.
+> - **The Bokkaran scrolls are what they want most.** Grizzik's opening offer is **all three scrolls
+>   for the "goat medicine" potion plus the climbing kit**, or 10 gp each in coin. Haggled hard, she
+>   goes to 15 gp each.
+>   - **Let the party discover that this is a bad deal.** If anyone asks who buys white-metal writing,
+>     or makes a DC 10 Insight check while she haggles, Tamm blurts it out: *"Bearded scribe pays
+>     fifty! Each!"* Grizzik smacks him with her tail stump.
+>   - Fifty each is kobold rumour, not a price Tsendur has promised. The real point is that every
+>     scrap of Bokkaran is precious to the scholars who study it, and Tsendur is the man who can
+>     tell the party roughly what these three are. He can't make them castable, and he can't teach
+>     the language (see *What Tsendur can do for them*, below). Still, a scroll in hand is a
+>     bargaining chip with him, and a future spell once someone in the party can read Bokkaran.
+>   - **If the party keeps the scrolls,** Grizzik isn't offended. She offers a different deal: the
+>     parcel, below.
+> - **The spider bracelet.** If anyone shows it, Grizzik offers anything on the wagon for it. Tamm
+>   sniffs it and says *"Water-charm. Old water."* That line is the hint that it matters. It pays off
+>   at the Sea of Souls, so the party should not sell it, and Tamm's remark gives them the reason.
+>
+> ### The parcel for the scribe
+>
+> Grizzik has a parcel for Tsendur: a bundle of good lamp wicks and a sealed packet of ink powder he
+> ordered from the farms. The troupe turns off toward the mines next, so without help the parcel
+> waits a month. **She asks the party to carry it, and pays in news:** the false toll, below.
+> - Tsendur pays the party 5 gp when they deliver it, and he remembers who brought it. That gives
+>   him a warm first moment with the party, before the letter goes wrong.
+> - This is the easy way to become **good customers**.
 >
 > ### The wagon — what's for sale
 >
@@ -96,13 +158,153 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 > - **Pure junk,** for colour and haggling: one good boot, a birdcage with no door, a tin whistle,
 >   a bag of mismatched dice, a cracked hand mirror, a harness with no animal.
 >
-> ### What Grizzik knows — given freely to good customers
+> ### The box under the wagon bed — for good customers only
 >
+> These items are cheap, odd and hard to find anywhere else. None of them is valuable, and each is
+> useful at least once.
+> - **A pair of fire-beetle glands.** Each glows like a torch (bright light 10 ft, dim light 10 ft
+>   more) for 1d6 days, with no flame and no smoke. 1 gp each. Nobody in the desert sells them.
+>   A light that gives off no fire is worth having with drow camped above the pass.
+> - **Waking salts.** A twist of the salts kobold miners sniff in bad air. Held under a sleeper's
+>   nose (one action), they wake a creature from magical sleep, such as a *sleep* spell. Three uses,
+>   4 gp. They can't beat the Sea of Souls while the sleeper is still in the water's reach, but once
+>   someone drags the sleeper clear, the salts wake them at once.
+> - **A charcoal rubbing of a Bokkaran inscription,** taken from a boundary stone near the mines.
+>   2 gp. It is useless to the party, because nobody can read it. To Tsendur it is a new sample, and
+>   new samples are rare and jealously guarded. That makes it a good gift to open a conversation
+>   with him, or something to trade him for what he knows.
+> - **Boot spikes, two pairs.** Iron spikes that strap onto boots. They give advantage on checks to
+>   keep footing on ice and wet rock. 3 gp a pair. Useful on the Haunting Range pass and on the goat
+>   track (below).
+> - **A jar of "dragon pepper."** Kobolds burn it to drive giant insects out of tunnels. Lit, it
+>   fills a 10 ft area with smoke, and any beast with Intelligence 2 or lower must leave the area
+>   unless it passes a DC 10 Constitution save. 5 gp.
+> - **A bronze toll chit and a cork-stamped receipt.** These go with the false toll, below.
+>
+> ### Trading in news
+>
+> Grizzik sells news the way she sells boots: everything has a price, and the price is rarely coin.
+> A key buys news. So do a good story, a fair deal, a song, or carrying the parcel. Open with the
+> free items so the party sees that the troupe knows things, then make them pay for the good ones.
+>
+> **Free, to anyone who buys something:**
 > - **Tsendur sees visitors in the morning, never at night.** "Busy man. Lamps all night."
 > - **The dark elves above the pass.** They camp without a fire, pay in silver, and ask questions
 >   about who goes up the trail.
 > - **Durgan's Rest is a day's walk,** and "the field across from the scribe's house is where
 >   travellers sleep." That is where the raid will find them.
+>
+> **For a price:**
+> - **The false toll on the road to the Bridged City.** This is the big one, and it gets its own
+>   section below.
+> - **Where Nib went.** Black Water men took Pip's brother "from the mine road, two moons back,"
+>   along with four other kobolds, "to dig in the sand north of the water-town." The water-town is
+>   Sia. This confirms what the Keeper told Ren: the cult is at the pyramid, and it is digging for
+>   something. It also means there are kobold prisoners inside who will help anyone who comes to
+>   free them.
+>   - If the party promises to look for Nib, Pip gives them his tin whistle. Nib has its twin, and
+>     both play the same note.
+>   - Making that promise and keeping it makes the party **friends of the wagon.** It also gives
+>     Ren's charge to investigate the pyramid a small, personal face.
+> - **The metal man who walked wrong.** Sket can say where the brass plate came from: a gully half a
+>   day off the trail, east of the pass. There were two metal men. The second one still walks at
+>   night, one eye lit like a lantern, picking up stones. This is a Kantaron construct gone astray,
+>   and Ren's construct hook.
+> - **"Don't drink from the marsh where the moon cries."** This is about somewhere northeast of
+>   Durgan's Rest, on the east side of the mountains. *"Water looks fine. Moon in it cries. Kobolds
+>   who drink it walk off in the night."* It's only a rumour for now, pointing at the Covent of the
+>   Weeping Moon for later.
+>
+> ### The false toll — what the kobolds know
+>
+> **The setup.** On the road from Durgan's Rest over the Haunting Range to the Bridged City, a
+> "customs post" has gone up at a narrow stone bridge over a gorge. It has a striped barrier pole, a
+> hut, an Imperial flag, and eight men in Imperial tabards. Their leader calls himself
+> **Under-Collector Hesk**. They charge a "bridge tax" of 10 gp a head. They also "inspect" packs
+> for "contraband antiquities," which means anything Bokkaran gets confiscated. They took Grizzik's
+> best copper pot as her toll.
+>
+> **The party won't reach this pass until after Durgan's Rest,** when Tsendur sends them on to Dain
+> Ironheart and the Bridged City. Plant the news now, and it pays off a session or two later. If the
+> party doesn't buy it now, the troupe can turn up in the Durgan's Rest market the morning after the
+> fire.
+>
+> **How the kobolds know it's a fake** (each detail is one piece of news; sell them one at a time
+> or all together):
+> - **The Empire doesn't reach that road.** The Bridged City is cut off from the Empire by the
+>   Dangerous Road and the river blockade. No real Imperial officer has come up that road in years.
+>   A PC can work this out alone with a DC 12 History check. The kobolds just say it plainly.
+> - **The tabards are stolen.** They came off an Imperial courier party that went missing on the
+>   Dangerous Road. One has a crossbow-bolt hole in the back, darned in the wrong colour thread.
+> - **The seal is a cork stamp.** The paper receipt Hesk hands out is stamped with the mark of a
+>   Tel A'bib wine merchant. Anyone who drank at Elmingwed's banquet has seen that mark on the
+>   bottles. Grizzik kept her receipt and will sell it for 1 gp, or give it to good customers.
+> - **A real toll gives bronze, not paper.** A genuine Imperial toll is paid against a bronze chit
+>   with a square hole in it. Grizzik has one from a real post on the northern road, and will trade
+>   it.
+> - **They are the old pass bandits.** Sket recognised Hesk. He is the same man who used to rob
+>   caravans on that pass with a sack over his head. Robbing under a flag is safer, because most
+>   travellers simply pay.
+>
+> **How the party can use the news:**
+> - **Refuse to pay, and call the bluff.** With two or more of the details above, a DC 10 Persuasion
+>   or Intimidation check makes Hesk decide that these travellers know too much and carry too many
+>   weapons. He "waives the tax" and waves them through. With only one detail, the DC is 15. These
+>   men are robbers, not soldiers, and they don't want a real fight with five adventurers and a drow.
+> - **Go round.** The kobolds know a goat track that climbs above the gorge and comes back down to
+>   the road a mile further on. It costs half a day and a DC 12 Athletics check per PC; the climbing
+>   kit or boot spikes give advantage. Grizzik sells the route, scratched on a scrap of hide, for
+>   3 gp.
+> - **Turn them in.** The Imperial Guard post in the Bridged City will pay to learn who has been
+>   wearing its tabards. That means a reward and a friendly first contact in a city that admits
+>   nobody without an introduction.
+> - **Fight.** Always possible. At level 3 the party wins, but it costs them hit points and spells
+>   they will want at the Bridged City.
+> - **Without the news,** the party probably pays. Then "inspection" takes whatever Bokkaran items
+>   they carry, including the spider bracelet if it's in a pack and not on a wrist. That is the price
+>   of not making friends with the wagon, and it gives them a reason to go after Hesk later.
+>
+> **Combat reference — Hesk's toll post.** These are standard 5e bandits and a bandit captain,
+> unchanged.
+>
+> | Name | AC | Init Mod | HP | Hit Mod | Dmg Die | Dmg Mod |
+> |---|---|---|---|---|---|---|
+> | Under-Collector Hesk | 15 | +3 | 65 | +5 | 6 | +3 |
+> | Toll bandit 1 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 2 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 3 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 4 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 5 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 6 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 7 | 12 | +1 | 11 | +3 | 6 | +1 |
+> | Toll bandit 8 | 12 | +1 | 11 | +3 | 6 | +1 |
+>
+> - **Under-Collector Hesk (bandit captain).** Makes **three attacks a turn**: two with his scimitar
+>   and one with his dagger (the row is the scimitar; the dagger is 1d4+3). **Parry:** once a round,
+>   as a reaction, he adds +2 to his AC against one melee hit he can see. Warn the players that he
+>   can turn a hit into a miss. He surrenders when he drops below half HP. His men break and run
+>   when he does.
+> - **Toll bandits.** One scimitar attack a turn. Two carry light crossbows instead (+3, 1d8+1,
+>   range 80 ft) and stay behind the barrier pole. They flee once half of them are down.
+>
+> ### Playing the scene for interest
+>
+> - **Make haggling a scene, not a roll.** Let the players pitch why an item is worth more: its story,
+>   who carried it, what it did. A good story moves Grizzik down a third. A great one makes Tamm
+>   want the item more than she does, and the two argue about it in Draconic. Roll only when the
+>   table wants to.
+> - **Let the kobolds argue out loud.** They squabble in Draconic about prices and about the party.
+>   A PC who speaks Draconic hears the real prices and the real gossip, so check character sheets.
+>   If nobody does, Pip translates, badly and honestly.
+> - **Grizzik's keys.** She has a dozen, and a story for each one. If anyone asks, she tells one,
+>   and it ends on something useful: *"This one from a black-water man who drowned in the sand. Door
+>   it opened is still out there."* Asking about her keys is the fastest way into her good books.
+> - **One interruption.** Mid-haggle, Sket comes running down from upslope. Either it's the drow
+>   crossbow moment, or simply *"Tall-folk with no fire, watching from the rocks."* That turns a
+>   shopping scene into a warning without starting a fight.
+> - **End with a gift.** As the wagon rattles off, Pip runs back with something small and free:
+>   the cracked pyramid token if nobody bought it, or the tin whistle. It tells the players these
+>   kobolds will be back.
 >
 > ### Then
 >
@@ -234,8 +436,21 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 >
 > ### What Tsendur can do for them — why the trip pays before the fire
 >
-> - **He reads Bokkaran.** The three scrolls (*Mending*, *Encode Thoughts*, *Alarm*) become usable,
->   and he will start teaching anyone who asks.
+> - **He knows more Bokkaran than anyone the party has met, and it is still only fragments.**
+>   - **Bokkaran is like Linear A.** Nobody can read it whole. Every scrap of progress took years of
+>     hard work, and the scholars who made it guard it from each other. Tsendur cannot teach the
+>     language, and neither can anyone else.
+>   - **What he can do with the scrolls** is tell the party roughly what each one is about: a
+>     mending, a sending of thoughts, a warding bell (*Mending*, *Encode Thoughts*, *Alarm*). He
+>     can't cast them himself without a long stretch of study, even from the scroll. Copying one
+>     into a spellbook is further off still.
+>   - **The only real ways to learn Bokkaran** are a grant from a spirit or a god, or a Bokkaran
+>     language engine. The Keeper's engine at Sia is owed to the party if they clear the pyramid.
+>     Tsendur would give a great deal to hear about that engine, and more to stand near it.
+> - **Every Bokkaran casting has magical consequences:** extra effects on top of the spell itself.
+>   Ways to avoid them are said to exist, but nobody knows what they are. Tsendur and the other
+>   spell scholars are nowhere close to finding out. If anyone does manage to cast one of these
+>   scrolls, roll on your magical-consequences table as well.
 > - **He knows white metal.** He can say something true but partial about the spider bracelet: a
 >   Bokkaran ward against water you cannot see. Keep the Sea of Souls name back, per the old-school
 >   identification rule. If they mention the Keeper's language engine, he adds the useful half: *"Wear

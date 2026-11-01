@@ -26,7 +26,11 @@ strongbox:
       USED AT: (none yet)
   - item: "Bokkaran scrolls — Mending, Encode Thoughts, Alarm"
     source: "Jeffrol's mercenary camp, session 3"
-    note: "Unusable until someone learns to read Bokkaran, or a magic-trained PC studies them."
+    note: >
+      Unusable until someone can read Bokkaran, which only a spirit's or god's grant, or a language
+      engine, can give. Tsendur can say roughly what each scroll is about but cannot cast them
+      without long study, and copying one to a spellbook is further off. Any Bokkaran casting also
+      triggers magical consequences. See state.yaml -> canon.bokkaran_language.
   - item: "Herbs & alchemical resources"
     source: "Jeffrol's mercenary camp, session 3"
     note: "Raw materials — not consumables in hand yet."
