@@ -447,10 +447,12 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 >   - **The only real ways to learn Bokkaran** are a grant from a spirit or a god, or a Bokkaran
 >     language engine. The Keeper's engine at Sia is owed to the party if they clear the pyramid.
 >     Tsendur would give a great deal to hear about that engine, and more to stand near it.
-> - **Every Bokkaran casting has magical consequences:** extra effects on top of the spell itself.
->   Ways to avoid them are said to exist, but nobody knows what they are. Tsendur and the other
->   spell scholars are nowhere close to finding out. If anyone does manage to cast one of these
->   scrolls, roll on your magical-consequences table as well.
+> - **All three scrolls are deep magic, so casting one has magical consequences:** extra effects
+>   on top of the spell itself. Deep magic means any spell a Wizard, Warlock or Sorcerer can cast,
+>   and a Wizard can cast all three of these. The ways round it (a Bokkaran charm, or the
+>   anti-miscast cantrip) are known to only a handful of wizards in the world, who guard them
+>   closely. Tsendur and the scholars like him are nowhere close. If anyone does manage to cast one
+>   of these scrolls, roll on your magical-consequences table as well.
 > - **He knows white metal.** He can say something true but partial about the spider bracelet: a
 >   Bokkaran ward against water you cannot see. Keep the Sea of Souls name back, per the old-school
 >   identification rule. If they mention the Keeper's language engine, he adds the useful half: *"Wear
@@ -502,6 +504,11 @@ players until it's earned.
   this session, off-screen**, the seed of everything downstream (Bridged City, Crystal
   Towers, the eventual Al-Faiz Springs confrontation) growing from a scene the party stood
   in and couldn't stop.
+- **What the Thorn gives her: deep magic without consequences.** The Thorn makes her a
+  corrupted part of the One-Tree, El Faiz, and El Faiz is where magical consequences come from.
+  So from now on she casts Wizard spells with no backlash, as if she wore a Bokkaran charm.
+  Almost nobody else alive can do that, and it is why she pulls ahead of everyone so fast
+  (`campaign/state.yaml` → `canon.maghiel_and_the_thorn`).
 - **This is a hard rail, and that's deliberate.** Maghiel must escape with the Clasp. The
   party can fight, capture, or kill as many of her escort as they like — the source material
   already hands you this exactly: seven cloaked figures go in, one elven woman comes out

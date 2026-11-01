@@ -220,10 +220,27 @@ canon:
     the Black Water Cult). Tsendur can say roughly what a Bokkaran spell is about, but even he can't
     cast one without long study, even from a scroll, let alone copy it to a spellbook.
   magical_consequences: >
-    (Steve, after session 6.) Casting any Bokkaran spell triggers magical consequences: extra
-    effects beyond the spell itself. Ways to avoid them exist (lore-and-mysteries.md names Bokkaran
-    charms and an anti-miscast spell), but in game 2 NOBODY knows what they are yet, and scholars
-    like Tsendur are nowhere close to finding out.
+    (Steve, after session 6; refined 2026-11-01.) The source is the ONE-TREE (El Faiz,
+    artifact:al-faiz-tree). The late-phase Bokkaran necro-wizards (the Polgar) injected a magical
+    poison into it so their enemies could not use DEEP magic.
+    - DEEP magic: any spell a Warlock, Wizard or Sorcerer can cast. Casting it triggers magical
+      consequences (extra effects beyond the spell itself), with no remedy for an unprotected
+      caster, even if the caster's own class also has the spell.
+    - SUPERFICIAL magic: spells cast only by the other classes. No consequences.
+    - The necro-wizards built two ways round their own poison, so they could cast deep magic and
+      nobody else could:
+      (1) BOKKARAN CHARMS. Highly valued. The strongest method.
+      (2) The ANTI-MISCAST CANTRIP, cast as an action or a bonus action before the spell. Weaker,
+          because it eats the caster's action or bonus action.
+    - Who knows: almost no one. A very few wizards in the world know a method or own a charm,
+      sometimes without recognising what the charm does, and they guard it closely. Tsendur and the
+      scholars like him are nowhere close.
+  maghiel_and_the_thorn: >
+    (Steve, 2026-11-01.) Maghiel soon learns to cast deep magic without consequences, and that is a
+    large part of what makes her powerful. In-game the reason is the Black Thorn
+    (thread:the-thorn): once pierced, she becomes a corrupted part of the One-Tree, which is the
+    source of the consequences. The Thorn works like a Bokkaran charm. Starts after Durgan's Rest,
+    off-screen.
 
 milestones:
   - "Session 3: Jeffrol captured. Party leveled to 2."

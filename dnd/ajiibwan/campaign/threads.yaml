@@ -183,6 +183,11 @@ threads:
       path roughly in parallel with the party. NOT on-screen at Kantaron in this timeline
       (in the prior run she was the one who later reanimated Durel into 'Duroigh' — a
       precedent, not current fact). Seeded so future sessions can connect the dots.
+    deep_magic: >
+      (Steve, 2026-11-01.) Once the Thorn pierces her, Maghiel becomes a corrupted part of the
+      One-Tree (El Faiz), the source of magical consequences, so she can cast deep magic without
+      them. The Thorn works like a Bokkaran charm. That is much of her power, and why she outlevels
+      everyone around her. See state.yaml -> canon.magical_consequences and maghiel_and_the_thorn.
     autonomous:
       - "Advances entirely off-screen for now; surfaces only via rumor until the party crosses her path."
 

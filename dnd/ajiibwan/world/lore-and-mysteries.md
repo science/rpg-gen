@@ -177,6 +177,20 @@ those classes **do not exist in the Vanic nation**. Consequences can be avoided 
 - possessing a **Bokkaran magical charm**,
 - casting a **Bokkaran anti-miscast spell** one round before the intended spell.
 
+**GM canon (Steve, 2026-11-01).** The source of the consequences is the **One-Tree, El Faiz**.
+The late-phase Bokkaran necro-wizards (the Polgar) poisoned it so their enemies could not use
+**deep magic**: any spell a Warlock, Wizard or Sorcerer can cast. Deep magic triggers
+consequences for an unprotected caster, with no remedy, whatever the caster's class. Spells
+cast only by the other classes are **superficial magic** and are safe. The necro-wizards made
+two ways round their own poison so that only they could cast deep magic: **Bokkaran charms**
+(highly valued, the stronger method) and the **anti-miscast cantrip**, cast as an action or
+bonus action (weaker, because it costs that action). Very few wizards in the world know a
+method or own a charm, sometimes without recognising it, and they guard it closely. A **Black
+Thorn** does the same job as a charm, because whoever it pierces becomes a corrupted part of
+the One-Tree itself. Bokkaran itself cannot be taught: it is a "Linear A" language, learned only
+through a spirit's or god's grant or a language engine (game-2 canon in
+`campaign/state.yaml` → `canon`, which overrides "training under another Bokkaran wizard" below).
+
 A recurring theme reinforces this: **forbidden knowledge carries built-in penalties.**
 Cursed books cause possession, shadow-transformation, and madness; shrine rooms inflict
 disturbance on approach; improperly conducted rituals trigger backlash. The world seems

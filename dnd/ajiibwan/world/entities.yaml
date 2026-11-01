@@ -3058,7 +3058,7 @@ entities:
     aliases: ["The Thorn"]
     region: null
     status: "splintered into Maghiel (hidden); link unresolved"
-    summary: "A Black Thorn is a corruption vector (NOT petrification): impaled/splintered into a victim it grants great power but drives them to evil. One is splintered into Maghiel's chest, hidden under her armor (the party won't know for a long time) — the source of her villainy. Returning a thorn to the central life-tree El Faiz can reincorporate and help restore it."
+    summary: "A Black Thorn is a corruption vector (NOT petrification): impaled/splintered into a victim it grants great power but drives them to evil. One is splintered into Maghiel's chest, hidden under her armor (the party won't know for a long time) — the source of her villainy. Returning a thorn to the central life-tree El Faiz can reincorporate and help restore it. GM canon (2026-11-01): a thorn makes its host a corrupted part of El Faiz, the source of magical consequences, so it works like a Bokkaran charm and lets the host cast deep magic without consequences."
     sources: [lore-and-mysteries.md, adventures.md]
     related: [npc:maghiel, mystery:maghiel-goals, mystery:bokkara-disease, artifact:al-faiz-tree]
 
