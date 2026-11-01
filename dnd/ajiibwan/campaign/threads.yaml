@@ -100,8 +100,19 @@ threads:
 
   - id: thread:elmingwed-deal
     title: "Elmingwed's patronage"
-    status: advancing     # session 4 — warm, and the party bought in deeper than he asked
+    status: active        # session 6 — the Sia deal paid out; the relationship continues
     ref: "[[npc:elmingwed]]"
+    session_6: >
+      PAID OUT (2026-10-24). The party negotiated to take public credit with the merchants for
+      saving the oasis, rather than be paid as Elmingwed's contractors. He threw a banquet that
+      raised their status and celebrity, and passed a collection plate among the merchants to pay
+      them. He delivered his end of the bargain. He also gave studded leather armour to Ren and
+      Lia. The party now has standing with Tel A'bib's merchant houses, not just with him. Jiyloo
+      left his employ to join the party. Tath'Shar did much of the talking with Elmingwed and the
+      merchants (Phoenix absent; Steve ran them as an NPC with input from the players present), so
+      the celebrity attaches to Tath'Shar's face as much as anyone's.
+      The captive cult monk (the female leader of the sphinx guard, session 4) was handed over to
+      Elmingwed. What he does with her: thread:the-turned-monk.
     summary: >
       Elmingwed — powerful by wealth and connections, not by levels — pre-bought half of
       Jeff's value sight-unseen and hired Jiyloo to deliver the party. Jeff arrived with
@@ -125,6 +136,7 @@ threads:
       them work a little to cash it, or the choice costs nothing.
     autonomous:
       - "Elmingwed's interests (and his militia captain, [[npc:abet]]) keep moving regardless."
+      - "After session 6: the party's celebrity is a resource for him too. He will want them seen with him, and he will expect to hear what Tsendur is guarding."
       - "If the party fails or abandons Sia, he does not rage — he simply commissions someone else and the debt never forms. That is the real cost of the unpaid gamble."
 
   - id: thread:tathshar-maghiel
@@ -184,7 +196,8 @@ threads:
     ref: "[[npc:tsendur]]"
     summary: >
       Elmingwed's sealed letter for Tsendur at [[loc:durgans-rest]] is in Tath'Shar's hands,
-      carried and UNDELIVERED as of session 4. The party has not read it and knows only that
+      carried and UNDELIVERED as of session 6. The party is now two days up the mountain trail
+      and close to Durgan's Rest; delivery is planned for session 7, with Phoenix at the table. The party has not read it and knows only that
       they were asked to carry it. Its real content warns Tsendur that a drow wizard is
       hunting prohibited artifacts and to guard anything of that description — i.e. it tells
       Tsendur to protect the Clasp of Vergren.
@@ -198,8 +211,14 @@ threads:
 
   - id: thread:missing-caravans
     title: "The choked western route"
-    status: active     # the party is on it as of session 4
+    status: advancing  # session 6 — oasis saved, route reopening; the slaves are still out there
     ref: "[[loc:oasis-of-sia]]"
+    session_6: >
+      The oasis is saved and the route is reopening; Tel A'bib's merchants celebrated the party
+      for it and paid them by collection at Elmingwed's banquet. Feltan's standing reward is
+      presumably folded into that collection. What is NOT done: the slaves led into the desert,
+      including the El-Alouph family, whose dog Orkideh keeps. That lead sits with Ren's path
+      north, since the slave trail and the road to Ayatorrah share the first stretch.
     summary: >
       Caravans on the western route stopped arriving. The cause is the Black Water Cult raid
       on the Oasis of Sia: the oasis sacked, its people killed or taken as slaves, the water
@@ -220,8 +239,15 @@ threads:
 
   - id: thread:sia-tomb
     title: "The Tomb of the Sphinx"
-    status: active
+    status: resolved    # session 6 — Ember relit, oasis saved, tomb left intact
     ref: "[[subloc:sphinx-sia]]"
+    resolution: >
+      Session 6 (2026-10-24): the party struck a bargain with the Keeper in 9p, relit the temple
+      Ember and protected the oasis from wrong-doers. They left the tomb's treasure in place.
+      CONFIRMED (Steve): the Black Water Cult can't get into Sia, so it has retreated to a pyramid in
+      the desert as its eastern outpost (thread:the-keeper — Ren's charge). The tomb itself is
+      quiet: An-Zefful is still behind 9f, the marked cells are still shut, and the rescued cultist
+      Tabbat was left alive in 9p at the Keeper's request.
     summary: >
       Session 5 was a full crawl: the party explored nearly every room, learned the door
       grammar and used it (marked cells left shut), and slammed 9f shut on An-Zefful. They
@@ -322,12 +348,59 @@ threads:
       was already played.
     autonomous:
       - "The tomb does not care. Its guardians are ancient and faction-blind and will kill Black Water cultists exactly as readily as the party."
-      - "Ashiq and the main body arrive on their own schedule whether the party is ready, deep inside, or already gone."
+      - "After session 6: Ashiq's cult can't get into Sia and has pulled back to its desert pyramid outpost. She does not give up the tomb; she looks for another way in (another Doornian mouth, or the Scepter by some other road). A threat for a later visit, not now."
 
   - id: thread:the-keeper
     title: "The Keeper — the priest who stayed"
-    status: dormant     # goes active when the party reaches 9o/9p (session 6)
+    status: active      # session 6 — bargain struck; Ren carries his charge north
     ref: "[[subloc:sphinx-sia]]"
+    session_6: >
+      PLAYED (2026-10-24). Phoenix was absent; Steve ran Tath'Shar as an NPC.
+      - 9o: the party rescued the stranded cultist (Tabbat), who was out of water, and got
+        information from him.
+      - 9p: the Keeper negotiated with the party: relight the fires in the temple. They did — the
+        Ember is relit and the oasis protected. The Black Water Cult cannot get into Sia, so it has
+        RETREATED TO A PYRAMID IN THE DESERT AS ITS EASTERN OUTPOST (the Temple of Mennuj at
+        Ayatorrah, errand 3 below). GEOGRAPHY (Steve): Tel A'bib is on the eastern edge of the
+        desert, a bit north of centre; the pyramid is due WEST of Tel A'bib and due NORTH of Sia, in
+        the deeper desert about 20 miles from any working road — "eastern" because it is on the
+        desert's eastern side. The old stone road from Sia is buried under the sand. The Keeper
+        asked REN to investigate it, and gave her a religious and magical BLESSING to find that
+        pyramid and try to protect it from the cult's corruption. She can see a faint, possibly
+        magical path leading north from the oasis. There are several routes; the blessing makes
+        them easier for her to find. The party went to Tel A'bib and Durgan's Rest first, so the
+        charge is carried, not yet acted on.
+      - THE POISONED TERM, PAID EARLY. As the party was leaving, the Keeper asked them to leave the
+        cultist inside his inner tomb. They did. Jiyloo left him a lot of food and water "so he
+        doesn't die quickly" — vengeance for the murders above and the desecration below. This is
+        "The catch" in the packet's The road north (a bargain struck at hunger 3+ carries the term
+        "one of them, alive"), delivered in the room instead of from Ayatorrah. The priest may mean
+        a trial; the hunger may mean a meal. The party doesn't know which, and neither does the
+        table. Steve: "unclear but ominous."
+      - Nothing else happened in 9o or 9p. The Scepter was not touched. The hunger's private offer
+        to Tath'Shar was NOT played (Phoenix absent) — the packet's "Hold it" fallback still
+        applies: send Phoenix the Scepter line as a dream on the road.
+      DECIDED: the language engine is owed by the priests at Sia IF THE PYRAMID IS CLEARED.
+    tabbat_in_the_inner_tomb: >
+      GM-only, undecided by design. What the party finds if they ever reopen 9p. Two readings,
+      both true to the Keeper; pick one when they come back, not before.
+      (1) THE MEAL. The hunger fed slowly, and Jiyloo's food made it slower. Tabbat is a husk in
+      the corner, or a spawn standing behind the chair. The Keeper is steadier than they left him,
+      and ashamed. Jiyloo has to live with "so he doesn't die quickly."
+      (2) THE TRIAL / THE WASHING. Alone with the priest who stayed, with food and water and
+      nothing to do but listen, Tabbat — the fanatic who would not say four words for eight
+      days — has said them. He is the living Doornian the Keeper needed: someone who can take up
+      the keeping at Temple al Sia, so the Keeper can finally be released without the keeping
+      ending. The cult's own man becomes the oasis's priest.
+      Recommendation: (2) if the Ember has stayed lit and the party keeps faith with Ren's charge;
+      (1) if the Ember goes out or the charge is abandoned. That ties his fate to what the party
+      does next, not to a die roll now.
+    blessing_at_the_table: >
+      Suggested handling, until Steve rules otherwise. The path is visible to Ren alone. It points
+      to the pyramid from wherever she stands in the desert, so the party can come back to it after
+      Durgan's Rest without retracing the oasis road. It brightens when she is near something
+      Doornian or when the cult's corruption is close. It fades if she turns her back on the charge
+      for good; it is not a timer.
     summary: >
       The wight in 9p is NOT Sia (Steve, after session 5). It is KAMENHET, Sia's high priest.
       When the empire fell and the priests stopped coming, he took the Scepter of Ice (the
@@ -364,6 +437,8 @@ threads:
       there could take up the keeping at Temple al Sia — the only way the Keeper can be released
       without the keeping ending.
     reward: >
+      THE SERVICE IS SET (Steve, after session 6): clear the cult's pyramid outpost, and the priests
+      at Sia owe the party the engine ceremony.
       (Steve, after session 5.) He promises ANCIENT LANGUAGE: a Bokkaran language engine stands
       behind his chair in 9p. For the right service he will have the priests, WHEN THEY RETURN to
       Sia, let the party use it. It is carried out in procession and set up in the great hall (9c)
@@ -375,8 +450,9 @@ threads:
       each bracelet is used once at each engine). With the party's one bracelet, death needs a
       d100 roll of 4x HP; no roll can kill a 26+ HP wearer.
     autonomous:
-      - "He does not move. He has waited four hundred years. But the hunger grows while the Ember stays out."
-      - "If the party leaves 9p shut and the cult arrives with the drowned priest, the door opens for it — and the Keeper only talks to priests."
+      - "He does not move. He has waited four hundred years. With the Ember relit (session 6) the hunger is held down; it grows again only if the Ember goes out."
+      - "The pyramid does not wait for Ren. The cult has made it its eastern outpost since it was turned away from Sia. While the party is in the mountains, the cult's mystics keep bottling water spirits there. The longer the charge goes unanswered, the deeper the corruption she will find."
+      - "Tabbat is in the inner tomb with the Keeper and Jiyloo's food. Time passes for him too (see tabbat_in_the_inner_tomb)."
 
   - id: thread:jeffrol-hothme
     title: "Jeffrol on the northern road"
@@ -395,9 +471,50 @@ threads:
     autonomous:
       - "Nine weeks of contacts. He does not need the party for anything, which is exactly what makes him dangerous to them later."
 
+  - id: thread:the-turned-monk
+    title: "The monk who changed masters"
+    status: dormant     # opened session 6 — handed to Elmingwed; not yet seen again
+    ref: "[[npc:elmingwed]]"
+    summary: >
+      The female Black Water monk who led the sphinx guard (session 4): she broke for the desert,
+      Gereon ran her down, she watched a fellow prisoner executed on the plinth, and she showed
+      the party the way in between the sphinx's paws. Unnamed so far. In session 6 the party
+      handed her to Elmingwed in Tel A'bib. Ominous, and it's not yet clear what he wants her for.
+    direction: >
+      (Steve, after session 6.) Possibly she comes back as an NPC who has been de-programmed and
+      now works for Elmingwed. The party may run into her. Play her as ENTHUSIASM SWITCHING: she
+      was hard cult and is now hard merchant. She has switched loyalties, but she hasn't changed
+      how she holds them, and she is still unstable.
+      Material for the encounter:
+      - SHAME. She remembers the plinth, Gereon's hand on her collar, and showing them the door.
+        She may be more ashamed of having been cult than of having been caught, or the other way
+        round, depending on the day.
+      - REPROGRAMMING. Elmingwed (or Abet's people) did the de-programming. Was it rescue or
+        another indoctrination with better pay? She can't tell either, and that is the point.
+      - THE SAME FIRE. She quotes ledgers the way she used to quote Elsrok, and she punishes
+        disloyalty to the house as hard as the cult did. The party sees the fervour has only
+        changed address.
+      - STILL UNSTABLE. A word from her old life, a black-water ring, or the sight of a cultist
+        can tip her: back toward the cult, or into overcorrection. Cruelty toward a former
+        sister would prove she's clean.
+    hooks:
+      - "She is Elmingwed's best source on the cult's eastern outpost (the pyramid Ren is charged to investigate). Her information is good, and her motives are mixed."
+      - "If the party wears or shows the obsidian serpent ring around her, it lands hard."
+      - "Ashiq would very much like her back, or silenced. She knows the cult from the inside, which makes her a target."
+    autonomous:
+      - "Elmingwed works on her while the party is away. Each time they come back to Tel A'bib she is further along — more useful, more his, and no more stable."
+
   - id: thread:the-prisoner-on-the-plinth
     title: "The execution at the sphinx"
-    status: dormant     # no consequence yet — deliberately
+    status: advancing   # session 6 — the second cornered cultist was handed to the wight
+    session_6: >
+      Payoffs (3) and (5) landed. The party rescued Tabbat from the 9o ledge, got information out
+      of him, and then, at the Keeper's request, left him alive in the inner tomb. Jiyloo — chaotic
+      good, Dorne-faithful, and the one who saw the plinth — left him plenty of food and water "so
+      he doesn't die quickly." The plinth was a quick death given by Tath'Shar; this was a slow one
+      given by the whole party and led by Jiyloo. Her vengeance for the murders above and the
+      desecration below is now on the record. It doesn't need a consequence yet.
+      What happens to Tabbat: thread:the-keeper -> tabbat_in_the_inner_tomb.
     summary: >
       Session 4: the party took three cultists at the sphinx, killed one in the fight, and
       then **executed one of the two who had surrendered.** Tath'Shar did it willingly; the
@@ -417,3 +534,4 @@ threads:
       the hunger will ask for him. See scenarios/ashes-at-the-sphinx.md -> 9o, Running the Keeper.
     autonomous:
       - "Nothing propagates outward — nobody survived to report it. This is an internal debt, between the party, their god-haunted companion, and the tomb."
+      - "Tabbat is a missing man the cult will notice. Ashiq knows who was on the ledge. If anyone from the cult ever gets a look inside 9p, the party's names come back out with them."

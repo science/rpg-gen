@@ -2779,6 +2779,10 @@ back at Sia, they will set it up in the great hall with a ceremony and let the p
 lethal at low level (d100 flat damage; double your HP or more is permanent death; a spider bracelet
 halves it for one wearer), so the reward pulls the party back to Sia later, stronger. Full terms: *Running the Keeper* → *The reward*.
 
+**✅ Decided after session 6: the engine is owed by Sia's priests if the pyramid is cleared.** The
+Keeper's service is Ren's charge: investigate the pyramid the cult has made its outpost, and clear
+it. When that is done, the priests (once they are back at Sia) owe the party the engine ceremony.
+
 In game 1, the party found and used a language engine in the Forsaken Pyramid. Decide whether that
 one exists in this run. If it does, the Temple of Mennuj offers the same prize without the Keeper's
 terms, which is a temptation worth keeping. If it doesn't, the Keeper's engine is the only one on offer.
@@ -2792,6 +2796,13 @@ The source module's own sequel, and its trail starts at this oasis.
   ruined city of **Ayatorrah**, and the **Temple of Mennuj** — the one building still standing. About
   eleven hours on foot, half that by camel. Along it, paired obelisks carved with Doornian instructions:
   the same kind of reading this party has spent two sessions getting good at.
+- **✅ Where it sits (Steve, after session 6).** Tel A'bib is on the eastern edge of the desert, a
+  bit north of centre. The pyramid is **due west of Tel A'bib and due north of the Oasis of Sia**, in
+  the deeper desert, **about 20 miles from any working road.** That is why the cult calls it its
+  *eastern* outpost: it is on the eastern side of the desert, and still north of Sia. The old stone
+  road is buried under the sand and is not a road anyone travels. **Ren's blessing** shows her a
+  faint path to it, and there are several routes. The obvious two are north from Sia along the
+  buried road and its obelisks, or west from Tel A'bib across open desert.
 - **Why the Keeper cares about it.** The Temple of Mennuj was **the seat of his order**; he trained
   there. He knows the entry rite, and he knows the temple has a **Conformatory** (module area 22) where
   priests who broke their oaths were punished — and its records.

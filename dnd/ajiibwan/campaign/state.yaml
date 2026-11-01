@@ -9,34 +9,50 @@
 campaign: "Deserts of Ajiibwan"
 run: "game-2"          # the reset playthrough with new players
 status: >
-  in-play — 5 sessions played (campaign/sessions/01-05.md). Session 5 was a full crawl of the
-  Tomb of the Sphinx: the party learned the door grammar, left the marked cells shut, slammed
-  9f shut on An-Zefful, and ended at the hidden door into 9o (the false treasure room), one
-  room short of Sia's tomb (9p). Jeffrol is resolved and gone (north road, ~9 weeks out). The
-  Kantaroz tower is still unentered and its summoning still ticks. Elmingwed's letter to
-  Tsendur is carried but UNDELIVERED. Expected next after the tomb: Tel A'bib (a short stop,
-  not the six-week gap; deliver the captive monk to Elmingwed), then Durgan's Rest — the party
-  promised Tath'Shar. Plan: arrive, sleep one night, stop; Phoenix is back for the letter and
-  the raid. scenarios/mishap-at-durgans-rest.md -> "Coming here from Sia".
+  in-play — 6 sessions played (campaign/sessions/01-06.md). Session 6 (2026-10-24): the party
+  bargained with the Keeper under the sphinx, relit the temple Ember and saved the Oasis of Sia.
+  The cult can't get in and has retreated to a desert pyramid as its eastern outpost. The Keeper
+  asked Ren to investigate it and blessed her to find it; she can see a faint path north. At his
+  request the party left the rescued cultist Tabbat alive in his inner tomb, with Jiyloo's food
+  and water. Clearing the pyramid earns the language engine from Sia's priests. In Tel A'bib
+  they handed the captive cult monk to Elmingwed (thread:the-turned-monk), took public credit
+  with the merchants instead of a contractor's fee; Elmingwed threw a banquet and passed a
+  collection plate. Jiyloo joined as a full party
+  member (1/5 of the loot). Level 3 earned, taken at Tsendur's. On day 2 of the mountain trail to Durgan's Rest,
+  before camp, a friendly kobold troupe with a junk wagon stopped them, and the game ended there.
+  Elmingwed's letter to Tsendur is still UNDELIVERED. Plan for session 7: the kobold trade, the
+  road, arrive at Durgan's Rest and sleep one night; Phoenix delivers the letter and the raid
+  follows. scenarios/mishap-at-durgans-rest.md -> "Session 7 opens here". Jeffrol is resolved
+  and gone (north road). The Kantaroz tower is still unentered and its summoning still ticks.
 
 # --- Party ------------------------------------------------------------------
-# Active table: 5 PCs at level 2 (CONFIRM: may have leveled to 3 in the session-5 crawl),
-# plus Jiyloo (NPC) and Orkideh's dog. Six bodies and a
-# dog in the field — meaningfully more capable than the "4 level-1 PCs" assumption baked
-# into the world compendium's Oasis of Sia entry. Jeffrol is no longer with the party.
+# Active table: 5 PCs at level 2, with level 3 earned but not yet taken,
+# plus Jiyloo (now a full party member) and Orkideh's dog. Six bodies and a
+# dog in the field. Jeffrol is no longer with the party.
 party:
-  level: 2          # CONFIRM after session 5
+  level: 2          # sheets are still level 2
+  level_earned: 3   # earned by end of session 6 (Steve). Not taken at the start of session 7 — level up when they reach Tsendur's, likely the night before the raid
   size: 5
+  gold: 52          # gp, after the Tel A'bib banquet collection and selling old equipment (session 6)
+  loot_split: "Jiyloo takes 1/5 of the party's loot as a full member (from session 6)."
   doorframe_oaths: >
-    Session 5: everyone EXCEPT Tath'Shar took the 9a doorframe oath. Tath'Shar is Unwelcome
-    (-1d4 vs Doorne's own work only). Which door each of the four chose (sets their boon):
-    unrecorded and not needed — boons end when they leave the tomb. In 9p the Keeper answers the sworn as pilgrims, confides in priests
-    (Gereon), and will not address Tath'Shar — but his hunger speaks only to them.
+    Session 5: everyone EXCEPT Tath'Shar took the 9a doorframe oath. The boons ended when they
+    left the tomb. History only now; it matters again if they enter another Doornian site.
   members:
     - name: "Ren"        # player: Toan
       pronouns: "she/her"
       race: "Halfling"
-      notes: "Spotted a construct in the foothills below Kantaron — the hook that led there."
+      armor: "Studded leather (Elmingwed's gift, session 6)"
+      notes: >
+        Spotted a construct in the foothills below Kantaron — the hook that led there.
+        Session 6: the Keeper asked her to investigate the Dornian pyramid in the desert that
+        the Black Water Cult has taken as its eastern outpost, and gave her a BLESSING — a
+        religious and magical charge to find it and try to protect it from the cult's corruption.
+        The pyramid is due west of Tel A'bib and due north of Sia, in the deeper desert about 20
+        miles from any working road. Clearing it earns the party the language engine from Sia's
+        priests. She sees a faint, possibly magical path leading north from the Oasis of Sia. There are
+        several routes to the pyramid, and the blessing makes them easier for her to find
+        (thread:the-keeper).
     - name: "Orkideh"    # player: Steph (new player; likes to drive the story)
       pronouns: "she/her"
       race: "Elf"
@@ -50,6 +66,7 @@ party:
     - name: "Lia"        # player: Ania
       pronouns: "she/her"
       race: "Tiefling"
+      armor: "Studded leather (Elmingwed's gift, session 6)"
     - name: "Gereon"     # player: Mia
       pronouns: "he/him"
       race: "Dwarf"
@@ -70,6 +87,10 @@ party:
         still undelivered (thread:tsendur-letter). Has named [[npc:maghiel]] as their sister
         at the table and knows she is active in the region. Session 4: personally executed a
         bound cult prisoner on the sphinx's plinth, willingly.
+        Session 6: Phoenix absent; Steve ran Tath'Shar as an NPC with input from the players
+        present. Tath'Shar did much of the talking with Elmingwed and the Tel A'bib merchants.
+        The Keeper's hunger never made its private offer to them (it only works as the player's
+        secret) — hold it for a dream on the road (thread:the-keeper).
         GM-ONLY: in this reset timeline Maghiel is NOT yet Black-Thorn-cursed — see
         scenarios/mishap-at-durgans-rest.md for the origin event this is building toward.
     - name: "Timiki"     # player: Briar — one-off guest in session 3
@@ -81,11 +102,15 @@ companions:
   - name: "Jiyloo Ubbett"
     ref: "[[pc:jiyloo]]"
     sheet: "level 1 Barbarian"
-    role: "Guide & front-line muscle, originally hired by Elmingwed to take the party to Kantaron; still with them."
+    role: >
+      FULL PARTY MEMBER as of session 6 — the party hired her themselves in Tel A'bib for 1/5 of
+      the party's loot. Originally Elmingwed's hired guide to take the party to Kantaron.
     disposition: >
-      Decent. Dorne-faithful (see [[deity:doorne]]) — she has a real personal stake in the
-      Oasis of Sia and will push back hard, in character, against stripping the temple or
-      the tomb.
+      Decent, chaotic good. Dorne-faithful (see [[deity:doorne]]) — she has a real personal stake
+      in the Oasis of Sia and will push back hard, in character, against stripping the temple or
+      the tomb. Session 6 showed the other edge: when the Keeper asked for the rescued cultist
+      Tabbat to be left in his inner tomb, she left him plenty of food and water "so he doesn't
+      die quickly." Vengeance for the murders above and the desecration below.
     gear: >
       **Doornian pyramid pendant**, worn under her robes. Session 4: she led down the sphinx
       stair, saw 9a, drew it out, wore it openly and announced "This area is holy for believers
@@ -122,6 +147,17 @@ companions:
 
 # Captives / departed
 departed:
+  - name: "The captive Black Water monk (female, unnamed)"
+    ref: "thread:the-turned-monk"
+    status: >
+      Leader of the sphinx guard, run down by Gereon in session 4. Handed to Elmingwed in Tel
+      A'bib, session 6. Possible return as a de-programmed Elmingwed employee: hard cult turned
+      hard merchant, still unstable.
+  - name: "Tabbat"
+    ref: "thread:the-keeper -> tabbat_in_the_inner_tomb"
+    status: >
+      Black Water cultist rescued from the 9o ledge, session 6, and then left alive in the
+      Keeper's inner tomb (9p) at the Keeper's request, with Jiyloo's food and water.
   - name: "Jeffrol Giltor"
     ref: "[[npc:jeff-giltor]]"
     status: >
@@ -137,32 +173,29 @@ departed:
 
 # --- Where & when -----------------------------------------------------------
 location:
-  region: "[[region:deep-desert-oases]]"
-  site: "[[loc:oasis-of-sia]] — inside [[subloc:sphinx-sia]], the Tomb of the Sphinx"
+  region: "the mountains below [[loc:durgans-rest]]"
+  site: "the mountain trail from Tel A'bib to Durgan's Rest (Roll20 hex 2012 is the destination)"
   precise: >
-    At the hidden door between the two armoured statues (the "superbly hidden" 9c secret
-    door), which opens into 9o, the False Treasure Room. 9o's floor is already collapsed
-    onto spikes except a two-foot ledge before the door to 9p, Sia's tomb. Session-6 prep:
-    scenarios/ashes-at-the-sphinx.md -> "Session 6 opens here" (the grammar as a search aid,
-    five options for 9o, the Keeper in 9p, and the road north to Ayatorrah).
+    Day 2 out of Tel A'bib, on the trail up into the mountains, late in the day and before
+    camp. A friendly troupe of kobolds with a wagon of junk to trade has just surprised them.
+    Session-7 prep: scenarios/mishap-at-durgans-rest.md -> "Session 7 opens here".
   situation: >
-    Below: every room explored except 9o and 9p. The marked cells (9d, 9g, 9h, 9i, 9k) were
-    left shut; An-Zefful (9f) is alive behind a door the party slammed. Loot: only a black
-    obsidian serpent ring, off the petrified cultist ("the new statue"). The 9c cult camp was
-    walked through, not searched. Above ground,
-    unchanged since session 4: one captive monk, Temple al Sia unentered with its Ember
-    smothered and its murdered priest unburied, Afara and Dasara still undiscovered in their
-    pit, and the El-Alouph family still on the slave road.
+    Behind them: the Oasis of Sia is saved — the Ember relit, the tomb left intact, the
+    western route reopening. The party is celebrated in Tel A'bib after Elmingwed's banquet.
+    Still out there: the El-Alouph family and the other slaves on the desert road, Afara and
+    Dasara (never found, as far as the record shows), Tabbat alive in the Keeper's inner tomb,
+    and the Dornian pyramid the cult has made its eastern outpost, which Ren is charged to
+    investigate. Ahead: Tsendur, the undelivered letter, and Maghiel.
 
 clock:
-  in_world_day: 5          # APPROXIMATE — day 1 was Elmingwed's gate; add travel Tel A'bib -> Sia. Session 5's crawl took ~8 hours below (GM, confirmed).
+  in_world_day: 12         # APPROXIMATE — ~day 5 in the tomb, a few days back to Tel A'bib, the banquet, then 2 days on the mountain trail. Adjust to the Roll20 tracker.
   # Time dilation is handled NARRATIVELY between adventures, not with a factor: when the
   # party returns to Tel A'bib, ~6 weeks pass before the next adventure (game 1 used ~2).
   # That downtime gap is when autonomous threads (threads.yaml) tick.
   between_adventure_gap: "~6 weeks at Tel A'bib"
   active_countdowns:
     - name: "Black Water main body returns to the sphinx"
-      due: "1-2 days from the session-4 interrogation. The party has been below ~8 hours: due, not overdue. GM picks: during 9o/9p, on the stair, or after the party leaves (then it hits the tomb with nobody there — see the packet's 'After the tomb')"
+      due: "PASSED (session 6). The Ember was relit; the cult can't get into Sia and has retreated to a desert pyramid as its eastern outpost (Steve)."
       note: >
         Replaces the source module's flat 24-hour patrol clock. The captured guards said the
         main body left ~a week ago to fetch MAGICAL ITEMS NEEDED TO PENETRATE THE TOMB —
@@ -182,9 +215,10 @@ milestones:
   - "Session 3: Jeffrol captured. Party leveled to 2."
   - "Session 4: Jeffrol resolved (deployed north, not handed over). Party chose reputation over gold and took Elmingwed's Oasis of Sia job unpaid. Tath'Shar joined. Tomb of the Sphinx entered."
   - "Session 5: Full crawl of the Tomb of the Sphinx with almost no fighting. Ants re-frozen by the foot-washing while Jiyloo held the door. All but Tath'Shar took the oath. Door grammar learned and used; marked cells left shut; 9f slammed on An-Zefful. Took the petrified cultist's obsidian ring. Party at the hidden door into 9o."
+  - "Session 6 (2026-10-24): Rescued the stranded cultist Tabbat and questioned him. Bargained with the Keeper; relit the temple Ember; the Oasis of Sia saved, and the cult retreated to a desert pyramid outpost. Ren took the Keeper's blessing to investigate that pyramid. Left Tabbat alive in the inner tomb at the Keeper's request. Tel A'bib: public credit instead of a fee, Elmingwed's banquet and the merchants' collection (52 gp after selling old gear), studded leather for Ren and Lia. Jiyloo joined as a full member (1/5 of loot). Level 3 earned. Met friendly kobold traders on day 2 of the mountain trail. Phoenix absent; Tath'Shar NPC'd."
 
 # --- Bookkeeping ------------------------------------------------------------
-last_session: "campaign/sessions/05.md"
+last_session: "campaign/sessions/06.md"
 open_threads_file: "campaign/threads.yaml"
 inventory_file: "campaign/inventory.yaml"
-active_scenario: "scenarios/ashes-at-the-sphinx.md"
+active_scenario: "scenarios/mishap-at-durgans-rest.md"

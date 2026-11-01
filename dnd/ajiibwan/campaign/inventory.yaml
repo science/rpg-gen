@@ -36,15 +36,18 @@ strongbox:
       The Black Water Cult's standard membership token. Useful for passing as cult staff at a cult
       operation (e.g. the Temple of Mennuj at Ayatorrah). Move to `assigned` if a PC starts wearing
       it. Its twin is still on the half-absorbed miner in 9j.
-  - item: "Broken swords, torn armor, misc. equipment"
-    source: "Jeffrol's mercenary camp, session 3"
-    value: "~12 gp (sale/salvage value, not usable as-is)"
+  - item: "Coin — 52 gp"
+    source: "Session 6, Tel A'bib: the merchants' collection plate at Elmingwed's banquet, plus selling old equipment"
+    note: "The party's whole purse. Split it between PCs if the table wants per-character coin."
+  # SOLD (session 6, Tel A'bib): broken swords, torn armor, misc. equipment from Jeffrol's camp (~12 gp).
 
-assigned: []
-  # e.g. - item: "White-metal dagger (+1)"
-  #        owner: "Ren"
-  #        source: "..."
-  #        note: "Attuned/wielded — clear individual possession."
+assigned:
+  - item: "Studded leather armor"
+    owner: "Ren"
+    source: "Gift from Elmingwed, Tel A'bib, session 6"
+  - item: "Studded leather armor"
+    owner: "Lia"
+    source: "Gift from Elmingwed, Tel A'bib, session 6"
 
 # --- Not items, but they travel with the party --------------------------
 companions:
@@ -66,4 +69,4 @@ companions:
 #     killed." That is a decision, not a pickup.
 
 # --- Bookkeeping --------------------------------------------------------
-last_updated: "campaign/sessions/05.md"
+last_updated: "campaign/sessions/06.md"

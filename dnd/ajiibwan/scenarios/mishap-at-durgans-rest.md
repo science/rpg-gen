@@ -13,6 +13,105 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 
 ---
 
+> ## ⚑ Session 7 opens here — the kobold traders on the mountain trail
+>
+> **Where they are.** Day 2 out of Tel A'bib, on the trail up into the mountains below Durgan's
+> Rest. It is late in the day and they have not made camp. Session 6 ended as a **friendly troupe
+> of kobolds with a wagon of junk** surprised them on the trail.
+>
+> **What they carry now** (`campaign/inventory.yaml`):
+> - 52 gp, from the merchants' collection at Elmingwed's banquet.
+> - Studded leather on Ren and Lia.
+> - Elmingwed's sealed letter, still undelivered. Tath'Shar has it.
+> - The obsidian serpent ring, the unidentified spider bracelet, and the three Bokkaran scrolls.
+>
+> **Who is with them.** Jiyloo is now a full party member, hired by the party itself for 1/5 of
+> the loot. Ren carries the Keeper's blessing: a faint path north that only she can see, toward the
+> desert pyramid the Black Water Cult has made its eastern outpost.
+>
+> **Level.** The party has **earned level 3 but has not taken it.** They level up when they reach
+> Tsendur's: the night they sleep at Durgan's Rest, before the letter and the raid. The crew stat
+> blocks below already fit level 3.
+>
+> **Tath'Shar.** Phoenix is expected back. Last session Steve ran Tath'Shar as an NPC, and they did
+> much of the talking with Elmingwed and the merchants, so catch Phoenix up on that. The Keeper's
+> hunger never made its private offer to Tath'Shar. If you want it, use the packet's "Hold it"
+> fallback: a dream at the trail camp tonight, with the Scepter line (*"The one you are looking for
+> collects things like the thing in my hands. She will come for it."*) and *"Come back and open my
+> door."* It lands well the night before Maghiel shows up.
+>
+> ### Read-aloud, to restart the scene
+>
+> *The trail has been climbing all afternoon, switchbacks of loose shale with the desert going
+> blue and hazy below you. Round the last bend comes a racket of tin and wood: a handcart-wagon
+> twice too big for the six small figures hauling and pushing it, piled higher than any of them
+> with pots, harness, bottles, boots and a birdcage. Scaled snouts, bright eyes, and a lot of
+> waving. "Trade! Trade! Good trade, tall-folk, before dark!"*
+>
+> ### The troupe
+>
+> - **Six kobolds, led by Grizzik.** She is old, missing half her tail, and wears a dozen keys
+>   on a string. She does the talking and the pricing. The others unpack, hold things up, and
+>   argue with her in Draconic.
+> - **They trade up and down this trail** between the hill farms, the mines, and Durgan's Rest. In
+>   game 1 a party traded a Bokkaran book with kobolds on this road; this is that troupe.
+> - **They are friendly and they are cowards.** A drawn weapon scatters them under the wagon. Harm
+>   one and the rest flee up the trail, and Durgan's Rest hears about it before the party arrives.
+>   That costs the party Sheriff Isi's goodwill. The kobolds trade with the town and everyone knows
+>   them.
+> - **Stats, if you need them:** standard 5e kobolds, AC 12, HP 5, dagger +4 for 1d4+2, Pack
+>   Tactics. They should not need them.
+>
+> ### How they trade
+>
+> - **They prefer barter to coin.** Gold is fine, but shiny, noisy or strange things get a better
+>   price than their weight in gold.
+> - **They want the Bokkaran scrolls most of all.** Grizzik knows white-metal writing sells high
+>   "to the bearded scribe up the hill" — Tsendur. That makes it a small choice: sell the scrolls
+>   here for goods now, or carry them to the man who can read them.
+> - **They will not touch the obsidian serpent ring.** If anyone shows it, the troupe goes quiet and
+>   Grizzik pushes it back with a stick. *"Black-water people. Bad people. Took Pip's brother for
+>   digging."* (The cult takes kobold labour too.)
+>
+> ### The wagon — what's for sale
+>
+> Prices are Grizzik's opening ask. She comes down a third for a good haggle, and more for a good
+> swap.
+> - **Climbing kit:** pitons, hammer, 50 ft of knotted rope. 15 gp. Useful at Durgan's Rest.
+> - **Two fleece-lined cloaks,** cold-weather. 5 gp each. The mountain nights are cold, and the
+>   party is dressed for the desert (Gereon especially).
+> - **A clay bottle labelled "goat medicine."** It is a real *potion of healing*. 30 gp. A DC 12
+>   Medicine or Arcana check tells what it is.
+> - **A jar of fire-beetle oil.** It burns bright and long, and it is what Temple al Sia's Ember
+>   burns. 3 gp. A small nod for anyone who tended the flame.
+> - **A dented brass plate, stamped with gear-marks.** The kobolds say they found it below a "metal
+>   man who walked wrong and fell apart" in the foothills. It is a Kantaron construct's plate. This
+>   is Ren's old construct hook. 2 gp, or a swap for anything that rattles.
+> - **A broken drow hand crossbow,** fine black wood and silver wire. Grizzik bought it three
+>   nights ago from **"tall dark elves, no fire, camping above the pass."** That is Maghiel's crew,
+>   shadowing the courier. 8 gp. **This is the Maghiel's-shadow beat.** If Tath'Shar is at the
+>   table, they recognise the House style. If not, it waits in the pack for Phoenix.
+> - **A cracked clay pyramid token,** the kind pilgrims buy at Doornian shrines. 1 gp. *Optional:*
+>   when Ren holds it, her faint path north flickers brighter for a moment.
+> - **Pure junk,** for colour and haggling: one good boot, a birdcage with no door, a tin whistle,
+>   a bag of mismatched dice, a cracked hand mirror, a harness with no animal.
+>
+> ### What Grizzik knows — given freely to good customers
+>
+> - **Tsendur sees visitors in the morning, never at night.** "Busy man. Lamps all night."
+> - **The dark elves above the pass.** They camp without a fire, pay in silver, and ask questions
+>   about who goes up the trail.
+> - **Durgan's Rest is a day's walk,** and "the field across from the scribe's house is where
+>   travellers sleep." That is where the raid will find them.
+>
+> ### Then
+>
+> - **They camp that night.** If the crossbow didn't land, use the other shadow beat: the dog growls
+>   at nothing, and there is a narrow bootprint in the frost by the picket line.
+> - **They arrive at Durgan's Rest late the next day.** Run *The plan: arrive, sleep one night, stop*
+>   below. The Elmingwed audience was **played in session 6**: credit with the merchants, the
+>   banquet, and the collection plate.
+
 > ## ⚑ Coming here from Sia — prep for the session after the tomb
 >
 > **Where the party is coming from.** Out of the Tomb of the Sphinx at the Oasis of Sia
@@ -53,6 +152,10 @@ instead — and if so, what do they owe the woman it's about to make a monster?*
 >   to push the letter through without them, Troilan's answer holds: morning.
 >
 > ### The audience with Elmingwed — the negotiation
+>
+> *Played in session 6 (2026-10-24): the party handed over the captive monk and took public credit
+> with the merchants instead of a fee. Elmingwed threw a banquet, passed a collection plate, and
+> gave Ren and Lia studded leather. Kept here for reference.*
 >
 > This happens in Tel A'bib on the way, unless the party goes into the desert after the Keeper's
 > reward instead. Keep the stop to a day or two. The usual six weeks of downtime belongs after
